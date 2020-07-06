@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OCRDocModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="OCRDocEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="OCR_Mapping" EntityType="OCRDocModel.OCR_Mapping" />
+    <EntitySet Name="OCR_MappingXTypeDocument" EntityType="OCRDocModel.OCR_MappingXTypeDocument" />
+    <EntitySet Name="OCR_MappingZone" EntityType="OCRDocModel.OCR_MappingZone" />
+    <EntitySet Name="OCR_People" EntityType="OCRDocModel.OCR_People" />
+    <EntitySet Name="OCR_TypeDocument" EntityType="OCRDocModel.OCR_TypeDocument" />
+  </EntityContainer>
+  <EntityType Name="OCR_Mapping">
+    <Key>
+      <PropertyRef Name="MAP_Id" />
+    </Key>
+    <Property Name="MAP_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="MAP_Name" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="MAP_Index" Type="Int32" Nullable="false" />
+    <Property Type="Int32" Name="MAP_Width" />
+    <Property Type="Int32" Name="MAP_Height" />
+  </EntityType>
+  <EntityType Name="OCR_MappingXTypeDocument">
+    <Key>
+      <PropertyRef Name="MXT_Id" />
+    </Key>
+    <Property Name="MXT_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="MXT_MAP_Id" Type="Int32" Nullable="false" />
+    <Property Name="MXT_TDC_Id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OCR_MappingZone">
+    <Key>
+      <PropertyRef Name="ZON_Id" />
+    </Key>
+    <Property Name="ZON_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ZON_MAP_Id" Type="Int32" Nullable="false" />
+    <Property Name="ZON_Name" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="ZON_Left" Type="Int32" Nullable="false" />
+    <Property Name="ZON_Top" Type="Int32" Nullable="false" />
+    <Property Name="ZON_Width" Type="Int32" Nullable="false" />
+    <Property Name="ZON_Rigth" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OCR_People">
+    <Key>
+      <PropertyRef Name="PEO_Id" />
+    </Key>
+    <Property Name="PEO_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="PEO_Name" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="PEO_DateBirth" Type="DateTime" Precision="3" />
+    <Property Name="PEO_CPF" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="PEO_RG" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="OCR_TypeDocument">
+    <Key>
+      <PropertyRef Name="TDC_Id" />
+    </Key>
+    <Property Name="TDC_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="TDC_Name" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+  </EntityType>
+</Schema>

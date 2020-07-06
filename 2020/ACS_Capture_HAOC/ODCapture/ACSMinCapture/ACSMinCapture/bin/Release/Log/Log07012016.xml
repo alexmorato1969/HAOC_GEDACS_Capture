@@ -1,0 +1,4 @@
+<Log>
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;Could not load file or assembly 'PDFLibNet, Version=1.0.6.8, Culture=neutral, PublicKeyToken=26d87f7d66fb2aee' or one of its dependencies. An attempt was made to load a program with an incorrect format." Detail="" StackTrace="" DateTime="07/01/2016 04:07:13" />
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;Could not load file or assembly 'PDFLibNet, Version=1.0.6.8, Culture=neutral, PublicKeyToken=26d87f7d66fb2aee' or one of its dependencies. An attempt was made to load a program with an incorrect format." Detail="" StackTrace="" DateTime="07/01/2016 04:07:14" />
+</Log>

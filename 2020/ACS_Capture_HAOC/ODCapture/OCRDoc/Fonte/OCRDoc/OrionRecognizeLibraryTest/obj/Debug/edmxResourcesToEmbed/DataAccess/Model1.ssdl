@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OCRDocModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="OCRDocModelStoreContainer">
+    <EntitySet Name="OCR_Mapping" EntityType="OCRDocModel.Store.OCR_Mapping" store:Type="Tables" store:Schema="dbo" store:Name="OCR_Mapping">
+      <DefiningQuery>SELECT 
+      [OCR_Mapping].[MAP_Id] AS [MAP_Id], 
+      [OCR_Mapping].[MAP_Name] AS [MAP_Name], 
+      [OCR_Mapping].[MAP_Index] AS [MAP_Index]
+      FROM [dbo].[OCR_Mapping] AS [OCR_Mapping]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="OCR_MappingXTypeDocument" EntityType="OCRDocModel.Store.OCR_MappingXTypeDocument" store:Type="Tables" store:Schema="dbo" store:Name="OCR_MappingXTypeDocument">
+      <DefiningQuery>SELECT 
+      [OCR_MappingXTypeDocument].[MXT_Id] AS [MXT_Id], 
+      [OCR_MappingXTypeDocument].[MXT_MAP_Id] AS [MXT_MAP_Id], 
+      [OCR_MappingXTypeDocument].[MXT_TDC_Id] AS [MXT_TDC_Id]
+      FROM [dbo].[OCR_MappingXTypeDocument] AS [OCR_MappingXTypeDocument]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="OCR_MappingZone" EntityType="OCRDocModel.Store.OCR_MappingZone" store:Type="Tables" store:Schema="dbo" store:Name="OCR_MappingZone">
+      <DefiningQuery>SELECT 
+      [OCR_MappingZone].[ZON_Id] AS [ZON_Id], 
+      [OCR_MappingZone].[ZON_MAP_Id] AS [ZON_MAP_Id], 
+      [OCR_MappingZone].[ZON_Name] AS [ZON_Name], 
+      [OCR_MappingZone].[ZON_Left] AS [ZON_Left], 
+      [OCR_MappingZone].[ZON_Top] AS [ZON_Top], 
+      [OCR_MappingZone].[ZON_Width] AS [ZON_Width], 
+      [OCR_MappingZone].[ZON_Rigth] AS [ZON_Rigth]
+      FROM [dbo].[OCR_MappingZone] AS [OCR_MappingZone]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="OCR_People" EntityType="OCRDocModel.Store.OCR_People" store:Type="Tables" store:Schema="dbo" store:Name="OCR_People">
+      <DefiningQuery>SELECT 
+      [OCR_People].[PEO_Id] AS [PEO_Id], 
+      [OCR_People].[PEO_Name] AS [PEO_Name], 
+      [OCR_People].[PEO_DateBirth] AS [PEO_DateBirth], 
+      [OCR_People].[PEO_CPF] AS [PEO_CPF], 
+      [OCR_People].[PEO_RG] AS [PEO_RG]
+      FROM [dbo].[OCR_People] AS [OCR_People]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="OCR_TypeDocument" EntityType="OCRDocModel.Store.OCR_TypeDocument" store:Type="Tables" store:Schema="dbo" store:Name="OCR_TypeDocument">
+      <DefiningQuery>SELECT 
+      [OCR_TypeDocument].[TDC_Id] AS [TDC_Id], 
+      [OCR_TypeDocument].[TDC_Name] AS [TDC_Name]
+      FROM [dbo].[OCR_TypeDocument] AS [OCR_TypeDocument]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'OCRDoc.dbo.OCR_Mapping' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="OCR_Mapping">
+    <Key>
+      <PropertyRef Name="MAP_Id" />
+      <PropertyRef Name="MAP_Index" />
+    </Key>
+    <Property Name="MAP_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MAP_Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="MAP_Index" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'OCRDoc.dbo.OCR_MappingXTypeDocument' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="OCR_MappingXTypeDocument">
+    <Key>
+      <PropertyRef Name="MXT_Id" />
+      <PropertyRef Name="MXT_MAP_Id" />
+      <PropertyRef Name="MXT_TDC_Id" />
+    </Key>
+    <Property Name="MXT_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MXT_MAP_Id" Type="int" Nullable="false" />
+    <Property Name="MXT_TDC_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'OCRDoc.dbo.OCR_MappingZone' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="OCR_MappingZone">
+    <Key>
+      <PropertyRef Name="ZON_Id" />
+      <PropertyRef Name="ZON_MAP_Id" />
+      <PropertyRef Name="ZON_Name" />
+      <PropertyRef Name="ZON_Left" />
+      <PropertyRef Name="ZON_Top" />
+      <PropertyRef Name="ZON_Width" />
+      <PropertyRef Name="ZON_Rigth" />
+    </Key>
+    <Property Name="ZON_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ZON_MAP_Id" Type="int" Nullable="false" />
+    <Property Name="ZON_Name" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="ZON_Left" Type="int" Nullable="false" />
+    <Property Name="ZON_Top" Type="int" Nullable="false" />
+    <Property Name="ZON_Width" Type="int" Nullable="false" />
+    <Property Name="ZON_Rigth" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'OCRDoc.dbo.OCR_People' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="OCR_People">
+    <Key>
+      <PropertyRef Name="PEO_Id" />
+    </Key>
+    <Property Name="PEO_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PEO_Name" Type="nvarchar" MaxLength="500" />
+    <Property Name="PEO_DateBirth" Type="datetime" />
+    <Property Name="PEO_CPF" Type="numeric" Precision="13" />
+    <Property Name="PEO_RG" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'OCRDoc.dbo.OCR_TypeDocument' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="OCR_TypeDocument">
+    <Key>
+      <PropertyRef Name="TDC_Id" />
+    </Key>
+    <Property Name="TDC_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TDC_Name" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ACSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="ACSModelStoreContainer">
+          <EntitySet Name="GEDCaptionControl" EntityType="ACSModel.Store.GEDCaptionControl" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDDivisoes" EntityType="ACSModel.Store.GEDDivisoes" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDDocumentos" EntityType="ACSModel.Store.GEDDocumentos" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDFormatos" EntityType="ACSModel.Store.GEDFormatos" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDLogLogin" EntityType="ACSModel.Store.GEDLogLogin" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDLotesXUsuarios" EntityType="ACSModel.Store.GEDLotesXUsuarios" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDPassagens" EntityType="ACSModel.Store.GEDPassagens" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDPessoas" EntityType="ACSModel.Store.GEDPessoas" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDStatusLote" EntityType="ACSModel.Store.GEDStatusLote" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDSubTiposDocumentos" EntityType="ACSModel.Store.GEDSubTiposDocumentos" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDTiposBuscaLotes" EntityType="ACSModel.Store.GEDTiposBuscaLotes" store:Type="Tables" store:Schema="dbo" store:Name="GEDTiposBuscaLotes">
+            <DefiningQuery>SELECT 
+      [GEDTiposBuscaLotes].[TBL_Id] AS [TBL_Id], 
+      [GEDTiposBuscaLotes].[TBL_Descricao] AS [TBL_Descricao], 
+      [GEDTiposBuscaLotes].[TBL_Default] AS [TBL_Default]
+      FROM [dbo].[GEDTiposBuscaLotes] AS [GEDTiposBuscaLotes]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="GEDTiposBuscaLotesPJ" EntityType="ACSModel.Store.GEDTiposBuscaLotesPJ" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDTiposDocumentos" EntityType="ACSModel.Store.GEDTiposDocumentos" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="GEDUsuarios" EntityType="ACSModel.Store.GEDUsuarios" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__GEDDocume__DOC_i__42E1EEFE" Association="ACSModel.Store.FK__GEDDocume__DOC_i__42E1EEFE">
+            <End Role="GEDDivisoes" EntitySet="GEDDivisoes" />
+            <End Role="GEDDocumentos" EntitySet="GEDDocumentos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GEDDocume__DOC_i__45BE5BA9" Association="ACSModel.Store.FK__GEDDocume__DOC_i__45BE5BA9">
+            <End Role="GEDFormatos" EntitySet="GEDFormatos" />
+            <End Role="GEDDocumentos" EntitySet="GEDDocumentos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GEDTiposD__TPD_i__5BAD9CC8" Association="ACSModel.Store.FK__GEDTiposD__TPD_i__5BAD9CC8">
+            <End Role="GEDDivisoes" EntitySet="GEDDivisoes" />
+            <End Role="GEDTiposDocumentos" EntitySet="GEDTiposDocumentos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GEDUsuari__USR_i__5F7E2DAC" Association="ACSModel.Store.FK__GEDUsuari__USR_i__5F7E2DAC">
+            <End Role="GEDPessoas" EntitySet="GEDPessoas" />
+            <End Role="GEDUsuarios" EntitySet="GEDUsuarios" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GEDLoteXUsuario_GEDUsuarios" Association="ACSModel.Store.FK_GEDLoteXUsuario_GEDUsuarios">
+            <End Role="GEDUsuarios" EntitySet="GEDUsuarios" />
+            <End Role="GEDLotesXUsuarios" EntitySet="GEDLotesXUsuarios" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="GEDCaptionControl">
+          <Key>
+            <PropertyRef Name="GCC_Id" />
+          </Key>
+          <Property Name="GCC_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="GCC_FormName" Type="varchar" MaxLength="250" />
+          <Property Name="GCC_ControlName" Type="varchar" MaxLength="250" />
+          <Property Name="GCC_Caption" Type="varchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="GEDDivisoes">
+          <Key>
+            <PropertyRef Name="DIV_idDivisao" />
+          </Key>
+          <Property Name="DIV_idDivisao" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DIV_idArea" Type="int" />
+          <Property Name="DIV_descricao" Type="varchar" Nullable="false" MaxLength="300" />
+          <Property Name="DIV_codigoReduzido" Type="varchar" MaxLength="2" />
+          <Property Name="DIV_flagAtivo" Type="bit" />
+        </EntityType>
+        <EntityType Name="GEDDocumentos">
+          <Key>
+            <PropertyRef Name="DOC_idDocumento" />
+          </Key>
+          <Property Name="DOC_idDocumento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DOC_idVolume" Type="int" />
+          <Property Name="DOC_idDivisao" Type="int" Nullable="false" />
+          <Property Name="DOC_idPassagem" Type="int" />
+          <Property Name="DOC_idFormato" Type="int" />
+          <Property Name="DOC_idTipoDocumento" Type="int" />
+          <Property Name="DOC_path" Type="varchar" Nullable="false" MaxLength="250" />
+          <Property Name="DOC_nomeArquivo" Type="varchar" MaxLength="300" />
+          <Property Name="DOC_dataHoraCadastro" Type="datetime" Nullable="false" />
+          <Property Name="DOC_FlagCertificado" Type="bit" />
+          <Property Name="DOC_idSubTipoDocumento" Type="int" />
+          <Property Name="DOC_dataVencimento" Type="date" />
+          <Property Name="DOC_dataEmissao" Type="date" />
+          <Property Name="DOC_tempoValidade" Type="int" />
+          <Property Name="DOC_VencimentoResolvido" Type="bit" />
+          <Property Name="DOC_idUsuarioACSCapture" Type="int" />
+          <Property Name="DOC_idUsuarioAssinaNivel1" Type="int" />
+          <Property Name="DOC_idUsuarioAssinaNivel2" Type="int" />
+          <Property Name="DOC_idUsuarioAssinaNivel3" Type="int" />
+          <Property Name="DOC_dataAssinaNivel1" Type="datetime" />
+          <Property Name="DOC_dataAssinaNivel2" Type="datetime" />
+          <Property Name="DOC_dataAssinaNivel3" Type="datetime" />
+          <Property Name="DOC_p7s" Type="varchar(max)" />
+          <Property Name="DOC_flagAtivo" Type="bit" />
+          <Property Name="DOC_observacao" Type="varchar" MaxLength="500" />
+          <Property Name="DOC_tipoCaptura" Type="int" />
+          <Property Name="DOC_detail_cert" Type="varchar(max)" />
+          <Property Name="DOC_Ordem_Visualizacao" Type="int" />
+        </EntityType>
+        <EntityType Name="GEDFormatos">
+          <Key>
+            <PropertyRef Name="FMT_idFormato" />
+          </Key>
+          <Property Name="FMT_idFormato" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FMT_extensao" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="FMT_flagAtivo" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GEDLogLogin">
+          <Key>
+            <PropertyRef Name="LLG_idLogLogin" />
+          </Key>
+          <Property Name="LLG_idLogLogin" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="LLG_idUsuario" Type="int" />
+          <Property Name="LLG_ipEstacao" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="LLG_idUnidade" Type="int" />
+          <Property Name="LLG_flagLogin" Type="int" />
+          <Property Name="LLG_dataHoraLogin" Type="datetime" />
+          <Property Name="LLG_flagLogout" Type="int" />
+          <Property Name="LLG_dataHoraLogout" Type="datetime" />
+          <Property Name="LLG_observacao" Type="varchar" MaxLength="500" />
+          <Property Name="LLG_token" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="GEDLotesXUsuarios">
+          <Key>
+            <PropertyRef Name="LTU_Id" />
+          </Key>
+          <Property Name="LTU_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="LTU_IdUsuario" Type="int" Nullable="false" />
+          <Property Name="LTU_CodigoPassagem" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="LTU_IdStatusLote" Type="int" Nullable="false" />
+          <Property Name="LTU_Data" Type="datetime" Nullable="false" />
+          <Property Name="LTU_Observacao" Type="nvarchar" MaxLength="140" />
+          <Property Name="LTU_PathImagens" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="GEDPassagens">
+          <Key>
+            <PropertyRef Name="PAS_idPassagem" />
+          </Key>
+          <Property Name="PAS_idPassagem" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PAS_idUnidade" Type="int" Nullable="false" />
+          <Property Name="PAS_idConvenio" Type="int" Nullable="false" />
+          <Property Name="PAS_dataHoraPassagem" Type="datetime" Nullable="false" />
+          <Property Name="PAS_codigoPassagem" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="PAS_flagClientePF" Type="bit" />
+          <Property Name="PAS_registro" Type="varchar" MaxLength="100" />
+          <Property Name="PAS_dataHoraPassagemFim" Type="datetime" />
+        </EntityType>
+        <EntityType Name="GEDPessoas">
+          <Key>
+            <PropertyRef Name="PES_idPessoa" />
+          </Key>
+          <Property Name="PES_idPessoa" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PES_nome" Type="varchar" MaxLength="254" />
+          <Property Name="PES_nomeMae" Type="varchar" MaxLength="254" />
+          <Property Name="PES_nomePai" Type="varchar" MaxLength="250" />
+          <Property Name="PES_cpf" Type="char" MaxLength="11" />
+          <Property Name="PES_rg" Type="char" MaxLength="9" />
+          <Property Name="PES_dataNascimento" Type="datetime" />
+          <Property Name="PES_idSexo" Type="int" />
+          <Property Name="PES_tel01" Type="varchar" MaxLength="20" />
+          <Property Name="PES_tel02" Type="varchar" MaxLength="20" />
+          <Property Name="PES_contato" Type="varchar" MaxLength="100" />
+          <Property Name="PES_emailPessoal" Type="varchar" MaxLength="100" />
+          <Property Name="PES_emailProfissional" Type="varchar" MaxLength="100" />
+          <Property Name="PES_flagAtivo" Type="bit" />
+          <Property Name="PES_observacao" Type="nvarchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="GEDStatusLote">
+          <Key>
+            <PropertyRef Name="STL_Id" />
+          </Key>
+          <Property Name="STL_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="STL_Descricao" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="GEDSubTiposDocumentos">
+          <Key>
+            <PropertyRef Name="STD_idSubTiposDocumentos" />
+          </Key>
+          <Property Name="STD_idSubTiposDocumentos" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="STD_idTiposDocumentos" Type="int" />
+          <Property Name="STD_descricao" Type="varchar" MaxLength="300" />
+          <Property Name="STD_codigoBarra" Type="varchar" MaxLength="4" />
+          <Property Name="STD_ordem" Type="int" />
+          <Property Name="STD_tempoValidade" Type="int" />
+          <Property Name="STD_obrigatorio" Type="bit" />
+          <Property Name="STD_tempoGuarda" Type="int" />
+          <Property Name="STD_cobrancaDias" Type="int" />
+          <Property Name="STD_flagVencimentoAnual" Type="bit" />
+          <Property Name="STD_flagVencimentoManual" Type="bit" />
+          <Property Name="STD_mesVencimentoAnual" Type="int" />
+          <Property Name="STD_flagImpressao" Type="bit" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'GEDPES_OI_PRD.dbo.GEDTiposBuscaLotes' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="GEDTiposBuscaLotes">
+          <Key>
+            <PropertyRef Name="TBL_Id" />
+            <PropertyRef Name="TBL_Default" />
+          </Key>
+          <Property Name="TBL_Id" Type="int" Nullable="false" />
+          <Property Name="TBL_Descricao" Type="nvarchar(max)" />
+          <Property Name="TBL_Default" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GEDTiposBuscaLotesPJ">
+          <Key>
+            <PropertyRef Name="TPJ_Id" />
+          </Key>
+          <Property Name="TPJ_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TPJ_Descricao" Type="nvarchar(max)" />
+          <Property Name="TPJ_Default" Type="bit" />
+        </EntityType>
+        <EntityType Name="GEDTiposDocumentos">
+          <Key>
+            <PropertyRef Name="TPD_idTipoDocumento" />
+          </Key>
+          <Property Name="TPD_idTipoDocumento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TPD_idDivisao" Type="int" />
+          <Property Name="TPD_descricao" Type="varchar" MaxLength="300" />
+          <Property Name="TPD_codigoBarra" Type="varchar" MaxLength="4" />
+          <Property Name="TPD_ordem" Type="int" />
+          <Property Name="TPD_flagSubtipo" Type="bit" />
+          <Property Name="TPD_tempoValidade" Type="int" />
+          <Property Name="TPD_obrigatorio" Type="bit" />
+          <Property Name="TPD_tempoGuarda" Type="int" />
+          <Property Name="TPD_cobrancaDias" Type="int" />
+          <Property Name="TPD_flagImpressao" Type="bit" />
+        </EntityType>
+        <EntityType Name="GEDUsuarios">
+          <Key>
+            <PropertyRef Name="USR_idUsuario" />
+          </Key>
+          <Property Name="USR_idUsuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="USR_idGrupoUsuario" Type="int" />
+          <Property Name="USR_idPessoa" Type="int" />
+          <Property Name="USR_login" Type="varchar" MaxLength="100" />
+          <Property Name="USR_senha" Type="varchar" MaxLength="100" />
+          <Property Name="USR_flagAtivo" Type="bit" />
+          <Property Name="USR_firstAccess" Type="bit" />
+          <Property Name="USR_dataHoraCadastro" Type="datetime" />
+          <Property Name="USR_dataHoraLastLogin" Type="datetime" />
+          <Property Name="USR_observacao" Type="varchar" MaxLength="3000" />
+          <Property Name="usr_flagdigitalizacao" Type="bit" />
+          <Property Name="usr_flagimportacao" Type="bit" />
+          <Property Name="USR_flagImprimir" Type="bit" />
+          <Property Name="USR_flagAssina" Type="bit" />
+          <Property Name="USR_NivelAssina" Type="int" />
+          <Property Name="USR_SerialNumberCert" Type="varchar(max)" />
+          <Property Name="usr_flagAdmACS" Type="bit" />
+          <Property Name="USR_FLAGPROCESSAMENTO" Type="bit" />
+        </EntityType>
+        <Association Name="FK__GEDDocume__DOC_i__42E1EEFE">
+          <End Role="GEDDivisoes" Type="ACSModel.Store.GEDDivisoes" Multiplicity="1" />
+          <End Role="GEDDocumentos" Type="ACSModel.Store.GEDDocumentos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDDivisoes">
+              <PropertyRef Name="DIV_idDivisao" />
+            </Principal>
+            <Dependent Role="GEDDocumentos">
+              <PropertyRef Name="DOC_idDivisao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GEDDocume__DOC_i__45BE5BA9">
+          <End Role="GEDFormatos" Type="ACSModel.Store.GEDFormatos" Multiplicity="0..1" />
+          <End Role="GEDDocumentos" Type="ACSModel.Store.GEDDocumentos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDFormatos">
+              <PropertyRef Name="FMT_idFormato" />
+            </Principal>
+            <Dependent Role="GEDDocumentos">
+              <PropertyRef Name="DOC_idFormato" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GEDTiposD__TPD_i__5BAD9CC8">
+          <End Role="GEDDivisoes" Type="ACSModel.Store.GEDDivisoes" Multiplicity="0..1" />
+          <End Role="GEDTiposDocumentos" Type="ACSModel.Store.GEDTiposDocumentos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDDivisoes">
+              <PropertyRef Name="DIV_idDivisao" />
+            </Principal>
+            <Dependent Role="GEDTiposDocumentos">
+              <PropertyRef Name="TPD_idDivisao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GEDUsuari__USR_i__5F7E2DAC">
+          <End Role="GEDPessoas" Type="ACSModel.Store.GEDPessoas" Multiplicity="0..1" />
+          <End Role="GEDUsuarios" Type="ACSModel.Store.GEDUsuarios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDPessoas">
+              <PropertyRef Name="PES_idPessoa" />
+            </Principal>
+            <Dependent Role="GEDUsuarios">
+              <PropertyRef Name="USR_idPessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GEDLoteXUsuario_GEDUsuarios">
+          <End Role="GEDUsuarios" Type="ACSModel.Store.GEDUsuarios" Multiplicity="1" />
+          <End Role="GEDLotesXUsuarios" Type="ACSModel.Store.GEDLotesXUsuarios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDUsuarios">
+              <PropertyRef Name="USR_idUsuario" />
+            </Principal>
+            <Dependent Role="GEDLotesXUsuarios">
+              <PropertyRef Name="LTU_IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="GED_PROC_CodigosBarras" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="TIPO" Type="int" Mode="In" />
+          <Parameter Name="SUB" Type="int" Mode="In" />
+          <Parameter Name="CODIGO" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GED_PROC_F_Lotes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="TipoPessoa" Type="int" Mode="In" />
+          <Parameter Name="Tipo" Type="int" Mode="In" />
+          <Parameter Name="Value" Type="varchar(max)" Mode="In" />
+          <Parameter Name="DtIni" Type="datetime" Mode="In" />
+          <Parameter Name="DtFin" Type="datetime" Mode="In" />
+          <Parameter Name="IdStatusLote" Type="int" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ACSModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="GEDPessoas" EntityType="ACSModel.GEDPessoas" />
+          <EntitySet Name="GEDDivisoes" EntityType="ACSModel.GEDDivisoes" />
+          <EntitySet Name="GEDDocumentos" EntityType="ACSModel.GEDDocumentos" />
+          <EntitySet Name="GEDFormatos" EntityType="ACSModel.GEDFormatos" />
+          <EntitySet Name="GEDPassagens" EntityType="ACSModel.GEDPassagens" />
+          <EntitySet Name="GEDSubTiposDocumentos" EntityType="ACSModel.GEDSubTiposDocumentos" />
+          <EntitySet Name="GEDTiposBuscaLotes" EntityType="ACSModel.GEDTiposBuscaLotes" />
+          <EntitySet Name="GEDTiposBuscaLotesPJ" EntityType="ACSModel.GEDTiposBuscaLotesPJ" />
+          <EntitySet Name="GEDTiposDocumentos" EntityType="ACSModel.GEDTiposDocumentos" />
+          <AssociationSet Name="FK__GEDDocume__DOC_i__42E1EEFE" Association="ACSModel.FK__GEDDocume__DOC_i__42E1EEFE">
+            <End Role="GEDDivisoes" EntitySet="GEDDivisoes" />
+            <End Role="GEDDocumentos" EntitySet="GEDDocumentos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GEDTiposD__TPD_i__5BAD9CC8" Association="ACSModel.FK__GEDTiposD__TPD_i__5BAD9CC8">
+            <End Role="GEDDivisoes" EntitySet="GEDDivisoes" />
+            <End Role="GEDTiposDocumentos" EntitySet="GEDTiposDocumentos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GEDDocume__DOC_i__45BE5BA9" Association="ACSModel.FK__GEDDocume__DOC_i__45BE5BA9">
+            <End Role="GEDFormatos" EntitySet="GEDFormatos" />
+            <End Role="GEDDocumentos" EntitySet="GEDDocumentos" />
+          </AssociationSet>
+          <EntitySet Name="GEDCaptionControl" EntityType="ACSModel.GEDCaptionControl" />
+          <EntitySet Name="GEDLogLogin" EntityType="ACSModel.GEDLogLogin" />
+          <FunctionImport Name="GED_PROC_F_Lotes" ReturnType="Collection(ACSModel.GED_PROC_F_Lotes_Result)">
+            <Parameter Name="TipoPessoa" Mode="In" Type="Int32" />
+            <Parameter Name="Tipo" Mode="In" Type="Int32" />
+            <Parameter Name="Value" Mode="In" Type="String" />
+            <Parameter Name="DtIni" Mode="In" Type="DateTime" />
+            <Parameter Name="DtFin" Mode="In" Type="DateTime" />
+            <Parameter Name="IdStatusLote" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="GED_PROC_CodigosBarras" ReturnType="Collection(ACSModel.GED_PROC_CodigosBarras_Result)">
+            <Parameter Name="TIPO" Mode="In" Type="Int32" />
+            <Parameter Name="SUB" Mode="In" Type="Int32" />
+            <Parameter Name="CODIGO" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="GEDStatusLote" EntityType="ACSModel.GEDStatusLote" />
+          <EntitySet Name="GEDLotesXUsuarios" EntityType="ACSModel.GEDLotesXUsuarios" />
+          <AssociationSet Name="FK_GEDLoteXUsuario_GEDStatusLote" Association="ACSModel.FK_GEDLoteXUsuario_GEDStatusLote">
+            <End Role="GEDStatusLote" EntitySet="GEDStatusLote" />
+            <End Role="GEDLotesXUsuarios" EntitySet="GEDLotesXUsuarios" />
+          </AssociationSet>
+          <EntitySet Name="GEDUsuarios" EntityType="ACSModel.GEDUsuarios" />
+          <AssociationSet Name="FK_GEDLoteXUsuario_GEDUsuarios" Association="ACSModel.FK_GEDLoteXUsuario_GEDUsuarios">
+            <End Role="GEDUsuarios" EntitySet="GEDUsuarios" />
+            <End Role="GEDLotesXUsuarios" EntitySet="GEDLotesXUsuarios" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GEDUsuari__USR_i__5F7E2DAC" Association="ACSModel.FK__GEDUsuari__USR_i__5F7E2DAC">
+            <End Role="GEDPessoas" EntitySet="GEDPessoas" />
+            <End Role="GEDUsuarios" EntitySet="GEDUsuarios" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="GEDPessoas">
+          <Key>
+            <PropertyRef Name="PES_idPessoa" />
+          </Key>
+          <Property Name="PES_idPessoa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PES_nome" Type="String" MaxLength="254" Unicode="false" FixedLength="false" />
+          <Property Name="PES_nomeMae" Type="String" MaxLength="254" Unicode="false" FixedLength="false" />
+          <Property Name="PES_nomePai" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+          <Property Name="PES_cpf" Type="String" MaxLength="11" Unicode="false" FixedLength="true" />
+          <Property Name="PES_rg" Type="String" MaxLength="9" Unicode="false" FixedLength="true" />
+          <Property Name="PES_dataNascimento" Type="DateTime" Precision="3" />
+          <Property Name="PES_idSexo" Type="Int32" />
+          <Property Name="PES_tel01" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="PES_tel02" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="PES_contato" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="PES_emailPessoal" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="PES_emailProfissional" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="PES_flagAtivo" Type="Boolean" />
+          <Property Name="PES_observacao" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="GEDUsuarios" Relationship="ACSModel.FK__GEDUsuari__USR_i__5F7E2DAC" FromRole="GEDPessoas" ToRole="GEDUsuarios" />
+        </EntityType>
+        <EntityType Name="GEDDivisoes">
+          <Key>
+            <PropertyRef Name="DIV_idDivisao" />
+          </Key>
+          <Property Type="Int32" Name="DIV_idDivisao" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="DIV_idArea" />
+          <Property Type="String" Name="DIV_descricao" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="DIV_codigoReduzido" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="DIV_flagAtivo" />
+          <NavigationProperty Name="GEDDocumentos" Relationship="ACSModel.FK__GEDDocume__DOC_i__42E1EEFE" FromRole="GEDDivisoes" ToRole="GEDDocumentos" />
+          <NavigationProperty Name="GEDTiposDocumentos" Relationship="ACSModel.FK__GEDTiposD__TPD_i__5BAD9CC8" FromRole="GEDDivisoes" ToRole="GEDTiposDocumentos" />
+        </EntityType>
+        <EntityType Name="GEDDocumentos">
+          <Key>
+            <PropertyRef Name="DOC_idDocumento" />
+          </Key>
+          <Property Type="Int32" Name="DOC_idDocumento" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="DOC_idVolume" />
+          <Property Type="Int32" Name="DOC_idDivisao" Nullable="false" />
+          <Property Type="Int32" Name="DOC_idPassagem" />
+          <Property Type="Int32" Name="DOC_idFormato" />
+          <Property Type="Int32" Name="DOC_idTipoDocumento" />
+          <Property Type="String" Name="DOC_path" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="DOC_nomeArquivo" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="DOC_dataHoraCadastro" Nullable="false" Precision="3" />
+          <Property Type="Boolean" Name="DOC_FlagCertificado" />
+          <Property Type="Int32" Name="DOC_idSubTipoDocumento" />
+          <Property Type="DateTime" Name="DOC_dataVencimento" Precision="0" />
+          <Property Type="DateTime" Name="DOC_dataEmissao" Precision="0" />
+          <Property Type="Int32" Name="DOC_tempoValidade" />
+          <Property Type="Boolean" Name="DOC_VencimentoResolvido" />
+          <Property Type="Int32" Name="DOC_idUsuarioACSCapture" />
+          <Property Type="Int32" Name="DOC_idUsuarioAssinaNivel1" />
+          <Property Type="Int32" Name="DOC_idUsuarioAssinaNivel2" />
+          <Property Type="Int32" Name="DOC_idUsuarioAssinaNivel3" />
+          <Property Type="DateTime" Name="DOC_dataAssinaNivel1" Precision="3" />
+          <Property Type="DateTime" Name="DOC_dataAssinaNivel2" Precision="3" />
+          <Property Type="DateTime" Name="DOC_dataAssinaNivel3" Precision="3" />
+          <Property Type="String" Name="DOC_p7s" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="GEDDivisoes" Relationship="ACSModel.FK__GEDDocume__DOC_i__42E1EEFE" FromRole="GEDDocumentos" ToRole="GEDDivisoes" />
+          <NavigationProperty Name="GEDFormatos" Relationship="ACSModel.FK__GEDDocume__DOC_i__45BE5BA9" FromRole="GEDDocumentos" ToRole="GEDFormatos" />
+          <Property Type="Boolean" Name="DOC_flagAtivo" />
+          <Property Type="String" Name="DOC_observacao" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="DOC_tipoCaptura" />
+          <Property Type="String" Name="DOC_detail_cert" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="DOC_Ordem_Visualizacao" />
+        </EntityType>
+        <EntityType Name="GEDFormatos">
+          <Key>
+            <PropertyRef Name="FMT_idFormato" />
+          </Key>
+          <Property Type="Int32" Name="FMT_idFormato" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="FMT_extensao" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="FMT_flagAtivo" Nullable="false" />
+          <NavigationProperty Name="GEDDocumentos" Relationship="ACSModel.FK__GEDDocume__DOC_i__45BE5BA9" FromRole="GEDFormatos" ToRole="GEDDocumentos" />
+        </EntityType>
+        <EntityType Name="GEDPassagens">
+          <Key>
+            <PropertyRef Name="PAS_idPassagem" />
+          </Key>
+          <Property Type="Int32" Name="PAS_idPassagem" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="PAS_idUnidade" Nullable="false" />
+          <Property Type="Int32" Name="PAS_idConvenio" Nullable="false" />
+          <Property Type="DateTime" Name="PAS_dataHoraPassagem" Nullable="false" Precision="3" />
+          <Property Type="String" Name="PAS_codigoPassagem" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="PAS_flagClientePF" />
+          <Property Type="String" Name="PAS_registro" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="PAS_dataHoraPassagemFim" Precision="3" />
+        </EntityType>
+        <EntityType Name="GEDSubTiposDocumentos">
+          <Key>
+            <PropertyRef Name="STD_idSubTiposDocumentos" />
+          </Key>
+          <Property Type="Int32" Name="STD_idSubTiposDocumentos" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="STD_idTiposDocumentos" />
+          <Property Type="String" Name="STD_descricao" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="STD_codigoBarra" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="STD_ordem" />
+          <Property Type="Int32" Name="STD_tempoValidade" />
+          <Property Type="Boolean" Name="STD_obrigatorio" />
+          <Property Type="Int32" Name="STD_tempoGuarda" />
+          <Property Type="Int32" Name="STD_cobrancaDias" />
+          <Property Type="Boolean" Name="STD_flagVencimentoAnual" />
+          <Property Type="Boolean" Name="STD_flagVencimentoManual" />
+          <Property Type="Int32" Name="STD_mesVencimentoAnual" />
+          <Property Type="Boolean" Name="STD_flagImpressao" />
+        </EntityType>
+        <EntityType Name="GEDTiposBuscaLotes">
+          <Key>
+            <PropertyRef Name="TBL_Id" />
+            <PropertyRef Name="TBL_Default" />
+          </Key>
+          <Property Type="Int32" Name="TBL_Id" Nullable="false" />
+          <Property Type="String" Name="TBL_Descricao" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="TBL_Default" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GEDTiposBuscaLotesPJ">
+          <Key>
+            <PropertyRef Name="TPJ_Id" />
+          </Key>
+          <Property Type="Int32" Name="TPJ_Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="TPJ_Descricao" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="TPJ_Default" />
+        </EntityType>
+        <EntityType Name="GEDTiposDocumentos">
+          <Key>
+            <PropertyRef Name="TPD_idTipoDocumento" />
+          </Key>
+          <Property Type="Int32" Name="TPD_idTipoDocumento" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="TPD_idDivisao" />
+          <Property Type="String" Name="TPD_descricao" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="TPD_codigoBarra" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="TPD_ordem" />
+          <Property Type="Boolean" Name="TPD_flagSubtipo" />
+          <Property Type="Int32" Name="TPD_tempoValidade" />
+          <Property Type="Boolean" Name="TPD_obrigatorio" />
+          <Property Type="Int32" Name="TPD_tempoGuarda" />
+          <Property Type="Int32" Name="TPD_cobrancaDias" />
+          <Property Type="Boolean" Name="TPD_flagImpressao" />
+          <NavigationProperty Name="GEDDivisoes" Relationship="ACSModel.FK__GEDTiposD__TPD_i__5BAD9CC8" FromRole="GEDTiposDocumentos" ToRole="GEDDivisoes" />
+        </EntityType>
+        <Association Name="FK__GEDDocume__DOC_i__42E1EEFE">
+          <End Type="ACSModel.GEDDivisoes" Role="GEDDivisoes" Multiplicity="1" />
+          <End Type="ACSModel.GEDDocumentos" Role="GEDDocumentos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDDivisoes">
+              <PropertyRef Name="DIV_idDivisao" />
+            </Principal>
+            <Dependent Role="GEDDocumentos">
+              <PropertyRef Name="DOC_idDivisao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GEDTiposD__TPD_i__5BAD9CC8">
+          <End Type="ACSModel.GEDDivisoes" Role="GEDDivisoes" Multiplicity="0..1" />
+          <End Type="ACSModel.GEDTiposDocumentos" Role="GEDTiposDocumentos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDDivisoes">
+              <PropertyRef Name="DIV_idDivisao" />
+            </Principal>
+            <Dependent Role="GEDTiposDocumentos">
+              <PropertyRef Name="TPD_idDivisao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GEDDocume__DOC_i__45BE5BA9">
+          <End Type="ACSModel.GEDFormatos" Role="GEDFormatos" Multiplicity="0..1" />
+          <End Type="ACSModel.GEDDocumentos" Role="GEDDocumentos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDFormatos">
+              <PropertyRef Name="FMT_idFormato" />
+            </Principal>
+            <Dependent Role="GEDDocumentos">
+              <PropertyRef Name="DOC_idFormato" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="GEDCaptionControl">
+          <Key>
+            <PropertyRef Name="GCC_Id" />
+          </Key>
+          <Property Type="Int32" Name="GCC_Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="GCC_FormName" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="GCC_ControlName" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="GCC_Caption" MaxLength="250" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="GEDLogLogin">
+          <Key>
+            <PropertyRef Name="LLG_idLogLogin" />
+          </Key>
+          <Property Type="Int32" Name="LLG_idLogLogin" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="LLG_idUsuario" />
+          <Property Type="String" Name="LLG_ipEstacao" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="LLG_idUnidade" />
+          <Property Type="Int32" Name="LLG_flagLogin" />
+          <Property Type="DateTime" Name="LLG_dataHoraLogin" Precision="3" />
+          <Property Type="Int32" Name="LLG_flagLogout" />
+          <Property Type="DateTime" Name="LLG_dataHoraLogout" Precision="3" />
+          <Property Type="String" Name="LLG_observacao" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="LLG_token" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <ComplexType Name="GED_PROC_F_Lotes_Result">
+          <Property Type="Int32" Name="PAS_IDPASSAGEM" Nullable="false" />
+          <Property Type="String" Name="PAS_CODIGOPASSAGEM" Nullable="false" MaxLength="30" />
+          <Property Type="String" Name="PAS_REGISTRO" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="NOME" Nullable="true" MaxLength="300" />
+          <Property Type="DateTime" Name="PAS_DATAHORAPASSAGEM" Nullable="false" Precision="23" />
+          <Property Type="String" Name="CPF_CNPJ" Nullable="true" MaxLength="30" />
+          <Property Type="Boolean" Name="CPF_CNPJ_FLAGATIVO" Nullable="true" />
+          <Property Type="Int32" Name="INCLUSAO" Nullable="false" />
+          <Property Type="String" Name="DIRLOTEINBOX" Nullable="false" />
+          <Property Type="String" Name="LTU_PathImagens" Nullable="false" />
+          <Property Type="Int32" Name="MAX_ORDER" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="GED_PROC_CodigosBarras_Result" >
+          <Property Type="String" Name="TPD_CODIGOBARRA" Nullable="false" />
+          <Property Type="String" Name="DIV_CODIGOREDUZIDO" Nullable="false" />
+          <Property Type="String" Name="TPD_DESCRICAO" Nullable="false" />
+          <Property Type="Int32" Name="TPD_IDDIVISAO" Nullable="false" />
+          <Property Type="Int32" Name="TPD_IDTIPODOCUMENTO" Nullable="false" />
+          <Property Type="Int32" Name="STD_IDSUBTIPOSDOCUMENTOS" Nullable="true" />
+          <Property Type="Int32" Name="STD_FLAGVENCIMENTOMANUAL" Nullable="false" />
+          <Property Type="Int32" Name="STD_MESVENCIMENTOANUAL" Nullable="false" />
+          <Property Type="Int32" Name="TPD_TEMPOVALIDADE" Nullable="false" />
+          <Property Type="Int32" Name="REQUERDATAINICIOVALIDADE" Nullable="false" />
+          <Property Type="DateTime" Name="StartDateValidity" Nullable="true" annotation:StoreGeneratedPattern="Computed" />
+          <Property Type="DateTime" Name="DateValidity" Nullable="true" annotation:StoreGeneratedPattern="Computed" />
+        </ComplexType>
+        <EntityType Name="GEDStatusLote">
+          <Key>
+            <PropertyRef Name="STL_Id" />
+          </Key>
+          <Property Type="Int32" Name="STL_Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="STL_Descricao" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="GEDLotesXUsuarios" Relationship="ACSModel.FK_GEDLoteXUsuario_GEDStatusLote" FromRole="GEDStatusLote" ToRole="GEDLotesXUsuarios" />
+        </EntityType>
+        <EntityType Name="GEDLotesXUsuarios">
+          <Key>
+            <PropertyRef Name="LTU_Id" />
+          </Key>
+          <Property Type="Int32" Name="LTU_Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="LTU_IdUsuario" Nullable="false" />
+          <Property Type="String" Name="LTU_CodigoPassagem" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="LTU_IdStatusLote" Nullable="false" />
+          <Property Type="DateTime" Name="LTU_Data" Nullable="false" Precision="3" />
+          <Property Type="String" Name="LTU_Observacao" MaxLength="140" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="GEDStatusLote" Relationship="ACSModel.FK_GEDLoteXUsuario_GEDStatusLote" FromRole="GEDLotesXUsuarios" ToRole="GEDStatusLote" />
+          <Property Type="String" Name="LTU_PathImagens" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="GEDUsuarios" Relationship="ACSModel.FK_GEDLoteXUsuario_GEDUsuarios" FromRole="GEDLotesXUsuarios" ToRole="GEDUsuarios" />
+        </EntityType>
+        <Association Name="FK_GEDLoteXUsuario_GEDStatusLote">
+          <End Type="ACSModel.GEDStatusLote" Role="GEDStatusLote" Multiplicity="1" />
+          <End Type="ACSModel.GEDLotesXUsuarios" Role="GEDLotesXUsuarios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDStatusLote">
+              <PropertyRef Name="STL_Id" />
+            </Principal>
+            <Dependent Role="GEDLotesXUsuarios">
+              <PropertyRef Name="LTU_IdStatusLote" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="GEDUsuarios">
+          <Key>
+            <PropertyRef Name="USR_idUsuario" />
+          </Key>
+          <Property Type="Int32" Name="USR_idUsuario" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="USR_idGrupoUsuario" />
+          <Property Type="Int32" Name="USR_idPessoa" />
+          <Property Type="String" Name="USR_login" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="USR_senha" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="USR_flagAtivo" />
+          <Property Type="Boolean" Name="USR_firstAccess" />
+          <Property Type="DateTime" Name="USR_dataHoraCadastro" Precision="3" />
+          <Property Type="DateTime" Name="USR_dataHoraLastLogin" Precision="3" />
+          <Property Type="String" Name="USR_observacao" MaxLength="3000" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="usr_flagdigitalizacao" />
+          <Property Type="Boolean" Name="usr_flagimportacao" />
+          <Property Type="Boolean" Name="USR_flagImprimir" />
+          <Property Type="Boolean" Name="USR_flagAssina" />
+          <Property Type="Int32" Name="USR_NivelAssina" />
+          <Property Type="String" Name="USR_SerialNumberCert" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="usr_flagAdmACS" />
+          <Property Type="Boolean" Name="USR_FLAGPROCESSAMENTO" />
+          <NavigationProperty Name="GEDLotesXUsuarios" Relationship="ACSModel.FK_GEDLoteXUsuario_GEDUsuarios" FromRole="GEDUsuarios" ToRole="GEDLotesXUsuarios" />
+          <NavigationProperty Name="GEDPessoas" Relationship="ACSModel.FK__GEDUsuari__USR_i__5F7E2DAC" FromRole="GEDUsuarios" ToRole="GEDPessoas" />
+        </EntityType>
+        <Association Name="FK_GEDLoteXUsuario_GEDUsuarios">
+          <End Type="ACSModel.GEDUsuarios" Role="GEDUsuarios" Multiplicity="1" />
+          <End Type="ACSModel.GEDLotesXUsuarios" Role="GEDLotesXUsuarios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDUsuarios">
+              <PropertyRef Name="USR_idUsuario" />
+            </Principal>
+            <Dependent Role="GEDLotesXUsuarios">
+              <PropertyRef Name="LTU_IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GEDUsuari__USR_i__5F7E2DAC">
+          <End Type="ACSModel.GEDPessoas" Role="GEDPessoas" Multiplicity="0..1" />
+          <End Type="ACSModel.GEDUsuarios" Role="GEDUsuarios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GEDPessoas">
+              <PropertyRef Name="PES_idPessoa" />
+            </Principal>
+            <Dependent Role="GEDUsuarios">
+              <PropertyRef Name="USR_idPessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ACSModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="GEDPessoas">
+            <EntityTypeMapping TypeName="ACSModel.GEDPessoas">
+              <MappingFragment StoreEntitySet="GEDPessoas">
+                <ScalarProperty Name="PES_idPessoa" ColumnName="PES_idPessoa" />
+                <ScalarProperty Name="PES_nome" ColumnName="PES_nome" />
+                <ScalarProperty Name="PES_nomeMae" ColumnName="PES_nomeMae" />
+                <ScalarProperty Name="PES_nomePai" ColumnName="PES_nomePai" />
+                <ScalarProperty Name="PES_cpf" ColumnName="PES_cpf" />
+                <ScalarProperty Name="PES_rg" ColumnName="PES_rg" />
+                <ScalarProperty Name="PES_dataNascimento" ColumnName="PES_dataNascimento" />
+                <ScalarProperty Name="PES_idSexo" ColumnName="PES_idSexo" />
+                <ScalarProperty Name="PES_tel01" ColumnName="PES_tel01" />
+                <ScalarProperty Name="PES_tel02" ColumnName="PES_tel02" />
+                <ScalarProperty Name="PES_contato" ColumnName="PES_contato" />
+                <ScalarProperty Name="PES_emailPessoal" ColumnName="PES_emailPessoal" />
+                <ScalarProperty Name="PES_emailProfissional" ColumnName="PES_emailProfissional" />
+                <ScalarProperty Name="PES_flagAtivo" ColumnName="PES_flagAtivo" />
+                <ScalarProperty Name="PES_observacao" ColumnName="PES_observacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDDivisoes">
+            <EntityTypeMapping TypeName="ACSModel.GEDDivisoes">
+              <MappingFragment StoreEntitySet="GEDDivisoes">
+                <ScalarProperty Name="DIV_flagAtivo" ColumnName="DIV_flagAtivo" />
+                <ScalarProperty Name="DIV_codigoReduzido" ColumnName="DIV_codigoReduzido" />
+                <ScalarProperty Name="DIV_descricao" ColumnName="DIV_descricao" />
+                <ScalarProperty Name="DIV_idArea" ColumnName="DIV_idArea" />
+                <ScalarProperty Name="DIV_idDivisao" ColumnName="DIV_idDivisao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDDocumentos">
+            <EntityTypeMapping TypeName="ACSModel.GEDDocumentos">
+              <MappingFragment StoreEntitySet="GEDDocumentos">
+                <ScalarProperty Name="DOC_Ordem_Visualizacao" ColumnName="DOC_Ordem_Visualizacao" />
+                <ScalarProperty Name="DOC_detail_cert" ColumnName="DOC_detail_cert" />
+                <ScalarProperty Name="DOC_tipoCaptura" ColumnName="DOC_tipoCaptura" />
+                <ScalarProperty Name="DOC_observacao" ColumnName="DOC_observacao" />
+                <ScalarProperty Name="DOC_flagAtivo" ColumnName="DOC_flagAtivo" />
+                <ScalarProperty Name="DOC_p7s" ColumnName="DOC_p7s" />
+                <ScalarProperty Name="DOC_dataAssinaNivel3" ColumnName="DOC_dataAssinaNivel3" />
+                <ScalarProperty Name="DOC_dataAssinaNivel2" ColumnName="DOC_dataAssinaNivel2" />
+                <ScalarProperty Name="DOC_dataAssinaNivel1" ColumnName="DOC_dataAssinaNivel1" />
+                <ScalarProperty Name="DOC_idUsuarioAssinaNivel3" ColumnName="DOC_idUsuarioAssinaNivel3" />
+                <ScalarProperty Name="DOC_idUsuarioAssinaNivel2" ColumnName="DOC_idUsuarioAssinaNivel2" />
+                <ScalarProperty Name="DOC_idUsuarioAssinaNivel1" ColumnName="DOC_idUsuarioAssinaNivel1" />
+                <ScalarProperty Name="DOC_idUsuarioACSCapture" ColumnName="DOC_idUsuarioACSCapture" />
+                <ScalarProperty Name="DOC_VencimentoResolvido" ColumnName="DOC_VencimentoResolvido" />
+                <ScalarProperty Name="DOC_tempoValidade" ColumnName="DOC_tempoValidade" />
+                <ScalarProperty Name="DOC_dataEmissao" ColumnName="DOC_dataEmissao" />
+                <ScalarProperty Name="DOC_dataVencimento" ColumnName="DOC_dataVencimento" />
+                <ScalarProperty Name="DOC_idSubTipoDocumento" ColumnName="DOC_idSubTipoDocumento" />
+                <ScalarProperty Name="DOC_FlagCertificado" ColumnName="DOC_FlagCertificado" />
+                <ScalarProperty Name="DOC_dataHoraCadastro" ColumnName="DOC_dataHoraCadastro" />
+                <ScalarProperty Name="DOC_nomeArquivo" ColumnName="DOC_nomeArquivo" />
+                <ScalarProperty Name="DOC_path" ColumnName="DOC_path" />
+                <ScalarProperty Name="DOC_idTipoDocumento" ColumnName="DOC_idTipoDocumento" />
+                <ScalarProperty Name="DOC_idFormato" ColumnName="DOC_idFormato" />
+                <ScalarProperty Name="DOC_idPassagem" ColumnName="DOC_idPassagem" />
+                <ScalarProperty Name="DOC_idDivisao" ColumnName="DOC_idDivisao" />
+                <ScalarProperty Name="DOC_idVolume" ColumnName="DOC_idVolume" />
+                <ScalarProperty Name="DOC_idDocumento" ColumnName="DOC_idDocumento" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDFormatos">
+            <EntityTypeMapping TypeName="ACSModel.GEDFormatos">
+              <MappingFragment StoreEntitySet="GEDFormatos">
+                <ScalarProperty Name="FMT_flagAtivo" ColumnName="FMT_flagAtivo" />
+                <ScalarProperty Name="FMT_extensao" ColumnName="FMT_extensao" />
+                <ScalarProperty Name="FMT_idFormato" ColumnName="FMT_idFormato" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDPassagens">
+            <EntityTypeMapping TypeName="ACSModel.GEDPassagens">
+              <MappingFragment StoreEntitySet="GEDPassagens">
+                <ScalarProperty Name="PAS_dataHoraPassagemFim" ColumnName="PAS_dataHoraPassagemFim" />
+                <ScalarProperty Name="PAS_registro" ColumnName="PAS_registro" />
+                <ScalarProperty Name="PAS_flagClientePF" ColumnName="PAS_flagClientePF" />
+                <ScalarProperty Name="PAS_codigoPassagem" ColumnName="PAS_codigoPassagem" />
+                <ScalarProperty Name="PAS_dataHoraPassagem" ColumnName="PAS_dataHoraPassagem" />
+                <ScalarProperty Name="PAS_idConvenio" ColumnName="PAS_idConvenio" />
+                <ScalarProperty Name="PAS_idUnidade" ColumnName="PAS_idUnidade" />
+                <ScalarProperty Name="PAS_idPassagem" ColumnName="PAS_idPassagem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDSubTiposDocumentos">
+            <EntityTypeMapping TypeName="ACSModel.GEDSubTiposDocumentos">
+              <MappingFragment StoreEntitySet="GEDSubTiposDocumentos">
+                <ScalarProperty Name="STD_flagImpressao" ColumnName="STD_flagImpressao" />
+                <ScalarProperty Name="STD_mesVencimentoAnual" ColumnName="STD_mesVencimentoAnual" />
+                <ScalarProperty Name="STD_flagVencimentoManual" ColumnName="STD_flagVencimentoManual" />
+                <ScalarProperty Name="STD_flagVencimentoAnual" ColumnName="STD_flagVencimentoAnual" />
+                <ScalarProperty Name="STD_cobrancaDias" ColumnName="STD_cobrancaDias" />
+                <ScalarProperty Name="STD_tempoGuarda" ColumnName="STD_tempoGuarda" />
+                <ScalarProperty Name="STD_obrigatorio" ColumnName="STD_obrigatorio" />
+                <ScalarProperty Name="STD_tempoValidade" ColumnName="STD_tempoValidade" />
+                <ScalarProperty Name="STD_ordem" ColumnName="STD_ordem" />
+                <ScalarProperty Name="STD_codigoBarra" ColumnName="STD_codigoBarra" />
+                <ScalarProperty Name="STD_descricao" ColumnName="STD_descricao" />
+                <ScalarProperty Name="STD_idTiposDocumentos" ColumnName="STD_idTiposDocumentos" />
+                <ScalarProperty Name="STD_idSubTiposDocumentos" ColumnName="STD_idSubTiposDocumentos" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDTiposBuscaLotes">
+            <EntityTypeMapping TypeName="ACSModel.GEDTiposBuscaLotes">
+              <MappingFragment StoreEntitySet="GEDTiposBuscaLotes">
+                <ScalarProperty Name="TBL_Default" ColumnName="TBL_Default" />
+                <ScalarProperty Name="TBL_Descricao" ColumnName="TBL_Descricao" />
+                <ScalarProperty Name="TBL_Id" ColumnName="TBL_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDTiposBuscaLotesPJ">
+            <EntityTypeMapping TypeName="ACSModel.GEDTiposBuscaLotesPJ">
+              <MappingFragment StoreEntitySet="GEDTiposBuscaLotesPJ">
+                <ScalarProperty Name="TPJ_Default" ColumnName="TPJ_Default" />
+                <ScalarProperty Name="TPJ_Descricao" ColumnName="TPJ_Descricao" />
+                <ScalarProperty Name="TPJ_Id" ColumnName="TPJ_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDTiposDocumentos">
+            <EntityTypeMapping TypeName="ACSModel.GEDTiposDocumentos">
+              <MappingFragment StoreEntitySet="GEDTiposDocumentos">
+                <ScalarProperty Name="TPD_flagImpressao" ColumnName="TPD_flagImpressao" />
+                <ScalarProperty Name="TPD_cobrancaDias" ColumnName="TPD_cobrancaDias" />
+                <ScalarProperty Name="TPD_tempoGuarda" ColumnName="TPD_tempoGuarda" />
+                <ScalarProperty Name="TPD_obrigatorio" ColumnName="TPD_obrigatorio" />
+                <ScalarProperty Name="TPD_tempoValidade" ColumnName="TPD_tempoValidade" />
+                <ScalarProperty Name="TPD_flagSubtipo" ColumnName="TPD_flagSubtipo" />
+                <ScalarProperty Name="TPD_ordem" ColumnName="TPD_ordem" />
+                <ScalarProperty Name="TPD_codigoBarra" ColumnName="TPD_codigoBarra" />
+                <ScalarProperty Name="TPD_descricao" ColumnName="TPD_descricao" />
+                <ScalarProperty Name="TPD_idDivisao" ColumnName="TPD_idDivisao" />
+                <ScalarProperty Name="TPD_idTipoDocumento" ColumnName="TPD_idTipoDocumento" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDCaptionControl">
+            <EntityTypeMapping TypeName="ACSModel.GEDCaptionControl">
+              <MappingFragment StoreEntitySet="GEDCaptionControl">
+                <ScalarProperty Name="GCC_Caption" ColumnName="GCC_Caption" />
+                <ScalarProperty Name="GCC_ControlName" ColumnName="GCC_ControlName" />
+                <ScalarProperty Name="GCC_FormName" ColumnName="GCC_FormName" />
+                <ScalarProperty Name="GCC_Id" ColumnName="GCC_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDLogLogin">
+            <EntityTypeMapping TypeName="ACSModel.GEDLogLogin">
+              <MappingFragment StoreEntitySet="GEDLogLogin">
+                <ScalarProperty Name="LLG_token" ColumnName="LLG_token" />
+                <ScalarProperty Name="LLG_observacao" ColumnName="LLG_observacao" />
+                <ScalarProperty Name="LLG_dataHoraLogout" ColumnName="LLG_dataHoraLogout" />
+                <ScalarProperty Name="LLG_flagLogout" ColumnName="LLG_flagLogout" />
+                <ScalarProperty Name="LLG_dataHoraLogin" ColumnName="LLG_dataHoraLogin" />
+                <ScalarProperty Name="LLG_flagLogin" ColumnName="LLG_flagLogin" />
+                <ScalarProperty Name="LLG_idUnidade" ColumnName="LLG_idUnidade" />
+                <ScalarProperty Name="LLG_ipEstacao" ColumnName="LLG_ipEstacao" />
+                <ScalarProperty Name="LLG_idUsuario" ColumnName="LLG_idUsuario" />
+                <ScalarProperty Name="LLG_idLogLogin" ColumnName="LLG_idLogLogin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GED_PROC_F_Lotes" FunctionName="ACSModel.Store.GED_PROC_F_Lotes">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ACSModel.GED_PROC_F_Lotes_Result">
+                <ScalarProperty Name="PAS_IDPASSAGEM" ColumnName="PAS_IDPASSAGEM" />
+                <ScalarProperty Name="PAS_CODIGOPASSAGEM" ColumnName="PAS_CODIGOPASSAGEM" />
+                <ScalarProperty Name="PAS_REGISTRO" ColumnName="PAS_REGISTRO" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="PAS_DATAHORAPASSAGEM" ColumnName="PAS_DATAHORAPASSAGEM" />
+                <ScalarProperty Name="CPF_CNPJ" ColumnName="CPF_CNPJ" />
+                <ScalarProperty Name="CPF_CNPJ_FLAGATIVO" ColumnName="CPF_CNPJ_FLAGATIVO" />
+                <ScalarProperty Name="INCLUSAO" ColumnName="INCLUSAO" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GED_PROC_CodigosBarras" FunctionName="ACSModel.Store.GED_PROC_CodigosBarras" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ACSModel.GED_PROC_CodigosBarras_Result">
+                <ScalarProperty Name="TPD_CODIGOBARRA" ColumnName="TPD_CODIGOBARRA" />
+                <ScalarProperty Name="DIV_CODIGOREDUZIDO" ColumnName="DIV_CODIGOREDUZIDO" />
+                <ScalarProperty Name="TPD_DESCRICAO" ColumnName="TPD_DESCRICAO" />
+                <ScalarProperty Name="TPD_IDDIVISAO" ColumnName="TPD_IDDIVISAO" />
+                <ScalarProperty Name="TPD_IDTIPODOCUMENTO" ColumnName="TPD_IDTIPODOCUMENTO" />
+                <ScalarProperty Name="STD_IDSUBTIPOSDOCUMENTOS" ColumnName="STD_IDSUBTIPOSDOCUMENTOS" />
+                <ScalarProperty Name="STD_FLAGVENCIMENTOMANUAL" ColumnName="STD_FLAGVENCIMENTOMANUAL" />
+                <ScalarProperty Name="STD_MESVENCIMENTOANUAL" ColumnName="STD_MESVENCIMENTOANUAL" />
+                <ScalarProperty Name="TPD_TEMPOVALIDADE" ColumnName="TPD_TEMPOVALIDADE" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="GEDStatusLote">
+            <EntityTypeMapping TypeName="ACSModel.GEDStatusLote">
+              <MappingFragment StoreEntitySet="GEDStatusLote">
+                <ScalarProperty Name="STL_Descricao" ColumnName="STL_Descricao" />
+                <ScalarProperty Name="STL_Id" ColumnName="STL_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDLotesXUsuarios">
+            <EntityTypeMapping TypeName="ACSModel.GEDLotesXUsuarios">
+              <MappingFragment StoreEntitySet="GEDLotesXUsuarios">
+                <ScalarProperty Name="LTU_PathImagens" ColumnName="LTU_PathImagens" />
+                <ScalarProperty Name="LTU_Observacao" ColumnName="LTU_Observacao" />
+                <ScalarProperty Name="LTU_Data" ColumnName="LTU_Data" />
+                <ScalarProperty Name="LTU_IdStatusLote" ColumnName="LTU_IdStatusLote" />
+                <ScalarProperty Name="LTU_CodigoPassagem" ColumnName="LTU_CodigoPassagem" />
+                <ScalarProperty Name="LTU_IdUsuario" ColumnName="LTU_IdUsuario" />
+                <ScalarProperty Name="LTU_Id" ColumnName="LTU_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GEDUsuarios">
+            <EntityTypeMapping TypeName="ACSModel.GEDUsuarios">
+              <MappingFragment StoreEntitySet="GEDUsuarios">
+                <ScalarProperty Name="USR_FLAGPROCESSAMENTO" ColumnName="USR_FLAGPROCESSAMENTO" />
+                <ScalarProperty Name="usr_flagAdmACS" ColumnName="usr_flagAdmACS" />
+                <ScalarProperty Name="USR_SerialNumberCert" ColumnName="USR_SerialNumberCert" />
+                <ScalarProperty Name="USR_NivelAssina" ColumnName="USR_NivelAssina" />
+                <ScalarProperty Name="USR_flagAssina" ColumnName="USR_flagAssina" />
+                <ScalarProperty Name="USR_flagImprimir" ColumnName="USR_flagImprimir" />
+                <ScalarProperty Name="usr_flagimportacao" ColumnName="usr_flagimportacao" />
+                <ScalarProperty Name="usr_flagdigitalizacao" ColumnName="usr_flagdigitalizacao" />
+                <ScalarProperty Name="USR_observacao" ColumnName="USR_observacao" />
+                <ScalarProperty Name="USR_dataHoraLastLogin" ColumnName="USR_dataHoraLastLogin" />
+                <ScalarProperty Name="USR_dataHoraCadastro" ColumnName="USR_dataHoraCadastro" />
+                <ScalarProperty Name="USR_firstAccess" ColumnName="USR_firstAccess" />
+                <ScalarProperty Name="USR_flagAtivo" ColumnName="USR_flagAtivo" />
+                <ScalarProperty Name="USR_senha" ColumnName="USR_senha" />
+                <ScalarProperty Name="USR_login" ColumnName="USR_login" />
+                <ScalarProperty Name="USR_idPessoa" ColumnName="USR_idPessoa" />
+                <ScalarProperty Name="USR_idGrupoUsuario" ColumnName="USR_idGrupoUsuario" />
+                <ScalarProperty Name="USR_idUsuario" ColumnName="USR_idUsuario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

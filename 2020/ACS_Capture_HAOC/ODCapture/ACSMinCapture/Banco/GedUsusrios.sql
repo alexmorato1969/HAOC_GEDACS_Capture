@@ -1,0 +1,1 @@
+alter table dbo.GEDUsuarios add usr_flagProcessamento bit default(0)

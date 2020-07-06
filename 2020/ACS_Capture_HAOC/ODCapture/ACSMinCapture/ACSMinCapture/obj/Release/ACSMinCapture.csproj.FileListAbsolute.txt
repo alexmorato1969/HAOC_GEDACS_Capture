@@ -1,0 +1,164 @@
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe.config
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\Config.ypt
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.pdb
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\EntityFramework.dll
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\EntityFramework.xml
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLoading.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLogin.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMain.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMDIChild.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMessageBox.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFStandard.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTipoAcao.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTitle.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFWorkList.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Properties.Resources.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.GenerateResource.Cache
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.exe
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.pdb
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csprojResolveAssemblyReference.cache
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCImagesCapture.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCTwain.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Config.ypt
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe.config
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.application
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.pdb
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Ionic.Zip.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Newtonsoft.Json.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\OCRTools.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\OrionDigital.Assinador.ViewModel.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\OrionDigital.Framework.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\PDFLibNet.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\restsharp.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Simple.Data.Ado.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Simple.Data.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Simple.Data.Oracle.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.DataSetExtensions.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.Entity.Design.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.Entity.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Deployment.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csprojResolveAssemblyReference.cache
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.ResolveComReference.cache
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCImages.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFCapture.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFObservation.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFOk.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFPreferencias.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFProcess.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSearchBarCoce.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetBarCode.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetValues.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFAssinaNivel2.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLoading.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLogin.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMain.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMDIChild.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMessageBox.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFStandard.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTipoAcao.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTitle.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFWorkList.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Properties.Resources.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.GenerateResource.Cache
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.application
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.exe
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.pdb
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe.config
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.ResolveComReference.cache
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.exe
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.pdb
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Config.ypt
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.application
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.exe
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\ACSMinCapture.pdb
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Ionic.Zip.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Newtonsoft.Json.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\OCRTools.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\OrionDigital.Assinador.ViewModel.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\OrionDigital.Framework.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\PDFLibNet.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\restsharp.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Simple.Data.Ado.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Simple.Data.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Simple.Data.Oracle.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.DataSetExtensions.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.Entity.Design.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Data.Entity.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\System.Deployment.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Release\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csprojResolveAssemblyReference.cache
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCImages.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFCapture.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFObservation.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFOk.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFPreferencias.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFProcess.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSearchBarCoce.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetTipoCliente.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetArea.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetBarCode.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetValues.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFAssinaNivel2.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLoading.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLogin.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMain.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMDIChild.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMessageBox.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFStandard.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTipoAcao.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTitle.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFWorkList.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Properties.Resources.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.GenerateResource.Cache
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.application
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.ResolveComReference.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCImages.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.ImagePanel.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFCapture.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.wfImagem.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFObservation.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFOk.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFPreferencias.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFProcess.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSearchBarCoce.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetSetor.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetTipoCliente.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetArea.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetBarCode.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFSetValues.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFAssinaNivel2.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLoading.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFLogin.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMain.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMDIChild.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFMessageBox.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFStandard.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTipoAcao.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFTitle.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.WFWorkList.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.Properties.Resources.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.GenerateResource.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.csproj.CoreCompileInputs.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Release\ACSMinCapture.pdb

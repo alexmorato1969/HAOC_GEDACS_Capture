@@ -1,0 +1,890 @@
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\EntityFramework.dll
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\EntityFramework.xml
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.ImageBoxCapture.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+D:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.ImageBoxCapture.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+C:\Projects\C#\Restruturando\ACSMinCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.ImageBoxCapture.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+C:\Users\William\Documents\Developer\Orion\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Ionic.Zip.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Assinador.ViewModel.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Framework.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\restsharp.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+D:\Projetos\ACS_Capture\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Ionic.Zip.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Assinador.ViewModel.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Framework.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\restsharp.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.BRYSIGNERCOMLib.dll
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\Projetos\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+D:\Arquivos not\Projetos .NET\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Ionic.Zip.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Assinador.ViewModel.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Framework.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\restsharp.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.xml
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.xml
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.xml
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CopyComplete
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.xml
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.xml
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.xml
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.cache
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CopyComplete
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+C:\Users\Lucas\Desktop\Folders\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Ionic.Zip.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Assinador.ViewModel.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Framework.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\restsharp.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+C:\Users\OrionWSDGT02\Desktop\ACS_Capture_HAOC - Fujitsu - Copia\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojResolveAssemblyReference.cache
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.Cache
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Ionic.Zip.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Assinador.ViewModel.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OrionDigital.Framework.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\restsharp.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+C:\Users\OrionWSDGT02\Desktop\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.xml
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.xml
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.xml
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.xml
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojAssemblyReference.cache
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.cache
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CoreCompileInputs.cache
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CopyComplete
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\Arquivos not\Projetos .NET\ACS\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.xml
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Mvc.xml
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.Razor.xml
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.xml
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Interop.FiScnLib.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csprojAssemblyReference.cache
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\Interop.FiScnLib.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\AxInterop.FiScnLib.dll
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.cache
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CoreCompileInputs.cache
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CopyComplete
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\Arquivos not\ACS ROLLOUT\ntx_gedweb_ACSFULL_rollout\ACS_CAPTURE_HAOC_ATUAL 2020\ACS_Capture_HAOC - Fujitsu\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.xml
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CoreCompileInputs.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CopyComplete
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\Fontes Orion\Fontes enviados em 27042020\ntx_gedweb_ACSFULL_rollout-master\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Config.ypt
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ExceptionCustom\ErrorCertificado.txt
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Resources\zoom-in.cur
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.config
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe.manifest
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.application
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.exe
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\ACSMinCapture.pdb
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\AxInterop.FiScnLib.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Newtonsoft.Json.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\OCRTools.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\PDFLibNet.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Ado.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Simple.Data.Oracle.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.DataSetExtensions.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.Design.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Data.Entity.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Deployment.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Windows.Forms.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\System.Xml.Linq.dll
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\bin\Debug\Dapper.xml
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.ResolveComReference.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImages.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Controls.UCImagesManipulation.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.ImagePanel.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFCapture.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.wfImagem.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFObservation.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFOk.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFPreferencias.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFProcess.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSearchBarCoce.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetSetor.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetTipoCliente.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetArea.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetBarCode.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFSetDateValidityDocument.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFSetValues.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFAssinaNivel2.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Forms.WFTranparentLoading.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLoading.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFLogin.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMain.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMDIChild.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFMessageBox.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFStandard.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTipoAcao.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFTitle.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.WFWorkList.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.Properties.Resources.resources
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.GenerateResource.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CoreCompileInputs.cache
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe.manifest
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.application
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.csproj.CopyComplete
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.exe
+D:\NTX - INTOLABS\Hosp Alemão Oswaldo Cruz\GED_ACSFULL\2020\ACS_Capture_HAOC\ODCapture\ACSMinCapture\ACSMinCapture\obj\Debug\ACSMinCapture.pdb

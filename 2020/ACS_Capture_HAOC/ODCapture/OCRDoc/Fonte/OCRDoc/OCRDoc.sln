@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCRDoc", "OCRDoc\OCRDoc.csproj", "{1F38B2F9-E8DC-4355-BFD0-B4F3A4DF1ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionRecognizeLibrary", "OrionRecognizeLibrary\OrionRecognizeLibrary.csproj", "{7FAC932C-918B-431E-98CA-1DA2B4E081FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionRecognizeLibraryTest", "OrionRecognizeLibraryTest\OrionRecognizeLibraryTest.csproj", "{27C81767-D604-4F1A-B55C-B1DB25BEFF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crom.Controls", "..\..\vsidedocker-code-6-trunk\vsidedocker-code-6-trunk\src\Crom.Controls\Crom.Controls.csproj", "{F2999C1D-BED3-4D47-A8AC-8027334ECDC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F38B2F9-E8DC-4355-BFD0-B4F3A4DF1ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F38B2F9-E8DC-4355-BFD0-B4F3A4DF1ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F38B2F9-E8DC-4355-BFD0-B4F3A4DF1ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F38B2F9-E8DC-4355-BFD0-B4F3A4DF1ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAC932C-918B-431E-98CA-1DA2B4E081FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAC932C-918B-431E-98CA-1DA2B4E081FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAC932C-918B-431E-98CA-1DA2B4E081FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAC932C-918B-431E-98CA-1DA2B4E081FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C81767-D604-4F1A-B55C-B1DB25BEFF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C81767-D604-4F1A-B55C-B1DB25BEFF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C81767-D604-4F1A-B55C-B1DB25BEFF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C81767-D604-4F1A-B55C-B1DB25BEFF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2999C1D-BED3-4D47-A8AC-8027334ECDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2999C1D-BED3-4D47-A8AC-8027334ECDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2999C1D-BED3-4D47-A8AC-8027334ECDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2999C1D-BED3-4D47-A8AC-8027334ECDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

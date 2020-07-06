@@ -1,0 +1,4 @@
+<Log>
+  <Hand Message="O item já foi adicionado. Chave contida no dicionário: 'ACSMinCapture.IniParser+SectionPair'; chave sendo adicionada: 'ACSMinCapture.IniParser+SectionPair'" Detail="" StackTrace="   em System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)&#xD;&#xA;   em System.Collections.Hashtable.Add(Object key, Object value)&#xD;&#xA;   em ACSMinCapture.IniParser..ctor(String iniPath)" DateTime="13/11/2015 05:10:42" />
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;O inicializador de tipo de 'ACSMinCapture.Config.ACSConfig' acionou uma exceção." Detail="O item já foi adicionado. Chave contida no dicionário: 'ACSMinCapture.IniParser+SectionPair'; chave sendo adicionada: 'ACSMinCapture.IniParser+SectionPair'" StackTrace="" DateTime="13/11/2015 05:10:44" />
+</Log>

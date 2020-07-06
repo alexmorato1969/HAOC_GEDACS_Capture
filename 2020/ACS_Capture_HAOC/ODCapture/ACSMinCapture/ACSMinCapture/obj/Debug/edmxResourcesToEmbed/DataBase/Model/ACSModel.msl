@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ACSModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="GEDPessoas">
+      <EntityTypeMapping TypeName="ACSModel.GEDPessoas">
+        <MappingFragment StoreEntitySet="GEDPessoas">
+          <ScalarProperty Name="PES_idPessoa" ColumnName="PES_idPessoa" />
+          <ScalarProperty Name="PES_nome" ColumnName="PES_nome" />
+          <ScalarProperty Name="PES_nomeMae" ColumnName="PES_nomeMae" />
+          <ScalarProperty Name="PES_nomePai" ColumnName="PES_nomePai" />
+          <ScalarProperty Name="PES_cpf" ColumnName="PES_cpf" />
+          <ScalarProperty Name="PES_rg" ColumnName="PES_rg" />
+          <ScalarProperty Name="PES_dataNascimento" ColumnName="PES_dataNascimento" />
+          <ScalarProperty Name="PES_idSexo" ColumnName="PES_idSexo" />
+          <ScalarProperty Name="PES_tel01" ColumnName="PES_tel01" />
+          <ScalarProperty Name="PES_tel02" ColumnName="PES_tel02" />
+          <ScalarProperty Name="PES_contato" ColumnName="PES_contato" />
+          <ScalarProperty Name="PES_emailPessoal" ColumnName="PES_emailPessoal" />
+          <ScalarProperty Name="PES_emailProfissional" ColumnName="PES_emailProfissional" />
+          <ScalarProperty Name="PES_flagAtivo" ColumnName="PES_flagAtivo" />
+          <ScalarProperty Name="PES_observacao" ColumnName="PES_observacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDivisoes">
+      <EntityTypeMapping TypeName="ACSModel.GEDDivisoes">
+        <MappingFragment StoreEntitySet="GEDDivisoes">
+          <ScalarProperty Name="DIV_flagAtivo" ColumnName="DIV_flagAtivo" />
+          <ScalarProperty Name="DIV_codigoReduzido" ColumnName="DIV_codigoReduzido" />
+          <ScalarProperty Name="DIV_descricao" ColumnName="DIV_descricao" />
+          <ScalarProperty Name="DIV_idArea" ColumnName="DIV_idArea" />
+          <ScalarProperty Name="DIV_idDivisao" ColumnName="DIV_idDivisao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDocumentos">
+      <EntityTypeMapping TypeName="ACSModel.GEDDocumentos">
+        <MappingFragment StoreEntitySet="GEDDocumentos">
+          <ScalarProperty Name="DOC_Ordem_Visualizacao" ColumnName="DOC_Ordem_Visualizacao" />
+          <ScalarProperty Name="DOC_detail_cert" ColumnName="DOC_detail_cert" />
+          <ScalarProperty Name="DOC_tipoCaptura" ColumnName="DOC_tipoCaptura" />
+          <ScalarProperty Name="DOC_observacao" ColumnName="DOC_observacao" />
+          <ScalarProperty Name="DOC_flagAtivo" ColumnName="DOC_flagAtivo" />
+          <ScalarProperty Name="DOC_p7s" ColumnName="DOC_p7s" />
+          <ScalarProperty Name="DOC_dataAssinaNivel3" ColumnName="DOC_dataAssinaNivel3" />
+          <ScalarProperty Name="DOC_dataAssinaNivel2" ColumnName="DOC_dataAssinaNivel2" />
+          <ScalarProperty Name="DOC_dataAssinaNivel1" ColumnName="DOC_dataAssinaNivel1" />
+          <ScalarProperty Name="DOC_idUsuarioAssinaNivel3" ColumnName="DOC_idUsuarioAssinaNivel3" />
+          <ScalarProperty Name="DOC_idUsuarioAssinaNivel2" ColumnName="DOC_idUsuarioAssinaNivel2" />
+          <ScalarProperty Name="DOC_idUsuarioAssinaNivel1" ColumnName="DOC_idUsuarioAssinaNivel1" />
+          <ScalarProperty Name="DOC_idUsuarioACSCapture" ColumnName="DOC_idUsuarioACSCapture" />
+          <ScalarProperty Name="DOC_VencimentoResolvido" ColumnName="DOC_VencimentoResolvido" />
+          <ScalarProperty Name="DOC_tempoValidade" ColumnName="DOC_tempoValidade" />
+          <ScalarProperty Name="DOC_dataEmissao" ColumnName="DOC_dataEmissao" />
+          <ScalarProperty Name="DOC_dataVencimento" ColumnName="DOC_dataVencimento" />
+          <ScalarProperty Name="DOC_idSubTipoDocumento" ColumnName="DOC_idSubTipoDocumento" />
+          <ScalarProperty Name="DOC_FlagCertificado" ColumnName="DOC_FlagCertificado" />
+          <ScalarProperty Name="DOC_dataHoraCadastro" ColumnName="DOC_dataHoraCadastro" />
+          <ScalarProperty Name="DOC_nomeArquivo" ColumnName="DOC_nomeArquivo" />
+          <ScalarProperty Name="DOC_path" ColumnName="DOC_path" />
+          <ScalarProperty Name="DOC_idTipoDocumento" ColumnName="DOC_idTipoDocumento" />
+          <ScalarProperty Name="DOC_idFormato" ColumnName="DOC_idFormato" />
+          <ScalarProperty Name="DOC_idPassagem" ColumnName="DOC_idPassagem" />
+          <ScalarProperty Name="DOC_idDivisao" ColumnName="DOC_idDivisao" />
+          <ScalarProperty Name="DOC_idVolume" ColumnName="DOC_idVolume" />
+          <ScalarProperty Name="DOC_idDocumento" ColumnName="DOC_idDocumento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDFormatos">
+      <EntityTypeMapping TypeName="ACSModel.GEDFormatos">
+        <MappingFragment StoreEntitySet="GEDFormatos">
+          <ScalarProperty Name="FMT_flagAtivo" ColumnName="FMT_flagAtivo" />
+          <ScalarProperty Name="FMT_extensao" ColumnName="FMT_extensao" />
+          <ScalarProperty Name="FMT_idFormato" ColumnName="FMT_idFormato" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDPassagens">
+      <EntityTypeMapping TypeName="ACSModel.GEDPassagens">
+        <MappingFragment StoreEntitySet="GEDPassagens">
+          <ScalarProperty Name="PAS_dataHoraPassagemFim" ColumnName="PAS_dataHoraPassagemFim" />
+          <ScalarProperty Name="PAS_registro" ColumnName="PAS_registro" />
+          <ScalarProperty Name="PAS_flagClientePF" ColumnName="PAS_flagClientePF" />
+          <ScalarProperty Name="PAS_codigoPassagem" ColumnName="PAS_codigoPassagem" />
+          <ScalarProperty Name="PAS_dataHoraPassagem" ColumnName="PAS_dataHoraPassagem" />
+          <ScalarProperty Name="PAS_idConvenio" ColumnName="PAS_idConvenio" />
+          <ScalarProperty Name="PAS_idUnidade" ColumnName="PAS_idUnidade" />
+          <ScalarProperty Name="PAS_idPassagem" ColumnName="PAS_idPassagem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSubTiposDocumentos">
+      <EntityTypeMapping TypeName="ACSModel.GEDSubTiposDocumentos">
+        <MappingFragment StoreEntitySet="GEDSubTiposDocumentos">
+          <ScalarProperty Name="STD_flagImpressao" ColumnName="STD_flagImpressao" />
+          <ScalarProperty Name="STD_mesVencimentoAnual" ColumnName="STD_mesVencimentoAnual" />
+          <ScalarProperty Name="STD_flagVencimentoManual" ColumnName="STD_flagVencimentoManual" />
+          <ScalarProperty Name="STD_flagVencimentoAnual" ColumnName="STD_flagVencimentoAnual" />
+          <ScalarProperty Name="STD_cobrancaDias" ColumnName="STD_cobrancaDias" />
+          <ScalarProperty Name="STD_tempoGuarda" ColumnName="STD_tempoGuarda" />
+          <ScalarProperty Name="STD_obrigatorio" ColumnName="STD_obrigatorio" />
+          <ScalarProperty Name="STD_tempoValidade" ColumnName="STD_tempoValidade" />
+          <ScalarProperty Name="STD_ordem" ColumnName="STD_ordem" />
+          <ScalarProperty Name="STD_codigoBarra" ColumnName="STD_codigoBarra" />
+          <ScalarProperty Name="STD_descricao" ColumnName="STD_descricao" />
+          <ScalarProperty Name="STD_idTiposDocumentos" ColumnName="STD_idTiposDocumentos" />
+          <ScalarProperty Name="STD_idSubTiposDocumentos" ColumnName="STD_idSubTiposDocumentos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTiposBuscaLotes">
+      <EntityTypeMapping TypeName="ACSModel.GEDTiposBuscaLotes">
+        <MappingFragment StoreEntitySet="GEDTiposBuscaLotes">
+          <ScalarProperty Name="TBL_Default" ColumnName="TBL_Default" />
+          <ScalarProperty Name="TBL_Descricao" ColumnName="TBL_Descricao" />
+          <ScalarProperty Name="TBL_Id" ColumnName="TBL_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTiposBuscaLotesPJ">
+      <EntityTypeMapping TypeName="ACSModel.GEDTiposBuscaLotesPJ">
+        <MappingFragment StoreEntitySet="GEDTiposBuscaLotesPJ">
+          <ScalarProperty Name="TPJ_Default" ColumnName="TPJ_Default" />
+          <ScalarProperty Name="TPJ_Descricao" ColumnName="TPJ_Descricao" />
+          <ScalarProperty Name="TPJ_Id" ColumnName="TPJ_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTiposDocumentos">
+      <EntityTypeMapping TypeName="ACSModel.GEDTiposDocumentos">
+        <MappingFragment StoreEntitySet="GEDTiposDocumentos">
+          <ScalarProperty Name="TPD_flagImpressao" ColumnName="TPD_flagImpressao" />
+          <ScalarProperty Name="TPD_cobrancaDias" ColumnName="TPD_cobrancaDias" />
+          <ScalarProperty Name="TPD_tempoGuarda" ColumnName="TPD_tempoGuarda" />
+          <ScalarProperty Name="TPD_obrigatorio" ColumnName="TPD_obrigatorio" />
+          <ScalarProperty Name="TPD_tempoValidade" ColumnName="TPD_tempoValidade" />
+          <ScalarProperty Name="TPD_flagSubtipo" ColumnName="TPD_flagSubtipo" />
+          <ScalarProperty Name="TPD_ordem" ColumnName="TPD_ordem" />
+          <ScalarProperty Name="TPD_codigoBarra" ColumnName="TPD_codigoBarra" />
+          <ScalarProperty Name="TPD_descricao" ColumnName="TPD_descricao" />
+          <ScalarProperty Name="TPD_idDivisao" ColumnName="TPD_idDivisao" />
+          <ScalarProperty Name="TPD_idTipoDocumento" ColumnName="TPD_idTipoDocumento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDCaptionControl">
+      <EntityTypeMapping TypeName="ACSModel.GEDCaptionControl">
+        <MappingFragment StoreEntitySet="GEDCaptionControl">
+          <ScalarProperty Name="GCC_Caption" ColumnName="GCC_Caption" />
+          <ScalarProperty Name="GCC_ControlName" ColumnName="GCC_ControlName" />
+          <ScalarProperty Name="GCC_FormName" ColumnName="GCC_FormName" />
+          <ScalarProperty Name="GCC_Id" ColumnName="GCC_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLogLogin">
+      <EntityTypeMapping TypeName="ACSModel.GEDLogLogin">
+        <MappingFragment StoreEntitySet="GEDLogLogin">
+          <ScalarProperty Name="LLG_token" ColumnName="LLG_token" />
+          <ScalarProperty Name="LLG_observacao" ColumnName="LLG_observacao" />
+          <ScalarProperty Name="LLG_dataHoraLogout" ColumnName="LLG_dataHoraLogout" />
+          <ScalarProperty Name="LLG_flagLogout" ColumnName="LLG_flagLogout" />
+          <ScalarProperty Name="LLG_dataHoraLogin" ColumnName="LLG_dataHoraLogin" />
+          <ScalarProperty Name="LLG_flagLogin" ColumnName="LLG_flagLogin" />
+          <ScalarProperty Name="LLG_idUnidade" ColumnName="LLG_idUnidade" />
+          <ScalarProperty Name="LLG_ipEstacao" ColumnName="LLG_ipEstacao" />
+          <ScalarProperty Name="LLG_idUsuario" ColumnName="LLG_idUsuario" />
+          <ScalarProperty Name="LLG_idLogLogin" ColumnName="LLG_idLogLogin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GED_PROC_F_Lotes" FunctionName="ACSModel.Store.GED_PROC_F_Lotes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ACSModel.GED_PROC_F_Lotes_Result">
+          <ScalarProperty Name="PAS_IDPASSAGEM" ColumnName="PAS_IDPASSAGEM" />
+          <ScalarProperty Name="PAS_CODIGOPASSAGEM" ColumnName="PAS_CODIGOPASSAGEM" />
+          <ScalarProperty Name="PAS_REGISTRO" ColumnName="PAS_REGISTRO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="PAS_DATAHORAPASSAGEM" ColumnName="PAS_DATAHORAPASSAGEM" />
+          <ScalarProperty Name="CPF_CNPJ" ColumnName="CPF_CNPJ" />
+          <ScalarProperty Name="CPF_CNPJ_FLAGATIVO" ColumnName="CPF_CNPJ_FLAGATIVO" />
+          <ScalarProperty Name="INCLUSAO" ColumnName="INCLUSAO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GED_PROC_CodigosBarras" FunctionName="ACSModel.Store.GED_PROC_CodigosBarras">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ACSModel.GED_PROC_CodigosBarras_Result">
+          <ScalarProperty Name="TPD_CODIGOBARRA" ColumnName="TPD_CODIGOBARRA" />
+          <ScalarProperty Name="DIV_CODIGOREDUZIDO" ColumnName="DIV_CODIGOREDUZIDO" />
+          <ScalarProperty Name="TPD_DESCRICAO" ColumnName="TPD_DESCRICAO" />
+          <ScalarProperty Name="TPD_IDDIVISAO" ColumnName="TPD_IDDIVISAO" />
+          <ScalarProperty Name="TPD_IDTIPODOCUMENTO" ColumnName="TPD_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="STD_IDSUBTIPOSDOCUMENTOS" ColumnName="STD_IDSUBTIPOSDOCUMENTOS" />
+          <ScalarProperty Name="STD_FLAGVENCIMENTOMANUAL" ColumnName="STD_FLAGVENCIMENTOMANUAL" />
+          <ScalarProperty Name="STD_MESVENCIMENTOANUAL" ColumnName="STD_MESVENCIMENTOANUAL" />
+          <ScalarProperty Name="TPD_TEMPOVALIDADE" ColumnName="TPD_TEMPOVALIDADE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="GEDStatusLote">
+      <EntityTypeMapping TypeName="ACSModel.GEDStatusLote">
+        <MappingFragment StoreEntitySet="GEDStatusLote">
+          <ScalarProperty Name="STL_Descricao" ColumnName="STL_Descricao" />
+          <ScalarProperty Name="STL_Id" ColumnName="STL_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLotesXUsuarios">
+      <EntityTypeMapping TypeName="ACSModel.GEDLotesXUsuarios">
+        <MappingFragment StoreEntitySet="GEDLotesXUsuarios">
+          <ScalarProperty Name="LTU_PathImagens" ColumnName="LTU_PathImagens" />
+          <ScalarProperty Name="LTU_Observacao" ColumnName="LTU_Observacao" />
+          <ScalarProperty Name="LTU_Data" ColumnName="LTU_Data" />
+          <ScalarProperty Name="LTU_IdStatusLote" ColumnName="LTU_IdStatusLote" />
+          <ScalarProperty Name="LTU_CodigoPassagem" ColumnName="LTU_CodigoPassagem" />
+          <ScalarProperty Name="LTU_IdUsuario" ColumnName="LTU_IdUsuario" />
+          <ScalarProperty Name="LTU_Id" ColumnName="LTU_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDUsuarios">
+      <EntityTypeMapping TypeName="ACSModel.GEDUsuarios">
+        <MappingFragment StoreEntitySet="GEDUsuarios">
+          <ScalarProperty Name="USR_FLAGPROCESSAMENTO" ColumnName="USR_FLAGPROCESSAMENTO" />
+          <ScalarProperty Name="usr_flagAdmACS" ColumnName="usr_flagAdmACS" />
+          <ScalarProperty Name="USR_SerialNumberCert" ColumnName="USR_SerialNumberCert" />
+          <ScalarProperty Name="USR_NivelAssina" ColumnName="USR_NivelAssina" />
+          <ScalarProperty Name="USR_flagAssina" ColumnName="USR_flagAssina" />
+          <ScalarProperty Name="USR_flagImprimir" ColumnName="USR_flagImprimir" />
+          <ScalarProperty Name="usr_flagimportacao" ColumnName="usr_flagimportacao" />
+          <ScalarProperty Name="usr_flagdigitalizacao" ColumnName="usr_flagdigitalizacao" />
+          <ScalarProperty Name="USR_observacao" ColumnName="USR_observacao" />
+          <ScalarProperty Name="USR_dataHoraLastLogin" ColumnName="USR_dataHoraLastLogin" />
+          <ScalarProperty Name="USR_dataHoraCadastro" ColumnName="USR_dataHoraCadastro" />
+          <ScalarProperty Name="USR_firstAccess" ColumnName="USR_firstAccess" />
+          <ScalarProperty Name="USR_flagAtivo" ColumnName="USR_flagAtivo" />
+          <ScalarProperty Name="USR_senha" ColumnName="USR_senha" />
+          <ScalarProperty Name="USR_login" ColumnName="USR_login" />
+          <ScalarProperty Name="USR_idPessoa" ColumnName="USR_idPessoa" />
+          <ScalarProperty Name="USR_idGrupoUsuario" ColumnName="USR_idGrupoUsuario" />
+          <ScalarProperty Name="USR_idUsuario" ColumnName="USR_idUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

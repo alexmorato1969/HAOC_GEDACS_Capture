@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ACSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ACSModelStoreContainer">
+    <EntitySet Name="GEDPessoas" EntityType="ACSModel.Store.GEDPessoas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDUsuarios" EntityType="ACSModel.Store.GEDUsuarios" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__GEDUsuari__USR_i__5F7E2DAC" Association="ACSModel.Store.FK__GEDUsuari__USR_i__5F7E2DAC">
+      <End Role="GEDPessoas" EntitySet="GEDPessoas" />
+      <End Role="GEDUsuarios" EntitySet="GEDUsuarios" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="GEDPessoas">
+    <Key>
+      <PropertyRef Name="PES_idPessoa" />
+    </Key>
+    <Property Name="PES_idPessoa" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PES_nome" Type="varchar" MaxLength="254" />
+    <Property Name="PES_nomeMae" Type="varchar" MaxLength="254" />
+    <Property Name="PES_nomePai" Type="varchar" MaxLength="250" />
+    <Property Name="PES_cpf" Type="char" MaxLength="11" />
+    <Property Name="PES_rg" Type="char" MaxLength="9" />
+    <Property Name="PES_dataNascimento" Type="datetime" />
+    <Property Name="PES_idSexo" Type="int" />
+    <Property Name="PES_tel01" Type="varchar" MaxLength="20" />
+    <Property Name="PES_tel02" Type="varchar" MaxLength="20" />
+    <Property Name="PES_contato" Type="varchar" MaxLength="100" />
+    <Property Name="PES_emailPessoal" Type="varchar" MaxLength="100" />
+    <Property Name="PES_emailProfissional" Type="varchar" MaxLength="100" />
+    <Property Name="PES_flagAtivo" Type="bit" />
+    <Property Name="PES_observacao" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="GEDUsuarios">
+    <Key>
+      <PropertyRef Name="USR_idUsuario" />
+    </Key>
+    <Property Name="USR_idUsuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="USR_idGrupoUsuario" Type="int" />
+    <Property Name="USR_idPessoa" Type="int" />
+    <Property Name="USR_login" Type="varchar" MaxLength="100" />
+    <Property Name="USR_senha" Type="varchar" MaxLength="100" />
+    <Property Name="USR_flagAtivo" Type="bit" />
+    <Property Name="USR_firstAccess" Type="bit" />
+    <Property Name="USR_dataHoraCadastro" Type="datetime" />
+    <Property Name="USR_dataHoraLastLogin" Type="datetime" />
+    <Property Name="USR_observacao" Type="varchar" MaxLength="3000" />
+    <Property Name="usr_flagdigitalizacao" Type="bit" />
+    <Property Name="usr_flagimportacao" Type="bit" />
+    <Property Name="USR_flagImprimir" Type="bit" />
+    <Property Name="USR_flagAssina" Type="bit" />
+    <Property Name="USR_NivelAssina" Type="int" />
+    <Property Name="USR_SerialNumberCert" Type="varchar(max)" />
+    <Property Name="usr_flagAdmACS" Type="bit" />
+  </EntityType>
+  <Association Name="FK__GEDUsuari__USR_i__5F7E2DAC">
+    <End Role="GEDPessoas" Type="ACSModel.Store.GEDPessoas" Multiplicity="0..1" />
+    <End Role="GEDUsuarios" Type="ACSModel.Store.GEDUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPessoas">
+        <PropertyRef Name="PES_idPessoa" />
+      </Principal>
+      <Dependent Role="GEDUsuarios">
+        <PropertyRef Name="USR_idPessoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,1152 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PocoGenerator</name>
+    </assembly>
+    <members>
+        <member name="T:PocoGenerator.Common.FileUtils">
+            <summary>
+            Contains helper methods for processing data in files.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.Common.FileUtils.WeightedValueTSVLineParser">
+            <summary>
+            Creates a Func that will convert a string into a weighted value. Assumes value is first, and weight is seperated by a tab character.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.Common.FileUtils.ReadValuesFromTextFile``1(System.IO.TextReader,System.Func{System.String,``0})">
+            <summary>
+            Method to read custom values from a text file.
+            </summary>
+            <typeparam name="T">The type to be read from the file.</typeparam>
+            <param name="reader">The reader used to read the file.</param>
+            <param name="valueSelector">This function is used to convert each line into some T.</param>
+            <returns>A list of converted values, each value read from a line from the TextReader.</returns>
+        </member>
+        <member name="M:PocoGenerator.Common.FileUtils.ReadWeightedValuesFromTextFile``1(System.IO.TextReader,System.Func{System.String,System.Collections.Generic.KeyValuePair{``0,System.Int32}})">
+            <summary>
+            This method creates a weighted set by reading the lines of a text file.
+            </summary>
+            <typeparam name="T">The type to be read from the file.</typeparam>
+            <param name="reader">The reader used to read the file.</param>
+            <param name="valueSelector">This function is used to convert each line into some T.</param>
+            <returns>A dictionary indexed by the values, pointing to their associated weights.</returns>
+        </member>
+        <member name="T:PocoGenerator.GeneratedCollectionDefinition`2">
+            <summary>
+            This class is used by PocoGenerator(of T).WithValuse method. It allows for custom handling of a list of generated objects.
+            </summary>
+            <typeparam name="T">The type to be generated. This is a type for some member of TParent.</typeparam>
+            <typeparam name="TParent">The parent type</typeparam>
+        </member>
+        <member name="T:PocoGenerator.RandomValueGenerator">
+            <summary>
+            Used by PocoGenerator to propogate the RandomSource among all its children value generators.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.RandomValueGenerator.randomSource">
+            <summary>
+            The source where random values are selected.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.RandomValueGenerator.#ctor">
+            <summary>
+            Creates a new instance.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.RandomValueGenerator.getGenerators">
+            <summary>
+            Method which defines all dependent value generators used by the current instance.
+            This is used for propogating changes to the RandomSource down the dependency tree.
+            </summary>
+            <returns>All depenedent value generators.</returns>
+        </member>
+        <member name="P:PocoGenerator.RandomValueGenerator.RandomSource">
+            <summary>
+            Gets or Sets the RandomSource used as the random source for selecting values for random generators.
+            When the source is set, the value will be propogated down the tree of generator objects through 
+            the path defined by the implementation of getGenerators.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.GeneratedCollectionDefinition`2.parentGenerator">
+            <summary>
+            The parent generator. Used as return value for methods to support DSL feature.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.GeneratedCollectionDefinition`2.action">
+            <summary>
+            The action to be performed. Evaluated against each generated value.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.GeneratedCollectionDefinition`2.valueGenerator">
+            <summary>
+            The generator used to generate values to be consumed by the custom action.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.GeneratedCollectionDefinition`2.sizeGenerator">
+            <summary>
+            The generator which decides how many values of type T to create.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.GeneratedCollectionDefinition`2.#ctor(PocoGenerator.PocoGenerator{`1},PocoGenerator.IValueGenerator{System.Int32},PocoGenerator.IValueGenerator{`0})">
+            <summary>
+            Creates a new instance of GeneratedCollectionDefintion.
+            </summary>
+            <param name="parent">The parent generator.</param>
+            <param name="sizeGenerator">Used to decide how many values to generate.</param>
+            <param name="valueGenerator">Used to decide how to generate the values.</param>
+        </member>
+        <member name="M:PocoGenerator.GeneratedCollectionDefinition`2.Do(System.Action{`1,`0})">
+            <summary>
+            Used to define the action that will be used.
+            </summary>
+            <param name="action">The custom action to be used.</param>
+            <returns>The parent PocoGenerator</returns>
+        </member>
+        <member name="M:PocoGenerator.GeneratedCollectionDefinition`2.Apply(`1)">
+            <summary>
+            This method executes the action for all the generated values.
+            </summary>
+            <param name="currentValue">The current value. When called by the parent generator, it is the current state of the value being generated.</param>
+        </member>
+        <member name="M:PocoGenerator.GeneratedCollectionDefinition`2.getGenerators">
+            <summary>
+            Provides information about all generators used.
+            </summary>
+            <returns>All the generators used.</returns>
+        </member>
+        <member name="T:PocoGenerator.IValueGenerator`1">
+            <summary>
+            Interface used by PocoGenerator for assigning generators to properties of POCOs.
+            </summary>
+            <typeparam name="T">The type of value the generator returns.</typeparam>
+        </member>
+        <member name="M:PocoGenerator.IValueGenerator`1.MakeOne">
+            <summary>
+            Generates a value.
+            </summary>
+            <returns>A new instance of T.</returns>
+        </member>
+        <member name="T:PocoGenerator.PocoGenerator`1">
+            <summary>
+            A class used to generate POCOs with defined customizable data.
+            </summary>
+            <typeparam name="T">The type of the POCO to be generated. This type must have a default public constructor.</typeparam>
+        </member>
+        <member name="F:PocoGenerator.PocoGenerator`1.generatedPropertiesInOrder">
+            <summary>
+            This list contains the names of all the properties/members which this generator has a definition,
+            in the order that the definition was given.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.PocoGenerator`1.generatedCollectionDefinitions">
+            <summary>
+            This list contains all generatedCollectionDefintion(of T) which are definied for this generator,
+            in the order that they were defined.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.PocoGenerator`1.generators">
+            <summary>
+            This dictionary contains all IValueGenerator(of T), indexed by the property names they were defined for.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.PocoGenerator`1.memberInfos">
+            <summary>
+            This dictionary contains all MemberInfos for property that have an IValueGenerator(of T) defined, indexed by the property/member name.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.PocoGenerator`1.initializer">
+            <summary>
+            The optional function which the generator would use to create the initial instance of T when generating.
+            </summary>
+        </member>
+        <member name="F:PocoGenerator.PocoGenerator`1.finalizer">
+            <summary>
+            The optional function which the generator would execute after it has completed all other generation steps.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.#ctor">
+            <summary>
+            Creates a new instance.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.#ctor(System.Random)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="randomSource">The random source for generating values.</param>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.CloneFrom(PocoGenerator.PocoGenerator{`0})">
+            <summary>
+            Clears the instances current defintions, and copies all definitions for an existing PocoGenerator.
+            </summary>
+            <param name="parent">The parent generator to copy from.</param>
+            <returns>this</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.WithInitializer(System.Func{`0})">
+            <summary>
+            Define a funciton which will return the initial instance of the POCO that will be used each time a new value is generated.
+            </summary>
+            <param name="initializer">The function to run to initialize the POCO.</param>
+            <returns>this</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.WithFinalizer(System.Action{`0})">
+            <summary>
+            Define a function which will be called when the generator has completed.
+            </summary>
+            <param name="finalizer">The function to be called.</param>
+            <returns>this</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.For``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+            <summary>
+            Selects a property from the POCO which can then be assigned a value generator.
+            </summary>
+            <typeparam name="TPropertyType">The type of the property selected.</typeparam>
+            <param name="selector">The expression which will define what property is selected.</param>
+            <returns>A new instance of PocoPropertyDefinition</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.WithValues``1(PocoGenerator.IValueGenerator{System.Int32},PocoGenerator.IValueGenerator{``0})">
+            <summary>
+            Defines a GeneratedCollectionDefinition to be used.
+            Basically, x number a certain value are created w/ an IValueGenerator, and these values 
+            are made available to a custom function through the returned GeneratedCollectionDefinition.
+            </summary>
+            <typeparam name="TCollectionValueType">The type to be generated.</typeparam>
+            <param name="sizeGenerator">The generator which determines the number of values to generate.</param>
+            <param name="valueGenerator">The generator which will create the values.</param>
+            <returns>A new instance of GeneratedCollectionDefinition</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.WithGeneratedCollection``1(System.Int32,PocoGenerator.IValueGenerator{``0})">
+            <summary>
+            Defines a GeneratedCollectionDefinition to be used.
+            Basically, x number a certain value are created w/ an IValueGenerator, and these values 
+            are made available to a custom function through the returned GeneratedCollectionDefinition.
+            </summary>
+            <typeparam name="TCollectionValueType">The type to be generated.</typeparam>
+            <param name="size">The number of values to generate.</param>
+            <param name="valueGenerator">The generator which will create the values.</param>
+            <returns>A new instance of GeneratedCollectionDefinition</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.Make(System.Int32)">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.finalize(`0)">
+            <summary>
+            Executes the finalize function if defined.
+            </summary>
+            <param name="value">The current value of the POCO being generated.</param>
+            <returns>The value after finalize has ran.</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.getInitialValue">
+            <summary>
+            Returns the initial value of the POCO.
+            </summary>
+            <returns>Either the default value or the one returned by the initializer (if defined).</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoGenerator`1.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The generators used create all values in the POCO.</returns>
+        </member>
+        <member name="P:PocoGenerator.PocoGenerator`1.CurrrentValue">
+            <summary>
+            Represents the current state of the value that is being generated. Used for propogation of the value for ValueAwareGenerators.
+            </summary>
+        </member>
+        <member name="T:PocoGenerator.PocoPropertyDefinition`2">
+            <summary>
+            A class returned by PocoGenerator .For(..), used to support DSL.
+            </summary>
+            <typeparam name="TPropertyType">The type of the property which will be assigned a generator.</typeparam>
+            <typeparam name="TParent">The type of object generated by the parent generator.</typeparam>
+        </member>
+        <member name="M:PocoGenerator.PocoPropertyDefinition`2.#ctor(PocoGenerator.PocoGenerator{`1},System.String)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="parent">The parent generator.</param>
+            <param name="propertyName">The name of the property which will be assigned a generator.</param>
+        </member>
+        <member name="M:PocoGenerator.PocoPropertyDefinition`2.Use(PocoGenerator.IValueGenerator{`0})">
+            <summary>
+            Adds an IValueGenerator which the parent generator will use for generating values for the selected property.
+            </summary>
+            <param name="valueGenerator">The generator to be used.</param>
+            <returns>The parent generatro.</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoPropertyDefinition`2.Use(System.Func{`1,`0})">
+            <summary>
+            Adds a function which the parent generator will use for generating values for the selected property.
+            </summary>
+            <param name="valueFunction">The function to be used.</param>
+            <returns>The parent generatro.</returns>
+        </member>
+        <member name="M:PocoGenerator.PocoPropertyDefinition`2.Use(`0)">
+            <summary>
+            Adds a value which the parent generator will use for generating values for the selected property.
+            </summary>
+            <param name="literal">The value to be used.</param>
+            <returns>The parent generatro.</returns>
+        </member>
+        <member name="T:PocoGenerator.Common.ReflectionUtils">
+            <summary>
+            Class containing helper methods surrounding System.Reflection.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.Common.ReflectionUtils.GetPropertyFromExpression``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            This method is used to interpret the properties referenced in the .For(x => x.SomeProperty) method in PocoGenerator.
+            </summary>
+            <typeparam name="T">The parent type of the expression</typeparam>
+            <typeparam name="TProperty">The type of the property the expression returns</typeparam>
+            <param name="expression">The expression</param>
+            <returns>The MemberInfo for the property that is returned by the expression.</returns>
+        </member>
+        <member name="M:PocoGenerator.Common.ReflectionUtils.SetMemberValue(System.Reflection.MemberInfo,System.Object,System.Object)">
+            <summary>
+            Helper method for setting the value of a member.
+            </summary>
+            <param name="member">The MemberInfo for the member to be set.</param>
+            <param name="target">The parent object of the member.</param>
+            <param name="value">The value to set.</param>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.Compound.ConditionalValueGenerator`2">
+            <summary>
+            An IValueGenerator whose generated values can be customized based on the current value of the parent object.
+            </summary>
+            <typeparam name="TParentType">The type of the parent object.</typeparam>
+            <typeparam name="T">The type of the object to be generated.</typeparam>
+        </member>
+        <member name="T:PocoGenerator.ValueAwareGenerator">
+            <summary>
+            A class used by PocoGenerator to pass along the current instance of the value being generated
+            so that the member generators can inspect it when creating their own values.
+            </summary>
+        </member>
+        <member name="P:PocoGenerator.ValueAwareGenerator.CurrentValue">
+            <summary>
+            The current value.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.ConditionalValueGenerator`2.#ctor">
+            <summary>
+            Creates a new instance.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.ConditionalValueGenerator`2.AddCondition(System.Predicate{`0},PocoGenerator.IValueGenerator{`1})">
+            <summary>
+            Adds a condition.
+            </summary>
+            <param name="condition">A predicate representing the condition.</param>
+            <param name="value">The generator which will be used if the condition is met.</param>
+            <returns>this</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.ConditionalValueGenerator`2.AddCondition(System.Predicate{`0},`1)">
+            <summary>
+            Adds a condition.
+            </summary>
+            <param name="condition">A predicate representing the condition.</param>
+            <param name="value">The value which will be used if the condition is met.</param>
+            <returns>this</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.ConditionalValueGenerator`2.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.ConditionalValueGenerator`2.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The generators associated with conditions.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.Compound.FormattedStringGenerator">
+            <summary>
+            An IValueGenerator to generate formatted strings.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.FormattedStringGenerator.#ctor(System.String,System.Object[])">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="format">The format of the string to be generated.</param>
+            <param name="parameters">An array of IValueGenerators whose values will be substitued into the formatted string.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.FormattedStringGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.FormattedStringGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The generators used to substitue values into the formatted string.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.Compound.FunctionValueGenerator`2">
+            <summary>
+            An IValueGenerator which generates values from a custom funciton.
+            </summary>
+            <typeparam name="TParentType">The type of the parent generator.</typeparam>
+            <typeparam name="T">The type to be generated.</typeparam>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.FunctionValueGenerator`2.#ctor(System.Func{`0,`1})">
+            <summary>
+            Creates a new instance
+            </summary>
+            <param name="function">The custom function for creating new values.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Compound.FunctionValueGenerator`2.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.Generators">
+            <summary>
+            A factory class containing static conveniance methods for instatiating IValueGenerators
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.Generators.IntSequence">
+            <summary>
+            Creates a generator which will create a sequence of integers starting with 0, incrementing by 1.
+            </summary>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.IntSequence(System.Int32)">
+            <summary>
+            Creates a generator which will create a sequence of integers starting w/ the specified start value, incremented by 1.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.IntSequence(System.Int32,System.Int32)">
+            <summary>
+            Creates a generator which will create a sequence of integers starting w/ the specified start value, incremented by a specified value.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <param name="incrementBy">The value to increment by.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.UIntSequence">
+            <summary>
+            Creates a generator which will create a sequence of unsigned integers starting with 0, incrementing by 1.
+            </summary>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.UIntSequence(System.UInt32)">
+            <summary>
+            Creates a generator which will create a sequence of unsigned integers starting w/ the specified start value, incremented by 1.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.UIntSequence(System.UInt32,System.UInt32)">
+            <summary>
+            Creates a generator which will create a sequence of unsigned integers starting w/ the specified start value, incremented by a specified value.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <param name="incrementBy">The value to increment by.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.LongSequence">
+            <summary>
+            Creates a generator which will create a sequence of longs starting with 0, incrementing by 1.
+            </summary>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.LongSequence(System.Int64)">
+            <summary>
+            Creates a generator which will create a sequence of longs starting w/ the specified start value, incremented by 1.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.LongSequence(System.Int64,System.Int64)">
+            <summary>
+            Creates a generator which will create a sequence of longs starting w/ the specified start value, incremented by a specified value.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <param name="incrementBy">The value to increment by.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.ULongSequence">
+            <summary>
+            Creates a generator which will create a sequence of unsinged longs starting with 0, incrementing by 1.
+            </summary>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.ULongSequence(System.UInt64)">
+            <summary>
+            Creates a generator which will create a sequence of unsigned longs starting w/ the specified start value, incremented by 1.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.ULongSequence(System.UInt64,System.UInt64)">
+            <summary>
+            Creates a generator which will create a sequence of unsigned longs starting w/ the specified start value, incremented by a specified value.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <param name="incrementBy">The value to increment by.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FloatSequence">
+            <summary>
+            Creates a generator which will create a sequence of floats starting with 0, incrementing by 1.
+            </summary>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FloatSequence(System.Single)">
+            <summary>
+            Creates a generator which will create a sequence of floats starting w/ the specified start value, incremented by 1.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FloatSequence(System.Single,System.Single)">
+            <summary>
+            Creates a generator which will create a sequence of floats starting w/ the specified start value, incremented by a specified value.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <param name="incrementBy">The value to increment by.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.DoubleSequence">
+            <summary>
+            Creates a generator which will create a sequence of doubles starting with 0, incrementing by 1.
+            </summary>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.DoubleSequence(System.Double)">
+            <summary>
+            Creates a generator which will create a sequence of doubles starting w/ the specified start value, incremented by 1.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.DoubleSequence(System.Double,System.Double)">
+            <summary>
+            Creates a generator which will create a sequence of doubles starting w/ the specified start value, incremented by a specified value.
+            </summary>
+            <param name="startValue">The value to start with.</param>
+            <param name="incrementBy">The value to increment by.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.RepeatableSequence``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Creates a generator which will create a sequence of value which will repeat to the begninning once the end has been reached.
+            </summary>
+            <typeparam name="T">The type of value the generator will return.</typeparam>
+            <param name="values">The values which define the repeating sequence.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromSelector``1(System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Creates a generator which will return values randomly chosen from a collection.
+            </summary>
+            <typeparam name="T">The type of value the generator will return.</typeparam>
+            <param name="sourceCollection">The source collection which will be randomly picked from.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromSelector(System.String)">
+            <summary>
+            Creates a Selector for string values by reading the values of a text file.
+            
+            The text file is assumed have one value per line.
+            </summary>
+            <param name="filePath">The path to the file.</param>
+            <returns>A new Selector for string values defined by the given file.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromWeightedSelector``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,System.Int32}})">
+            <summary>
+             Creates a generator which will return values randomly chosen from a collection, based upon weights assigned to each value in the collection.
+            </summary>
+            <typeparam name="T">The type of value the generator will return.</typeparam>
+            <param name="sourceCollection">The collection containing the values and the associated weights.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromWeightedSelector(System.String)">
+            <summary>
+            Creates a Weigthed Selector for string values by reading the values of a text file.
+            
+            The text file is assumed have one value/weight combination on each line, seperated by a tab character.
+            </summary>
+            <param name="filePath">The path to the file.</param>
+            <returns>A new Weighted Selector for string values defined by the given file.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromFemaleFirstNames">
+            <summary>
+            Selects female first names based on a weighted data set provided by the 1990 U.S. census.
+            </summary>
+            <see cref="!:https://www.census.gov/genealogy/www/data/1990surnames/names_files.html)"/>
+            <returns>A string selector for female names.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromMaleFirstNames">
+            <summary>
+            Selects male first names based on a weighted data set provided by the 1990 U.S. census.
+            </summary>
+            <see cref="!: https://www.census.gov/genealogy/www/data/1990surnames/names_files.html"/>
+            <returns>A string selector for male names.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromLastNames">
+            <summary>
+            Selects last names based on a weighted data set provided by the 1990 U.S. census
+            </summary>
+            <see cref="!:https://www.census.gov/genealogy/www/data/1990surnames/names_files.html"/>
+            <returns>A string selector for last names.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromUSCities">
+            <summary>
+            Selects U.S. cities based on a weighted data set provided by the 2010 U.S. census
+            </summary>
+            <see cref="!:http://www.census.gov/popest/data/cities/totals/2011/index.html"/>
+            <returns>A string selector for last names.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FormattedString(System.String,System.Object[])">
+            <summary>
+            Creates a new formatted string generator.
+            </summary>
+            <param name="format">The format of the string to be generated.</param>
+            <param name="parameters">An array of IValueGenerators whose values will be substitued into the formatted string.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.Conditional``2">
+            <summary>
+            Creates a new conditional value generator.
+            </summary>
+            <typeparam name="TParentType">The type of the parent object.</typeparam>
+            <typeparam name="T">The type of the property/memeber this generator will be associated with.</typeparam>
+            <returns>A new value generator. </returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromFunction``2(System.Func{``0,``1})">
+            <summary>
+            Returns a new instance of FunctionValueGenerator
+            </summary>
+            <param name="function">The custom function for creating new values.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromUniform(System.Int64,System.Int64)">
+            <summary>
+            Creates a new value generator which returns random longs from a given uniform distribution.
+            </summary>
+            <param name="min">The minimum value for the range to select from.</param>
+            <param name="max">The maximum value for the range to select from.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromUniform(System.Int32,System.Int32)">
+            <summary>
+            Creates a new value generator which returns random integers from a given uniform distribution.
+            </summary>
+            <param name="min">The minimum value for the range to select from.</param>
+            <param name="max">The maximum value for the range to select from.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromUniform(System.Double,System.Double)">
+            <summary>
+            Creates a new value generator which returns random doubles from a given uniform distribution.
+            </summary>
+            <param name="min">The minimum value for the range to select from.</param>
+            <param name="max">The maximum value for the range to select from.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromUniform(System.DateTime,System.DateTime)">
+            <summary>
+            Creates a new value generator which returns random dates from a given uniform distribution.
+            </summary>
+            <param name="min">The minimum value for the range to select from.</param>
+            <param name="max">The maximum value for the range to select from.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromNormal(System.Double,System.Double)">
+            <summary>
+            Creates a new value generator which returns random doubles from a given normal distribution.
+            </summary>
+            <param name="mean">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromNormal(System.Int32,System.Int32)">
+            <summary>
+            Creates a new value generator which returns random integers from a given normal distribution.
+            </summary>
+            <param name="mean">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromNormal(System.Int64,System.Int64)">
+            <summary>
+            Creates a new value generator which returns random longs from a given normal distribution.
+            </summary>
+            <param name="mean">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromNormal(System.DateTime,System.TimeSpan)">
+            <summary>
+            Creates a new value generator which returns random dates from a given normal distribution.
+            </summary>
+            <param name="meanTime">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromPareto(System.Double,System.Double)">
+            <summary>
+            Creates a new value generator which returns random doubles from a given pareto distribution.
+            </summary>
+            <param name="scale">The scale parameter of the pareto distribution.</param>
+            <param name="shape">The shape parameter of the pareto distribution.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.IntFromPareto(System.Double,System.Double)">
+            <summary>
+            Creates a new value generator which returns random integers from a given pareto distribution.
+            </summary>
+            <param name="scale">The scale parameter of the pareto distribution.</param>
+            <param name="shape">The shape parameter of the pareto distribution.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.LongFromPareto(System.Double,System.Double)">
+            <summary>
+            Creates a new value generator which returns random longs from a given pareto distribution.
+            </summary>
+            <param name="scale">The scale parameter of the pareto distribution.</param>
+            <param name="shape">The shape parameter of the pareto distribution.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromWords(PocoGenerator.IValueGenerator{System.Int32},PocoGenerator.IValueGenerator{System.String})">
+            <summary>
+            Creates a new value generator for strings of a certain size composed of words from some other generator.
+            </summary>
+            <param name="sizeSelector">The generator which determins the size of the string generated.</param>
+            <param name="wordList">The generator which determines the words within the string generated.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromWords(System.Int32,PocoGenerator.IValueGenerator{System.String})">
+            <summary>
+            Creates a new value generator for strings of a certain size composed of words from some other generator.
+            </summary>
+            <param name="size">The size of the strings generated.</param>
+            <param name="wordList">The generator which determines the words within the string generated.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromLoremIpsum(PocoGenerator.IValueGenerator{System.Int32})">
+            <summary>
+            Creates a new value generator for strings of a given size composed of random latin words.
+            </summary>
+            <param name="sizeSelector">The generator which determins the size of the string generated.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="M:PocoGenerator.Generators.FromLoremIpsum(System.Int32)">
+            <summary>
+            Creates a new value generator for strings of a given size composed of random latin words.
+            </summary>
+            <param name="size">The size of the string generated.</param>
+            <returns>A new value generator.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.FromUniformGenerator">
+            <summary>
+            An IValueGenerator for doubles which selects from a uniform distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromUniformGenerator.#ctor(System.Double,System.Double)">
+            <summary>
+            Creates a new instances.
+            </summary>
+            <param name="min">The minimum value of the range to select from.</param>
+            <param name="max">The maximum value of the range to select from.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromUniformGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.FromParetoGenerator">
+            <summary>
+            An IValueGenerator for doubles which selects from a pareto distribution.
+            </summary>
+            <see cref="!:http://en.wikipedia.org/wiki/Pareto_distribution"/>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromParetoGenerator.#ctor(System.Double,System.Double)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="scale">The scale parameter for the pareto distribution.</param>
+            <param name="shape">The shape parameter for the pareto distribution.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromParetoGenerator.FromPareto(System.Random,System.Double,System.Double)">
+            <summary>
+            Creates a value from a given pareto distribution.
+            </summary>
+            <param name="rnd">The random source.</param>
+            <param name="scale">The scale parameter for the pareto distribution.</param>
+            <param name="shape">The shape parameter for the pareto distribution.</param>
+            <returns>A value selected from the given pareto distribution.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromParetoGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.FromNormalGenerator">
+            <summary>
+            An IValueGenerator for doubles which selects from a normal distribution.
+            </summary>
+            <see cref="!:http://en.wikipedia.org/wiki/Normal_distribution"/>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromNormalGenerator.#ctor(System.Double,System.Double)">
+            <summary>
+            Creates a new instance
+            </summary>
+            <param name="mean">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromNormalGenerator.RandNormal(System.Random,System.Double,System.Double)">
+            <summary>
+            Creates a value from a given normal distribution.
+            </summary>
+            <param name="rnd">The random source.</param>
+            <param name="mean">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+            <returns>A value selected from the given normal distribution.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.FromNormalGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromUniformGenerator">
+            <summary>
+            An IValueGenerator for generating DateTimes from a uniform distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromUniformGenerator.#ctor(System.DateTime,System.DateTime)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="minDate">The minimum value of the range to select from.</param>
+            <param name="maxDate">The maximum value of the range to select from.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromUniformGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromUniformGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The uniform generator used to select values.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromNormalGenerator">
+            <summary>
+            An IValueGenerator for generating DateTimes from a normal distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromNormalGenerator.#ctor(System.DateTime,System.TimeSpan)">
+            <summary>
+            Creates a new instance
+            </summary>
+            <param name="meanDate">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromNormalGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.DateFromNormalGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The normal generator used to select values.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromUniformGenerator">
+            <summary>
+            An IValueGenerator to create integers from a uniform distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromUniformGenerator.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="min">The minimum of the range to select from.</param>
+            <param name="max">The maximum of the range to select from.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromUniformGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromUniformGenerator">
+            <summary>
+            An IValueGenerator to create longs from a uniform distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromUniformGenerator.#ctor(System.Int64,System.Int64)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="min">The minimum of the range to select from.</param>
+            <param name="max">The maximum of the range to select from.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromUniformGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromNormalGenerator">
+            <summary>
+            An IValueGenerator for generating integers from a normal distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromNormalGenerator.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="mean">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromNormalGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromNormalGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The normalGenerator used to select values.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromNormalGenerator">
+            <summary>
+            An IValueGenerator for generating longs from a normal distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromNormalGenerator.#ctor(System.Int64,System.Int64)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="mean">The mean of the normal distribution.</param>
+            <param name="stddev">The standard deviation of the normal distribution.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromNormalGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromNormalGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The normalGenerator used to select values.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromParetoGenerator">
+            <summary>
+            An IValueGenerator for generating integers from a pareto distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromParetoGenerator.#ctor(System.Double,System.Double)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="scale">The scale parameter of the pareto distribution.</param>
+            <param name="shape">The shape parameter of the pareto distribution.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromParetoGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.IntFromParetoGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The paretoGenerator used to select values.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromParetoGenerator">
+            <summary>
+            An IValueGenerator for generating longs from a pareto distribution.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromParetoGenerator.#ctor(System.Double,System.Double)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="scale">The scale parameter of the pareto distribution.</param>
+            <param name="shape">The shape parameter of the pareto distribution.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromParetoGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.LongFromParetoGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The paretoGenerator used to select values.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.StringGenerator">
+            <summary>
+            An IValueGenerator for generating random strings.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.StringGenerator.#ctor(System.Int32,PocoGenerator.IValueGenerator{System.String})">
+            <summary>
+            Creates a new instances.
+            </summary>
+            <param name="size">The length of the strings to be generated.</param>
+            <param name="wordSelector">An IValueGenerator to generate segments of the random string.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.StringGenerator.#ctor(PocoGenerator.IValueGenerator{System.Int32},PocoGenerator.IValueGenerator{System.String})">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="sizeSelector">An IValueGenerator used to determine the length of the string to generate.</param>
+            <param name="wordSelector">An IValueGenerator to generate segments of the random string.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.StringGenerator.getGenerators">
+            <summary>
+            Gets all the valueGenerators used.
+            </summary>
+            <returns>The generators used to select values and size.</returns>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.StringGenerator.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.Selector`1">
+            <summary>
+            An IValueGenerator which randomly selects values from a set.
+            </summary>
+            <typeparam name="T">The type to be generated.</typeparam>
+        </member>
+        <member name="F:PocoGenerator.ValueGenerators.RandomValueGenerators.Selector`1.possibleValues">
+            <summary>
+            Defines the set of values to select from.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.Selector`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="sourceCollection">The collection to select from.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.Selector`1.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.RandomValueGenerators.WeightedSelector`1">
+            <summary>
+            An IValueGenerator which randomly selects elements from a weighted set.
+            </summary>
+            <typeparam name="T">The type to generate.</typeparam>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.WeightedSelector`1.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Int32}})">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="source">The set of values and their associated weights. Used to create the distribution to select values from.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.RandomValueGenerators.WeightedSelector`1.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.WeightedSet`1">
+            <summary>
+            Conveniance wrapper around Dictionary T,int
+            Created to simply collection initialization
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:PocoGenerator.WeightedSet`1.#ctor">
+            <summary>
+            Creates a new instance.
+            </summary>
+        </member>
+        <member name="M:PocoGenerator.WeightedSet`1.Add(`0,System.Int32)">
+            <summary>
+            Adds a key value pair to the weighted set.
+            </summary>
+            <param name="key">The key</param>
+            <param name="value">The weight assigned to this key.</param>
+        </member>
+        <member name="M:PocoGenerator.WeightedSet`1.GetEnumerator">
+            <summary>
+            Returns the enumerator of the underlying dictionary.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:PocoGenerator.WeightedSet`1.WeightedValues">
+            <summary>
+            The underlying weighted set.
+            </summary>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.Sequences.RepeatingSequence`1">
+            <summary>
+            An IValueGenerator for creating values from a repeating sequence.
+            </summary>
+            <typeparam name="T">The type to be generated.</typeparam>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Sequences.RepeatingSequence`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="values">The values which define the repeating sequence.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Sequences.RepeatingSequence`1.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+        <member name="T:PocoGenerator.ValueGenerators.Literals.LiteralValueGenerator`1">
+            <summary>
+            A value generator used to create literal values.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Literals.LiteralValueGenerator`1.#ctor(`0)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="value">The literal value to be used.</param>
+        </member>
+        <member name="M:PocoGenerator.ValueGenerators.Literals.LiteralValueGenerator`1.MakeOne">
+            <summary>
+            Creates a new value.
+            </summary>
+            <returns>The generated value.</returns>
+        </member>
+    </members>
+</doc>

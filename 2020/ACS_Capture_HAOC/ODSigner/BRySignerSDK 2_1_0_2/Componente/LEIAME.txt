@@ -1,0 +1,34 @@
+Registrar:
+
+___________________________________________________________
+BRY[NOME].msi  | OBS.: Incompatível com Windows 2008 Server
+___________________________________________________________
+Instalar:
+
+Execute o arquivo e siga os passos de instalação.
+
+Remover:
+
+1ª Opção - Execute o arquivo e siga os passos de remoção.
+2ª Opção - Acesse Adicionar/Remover Programas no painel de 
+		   controle e procure pelo BRY[NOME].
+
+...........................................................
+
+___________________________________________________________
+BRY[NOME].dll 
+___________________________________________________________
+Instalar:
+
+regsvr32 BRY[NOME].dll 
+
+Remover:
+
+regsvr32 /u BRY[NOME].dll 
+...........................................................
+
+___________________________________________________________
+Registrar Componente no Windows Server
+___________________________________________________________
+Acesse a documentação BRySignerSDK 2_1_0_1\Documentacao
+...........................................................

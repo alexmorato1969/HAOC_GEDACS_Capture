@@ -1,0 +1,1945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="OracleModels" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="GEDAREAMEDICA" EntityType="Model.GEDAREAMEDICA" />
+    <EntitySet Name="GEDAREAS" EntityType="Model.GEDAREAS" />
+    <EntitySet Name="GEDAUDITORXCONVENIO" EntityType="Model.GEDAUDITORXCONVENIO" />
+    <EntitySet Name="GEDAUDITORXPASSAGEM" EntityType="Model.GEDAUDITORXPASSAGEM" />
+    <EntitySet Name="GEDCAPTIONCONTROL" EntityType="Model.GEDCAPTIONCONTROL" />
+    <EntitySet Name="GEDCLIENTEPF" EntityType="Model.GEDCLIENTEPF" />
+    <EntitySet Name="GEDCLIENTEPJ" EntityType="Model.GEDCLIENTEPJ" />
+    <EntitySet Name="GEDCONTROLECERTIFICADO" EntityType="Model.GEDCONTROLECERTIFICADO" />
+    <EntitySet Name="GEDCONVENIO" EntityType="Model.GEDCONVENIO" />
+    <EntitySet Name="GEDDIVISAOXGRUPOUSUARIO" EntityType="Model.GEDDIVISAOXGRUPOUSUARIO" />
+    <EntitySet Name="GEDDIVISOES" EntityType="Model.GEDDIVISOES" />
+    <EntitySet Name="GEDDOCASSINANDO" EntityType="Model.GEDDOCASSINANDO" />
+    <EntitySet Name="GEDDOCAVENCERUMASEMTEMP" EntityType="Model.GEDDOCAVENCERUMASEMTEMP" />
+    <EntitySet Name="GEDDOCAVENCERUMASEMTPJ" EntityType="Model.GEDDOCAVENCERUMASEMTPJ" />
+    <EntitySet Name="GEDDOCAVENCERUMMESTEMP" EntityType="Model.GEDDOCAVENCERUMMESTEMP" />
+    <EntitySet Name="GEDDOCAVENCERUMMESTPJ" EntityType="Model.GEDDOCAVENCERUMMESTPJ" />
+    <EntitySet Name="GEDDOCUMENTOS" EntityType="Model.GEDDOCUMENTOS" />
+    <EntitySet Name="GEDDOCUMENTOVENCIDOTEMP" EntityType="Model.GEDDOCUMENTOVENCIDOTEMP" />
+    <EntitySet Name="GEDDOCUMENTOVENCIDOTPJ" EntityType="Model.GEDDOCUMENTOVENCIDOTPJ" />
+    <EntitySet Name="GEDESPECIALIDADE" EntityType="Model.GEDESPECIALIDADE" />
+    <EntitySet Name="GEDFORMATOS" EntityType="Model.GEDFORMATOS" />
+    <EntitySet Name="GEDFUNCAOUSUARIO" EntityType="Model.GEDFUNCAOUSUARIO" />
+    <EntitySet Name="GEDFUNCAOXTIPOHIERARQUIA" EntityType="Model.GEDFUNCAOXTIPOHIERARQUIA" />
+    <EntitySet Name="GEDGLOBALSETTINGS" EntityType="Model.GEDGLOBALSETTINGS" />
+    <EntitySet Name="GEDGRUPOSUSUARIOS" EntityType="Model.GEDGRUPOSUSUARIOS" />
+    <EntitySet Name="GEDHIERARQUIA" EntityType="Model.GEDHIERARQUIA" />
+    <EntitySet Name="GEDHIERARQUIAXFUNCAO" EntityType="Model.GEDHIERARQUIAXFUNCAO" />
+    <EntitySet Name="GEDINTEGRACAOATENDIMENTO" EntityType="Model.GEDINTEGRACAOATENDIMENTO" />
+    <EntitySet Name="GEDLABELGENERICO" EntityType="Model.GEDLABELGENERICO" />
+    <EntitySet Name="GEDLOG" EntityType="Model.GEDLOG" />
+    <EntitySet Name="GEDLOGALTERACAODOCUMENTO" EntityType="Model.GEDLOGALTERACAODOCUMENTO" />
+    <EntitySet Name="GEDLOGERRO" EntityType="Model.GEDLOGERRO" />
+    <EntitySet Name="GEDLOGLOGIN" EntityType="Model.GEDLOGLOGIN" />
+    <EntitySet Name="GEDLOGOCORRENCIA" EntityType="Model.GEDLOGOCORRENCIA" />
+    <EntitySet Name="GEDLOGPROCESSODOC" EntityType="Model.GEDLOGPROCESSODOC" />
+    <EntitySet Name="GEDLOTESXUSUARIOS" EntityType="Model.GEDLOTESXUSUARIOS" />
+    <EntitySet Name="GEDMODULOS" EntityType="Model.GEDMODULOS" />
+    <EntitySet Name="GEDNIVELASSINA" EntityType="Model.GEDNIVELASSINA" />
+    <EntitySet Name="GEDOBJETOS" EntityType="Model.GEDOBJETOS" />
+    <EntitySet Name="GEDOCORRENCIAS" EntityType="Model.GEDOCORRENCIAS" />
+    <EntitySet Name="GEDPADROESCERTIFICADO" EntityType="Model.GEDPADROESCERTIFICADO" />
+    <EntitySet Name="GEDPASSAGENS" EntityType="Model.GEDPASSAGENS" />
+    <EntitySet Name="GEDPERFIS" EntityType="Model.GEDPERFIS" />
+    <EntitySet Name="GEDPERFISXOBJETOS" EntityType="Model.GEDPERFISXOBJETOS" />
+    <EntitySet Name="GEDPERFISXUSUARIOS" EntityType="Model.GEDPERFISXUSUARIOS" />
+    <EntitySet Name="GEDPESSOAS" EntityType="Model.GEDPESSOAS" />
+    <EntitySet Name="GEDSETOR" EntityType="Model.GEDSETOR" />
+    <EntitySet Name="GEDSETORXGRUPOUSUARIO" EntityType="Model.GEDSETORXGRUPOUSUARIO" />
+    <EntitySet Name="GEDSEXOS" EntityType="Model.GEDSEXOS" />
+    <EntitySet Name="GEDSTATUSLOTE" EntityType="Model.GEDSTATUSLOTE" />
+    <EntitySet Name="GEDSTATUSOCORRENCIA" EntityType="Model.GEDSTATUSOCORRENCIA" />
+    <EntitySet Name="GEDSUBTIPODOCXGRUPUSER" EntityType="Model.GEDSUBTIPODOCXGRUPUSER" />
+    <EntitySet Name="GEDSUBTIPOSDOCUMENTOS" EntityType="Model.GEDSUBTIPOSDOCUMENTOS" />
+    <EntitySet Name="GEDTIPOAUDITOR" EntityType="Model.GEDTIPOAUDITOR" />
+    <EntitySet Name="GEDTIPOBUSCA" EntityType="Model.GEDTIPOBUSCA" />
+    <EntitySet Name="GEDTIPOCLIENTE" EntityType="Model.GEDTIPOCLIENTE" />
+    <EntitySet Name="GEDTIPOCONSELHO" EntityType="Model.GEDTIPOCONSELHO" />
+    <EntitySet Name="GEDTIPOHIERARQUIA" EntityType="Model.GEDTIPOHIERARQUIA" />
+    <EntitySet Name="GEDTIPOSATENDIMENTOS" EntityType="Model.GEDTIPOSATENDIMENTOS" />
+    <EntitySet Name="GEDTIPOSBUSCALOTES" EntityType="Model.GEDTIPOSBUSCALOTES" />
+    <EntitySet Name="GEDTIPOSBUSCALOTESPJ" EntityType="Model.GEDTIPOSBUSCALOTESPJ" />
+    <EntitySet Name="GEDTIPOSCERTIFICADOS" EntityType="Model.GEDTIPOSCERTIFICADOS" />
+    <EntitySet Name="GEDTIPOSDOCUMENTOS" EntityType="Model.GEDTIPOSDOCUMENTOS" />
+    <EntitySet Name="GEDTIPOSOCORRENCIA" EntityType="Model.GEDTIPOSOCORRENCIA" />
+    <EntitySet Name="GEDTIPOSTOKEN" EntityType="Model.GEDTIPOSTOKEN" />
+    <EntitySet Name="GEDUNIDADES" EntityType="Model.GEDUNIDADES" />
+    <EntitySet Name="GEDUNIDADEXAREAS" EntityType="Model.GEDUNIDADEXAREAS" />
+    <EntitySet Name="GEDURLSTORAGE" EntityType="Model.GEDURLSTORAGE" />
+    <EntitySet Name="GEDUSUARIOS" EntityType="Model.GEDUSUARIOS" />
+    <EntitySet Name="GEDUSUARIOSXUNIDADESXAREAS" EntityType="Model.GEDUSUARIOSXUNIDADESXAREAS" />
+    <EntitySet Name="GEDVOLUMES" EntityType="Model.GEDVOLUMES" />
+    <AssociationSet Name="ARE_FK_LBA_IDLABELGENERICO" Association="Model.ARE_FK_LBA_IDLABELGENERICO">
+      <End Role="GEDLABELGENERICO" EntitySet="GEDLABELGENERICO" />
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="DIV_FK_ARE_IDAREA" Association="Model.DIV_FK_ARE_IDAREA">
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+    </AssociationSet>
+    <AssociationSet Name="TIC_FK_ARE_IDAREA" Association="Model.TIC_FK_ARE_IDAREA">
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+      <End Role="GEDTIPOCLIENTE" EntitySet="GEDTIPOCLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="UXA_FK_ARE_IDAREA" Association="Model.UXA_FK_ARE_IDAREA">
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+      <End Role="GEDUNIDADEXAREAS" EntitySet="GEDUNIDADEXAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="AUC_FK_CON_IDCONVENIO" Association="Model.AUC_FK_CON_IDCONVENIO">
+      <End Role="GEDCONVENIO" EntitySet="GEDCONVENIO" />
+      <End Role="GEDAUDITORXCONVENIO" EntitySet="GEDAUDITORXCONVENIO" />
+    </AssociationSet>
+    <AssociationSet Name="AUC_FK_TPA_IDTIPOAUDITOR" Association="Model.AUC_FK_TPA_IDTIPOAUDITOR">
+      <End Role="GEDTIPOAUDITOR" EntitySet="GEDTIPOAUDITOR" />
+      <End Role="GEDAUDITORXCONVENIO" EntitySet="GEDAUDITORXCONVENIO" />
+    </AssociationSet>
+    <AssociationSet Name="ACL_FK_TPA_IDTIPOAUDITOR" Association="Model.ACL_FK_TPA_IDTIPOAUDITOR">
+      <End Role="GEDTIPOAUDITOR" EntitySet="GEDTIPOAUDITOR" />
+      <End Role="GEDAUDITORXPASSAGEM" EntitySet="GEDAUDITORXPASSAGEM" />
+    </AssociationSet>
+    <AssociationSet Name="CPF_FK_SEX_IDSEXO" Association="Model.CPF_FK_SEX_IDSEXO">
+      <End Role="GEDSEXOS" EntitySet="GEDSEXOS" />
+      <End Role="GEDCLIENTEPF" EntitySet="GEDCLIENTEPF" />
+    </AssociationSet>
+    <AssociationSet Name="CPF_FK_UNI_IDUNIDADE" Association="Model.CPF_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDCLIENTEPF" EntitySet="GEDCLIENTEPF" />
+    </AssociationSet>
+    <AssociationSet Name="CPJ_FK_UNI_IDUNIDADE" Association="Model.CPJ_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDCLIENTEPJ" EntitySet="GEDCLIENTEPJ" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_DOC_IDDOCUMENTO" Association="Model.CCD_FK_DOC_IDDOCUMENTO">
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_PDC_IDPADROESCERT" Association="Model.CCD_FK_PDC_IDPADROESCERT">
+      <End Role="GEDPADROESCERTIFICADO" EntitySet="GEDPADROESCERTIFICADO" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_TPC_IDTIPOCERTIFICADO" Association="Model.CCD_FK_TPC_IDTIPOCERTIFICADO">
+      <End Role="GEDTIPOSCERTIFICADOS" EntitySet="GEDTIPOSCERTIFICADOS" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_TTK_IDTIPOTOKEN" Association="Model.CCD_FK_TTK_IDTIPOTOKEN">
+      <End Role="GEDTIPOSTOKEN" EntitySet="GEDTIPOSTOKEN" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="PAS_FK_CON_IDCONVENIO" Association="Model.PAS_FK_CON_IDCONVENIO">
+      <End Role="GEDCONVENIO" EntitySet="GEDCONVENIO" />
+      <End Role="GEDPASSAGENS" EntitySet="GEDPASSAGENS" />
+    </AssociationSet>
+    <AssociationSet Name="DVG_FK_DIV_IDDIVISAO" Association="Model.DVG_FK_DIV_IDDIVISAO">
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+      <End Role="GEDDIVISAOXGRUPOUSUARIO" EntitySet="GEDDIVISAOXGRUPOUSUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="DVG_FK_GRP_IDGRUPOUSUARIO" Association="Model.DVG_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDDIVISAOXGRUPOUSUARIO" EntitySet="GEDDIVISAOXGRUPOUSUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_DIV_IDDIVISAO" Association="Model.DOC_FK_DIV_IDDIVISAO">
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="TPD_FK_DIV_IDDIVISAO" Association="Model.TPD_FK_DIV_IDDIVISAO">
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_FMT_IDFORMATO" Association="Model.DOC_FK_FMT_IDFORMATO">
+      <End Role="GEDFORMATOS" EntitySet="GEDFORMATOS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_GPU_IDGRUPOUUSUARIO" Association="Model.DOC_FK_GPU_IDGRUPOUUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_PAS_IDPASSAGEM" Association="Model.DOC_FK_PAS_IDPASSAGEM">
+      <End Role="GEDPASSAGENS" EntitySet="GEDPASSAGENS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_TPD_IDTIPODOCUMENTO" Association="Model.DOC_FK_TPD_IDTIPODOCUMENTO">
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_VOL_IDVOLUME" Association="Model.DOC_FK_VOL_IDVOLUME">
+      <End Role="GEDVOLUMES" EntitySet="GEDVOLUMES" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_DOC_IDDOCUMENTO" Association="Model.OCR_FK_DOC_IDDOCUMENTO">
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="GLO_FK_UNI_IDUNIDADE" Association="Model.GLO_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDGLOBALSETTINGS" EntitySet="GEDGLOBALSETTINGS" />
+    </AssociationSet>
+    <AssociationSet Name="GRP_FK_UNI_IDUNIDADE" Association="Model.GRP_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="PRF_FK_GRP_IDGRUPOUSUARIO" Association="Model.PRF_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+    </AssociationSet>
+    <AssociationSet Name="TDG_FK_GRP_IDGRUPOUSUARIO" Association="Model.TDG_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDSUBTIPODOCXGRUPUSER" EntitySet="GEDSUBTIPODOCXGRUPUSER" />
+    </AssociationSet>
+    <AssociationSet Name="USR_FK_GRP_IDGRUPOUSUARIO" Association="Model.USR_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="LGO_FK_OCR_IDOCORRENCIA" Association="Model.LGO_FK_OCR_IDOCORRENCIA">
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+      <End Role="GEDLOGOCORRENCIA" EntitySet="GEDLOGOCORRENCIA" />
+    </AssociationSet>
+    <AssociationSet Name="LGO_FK_STO_IDSTATUSOCORRENCIA" Association="Model.LGO_FK_STO_IDSTATUSOCORRENCIA">
+      <End Role="GEDSTATUSOCORRENCIA" EntitySet="GEDSTATUSOCORRENCIA" />
+      <End Role="GEDLOGOCORRENCIA" EntitySet="GEDLOGOCORRENCIA" />
+    </AssociationSet>
+    <AssociationSet Name="LTU_FK_STL_IDSTATUSLOTE" Association="Model.LTU_FK_STL_IDSTATUSLOTE">
+      <End Role="GEDSTATUSLOTE" EntitySet="GEDSTATUSLOTE" />
+      <End Role="GEDLOTESXUSUARIOS" EntitySet="GEDLOTESXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="LTU_FK_USR_IDUSUARIO" Association="Model.LTU_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDLOTESXUSUARIOS" EntitySet="GEDLOTESXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="OBJ_FK_MOD_IDMODULO" Association="Model.OBJ_FK_MOD_IDMODULO">
+      <End Role="GEDMODULOS" EntitySet="GEDMODULOS" />
+      <End Role="GEDOBJETOS" EntitySet="GEDOBJETOS" />
+    </AssociationSet>
+    <AssociationSet Name="PXO_FK_OBJ_IDOBJETO" Association="Model.PXO_FK_OBJ_IDOBJETO">
+      <End Role="GEDOBJETOS" EntitySet="GEDOBJETOS" />
+      <End Role="GEDPERFISXOBJETOS" EntitySet="GEDPERFISXOBJETOS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_STO_IDSTATUSOCORRENCIA" Association="Model.OCR_FK_STO_IDSTATUSOCORRENCIA">
+      <End Role="GEDSTATUSOCORRENCIA" EntitySet="GEDSTATUSOCORRENCIA" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_TPD_IDTIPODOCUMENTO" Association="Model.OCR_FK_TPD_IDTIPODOCUMENTO">
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_TPO_IDTIPOOCORRENCIA" Association="Model.OCR_FK_TPO_IDTIPOOCORRENCIA">
+      <End Role="GEDTIPOSOCORRENCIA" EntitySet="GEDTIPOSOCORRENCIA" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_USR_IDUSUARIO" Association="Model.OCR_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="PAS_FK_UNI_IDUNIDADE" Association="Model.PAS_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDPASSAGENS" EntitySet="GEDPASSAGENS" />
+    </AssociationSet>
+    <AssociationSet Name="PRF_FK_UNI_IDUNIDADE" Association="Model.PRF_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+    </AssociationSet>
+    <AssociationSet Name="PXO_FK_PRF_IDPERFIL" Association="Model.PXO_FK_PRF_IDPERFIL">
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+      <End Role="GEDPERFISXOBJETOS" EntitySet="GEDPERFISXOBJETOS" />
+    </AssociationSet>
+    <AssociationSet Name="PXU_FK_PRF_IDPERFIL" Association="Model.PXU_FK_PRF_IDPERFIL">
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+      <End Role="GEDPERFISXUSUARIOS" EntitySet="GEDPERFISXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="PXU_FK_USR_IDUSUARIO" Association="Model.PXU_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDPERFISXUSUARIOS" EntitySet="GEDPERFISXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="PES_FK_SEX_IDSEXO" Association="Model.PES_FK_SEX_IDSEXO">
+      <End Role="GEDSEXOS" EntitySet="GEDSEXOS" />
+      <End Role="GEDPESSOAS" EntitySet="GEDPESSOAS" />
+    </AssociationSet>
+    <AssociationSet Name="USR_FK_PES_IDPESSOA" Association="Model.USR_FK_PES_IDPESSOA">
+      <End Role="GEDPESSOAS" EntitySet="GEDPESSOAS" />
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="TDG_FK_STD_IDSUBTIPODOCUMENTO" Association="Model.TDG_FK_STD_IDSUBTIPODOCUMENTO">
+      <End Role="GEDSUBTIPOSDOCUMENTOS" EntitySet="GEDSUBTIPOSDOCUMENTOS" />
+      <End Role="GEDSUBTIPODOCXGRUPUSER" EntitySet="GEDSUBTIPODOCXGRUPUSER" />
+    </AssociationSet>
+    <AssociationSet Name="STD_FK_TPD_IDTIPODOCUMENTO" Association="Model.STD_FK_TPD_IDTIPODOCUMENTO">
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+      <End Role="GEDSUBTIPOSDOCUMENTOS" EntitySet="GEDSUBTIPOSDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="TPA_FK_USR_IDUSUARIO" Association="Model.TPA_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDTIPOAUDITOR" EntitySet="GEDTIPOAUDITOR" />
+    </AssociationSet>
+    <AssociationSet Name="TIB_FK_TIC_IDTIPOCLIENTE" Association="Model.TIB_FK_TIC_IDTIPOCLIENTE">
+      <End Role="GEDTIPOCLIENTE" EntitySet="GEDTIPOCLIENTE" />
+      <End Role="GEDTIPOBUSCA" EntitySet="GEDTIPOBUSCA" />
+    </AssociationSet>
+    <AssociationSet Name="UXA_FK_UNI_IDUNIDADE" Association="Model.UXA_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDUNIDADEXAREAS" EntitySet="GEDUNIDADEXAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="UXU_FK_UXA_IDUNIDADEXAREA" Association="Model.UXU_FK_UXA_IDUNIDADEXAREA">
+      <End Role="GEDUNIDADEXAREAS" EntitySet="GEDUNIDADEXAREAS" />
+      <End Role="GEDUSUARIOSXUNIDADESXAREAS" EntitySet="GEDUSUARIOSXUNIDADESXAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="UXU_FK_USR_IDUSUARIO" Association="Model.UXU_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDUSUARIOSXUNIDADESXAREAS" EntitySet="GEDUSUARIOSXUNIDADESXAREAS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="GEDAREAMEDICA">
+    <Key>
+      <PropertyRef Name="AES_IDAREAMEDICA" />
+    </Key>
+    <Property Name="AES_IDAREAMEDICA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="AES_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDAREAS">
+    <Key>
+      <PropertyRef Name="ARE_IDAREA" />
+    </Key>
+    <Property Name="ARE_IDAREA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ARE_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ARE_IDLABELGENERICO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDLABELGENERICO" Relationship="Model.ARE_FK_LBA_IDLABELGENERICO" FromRole="GEDAREAS" ToRole="GEDLABELGENERICO" />
+    <NavigationProperty Name="GEDDIVISOES" Relationship="Model.DIV_FK_ARE_IDAREA" FromRole="GEDAREAS" ToRole="GEDDIVISOES" />
+    <NavigationProperty Name="GEDTIPOCLIENTE" Relationship="Model.TIC_FK_ARE_IDAREA" FromRole="GEDAREAS" ToRole="GEDTIPOCLIENTE" />
+    <NavigationProperty Name="GEDUNIDADEXAREAS" Relationship="Model.UXA_FK_ARE_IDAREA" FromRole="GEDAREAS" ToRole="GEDUNIDADEXAREAS" />
+  </EntityType>
+  <EntityType Name="GEDAUDITORXCONVENIO">
+    <Key>
+      <PropertyRef Name="AUC_IDAUDITORXCONVENIO" />
+    </Key>
+    <Property Name="AUC_IDAUDITORXCONVENIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="AUC_IDTIPOAUDITOR" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="AUC_IDCONVENIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="AUC_DATAHORAINI" Type="DateTime" />
+    <Property Name="AUC_DATAHORAFIM" Type="DateTime" />
+    <Property Name="AUC_OBSERVACAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="AUC_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDCONVENIO" Relationship="Model.AUC_FK_CON_IDCONVENIO" FromRole="GEDAUDITORXCONVENIO" ToRole="GEDCONVENIO" />
+    <NavigationProperty Name="GEDTIPOAUDITOR" Relationship="Model.AUC_FK_TPA_IDTIPOAUDITOR" FromRole="GEDAUDITORXCONVENIO" ToRole="GEDTIPOAUDITOR" />
+  </EntityType>
+  <EntityType Name="GEDAUDITORXPASSAGEM">
+    <Key>
+      <PropertyRef Name="ACL_IDAUDITORXPASSAGEM" />
+    </Key>
+    <Property Name="ACL_IDAUDITORXPASSAGEM" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ACL_IDTIPOAUDITOR" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ACL_IDPASSAGEM" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ACL_DATAHORAINI" Type="DateTime" />
+    <Property Name="ACL_DATAHORAFIM" Type="DateTime" />
+    <Property Name="ACL_OBSERVACAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="ACL_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDTIPOAUDITOR" Relationship="Model.ACL_FK_TPA_IDTIPOAUDITOR" FromRole="GEDAUDITORXPASSAGEM" ToRole="GEDTIPOAUDITOR" />
+  </EntityType>
+  <EntityType Name="GEDCAPTIONCONTROL">
+    <Key>
+      <PropertyRef Name="GCC_ID" />
+    </Key>
+    <Property Name="GCC_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="GCC_FORMNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GCC_CONTROLNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GCC_CAPTION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDCLIENTEPF">
+    <Key>
+      <PropertyRef Name="CPF_IDCLIENTEPF" />
+    </Key>
+    <Property Name="CPF_IDCLIENTEPF" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="CPF_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_NOME" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_NOMEPAI" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_NOMEMAE" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_CPF" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_RG" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_DATANASCIMENTO" Type="DateTime" />
+    <Property Name="CPF_IDSEXO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CPF_IDUNIDADE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CPF_TEL01" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_TEL02" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_CONTATO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_EMAIL" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_DATACADASTRO" Type="DateTime" />
+    <Property Name="CPF_OBSERVACAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CPF_IDTIPOCONSELHO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CPF_NUMEROCONSELHO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_FLAGCORPOCLINICO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CPF_REGISTROOLD" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="CPF_FLAGATUALIZARUNIFICACAO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDSEXOS" Relationship="Model.CPF_FK_SEX_IDSEXO" FromRole="GEDCLIENTEPF" ToRole="GEDSEXOS" />
+    <NavigationProperty Name="GEDUNIDADES" Relationship="Model.CPF_FK_UNI_IDUNIDADE" FromRole="GEDCLIENTEPF" ToRole="GEDUNIDADES" />
+  </EntityType>
+  <EntityType Name="GEDCLIENTEPJ">
+    <Key>
+      <PropertyRef Name="CPJ_IDCLIENTEPJ" />
+    </Key>
+    <Property Name="CPJ_IDCLIENTEPJ" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CPJ_RAZAOSOCIAL" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_CNPJ" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_TEL01" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_TEL02" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_CONTATO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_EMAIL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_DATACADASTRO" Type="DateTime" />
+    <Property Name="CPJ_IDUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CPJ_OBSERVACAO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CPJ_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDUNIDADES" Relationship="Model.CPJ_FK_UNI_IDUNIDADE" FromRole="GEDCLIENTEPJ" ToRole="GEDUNIDADES" />
+  </EntityType>
+  <EntityType Name="GEDCONTROLECERTIFICADO">
+    <Key>
+      <PropertyRef Name="CCD_IDCONTROLECERTIFICADO" />
+    </Key>
+    <Property Name="CCD_IDCONTROLECERTIFICADO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CCD_IDPADROESCERTIFICADO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CCD_IDDOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CCD_IDTIPOTOKEN" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CCD_IDTIPOCERTIFICADO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CCD_DATACERTIFICACAO" Type="DateTime" />
+    <Property Name="CCD_DATARECERTIFICACAO" Type="DateTime" />
+    <Property Name="CCD_PROPRIETARIO" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="CCD_CNPJ" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="CCD_CPF" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.CCD_FK_DOC_IDDOCUMENTO" FromRole="GEDCONTROLECERTIFICADO" ToRole="GEDDOCUMENTOS" />
+    <NavigationProperty Name="GEDPADROESCERTIFICADO" Relationship="Model.CCD_FK_PDC_IDPADROESCERT" FromRole="GEDCONTROLECERTIFICADO" ToRole="GEDPADROESCERTIFICADO" />
+    <NavigationProperty Name="GEDTIPOSCERTIFICADOS" Relationship="Model.CCD_FK_TPC_IDTIPOCERTIFICADO" FromRole="GEDCONTROLECERTIFICADO" ToRole="GEDTIPOSCERTIFICADOS" />
+    <NavigationProperty Name="GEDTIPOSTOKEN" Relationship="Model.CCD_FK_TTK_IDTIPOTOKEN" FromRole="GEDCONTROLECERTIFICADO" ToRole="GEDTIPOSTOKEN" />
+  </EntityType>
+  <EntityType Name="GEDCONVENIO">
+    <Key>
+      <PropertyRef Name="CON_IDCONVENIO" />
+    </Key>
+    <Property Name="CON_IDCONVENIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CON_RAZAOSOCIAL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CON_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CON_CNPJ" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CON_CODCONVENIORP" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDAUDITORXCONVENIO" Relationship="Model.AUC_FK_CON_IDCONVENIO" FromRole="GEDCONVENIO" ToRole="GEDAUDITORXCONVENIO" />
+    <NavigationProperty Name="GEDPASSAGENS" Relationship="Model.PAS_FK_CON_IDCONVENIO" FromRole="GEDCONVENIO" ToRole="GEDPASSAGENS" />
+  </EntityType>
+  <EntityType Name="GEDDIVISAOXGRUPOUSUARIO">
+    <Key>
+      <PropertyRef Name="DVG_IDDIVISAOXGRUPOUSUARIO" />
+    </Key>
+    <Property Name="DVG_IDDIVISAOXGRUPOUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DVG_IDGRUPOUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVG_IDDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVG_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDDIVISOES" Relationship="Model.DVG_FK_DIV_IDDIVISAO" FromRole="GEDDIVISAOXGRUPOUSUARIO" ToRole="GEDDIVISOES" />
+    <NavigationProperty Name="GEDGRUPOSUSUARIOS" Relationship="Model.DVG_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDDIVISAOXGRUPOUSUARIO" ToRole="GEDGRUPOSUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDDIVISOES">
+    <Key>
+      <PropertyRef Name="DIV_IDDIVISAO" />
+    </Key>
+    <Property Name="DIV_IDDIVISAO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DIV_IDAREA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DIV_DESCRICAO" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="DIV_CODIGOREDUZIDO" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="DIV_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DIV_FLAGTIPOCLIENTE" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDAREAS" Relationship="Model.DIV_FK_ARE_IDAREA" FromRole="GEDDIVISOES" ToRole="GEDAREAS" />
+    <NavigationProperty Name="GEDDIVISAOXGRUPOUSUARIO" Relationship="Model.DVG_FK_DIV_IDDIVISAO" FromRole="GEDDIVISOES" ToRole="GEDDIVISAOXGRUPOUSUARIO" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.DOC_FK_DIV_IDDIVISAO" FromRole="GEDDIVISOES" ToRole="GEDDOCUMENTOS" />
+    <NavigationProperty Name="GEDTIPOSDOCUMENTOS" Relationship="Model.TPD_FK_DIV_IDDIVISAO" FromRole="GEDDIVISOES" ToRole="GEDTIPOSDOCUMENTOS" />
+  </EntityType>
+  <EntityType Name="GEDDOCASSINANDO">
+    <Key>
+      <PropertyRef Name="DOA_IDDOCASSINANDO" />
+    </Key>
+    <Property Name="DOA_IDDOCASSINANDO" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="DOA_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOA_IDUSUARIOASSINA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOA_BLOQUEADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOA_DATACONSULTA" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMASEMTEMP">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMASEMTEMP" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMASEMTEMP" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DVT_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_NOME" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_IDDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="DateTime" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMASEMTPJ">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMASEMTPJ" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMASEMTPJ" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DVT_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_NOME" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_IDDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="DateTime" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMMESTEMP">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMMESTEMP" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMMESTEMP" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DVT_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_NOME" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_IDDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="DateTime" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMMESTPJ">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMMESTPJ" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMMESTPJ" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DVT_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_NOME" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_IDDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="DateTime" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GEDDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="DOC_IDDOCUMENTO" />
+    </Key>
+    <Property Name="DOC_IDDOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="DOC_IDVOLUME" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDDIVISAO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DOC_IDPASSAGEM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDFORMATO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_PATH" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_NOMEARQUIVO" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_DATAHORACADASTRO" Type="DateTime" />
+    <Property Name="DOC_FLAGCERTIFICADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_DATAVENCIMENTO" Type="DateTime" />
+    <Property Name="DOC_DATAEMISSAO" Type="DateTime" />
+    <Property Name="DOC_TEMPOVALIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_VENCIMENTORESOLVIDO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOACSCAPTURE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL1" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL2" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL3" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_DATAASSINANIVEL1" Type="DateTime" />
+    <Property Name="DOC_DATAASSINANIVEL2" Type="DateTime" />
+    <Property Name="DOC_DATAASSINANIVEL3" Type="DateTime" />
+    <Property Name="DOC_P7S" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_OBSERVACAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_DETAIL_CERT" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_VERSAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_EXTENSAONOMEARQUIVO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_TIPOCAPTURA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_CHAVEBUSCA1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_CHAVEBUSCA2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_CHAVEBUSCA3" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_CHAVEBUSCA4" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_ORDEM_VISUALIZACAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_FLAGAPROVADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL3_2" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_DATAASSINANIVEL3_2" Type="DateTime" />
+    <Property Name="DOC_FLAGDOCEXTERNO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_FLAGREVISADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_FLAGPENDENTEUPLOAD" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_IDGRUPOUSUARIOCAPTURA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DOC_HASHDOCUMENTOCERTILLION" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_IDURLSTORAGE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DOC_VERSAOACS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDCONTROLECERTIFICADO" Relationship="Model.CCD_FK_DOC_IDDOCUMENTO" FromRole="GEDDOCUMENTOS" ToRole="GEDCONTROLECERTIFICADO" />
+    <NavigationProperty Name="GEDDIVISOES" Relationship="Model.DOC_FK_DIV_IDDIVISAO" FromRole="GEDDOCUMENTOS" ToRole="GEDDIVISOES" />
+    <NavigationProperty Name="GEDFORMATOS" Relationship="Model.DOC_FK_FMT_IDFORMATO" FromRole="GEDDOCUMENTOS" ToRole="GEDFORMATOS" />
+    <NavigationProperty Name="GEDGRUPOSUSUARIOS" Relationship="Model.DOC_FK_GPU_IDGRUPOUUSUARIO" FromRole="GEDDOCUMENTOS" ToRole="GEDGRUPOSUSUARIOS" />
+    <NavigationProperty Name="GEDPASSAGENS" Relationship="Model.DOC_FK_PAS_IDPASSAGEM" FromRole="GEDDOCUMENTOS" ToRole="GEDPASSAGENS" />
+    <NavigationProperty Name="GEDTIPOSDOCUMENTOS" Relationship="Model.DOC_FK_TPD_IDTIPODOCUMENTO" FromRole="GEDDOCUMENTOS" ToRole="GEDTIPOSDOCUMENTOS" />
+    <NavigationProperty Name="GEDVOLUMES" Relationship="Model.DOC_FK_VOL_IDVOLUME" FromRole="GEDDOCUMENTOS" ToRole="GEDVOLUMES" />
+    <NavigationProperty Name="GEDOCORRENCIAS" Relationship="Model.OCR_FK_DOC_IDDOCUMENTO" FromRole="GEDDOCUMENTOS" ToRole="GEDOCORRENCIAS" />
+  </EntityType>
+  <EntityType Name="GEDDOCUMENTOVENCIDOTEMP">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCUMENTOVENCIDOTEMP" />
+    </Key>
+    <Property Name="DVT_IDDOCUMENTOVENCIDOTEMP" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DVT_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_NOME" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_IDDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="DateTime" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GEDDOCUMENTOVENCIDOTPJ">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCUMENTOVENCIDOTPJ" />
+    </Key>
+    <Property Name="DVT_IDDOCUMENTOVENCIDOTPJ" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="DVT_REGISTRO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_NOME" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DVT_IDDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="DateTime" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GEDESPECIALIDADE">
+    <Key>
+      <PropertyRef Name="ESP_IDESPECIALIDADE" />
+    </Key>
+    <Property Name="ESP_IDESPECIALIDADE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ESP_DESCRICAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDFORMATOS">
+    <Key>
+      <PropertyRef Name="FMT_IDFORMATO" />
+    </Key>
+    <Property Name="FMT_IDFORMATO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="FMT_EXTENSAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FMT_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.DOC_FK_FMT_IDFORMATO" FromRole="GEDFORMATOS" ToRole="GEDDOCUMENTOS" />
+  </EntityType>
+  <EntityType Name="GEDFUNCAOUSUARIO">
+    <Key>
+      <PropertyRef Name="FUS_IDFUNCAOUSUARIO" />
+    </Key>
+    <Property Name="FUS_IDFUNCAOUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="FUS_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FUS_ICONE" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FUS_ORDEM" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDFUNCAOXTIPOHIERARQUIA">
+    <Key>
+      <PropertyRef Name="FXT_IDFUNCXTPHIERAR" />
+    </Key>
+    <Property Name="FXT_IDFUNCXTPHIERAR" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="FXT_IDTIPOHIERARQUIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="FXT_IDFUNCAOUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="FXT_FLAGATIVO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDGLOBALSETTINGS">
+    <Key>
+      <PropertyRef Name="GLO_IDGLOBALSETTINGS" />
+    </Key>
+    <Property Name="GLO_IDGLOBALSETTINGS" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="GLO_IDUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GLO_SMTPSERVIDOR" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="GLO_SMTPPORTA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GLO_SMTPUUARIO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="GLO_SMTPSENHA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="GLO_SMTPEMAILSUPORTE" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="GLO_INATIVIDADEMINUTOSCHECK" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GLO_INATIVIDADEMINUTOSPOPUP" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GLO_DATAHORARIOVERAOINI" Type="DateTime" />
+    <Property Name="GLO_DATAHORARIOVERAOFIM" Type="DateTime" />
+    <NavigationProperty Name="GEDUNIDADES" Relationship="Model.GLO_FK_UNI_IDUNIDADE" FromRole="GEDGLOBALSETTINGS" ToRole="GEDUNIDADES" />
+  </EntityType>
+  <EntityType Name="GEDGRUPOSUSUARIOS">
+    <Key>
+      <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+    </Key>
+    <Property Name="GRP_IDGRUPOUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="GRP_DESCRICAO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GRP_IDUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGCONFIGSUBTIPODOC" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGCONFIGDIVISAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGPREFERENCIA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGSUPORTE" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDDIVISAOXGRUPOUSUARIO" Relationship="Model.DVG_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDGRUPOSUSUARIOS" ToRole="GEDDIVISAOXGRUPOUSUARIO" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.DOC_FK_GPU_IDGRUPOUUSUARIO" FromRole="GEDGRUPOSUSUARIOS" ToRole="GEDDOCUMENTOS" />
+    <NavigationProperty Name="GEDUNIDADES" Relationship="Model.GRP_FK_UNI_IDUNIDADE" FromRole="GEDGRUPOSUSUARIOS" ToRole="GEDUNIDADES" />
+    <NavigationProperty Name="GEDPERFIS" Relationship="Model.PRF_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDGRUPOSUSUARIOS" ToRole="GEDPERFIS" />
+    <NavigationProperty Name="GEDSUBTIPODOCXGRUPUSER" Relationship="Model.TDG_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDGRUPOSUSUARIOS" ToRole="GEDSUBTIPODOCXGRUPUSER" />
+    <NavigationProperty Name="GEDUSUARIOS" Relationship="Model.USR_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDGRUPOSUSUARIOS" ToRole="GEDUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDHIERARQUIA">
+    <Key>
+      <PropertyRef Name="HIR_IDHIERARQUIA" />
+    </Key>
+    <Property Name="HIR_IDHIERARQUIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HIR_IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HIR_IDTIPOHIERARQUIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HIR_IDCOMPONENTE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HIR_IDARRAY" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HIR_NAMECOMPONENT" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDHIERARQUIAXFUNCAO">
+    <Key>
+      <PropertyRef Name="HXF_IDHIERARQUIAXFUNCAO" />
+    </Key>
+    <Property Name="HXF_IDHIERARQUIAXFUNCAO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HXF_IDHIERARQUIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HXF_IDFUNCAOUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HXF_FLAGATIVO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="HXF_IDAREA" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDINTEGRACAOATENDIMENTO">
+    <Key>
+      <PropertyRef Name="ING_IDINTEGRACAOATENDIMENTO" />
+    </Key>
+    <Property Name="ING_IDINTEGRACAOATENDIMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ING_PASSAGEMEMERGENCIA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ING_PASSAGEMINTERNACAO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ING_DATAPASSAGEMEMERGENCIA" Type="DateTime" />
+    <Property Name="ING_DATAPASSAGEMINTERNACAO" Type="DateTime" />
+    <Property Name="ING_DATACRIACAOOPERADOR" Type="DateTime" />
+    <Property Name="ING_OPERADOR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ING_NOMEOPERADOR" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDLABELGENERICO">
+    <Key>
+      <PropertyRef Name="LAB_IDLABELGENERICO" />
+    </Key>
+    <Property Name="LAB_IDLABELGENERICO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LAB_TITULOOPINIAO" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="LAB_TIPOPRONTUARIO" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="LAB_TIPODOCUMENTO" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="LAB_SUBTIPODOCUMENTO" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="LAB_FLAGCLIENTEPJ" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGCLIENTEPF" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTDOSTIPOSDOC" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELACLIENTEPF" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELACLIENTEPJ" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELACONVENIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELAAUDITORXTIPODOC" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELATIPOAUDITOR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDOBRIGATORIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDCOBRANCA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDGUARDA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGSTDCOBRANCA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGSTDGUARDA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGSTDOBRIGATORIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDVALIDADEDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELAPASSAGEMPF" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELAPASSAGEMPJ" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGATIVARDATAPASSAGEMFIM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGCAMPOCONCLASSE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGLIBERATDSTPDOCS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGLIBERATDSSUBTPDOCS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGCAMPOSUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGEXIBIRDOCNCERT" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGATENDIMENTOINNERDOC" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGEDICAODOCASSINADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGPERIODODOCDIGITALIZADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGDATADEMISSAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDAREAS" Relationship="Model.ARE_FK_LBA_IDLABELGENERICO" FromRole="GEDLABELGENERICO" ToRole="GEDAREAS" />
+  </EntityType>
+  <EntityType Name="GEDLOG">
+    <Key>
+      <PropertyRef Name="LOG_IDLOG" />
+    </Key>
+    <Property Name="LOG_IDLOG" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LOG_IDOBJETO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LOG_IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LOG_IDUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LOG_DATAHORA" Type="DateTime" />
+    <Property Name="LOG_TOKEN" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="LOG_IPESTACAO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="LOG_OBSERVACAO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LOG_OBSERVACAOREGISTRO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LOG_OBSERVACAOCLIENTE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LOG_OBSERVACAOUSUARIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LOG_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDLOGALTERACAODOCUMENTO">
+    <Key>
+      <PropertyRef Name="LAD_IDLOGALTERACAODOCUMENTO" />
+    </Key>
+    <Property Name="LAD_IDLOGALTERACAODOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LAD_DATAALTERACAO" Type="DateTime" />
+    <Property Name="LAD_IDUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAD_IDDOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAD_IDPASSAGEM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LAD_REGISTRO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LAD_OBSERVACAO" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDLOGERRO">
+    <Key>
+      <PropertyRef Name="LGE_IDLOGERRO" />
+    </Key>
+    <Property Name="LGE_IDLOGERRO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LGE_DATAHORA" Type="DateTime" />
+    <Property Name="LGE_IDUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LGE_IDUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LGE_TOKEN" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LGE_CODOBJETO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LGE_CLASSNAME" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LGE_FUNCTIONNAME" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LGE_ERROFULLNAME" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LGE_ERROMESSAGE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LGE_ERROSTACKTRACE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LGE_ERRODATA" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDLOGLOGIN">
+    <Key>
+      <PropertyRef Name="LLG_IDLOGLOGIN" />
+    </Key>
+    <Property Name="LLG_IDLOGLOGIN" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="LLG_IDUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LLG_IPESTACAO" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="LLG_IDUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LLG_FLAGLOGIN" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LLG_DATAHORALOGIN" Type="DateTime" Precision="6" />
+    <Property Name="LLG_FLAGLOGOUT" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LLG_DATAHORALOGOUT" Type="DateTime" Precision="6" />
+    <Property Name="LLG_OBSERVACAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LLG_TOKEN" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDLOGOCORRENCIA">
+    <Key>
+      <PropertyRef Name="LGO_IDLOGOCORRENCIA" />
+    </Key>
+    <Property Name="LGO_IDLOGOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LGO_IDOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LGO_IDSTATUSOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LGO_DATAHORA" Type="DateTime" />
+    <Property Name="LGO_OBSERVACAOCONCLUSAO" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDOCORRENCIAS" Relationship="Model.LGO_FK_OCR_IDOCORRENCIA" FromRole="GEDLOGOCORRENCIA" ToRole="GEDOCORRENCIAS" />
+    <NavigationProperty Name="GEDSTATUSOCORRENCIA" Relationship="Model.LGO_FK_STO_IDSTATUSOCORRENCIA" FromRole="GEDLOGOCORRENCIA" ToRole="GEDSTATUSOCORRENCIA" />
+  </EntityType>
+  <EntityType Name="GEDLOGPROCESSODOC">
+    <Key>
+      <PropertyRef Name="LPD_IDLOGPROCESSODOC" />
+    </Key>
+    <Property Name="LPD_IDLOGPROCESSODOC" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LPD_IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LPD_IDDOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LPD_IDTIPODOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LPD_IDSUBTIPODOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LPD_DATAHORA" Type="DateTime" />
+    <Property Name="LPD_OBSERVACAOCONCLUSAO" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LPD_FLAGAPROVADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LPD_FLAGPENDENTEUPLOAD" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="LPD_FLAGREVISADO" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDLOTESXUSUARIOS">
+    <Key>
+      <PropertyRef Name="LTU_ID" />
+    </Key>
+    <Property Name="LTU_ID" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="LTU_IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LTU_CODIGOPASSAGEM" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="LTU_IDSTATUSLOTE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="LTU_DATA" Type="DateTime" />
+    <Property Name="LTU_OBSERVACAO" Type="String" MaxLength="140" FixedLength="false" Unicode="false" />
+    <Property Name="LTU_PATHIMAGENS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDSTATUSLOTE" Relationship="Model.LTU_FK_STL_IDSTATUSLOTE" FromRole="GEDLOTESXUSUARIOS" ToRole="GEDSTATUSLOTE" />
+    <NavigationProperty Name="GEDUSUARIOS" Relationship="Model.LTU_FK_USR_IDUSUARIO" FromRole="GEDLOTESXUSUARIOS" ToRole="GEDUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDMODULOS">
+    <Key>
+      <PropertyRef Name="MOD_IDMODULO" />
+    </Key>
+    <Property Name="MOD_IDMODULO" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="MOD_DESCRICAO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MOD_ORDEM" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDOBJETOS" Relationship="Model.OBJ_FK_MOD_IDMODULO" FromRole="GEDMODULOS" ToRole="GEDOBJETOS" />
+  </EntityType>
+  <EntityType Name="GEDNIVELASSINA">
+    <Key>
+      <PropertyRef Name="NAS_IDNIVELASSINA" />
+    </Key>
+    <Property Name="NAS_IDNIVELASSINA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NAS_DESCRICAO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDOBJETOS">
+    <Key>
+      <PropertyRef Name="OBJ_IDOBJETO" />
+    </Key>
+    <Property Name="OBJ_IDOBJETO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="OBJ_IDMODULO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="OBJ_DESCRICAO" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="OBJ_CODIGO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="OBJ_ORDEM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="OBJ_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDMODULOS" Relationship="Model.OBJ_FK_MOD_IDMODULO" FromRole="GEDOBJETOS" ToRole="GEDMODULOS" />
+    <NavigationProperty Name="GEDPERFISXOBJETOS" Relationship="Model.PXO_FK_OBJ_IDOBJETO" FromRole="GEDOBJETOS" ToRole="GEDPERFISXOBJETOS" />
+  </EntityType>
+  <EntityType Name="GEDOCORRENCIAS">
+    <Key>
+      <PropertyRef Name="OCR_IDOCORRENCIA" />
+    </Key>
+    <Property Name="OCR_IDOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="OCR_IDTIPODOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="OCR_IDTIPOOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="OCR_IDSTATUSOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="OCR_IDDOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="OCR_IDUSUARIOSOLICITANTE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="OCR_DATASOLICITACAO" Type="DateTime" />
+    <Property Name="OCR_OBSERVACAOSOLICITACAO" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="OCR_IDUSUARIORESPONSAVEL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="OCR_DATACONCLUSAO" Type="DateTime" />
+    <Property Name="OCR_OBSERVACAOCONCLUSAO" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="OCR_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="OCR_FLAGREPROVADO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="OCR_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.OCR_FK_DOC_IDDOCUMENTO" FromRole="GEDOCORRENCIAS" ToRole="GEDDOCUMENTOS" />
+    <NavigationProperty Name="GEDLOGOCORRENCIA" Relationship="Model.LGO_FK_OCR_IDOCORRENCIA" FromRole="GEDOCORRENCIAS" ToRole="GEDLOGOCORRENCIA" />
+    <NavigationProperty Name="GEDSTATUSOCORRENCIA" Relationship="Model.OCR_FK_STO_IDSTATUSOCORRENCIA" FromRole="GEDOCORRENCIAS" ToRole="GEDSTATUSOCORRENCIA" />
+    <NavigationProperty Name="GEDTIPOSDOCUMENTOS" Relationship="Model.OCR_FK_TPD_IDTIPODOCUMENTO" FromRole="GEDOCORRENCIAS" ToRole="GEDTIPOSDOCUMENTOS" />
+    <NavigationProperty Name="GEDTIPOSOCORRENCIA" Relationship="Model.OCR_FK_TPO_IDTIPOOCORRENCIA" FromRole="GEDOCORRENCIAS" ToRole="GEDTIPOSOCORRENCIA" />
+    <NavigationProperty Name="GEDUSUARIOS" Relationship="Model.OCR_FK_USR_IDUSUARIO" FromRole="GEDOCORRENCIAS" ToRole="GEDUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDPADROESCERTIFICADO">
+    <Key>
+      <PropertyRef Name="PDC_IDPADROESCERTIFICADO" />
+    </Key>
+    <Property Name="PDC_IDPADROESCERTIFICADO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PDC_NOME" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="PCD_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDCONTROLECERTIFICADO" Relationship="Model.CCD_FK_PDC_IDPADROESCERT" FromRole="GEDPADROESCERTIFICADO" ToRole="GEDCONTROLECERTIFICADO" />
+  </EntityType>
+  <EntityType Name="GEDPASSAGENS">
+    <Key>
+      <PropertyRef Name="PAS_IDPASSAGEM" />
+    </Key>
+    <Property Name="PAS_IDPASSAGEM" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="PAS_IDUNIDADE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PAS_IDCONVENIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PAS_DATAHORAPASSAGEM" Type="DateTime" />
+    <Property Name="PAS_CODIGOPASSAGEM" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PAS_FLAGCLIENTEPF" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PAS_REGISTRO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PAS_DATAHORAPASSAGEMFIM" Type="DateTime" />
+    <Property Name="PAS_TIPOATENDIMENTO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PAS_NUMEROCONTA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PAS_REGISTROOLD" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDCONVENIO" Relationship="Model.PAS_FK_CON_IDCONVENIO" FromRole="GEDPASSAGENS" ToRole="GEDCONVENIO" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.DOC_FK_PAS_IDPASSAGEM" FromRole="GEDPASSAGENS" ToRole="GEDDOCUMENTOS" />
+    <NavigationProperty Name="GEDUNIDADES" Relationship="Model.PAS_FK_UNI_IDUNIDADE" FromRole="GEDPASSAGENS" ToRole="GEDUNIDADES" />
+  </EntityType>
+  <EntityType Name="GEDPERFIS">
+    <Key>
+      <PropertyRef Name="PRF_IDPERFIL" />
+    </Key>
+    <Property Name="PRF_IDPERFIL" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PRF_IDGRUPOUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PRF_IDUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PRF_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDGRUPOSUSUARIOS" Relationship="Model.PRF_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDPERFIS" ToRole="GEDGRUPOSUSUARIOS" />
+    <NavigationProperty Name="GEDUNIDADES" Relationship="Model.PRF_FK_UNI_IDUNIDADE" FromRole="GEDPERFIS" ToRole="GEDUNIDADES" />
+    <NavigationProperty Name="GEDPERFISXOBJETOS" Relationship="Model.PXO_FK_PRF_IDPERFIL" FromRole="GEDPERFIS" ToRole="GEDPERFISXOBJETOS" />
+    <NavigationProperty Name="GEDPERFISXUSUARIOS" Relationship="Model.PXU_FK_PRF_IDPERFIL" FromRole="GEDPERFIS" ToRole="GEDPERFISXUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDPERFISXOBJETOS">
+    <Key>
+      <PropertyRef Name="PXO_IDPERFILXOBJETO" />
+    </Key>
+    <Property Name="PXO_IDPERFILXOBJETO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PXO_IDPERFIL" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PXO_IDOBJETO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDOBJETOS" Relationship="Model.PXO_FK_OBJ_IDOBJETO" FromRole="GEDPERFISXOBJETOS" ToRole="GEDOBJETOS" />
+    <NavigationProperty Name="GEDPERFIS" Relationship="Model.PXO_FK_PRF_IDPERFIL" FromRole="GEDPERFISXOBJETOS" ToRole="GEDPERFIS" />
+  </EntityType>
+  <EntityType Name="GEDPERFISXUSUARIOS">
+    <Key>
+      <PropertyRef Name="PXU_IDPERFILXUSUARIO" />
+    </Key>
+    <Property Name="PXU_IDPERFILXUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="PXU_IDPERFIL" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PXU_IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PXU_PERFILINICIAL" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDPERFIS" Relationship="Model.PXU_FK_PRF_IDPERFIL" FromRole="GEDPERFISXUSUARIOS" ToRole="GEDPERFIS" />
+    <NavigationProperty Name="GEDUSUARIOS" Relationship="Model.PXU_FK_USR_IDUSUARIO" FromRole="GEDPERFISXUSUARIOS" ToRole="GEDUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDPESSOAS">
+    <Key>
+      <PropertyRef Name="PES_IDPESSOA" />
+    </Key>
+    <Property Name="PES_IDPESSOA" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="PES_NOME" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="PES_NOMEMAE" Type="String" MaxLength="254" FixedLength="false" Unicode="false" />
+    <Property Name="PES_NOMEPAI" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="PES_CPF" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="PES_RG" Type="String" MaxLength="9" FixedLength="true" Unicode="false" />
+    <Property Name="PES_DATANASCIMENTO" Type="DateTime" />
+    <Property Name="PES_IDSEXO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PES_TEL01" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PES_TEL02" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PES_CONTATO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PES_EMAILPESSOAL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PES_EMAILPROFISSIONAL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PES_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PES_OBSERVACAO" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDSEXOS" Relationship="Model.PES_FK_SEX_IDSEXO" FromRole="GEDPESSOAS" ToRole="GEDSEXOS" />
+    <NavigationProperty Name="GEDUSUARIOS" Relationship="Model.USR_FK_PES_IDPESSOA" FromRole="GEDPESSOAS" ToRole="GEDUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDSETOR">
+    <Key>
+      <PropertyRef Name="SET_IDSETOR" />
+    </Key>
+    <Property Name="SET_IDSETOR" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="SET_DESCRICAO" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="SET_FLAGATIVO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDSETORXGRUPOUSUARIO">
+    <Key>
+      <PropertyRef Name="SXG_IDSETORXGRUPOUSUARIO" />
+    </Key>
+    <Property Name="SXG_IDSETORXGRUPOUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="SXG_IDSETOR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="SXG_IDGRUPOUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="SXG_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDSEXOS">
+    <Key>
+      <PropertyRef Name="SEX_IDSEXO" />
+    </Key>
+    <Property Name="SEX_IDSEXO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="SEX_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="SEX_SIGLA" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="GEDCLIENTEPF" Relationship="Model.CPF_FK_SEX_IDSEXO" FromRole="GEDSEXOS" ToRole="GEDCLIENTEPF" />
+    <NavigationProperty Name="GEDPESSOAS" Relationship="Model.PES_FK_SEX_IDSEXO" FromRole="GEDSEXOS" ToRole="GEDPESSOAS" />
+  </EntityType>
+  <EntityType Name="GEDSTATUSLOTE">
+    <Key>
+      <PropertyRef Name="STL_ID" />
+    </Key>
+    <Property Name="STL_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="STL_DESCRICAO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDLOTESXUSUARIOS" Relationship="Model.LTU_FK_STL_IDSTATUSLOTE" FromRole="GEDSTATUSLOTE" ToRole="GEDLOTESXUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDSTATUSOCORRENCIA">
+    <Key>
+      <PropertyRef Name="STO_IDSTATUSOCORRENCIA" />
+    </Key>
+    <Property Name="STO_IDSTATUSOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="STO_DESCRICAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDLOGOCORRENCIA" Relationship="Model.LGO_FK_STO_IDSTATUSOCORRENCIA" FromRole="GEDSTATUSOCORRENCIA" ToRole="GEDLOGOCORRENCIA" />
+    <NavigationProperty Name="GEDOCORRENCIAS" Relationship="Model.OCR_FK_STO_IDSTATUSOCORRENCIA" FromRole="GEDSTATUSOCORRENCIA" ToRole="GEDOCORRENCIAS" />
+  </EntityType>
+  <EntityType Name="GEDSUBTIPODOCXGRUPUSER">
+    <Key>
+      <PropertyRef Name="TDG_IDSUBTIPODOCXGRUPUSER" />
+    </Key>
+    <Property Name="TDG_IDSUBTIPODOCXGRUPUSER" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TDG_IDGRUPOUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TDG_IDSUBTIPODOCUMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TDG_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDGRUPOSUSUARIOS" Relationship="Model.TDG_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDSUBTIPODOCXGRUPUSER" ToRole="GEDGRUPOSUSUARIOS" />
+    <NavigationProperty Name="GEDSUBTIPOSDOCUMENTOS" Relationship="Model.TDG_FK_STD_IDSUBTIPODOCUMENTO" FromRole="GEDSUBTIPODOCXGRUPUSER" ToRole="GEDSUBTIPOSDOCUMENTOS" />
+  </EntityType>
+  <EntityType Name="GEDSUBTIPOSDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="STD_IDSUBTIPOSDOCUMENTOS" />
+    </Key>
+    <Property Name="STD_IDSUBTIPOSDOCUMENTOS" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="STD_IDTIPOSDOCUMENTOS" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="STD_DESCRICAO" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="STD_CODIGOBARRA" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="STD_ORDEM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_TEMPOVALIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_OBRIGATORIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_TEMPOGUARDA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_COBRANCADIAS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGIMPRESSAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGVENCIMENTOANUAL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGVENCIMENTOMANUAL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_MESVENCIMENTOANUAL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGTIPOCLIENTE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="STD_NIVELASSINA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGAPROVADOC" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_TEMPOPROCESSO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDSUBTIPODOCXGRUPUSER" Relationship="Model.TDG_FK_STD_IDSUBTIPODOCUMENTO" FromRole="GEDSUBTIPOSDOCUMENTOS" ToRole="GEDSUBTIPODOCXGRUPUSER" />
+    <NavigationProperty Name="GEDTIPOSDOCUMENTOS" Relationship="Model.STD_FK_TPD_IDTIPODOCUMENTO" FromRole="GEDSUBTIPOSDOCUMENTOS" ToRole="GEDTIPOSDOCUMENTOS" />
+  </EntityType>
+  <EntityType Name="GEDTIPOAUDITOR">
+    <Key>
+      <PropertyRef Name="TPA_IDTIPOAUDITOR" />
+    </Key>
+    <Property Name="TPA_IDTIPOAUDITOR" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="TPA_IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPA_FLAGCONVENIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPA_FLAGUNIVERSAL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPA_FLAGCLIENTE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPA_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPA_OBSERVACAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="TPA_FLAGGRUPOUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDAUDITORXCONVENIO" Relationship="Model.AUC_FK_TPA_IDTIPOAUDITOR" FromRole="GEDTIPOAUDITOR" ToRole="GEDAUDITORXCONVENIO" />
+    <NavigationProperty Name="GEDAUDITORXPASSAGEM" Relationship="Model.ACL_FK_TPA_IDTIPOAUDITOR" FromRole="GEDTIPOAUDITOR" ToRole="GEDAUDITORXPASSAGEM" />
+    <NavigationProperty Name="GEDUSUARIOS" Relationship="Model.TPA_FK_USR_IDUSUARIO" FromRole="GEDTIPOAUDITOR" ToRole="GEDUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDTIPOBUSCA">
+    <Key>
+      <PropertyRef Name="TIB_IDTIPOBUSCA" />
+    </Key>
+    <Property Name="TIB_IDTIPOBUSCA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TIB_IDTIPOCLIENTE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TIB_DESCRICAO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TIB_CAMPOBUSCAINI" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="TIB_CAMPOBUSCAFIM" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="TIB_CAMPOBUSCAINIORA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TIB_CAMPOBUSCAFIMORA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TIB_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDTIPOCLIENTE" Relationship="Model.TIB_FK_TIC_IDTIPOCLIENTE" FromRole="GEDTIPOBUSCA" ToRole="GEDTIPOCLIENTE" />
+  </EntityType>
+  <EntityType Name="GEDTIPOCLIENTE">
+    <Key>
+      <PropertyRef Name="TIC_IDTIPOCLIENTE" />
+    </Key>
+    <Property Name="TIC_IDTIPOCLIENTE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TIC_IDAREA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TIC_DESCRICAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="TIC_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELREGISTRO" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TIC_VISIBLEREGISTRO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELNOME" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TIC_VISIBLENOME" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELDATA" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TIC_VISIBLEDATA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELPASSAGEM" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TIC_VISIBLEPASSAGEM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELUNIDADE" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TIC_VISIBLEUNIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELPREFIXOIMAGEM" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TIC_VISIBLEPREFIXOIMAGEM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_FLAGTIPOCLIENTE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELDATAPASSAGEM" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDAREAS" Relationship="Model.TIC_FK_ARE_IDAREA" FromRole="GEDTIPOCLIENTE" ToRole="GEDAREAS" />
+    <NavigationProperty Name="GEDTIPOBUSCA" Relationship="Model.TIB_FK_TIC_IDTIPOCLIENTE" FromRole="GEDTIPOCLIENTE" ToRole="GEDTIPOBUSCA" />
+  </EntityType>
+  <EntityType Name="GEDTIPOCONSELHO">
+    <Key>
+      <PropertyRef Name="TPC_IDTIPOCONSELHO" />
+    </Key>
+    <Property Name="TPC_IDTIPOCONSELHO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPC_DESCRICAO" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="TPC_SIGLA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GEDTIPOHIERARQUIA">
+    <Key>
+      <PropertyRef Name="TPH_IDTIPOHIERARQUIA" />
+    </Key>
+    <Property Name="TPH_IDTIPOHIERARQUIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPH_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TPH_ORDEMHIERARQUIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPH_FLAGATIVO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSATENDIMENTOS">
+    <Key>
+      <PropertyRef Name="TIA_IDTIPOATENDIMENTO" />
+    </Key>
+    <Property Name="TIA_IDTIPOATENDIMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TIA_DESCRICAO" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TIA_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSBUSCALOTES">
+    <Key>
+      <PropertyRef Name="TBL_ID" />
+    </Key>
+    <Property Name="TBL_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TBL_DESCRICAO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TBL_DEFAULT" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSBUSCALOTESPJ">
+    <Key>
+      <PropertyRef Name="TPJ_ID" />
+    </Key>
+    <Property Name="TPJ_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPJ_DESCRICAO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TPJ_DEFAULT" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSCERTIFICADOS">
+    <Key>
+      <PropertyRef Name="TPC_IDCERTIFICADO" />
+    </Key>
+    <Property Name="TPC_IDCERTIFICADO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPC_NOME" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="TPC_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDCONTROLECERTIFICADO" Relationship="Model.CCD_FK_TPC_IDTIPOCERTIFICADO" FromRole="GEDTIPOSCERTIFICADOS" ToRole="GEDCONTROLECERTIFICADO" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+    </Key>
+    <Property Name="TPD_IDTIPODOCUMENTO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPD_IDDIVISAO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPD_DESCRICAO" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="TPD_CODIGOBARRA" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TPD_ORDEM" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPD_FLAGSUBTIPO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPD_TEMPOVALIDADE" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPD_OBRIGATORIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPD_TEMPOGUARDA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPD_COBRANCADIAS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPD_FLAGIMPRESSAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TPD_FLAGTIPOCLIENTE" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDDIVISOES" Relationship="Model.TPD_FK_DIV_IDDIVISAO" FromRole="GEDTIPOSDOCUMENTOS" ToRole="GEDDIVISOES" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.DOC_FK_TPD_IDTIPODOCUMENTO" FromRole="GEDTIPOSDOCUMENTOS" ToRole="GEDDOCUMENTOS" />
+    <NavigationProperty Name="GEDOCORRENCIAS" Relationship="Model.OCR_FK_TPD_IDTIPODOCUMENTO" FromRole="GEDTIPOSDOCUMENTOS" ToRole="GEDOCORRENCIAS" />
+    <NavigationProperty Name="GEDSUBTIPOSDOCUMENTOS" Relationship="Model.STD_FK_TPD_IDTIPODOCUMENTO" FromRole="GEDTIPOSDOCUMENTOS" ToRole="GEDSUBTIPOSDOCUMENTOS" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSOCORRENCIA">
+    <Key>
+      <PropertyRef Name="TPO_IDTIPOOCORRENCIA" />
+    </Key>
+    <Property Name="TPO_IDTIPOOCORRENCIA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TPO_DESCRICAO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TPO_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDOCORRENCIAS" Relationship="Model.OCR_FK_TPO_IDTIPOOCORRENCIA" FromRole="GEDTIPOSOCORRENCIA" ToRole="GEDOCORRENCIAS" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSTOKEN">
+    <Key>
+      <PropertyRef Name="TTK_IDTIPOTOKEN" />
+    </Key>
+    <Property Name="TTK_IDTIPOTOKEN" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TTK_NOME" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="TTK_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDCONTROLECERTIFICADO" Relationship="Model.CCD_FK_TTK_IDTIPOTOKEN" FromRole="GEDTIPOSTOKEN" ToRole="GEDCONTROLECERTIFICADO" />
+  </EntityType>
+  <EntityType Name="GEDUNIDADES">
+    <Key>
+      <PropertyRef Name="UNI_IDUNIDADE" />
+    </Key>
+    <Property Name="UNI_IDUNIDADE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="UNI_NOME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UNI_DESCRICAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="UNI_CNPJ" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="UNI_DATAHORAINI" Type="DateTime" />
+    <Property Name="UNI_SITE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UNI_OBSERVACAO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="UNI_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDCLIENTEPF" Relationship="Model.CPF_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADES" ToRole="GEDCLIENTEPF" />
+    <NavigationProperty Name="GEDCLIENTEPJ" Relationship="Model.CPJ_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADES" ToRole="GEDCLIENTEPJ" />
+    <NavigationProperty Name="GEDGLOBALSETTINGS" Relationship="Model.GLO_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADES" ToRole="GEDGLOBALSETTINGS" />
+    <NavigationProperty Name="GEDGRUPOSUSUARIOS" Relationship="Model.GRP_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADES" ToRole="GEDGRUPOSUSUARIOS" />
+    <NavigationProperty Name="GEDPASSAGENS" Relationship="Model.PAS_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADES" ToRole="GEDPASSAGENS" />
+    <NavigationProperty Name="GEDPERFIS" Relationship="Model.PRF_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADES" ToRole="GEDPERFIS" />
+    <NavigationProperty Name="GEDUNIDADEXAREAS" Relationship="Model.UXA_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADES" ToRole="GEDUNIDADEXAREAS" />
+  </EntityType>
+  <EntityType Name="GEDUNIDADEXAREAS">
+    <Key>
+      <PropertyRef Name="UXA_IDUNIDADEXAREA" />
+    </Key>
+    <Property Name="UXA_IDUNIDADEXAREA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="UXA_IDUNIDADE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="UXA_IDAREA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDAREAS" Relationship="Model.UXA_FK_ARE_IDAREA" FromRole="GEDUNIDADEXAREAS" ToRole="GEDAREAS" />
+    <NavigationProperty Name="GEDUNIDADES" Relationship="Model.UXA_FK_UNI_IDUNIDADE" FromRole="GEDUNIDADEXAREAS" ToRole="GEDUNIDADES" />
+    <NavigationProperty Name="GEDUSUARIOSXUNIDADESXAREAS" Relationship="Model.UXU_FK_UXA_IDUNIDADEXAREA" FromRole="GEDUNIDADEXAREAS" ToRole="GEDUSUARIOSXUNIDADESXAREAS" />
+  </EntityType>
+  <EntityType Name="GEDURLSTORAGE">
+    <Key>
+      <PropertyRef Name="URS_IDURLSTORAGE" />
+    </Key>
+    <Property Name="URS_IDURLSTORAGE" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="URS_URLSTORAGE" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="URS_DATAHORAINI" Type="DateTime" />
+    <Property Name="URS_DATAHORAFIM" Type="DateTime" />
+    <Property Name="URS_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDUSUARIOS">
+    <Key>
+      <PropertyRef Name="USR_IDUSUARIO" />
+    </Key>
+    <Property Name="USR_IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="USR_IDGRUPOUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_IDPESSOA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_LOGIN" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="USR_SENHA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="USR_FLAGATIVO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_FIRSTACCESS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_DATAHORACADASTRO" Type="DateTime" />
+    <Property Name="USR_DATAHORALASTLOGIN" Type="DateTime" />
+    <Property Name="USR_OBSERVACAO" Type="String" MaxLength="3000" FixedLength="false" Unicode="false" />
+    <Property Name="USR_FLAGIMPRIMIR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGIMPORTACAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGDIGITALIZACAO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGASSINA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_NIVELASSINA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_SERIALNUMBERCERT" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USR_FLAGADMACS" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGPROCESSAMENTO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDGRUPOSUSUARIOS" Relationship="Model.USR_FK_GRP_IDGRUPOUSUARIO" FromRole="GEDUSUARIOS" ToRole="GEDGRUPOSUSUARIOS" />
+    <NavigationProperty Name="GEDLOTESXUSUARIOS" Relationship="Model.LTU_FK_USR_IDUSUARIO" FromRole="GEDUSUARIOS" ToRole="GEDLOTESXUSUARIOS" />
+    <NavigationProperty Name="GEDOCORRENCIAS" Relationship="Model.OCR_FK_USR_IDUSUARIO" FromRole="GEDUSUARIOS" ToRole="GEDOCORRENCIAS" />
+    <NavigationProperty Name="GEDPERFISXUSUARIOS" Relationship="Model.PXU_FK_USR_IDUSUARIO" FromRole="GEDUSUARIOS" ToRole="GEDPERFISXUSUARIOS" />
+    <NavigationProperty Name="GEDPESSOAS" Relationship="Model.USR_FK_PES_IDPESSOA" FromRole="GEDUSUARIOS" ToRole="GEDPESSOAS" />
+    <NavigationProperty Name="GEDTIPOAUDITOR" Relationship="Model.TPA_FK_USR_IDUSUARIO" FromRole="GEDUSUARIOS" ToRole="GEDTIPOAUDITOR" />
+    <NavigationProperty Name="GEDUSUARIOSXUNIDADESXAREAS" Relationship="Model.UXU_FK_USR_IDUSUARIO" FromRole="GEDUSUARIOS" ToRole="GEDUSUARIOSXUNIDADESXAREAS" />
+  </EntityType>
+  <EntityType Name="GEDUSUARIOSXUNIDADESXAREAS">
+    <Key>
+      <PropertyRef Name="UXU_IDUSUARIOXUNIDADEXAREA" />
+    </Key>
+    <Property Name="UXU_IDUSUARIOXUNIDADEXAREA" Type="Decimal" Nullable="false" Precision="38" Scale="1" />
+    <Property Name="UXU_IDUNIDADEXAREA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="UXU_IDUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="GEDUNIDADEXAREAS" Relationship="Model.UXU_FK_UXA_IDUNIDADEXAREA" FromRole="GEDUSUARIOSXUNIDADESXAREAS" ToRole="GEDUNIDADEXAREAS" />
+    <NavigationProperty Name="GEDUSUARIOS" Relationship="Model.UXU_FK_USR_IDUSUARIO" FromRole="GEDUSUARIOSXUNIDADESXAREAS" ToRole="GEDUSUARIOS" />
+  </EntityType>
+  <EntityType Name="GEDVOLUMES">
+    <Key>
+      <PropertyRef Name="VOL_IDVOLUME" />
+    </Key>
+    <Property Name="VOL_IDVOLUME" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="VOL_DESCRICAO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GEDDOCUMENTOS" Relationship="Model.DOC_FK_VOL_IDVOLUME" FromRole="GEDVOLUMES" ToRole="GEDDOCUMENTOS" />
+  </EntityType>
+  <Association Name="ARE_FK_LBA_IDLABELGENERICO">
+    <End Type="Model.GEDLABELGENERICO" Role="GEDLABELGENERICO" Multiplicity="0..1" />
+    <End Type="Model.GEDAREAS" Role="GEDAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDLABELGENERICO">
+        <PropertyRef Name="LAB_IDLABELGENERICO" />
+      </Principal>
+      <Dependent Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDLABELGENERICO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DIV_FK_ARE_IDAREA">
+    <End Type="Model.GEDAREAS" Role="GEDAREAS" Multiplicity="0..1" />
+    <End Type="Model.GEDDIVISOES" Role="GEDDIVISOES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDAREA" />
+      </Principal>
+      <Dependent Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TIC_FK_ARE_IDAREA">
+    <End Type="Model.GEDAREAS" Role="GEDAREAS" Multiplicity="1" />
+    <End Type="Model.GEDTIPOCLIENTE" Role="GEDTIPOCLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDAREA" />
+      </Principal>
+      <Dependent Role="GEDTIPOCLIENTE">
+        <PropertyRef Name="TIC_IDAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXA_FK_ARE_IDAREA">
+    <End Type="Model.GEDAREAS" Role="GEDAREAS" Multiplicity="1" />
+    <End Type="Model.GEDUNIDADEXAREAS" Role="GEDUNIDADEXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDAREA" />
+      </Principal>
+      <Dependent Role="GEDUNIDADEXAREAS">
+        <PropertyRef Name="UXA_IDAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AUC_FK_CON_IDCONVENIO">
+    <End Type="Model.GEDCONVENIO" Role="GEDCONVENIO" Multiplicity="1" />
+    <End Type="Model.GEDAUDITORXCONVENIO" Role="GEDAUDITORXCONVENIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDCONVENIO">
+        <PropertyRef Name="CON_IDCONVENIO" />
+      </Principal>
+      <Dependent Role="GEDAUDITORXCONVENIO">
+        <PropertyRef Name="AUC_IDCONVENIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AUC_FK_TPA_IDTIPOAUDITOR">
+    <End Type="Model.GEDTIPOAUDITOR" Role="GEDTIPOAUDITOR" Multiplicity="1" />
+    <End Type="Model.GEDAUDITORXCONVENIO" Role="GEDAUDITORXCONVENIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOAUDITOR">
+        <PropertyRef Name="TPA_IDTIPOAUDITOR" />
+      </Principal>
+      <Dependent Role="GEDAUDITORXCONVENIO">
+        <PropertyRef Name="AUC_IDTIPOAUDITOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ACL_FK_TPA_IDTIPOAUDITOR">
+    <End Type="Model.GEDTIPOAUDITOR" Role="GEDTIPOAUDITOR" Multiplicity="1" />
+    <End Type="Model.GEDAUDITORXPASSAGEM" Role="GEDAUDITORXPASSAGEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOAUDITOR">
+        <PropertyRef Name="TPA_IDTIPOAUDITOR" />
+      </Principal>
+      <Dependent Role="GEDAUDITORXPASSAGEM">
+        <PropertyRef Name="ACL_IDTIPOAUDITOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CPF_FK_SEX_IDSEXO">
+    <End Type="Model.GEDSEXOS" Role="GEDSEXOS" Multiplicity="1" />
+    <End Type="Model.GEDCLIENTEPF" Role="GEDCLIENTEPF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSEXOS">
+        <PropertyRef Name="SEX_IDSEXO" />
+      </Principal>
+      <Dependent Role="GEDCLIENTEPF">
+        <PropertyRef Name="CPF_IDSEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CPF_FK_UNI_IDUNIDADE">
+    <End Type="Model.GEDUNIDADES" Role="GEDUNIDADES" Multiplicity="1" />
+    <End Type="Model.GEDCLIENTEPF" Role="GEDCLIENTEPF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDCLIENTEPF">
+        <PropertyRef Name="CPF_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CPJ_FK_UNI_IDUNIDADE">
+    <End Type="Model.GEDUNIDADES" Role="GEDUNIDADES" Multiplicity="0..1" />
+    <End Type="Model.GEDCLIENTEPJ" Role="GEDCLIENTEPJ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDCLIENTEPJ">
+        <PropertyRef Name="CPJ_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_DOC_IDDOCUMENTO">
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="1" />
+    <End Type="Model.GEDCONTROLECERTIFICADO" Role="GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDDOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDDOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_PDC_IDPADROESCERT">
+    <End Type="Model.GEDPADROESCERTIFICADO" Role="GEDPADROESCERTIFICADO" Multiplicity="1" />
+    <End Type="Model.GEDCONTROLECERTIFICADO" Role="GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPADROESCERTIFICADO">
+        <PropertyRef Name="PDC_IDPADROESCERTIFICADO" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDPADROESCERTIFICADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_TPC_IDTIPOCERTIFICADO">
+    <End Type="Model.GEDTIPOSCERTIFICADOS" Role="GEDTIPOSCERTIFICADOS" Multiplicity="1" />
+    <End Type="Model.GEDCONTROLECERTIFICADO" Role="GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSCERTIFICADOS">
+        <PropertyRef Name="TPC_IDCERTIFICADO" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDTIPOCERTIFICADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_TTK_IDTIPOTOKEN">
+    <End Type="Model.GEDTIPOSTOKEN" Role="GEDTIPOSTOKEN" Multiplicity="1" />
+    <End Type="Model.GEDCONTROLECERTIFICADO" Role="GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSTOKEN">
+        <PropertyRef Name="TTK_IDTIPOTOKEN" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDTIPOTOKEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PAS_FK_CON_IDCONVENIO">
+    <End Type="Model.GEDCONVENIO" Role="GEDCONVENIO" Multiplicity="1" />
+    <End Type="Model.GEDPASSAGENS" Role="GEDPASSAGENS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDCONVENIO">
+        <PropertyRef Name="CON_IDCONVENIO" />
+      </Principal>
+      <Dependent Role="GEDPASSAGENS">
+        <PropertyRef Name="PAS_IDCONVENIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DVG_FK_DIV_IDDIVISAO">
+    <End Type="Model.GEDDIVISOES" Role="GEDDIVISOES" Multiplicity="0..1" />
+    <End Type="Model.GEDDIVISAOXGRUPOUSUARIO" Role="GEDDIVISAOXGRUPOUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDDIVISAO" />
+      </Principal>
+      <Dependent Role="GEDDIVISAOXGRUPOUSUARIO">
+        <PropertyRef Name="DVG_IDDIVISAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DVG_FK_GRP_IDGRUPOUSUARIO">
+    <End Type="Model.GEDGRUPOSUSUARIOS" Role="GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Type="Model.GEDDIVISAOXGRUPOUSUARIO" Role="GEDDIVISAOXGRUPOUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDDIVISAOXGRUPOUSUARIO">
+        <PropertyRef Name="DVG_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_DIV_IDDIVISAO">
+    <End Type="Model.GEDDIVISOES" Role="GEDDIVISOES" Multiplicity="1" />
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDDIVISAO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDDIVISAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TPD_FK_DIV_IDDIVISAO">
+    <End Type="Model.GEDDIVISOES" Role="GEDDIVISOES" Multiplicity="1" />
+    <End Type="Model.GEDTIPOSDOCUMENTOS" Role="GEDTIPOSDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDDIVISAO" />
+      </Principal>
+      <Dependent Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDDIVISAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_FMT_IDFORMATO">
+    <End Type="Model.GEDFORMATOS" Role="GEDFORMATOS" Multiplicity="0..1" />
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDFORMATOS">
+        <PropertyRef Name="FMT_IDFORMATO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDFORMATO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_GPU_IDGRUPOUUSUARIO">
+    <End Type="Model.GEDGRUPOSUSUARIOS" Role="GEDGRUPOSUSUARIOS" Multiplicity="1" />
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDGRUPOUSUARIOCAPTURA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_PAS_IDPASSAGEM">
+    <End Type="Model.GEDPASSAGENS" Role="GEDPASSAGENS" Multiplicity="0..1" />
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPASSAGENS">
+        <PropertyRef Name="PAS_IDPASSAGEM" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDPASSAGEM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_TPD_IDTIPODOCUMENTO">
+    <End Type="Model.GEDTIPOSDOCUMENTOS" Role="GEDTIPOSDOCUMENTOS" Multiplicity="0..1" />
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDTIPODOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_VOL_IDVOLUME">
+    <End Type="Model.GEDVOLUMES" Role="GEDVOLUMES" Multiplicity="0..1" />
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDVOLUMES">
+        <PropertyRef Name="VOL_IDVOLUME" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDVOLUME" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_DOC_IDDOCUMENTO">
+    <End Type="Model.GEDDOCUMENTOS" Role="GEDDOCUMENTOS" Multiplicity="1" />
+    <End Type="Model.GEDOCORRENCIAS" Role="GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDDOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDDOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GLO_FK_UNI_IDUNIDADE">
+    <End Type="Model.GEDUNIDADES" Role="GEDUNIDADES" Multiplicity="0..1" />
+    <End Type="Model.GEDGLOBALSETTINGS" Role="GEDGLOBALSETTINGS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDGLOBALSETTINGS">
+        <PropertyRef Name="GLO_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GRP_FK_UNI_IDUNIDADE">
+    <End Type="Model.GEDUNIDADES" Role="GEDUNIDADES" Multiplicity="0..1" />
+    <End Type="Model.GEDGRUPOSUSUARIOS" Role="GEDGRUPOSUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRF_FK_GRP_IDGRUPOUSUARIO">
+    <End Type="Model.GEDGRUPOSUSUARIOS" Role="GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Type="Model.GEDPERFIS" Role="GEDPERFIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TDG_FK_GRP_IDGRUPOUSUARIO">
+    <End Type="Model.GEDGRUPOSUSUARIOS" Role="GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Type="Model.GEDSUBTIPODOCXGRUPUSER" Role="GEDSUBTIPODOCXGRUPUSER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDSUBTIPODOCXGRUPUSER">
+        <PropertyRef Name="TDG_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USR_FK_GRP_IDGRUPOUSUARIO">
+    <End Type="Model.GEDGRUPOSUSUARIOS" Role="GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Type="Model.GEDUSUARIOS" Role="GEDUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LGO_FK_OCR_IDOCORRENCIA">
+    <End Type="Model.GEDOCORRENCIAS" Role="GEDOCORRENCIAS" Multiplicity="1" />
+    <End Type="Model.GEDLOGOCORRENCIA" Role="GEDLOGOCORRENCIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDLOGOCORRENCIA">
+        <PropertyRef Name="LGO_IDOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LGO_FK_STO_IDSTATUSOCORRENCIA">
+    <End Type="Model.GEDSTATUSOCORRENCIA" Role="GEDSTATUSOCORRENCIA" Multiplicity="1" />
+    <End Type="Model.GEDLOGOCORRENCIA" Role="GEDLOGOCORRENCIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSTATUSOCORRENCIA">
+        <PropertyRef Name="STO_IDSTATUSOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDLOGOCORRENCIA">
+        <PropertyRef Name="LGO_IDSTATUSOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LTU_FK_STL_IDSTATUSLOTE">
+    <End Type="Model.GEDSTATUSLOTE" Role="GEDSTATUSLOTE" Multiplicity="1" />
+    <End Type="Model.GEDLOTESXUSUARIOS" Role="GEDLOTESXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSTATUSLOTE">
+        <PropertyRef Name="STL_ID" />
+      </Principal>
+      <Dependent Role="GEDLOTESXUSUARIOS">
+        <PropertyRef Name="LTU_IDSTATUSLOTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LTU_FK_USR_IDUSUARIO">
+    <End Type="Model.GEDUSUARIOS" Role="GEDUSUARIOS" Multiplicity="1" />
+    <End Type="Model.GEDLOTESXUSUARIOS" Role="GEDLOTESXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDLOTESXUSUARIOS">
+        <PropertyRef Name="LTU_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OBJ_FK_MOD_IDMODULO">
+    <End Type="Model.GEDMODULOS" Role="GEDMODULOS" Multiplicity="0..1" />
+    <End Type="Model.GEDOBJETOS" Role="GEDOBJETOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDMODULOS">
+        <PropertyRef Name="MOD_IDMODULO" />
+      </Principal>
+      <Dependent Role="GEDOBJETOS">
+        <PropertyRef Name="OBJ_IDMODULO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXO_FK_OBJ_IDOBJETO">
+    <End Type="Model.GEDOBJETOS" Role="GEDOBJETOS" Multiplicity="1" />
+    <End Type="Model.GEDPERFISXOBJETOS" Role="GEDPERFISXOBJETOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDOBJETOS">
+        <PropertyRef Name="OBJ_IDOBJETO" />
+      </Principal>
+      <Dependent Role="GEDPERFISXOBJETOS">
+        <PropertyRef Name="PXO_IDOBJETO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_STO_IDSTATUSOCORRENCIA">
+    <End Type="Model.GEDSTATUSOCORRENCIA" Role="GEDSTATUSOCORRENCIA" Multiplicity="1" />
+    <End Type="Model.GEDOCORRENCIAS" Role="GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSTATUSOCORRENCIA">
+        <PropertyRef Name="STO_IDSTATUSOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDSTATUSOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_TPD_IDTIPODOCUMENTO">
+    <End Type="Model.GEDTIPOSDOCUMENTOS" Role="GEDTIPOSDOCUMENTOS" Multiplicity="1" />
+    <End Type="Model.GEDOCORRENCIAS" Role="GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDTIPODOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_TPO_IDTIPOOCORRENCIA">
+    <End Type="Model.GEDTIPOSOCORRENCIA" Role="GEDTIPOSOCORRENCIA" Multiplicity="1" />
+    <End Type="Model.GEDOCORRENCIAS" Role="GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSOCORRENCIA">
+        <PropertyRef Name="TPO_IDTIPOOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDTIPOOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_USR_IDUSUARIO">
+    <End Type="Model.GEDUSUARIOS" Role="GEDUSUARIOS" Multiplicity="1" />
+    <End Type="Model.GEDOCORRENCIAS" Role="GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDUSUARIOSOLICITANTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PAS_FK_UNI_IDUNIDADE">
+    <End Type="Model.GEDUNIDADES" Role="GEDUNIDADES" Multiplicity="1" />
+    <End Type="Model.GEDPASSAGENS" Role="GEDPASSAGENS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDPASSAGENS">
+        <PropertyRef Name="PAS_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRF_FK_UNI_IDUNIDADE">
+    <End Type="Model.GEDUNIDADES" Role="GEDUNIDADES" Multiplicity="0..1" />
+    <End Type="Model.GEDPERFIS" Role="GEDPERFIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXO_FK_PRF_IDPERFIL">
+    <End Type="Model.GEDPERFIS" Role="GEDPERFIS" Multiplicity="1" />
+    <End Type="Model.GEDPERFISXOBJETOS" Role="GEDPERFISXOBJETOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDPERFIL" />
+      </Principal>
+      <Dependent Role="GEDPERFISXOBJETOS">
+        <PropertyRef Name="PXO_IDPERFIL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXU_FK_PRF_IDPERFIL">
+    <End Type="Model.GEDPERFIS" Role="GEDPERFIS" Multiplicity="1" />
+    <End Type="Model.GEDPERFISXUSUARIOS" Role="GEDPERFISXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDPERFIL" />
+      </Principal>
+      <Dependent Role="GEDPERFISXUSUARIOS">
+        <PropertyRef Name="PXU_IDPERFIL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXU_FK_USR_IDUSUARIO">
+    <End Type="Model.GEDUSUARIOS" Role="GEDUSUARIOS" Multiplicity="1" />
+    <End Type="Model.GEDPERFISXUSUARIOS" Role="GEDPERFISXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDPERFISXUSUARIOS">
+        <PropertyRef Name="PXU_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PES_FK_SEX_IDSEXO">
+    <End Type="Model.GEDSEXOS" Role="GEDSEXOS" Multiplicity="0..1" />
+    <End Type="Model.GEDPESSOAS" Role="GEDPESSOAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSEXOS">
+        <PropertyRef Name="SEX_IDSEXO" />
+      </Principal>
+      <Dependent Role="GEDPESSOAS">
+        <PropertyRef Name="PES_IDSEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USR_FK_PES_IDPESSOA">
+    <End Type="Model.GEDPESSOAS" Role="GEDPESSOAS" Multiplicity="0..1" />
+    <End Type="Model.GEDUSUARIOS" Role="GEDUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPESSOAS">
+        <PropertyRef Name="PES_IDPESSOA" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDPESSOA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TDG_FK_STD_IDSUBTIPODOCUMENTO">
+    <End Type="Model.GEDSUBTIPOSDOCUMENTOS" Role="GEDSUBTIPOSDOCUMENTOS" Multiplicity="0..1" />
+    <End Type="Model.GEDSUBTIPODOCXGRUPUSER" Role="GEDSUBTIPODOCXGRUPUSER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSUBTIPOSDOCUMENTOS">
+        <PropertyRef Name="STD_IDSUBTIPOSDOCUMENTOS" />
+      </Principal>
+      <Dependent Role="GEDSUBTIPODOCXGRUPUSER">
+        <PropertyRef Name="TDG_IDSUBTIPODOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="STD_FK_TPD_IDTIPODOCUMENTO">
+    <End Type="Model.GEDTIPOSDOCUMENTOS" Role="GEDTIPOSDOCUMENTOS" Multiplicity="1" />
+    <End Type="Model.GEDSUBTIPOSDOCUMENTOS" Role="GEDSUBTIPOSDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDSUBTIPOSDOCUMENTOS">
+        <PropertyRef Name="STD_IDTIPOSDOCUMENTOS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TPA_FK_USR_IDUSUARIO">
+    <End Type="Model.GEDUSUARIOS" Role="GEDUSUARIOS" Multiplicity="1" />
+    <End Type="Model.GEDTIPOAUDITOR" Role="GEDTIPOAUDITOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDTIPOAUDITOR">
+        <PropertyRef Name="TPA_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TIB_FK_TIC_IDTIPOCLIENTE">
+    <End Type="Model.GEDTIPOCLIENTE" Role="GEDTIPOCLIENTE" Multiplicity="1" />
+    <End Type="Model.GEDTIPOBUSCA" Role="GEDTIPOBUSCA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOCLIENTE">
+        <PropertyRef Name="TIC_IDTIPOCLIENTE" />
+      </Principal>
+      <Dependent Role="GEDTIPOBUSCA">
+        <PropertyRef Name="TIB_IDTIPOCLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXA_FK_UNI_IDUNIDADE">
+    <End Type="Model.GEDUNIDADES" Role="GEDUNIDADES" Multiplicity="1" />
+    <End Type="Model.GEDUNIDADEXAREAS" Role="GEDUNIDADEXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDUNIDADEXAREAS">
+        <PropertyRef Name="UXA_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXU_FK_UXA_IDUNIDADEXAREA">
+    <End Type="Model.GEDUNIDADEXAREAS" Role="GEDUNIDADEXAREAS" Multiplicity="0..1" />
+    <End Type="Model.GEDUSUARIOSXUNIDADESXAREAS" Role="GEDUSUARIOSXUNIDADESXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADEXAREAS">
+        <PropertyRef Name="UXA_IDUNIDADEXAREA" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOSXUNIDADESXAREAS">
+        <PropertyRef Name="UXU_IDUNIDADEXAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXU_FK_USR_IDUSUARIO">
+    <End Type="Model.GEDUSUARIOS" Role="GEDUSUARIOS" Multiplicity="0..1" />
+    <End Type="Model.GEDUSUARIOSXUNIDADESXAREAS" Role="GEDUSUARIOSXUNIDADESXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOSXUNIDADESXAREAS">
+        <PropertyRef Name="UXU_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

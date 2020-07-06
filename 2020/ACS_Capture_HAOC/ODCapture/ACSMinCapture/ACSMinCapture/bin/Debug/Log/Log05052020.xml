@@ -1,0 +1,6 @@
+<Log>
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;O provedor de repositório especificado não é encontrado na configuração ou não é válido." Detail="Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado." StackTrace="" DateTime="05/05/2020 03:15:56" />
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;O provedor de repositório especificado não é encontrado na configuração ou não é válido." Detail="Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado." StackTrace="" DateTime="05/05/2020 03:15:58" />
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;O provedor de repositório especificado não é encontrado na configuração ou não é válido." Detail="Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado." StackTrace="" DateTime="05/05/2020 03:18:16" />
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;O provedor de repositório especificado não é encontrado na configuração ou não é válido." Detail="Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado." StackTrace="" DateTime="05/05/2020 03:18:18" />
+</Log>

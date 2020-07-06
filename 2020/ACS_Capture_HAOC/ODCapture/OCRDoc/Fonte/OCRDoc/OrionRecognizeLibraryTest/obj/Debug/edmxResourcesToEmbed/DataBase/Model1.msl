@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OCRDocModelStoreContainer" CdmEntityContainer="OCRDocEntities">
+    <EntitySetMapping Name="OCR_Mapping">
+      <EntityTypeMapping TypeName="OCRDocModel.OCR_Mapping">
+        <MappingFragment StoreEntitySet="OCR_Mapping">
+          <ScalarProperty Name="MAP_Height" ColumnName="MAP_Height" />
+          <ScalarProperty Name="MAP_Width" ColumnName="MAP_Width" />
+          <ScalarProperty Name="MAP_Id" ColumnName="MAP_Id" />
+          <ScalarProperty Name="MAP_Name" ColumnName="MAP_Name" />
+          <ScalarProperty Name="MAP_Index" ColumnName="MAP_Index" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OCR_MappingXTypeDocument">
+      <EntityTypeMapping TypeName="OCRDocModel.OCR_MappingXTypeDocument">
+        <MappingFragment StoreEntitySet="OCR_MappingXTypeDocument">
+          <ScalarProperty Name="MXT_Id" ColumnName="MXT_Id" />
+          <ScalarProperty Name="MXT_MAP_Id" ColumnName="MXT_MAP_Id" />
+          <ScalarProperty Name="MXT_TDC_Id" ColumnName="MXT_TDC_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OCR_MappingZone">
+      <EntityTypeMapping TypeName="OCRDocModel.OCR_MappingZone">
+        <MappingFragment StoreEntitySet="OCR_MappingZone">
+          <ScalarProperty Name="ZON_Id" ColumnName="ZON_Id" />
+          <ScalarProperty Name="ZON_MAP_Id" ColumnName="ZON_MAP_Id" />
+          <ScalarProperty Name="ZON_Name" ColumnName="ZON_Name" />
+          <ScalarProperty Name="ZON_Left" ColumnName="ZON_Left" />
+          <ScalarProperty Name="ZON_Top" ColumnName="ZON_Top" />
+          <ScalarProperty Name="ZON_Width" ColumnName="ZON_Width" />
+          <ScalarProperty Name="ZON_Rigth" ColumnName="ZON_Rigth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OCR_People">
+      <EntityTypeMapping TypeName="OCRDocModel.OCR_People">
+        <MappingFragment StoreEntitySet="OCR_People">
+          <ScalarProperty Name="PEO_Id" ColumnName="PEO_Id" />
+          <ScalarProperty Name="PEO_Name" ColumnName="PEO_Name" />
+          <ScalarProperty Name="PEO_DateBirth" ColumnName="PEO_DateBirth" />
+          <ScalarProperty Name="PEO_CPF" ColumnName="PEO_CPF" />
+          <ScalarProperty Name="PEO_RG" ColumnName="PEO_RG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OCR_TypeDocument">
+      <EntityTypeMapping TypeName="OCRDocModel.OCR_TypeDocument">
+        <MappingFragment StoreEntitySet="OCR_TypeDocument">
+          <ScalarProperty Name="TDC_Id" ColumnName="TDC_Id" />
+          <ScalarProperty Name="TDC_Name" ColumnName="TDC_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

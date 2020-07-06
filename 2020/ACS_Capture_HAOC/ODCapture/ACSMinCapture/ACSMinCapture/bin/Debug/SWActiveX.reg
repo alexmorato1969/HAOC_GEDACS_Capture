@@ -1,0 +1,137 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\SWActiveX.CSActiveXCtrl]
+@="SWActiveX.CSActiveXCtrl"
+
+[HKEY_CLASSES_ROOT\SWActiveX.CSActiveXCtrl\CLSID]
+@="{EE30363F-59AC-46CC-B46E-E1BF26BD2D95}"
+
+[HKEY_CLASSES_ROOT\CLSID\{EE30363F-59AC-46CC-B46E-E1BF26BD2D95}]
+@="SWActiveX.CSActiveXCtrl"
+
+[HKEY_CLASSES_ROOT\CLSID\{EE30363F-59AC-46CC-B46E-E1BF26BD2D95}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="SWActiveX.CSActiveXCtrl"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EE30363F-59AC-46CC-B46E-E1BF26BD2D95}\InprocServer32\2.0.3.0]
+"Class"="SWActiveX.CSActiveXCtrl"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EE30363F-59AC-46CC-B46E-E1BF26BD2D95}\ProgId]
+@="SWActiveX.CSActiveXCtrl"
+
+[HKEY_CLASSES_ROOT\CLSID\{EE30363F-59AC-46CC-B46E-E1BF26BD2D95}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\SWActiveX.DocumentoNode_2]
+@="SWActiveX.DocumentoNode_2"
+
+[HKEY_CLASSES_ROOT\SWActiveX.DocumentoNode_2\CLSID]
+@="{718C1D03-4CE5-47BA-9EB9-D5A0F76A8B67}"
+
+[HKEY_CLASSES_ROOT\CLSID\{718C1D03-4CE5-47BA-9EB9-D5A0F76A8B67}]
+@="SWActiveX.DocumentoNode_2"
+
+[HKEY_CLASSES_ROOT\CLSID\{718C1D03-4CE5-47BA-9EB9-D5A0F76A8B67}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="SWActiveX.DocumentoNode_2"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{718C1D03-4CE5-47BA-9EB9-D5A0F76A8B67}\InprocServer32\2.0.3.0]
+"Class"="SWActiveX.DocumentoNode_2"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{718C1D03-4CE5-47BA-9EB9-D5A0F76A8B67}\ProgId]
+@="SWActiveX.DocumentoNode_2"
+
+[HKEY_CLASSES_ROOT\CLSID\{718C1D03-4CE5-47BA-9EB9-D5A0F76A8B67}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Cyotek.Windows.Forms.ImageBox]
+@="Cyotek.Windows.Forms.ImageBox"
+
+[HKEY_CLASSES_ROOT\Cyotek.Windows.Forms.ImageBox\CLSID]
+@="{2CF3D883-9AB0-42DD-80B9-90822EC50B6C}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2CF3D883-9AB0-42DD-80B9-90822EC50B6C}]
+@="Cyotek.Windows.Forms.ImageBox"
+
+[HKEY_CLASSES_ROOT\CLSID\{2CF3D883-9AB0-42DD-80B9-90822EC50B6C}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Cyotek.Windows.Forms.ImageBox"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{2CF3D883-9AB0-42DD-80B9-90822EC50B6C}\InprocServer32\2.0.3.0]
+"Class"="Cyotek.Windows.Forms.ImageBox"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{2CF3D883-9AB0-42DD-80B9-90822EC50B6C}\ProgId]
+@="Cyotek.Windows.Forms.ImageBox"
+
+[HKEY_CLASSES_ROOT\CLSID\{2CF3D883-9AB0-42DD-80B9-90822EC50B6C}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Record\{0FB2CF9A-1229-3F41-9C17-6079FE1D8F7D}\2.0.3.0]
+"Class"="Cyotek.Windows.Forms.ImageBoxBorderStyle"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\Record\{FFCB50E8-BED0-3F7D-A6DC-87B2FF1461FB}\2.0.3.0]
+"Class"="Cyotek.Windows.Forms.ImageBoxGridDisplayMode"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\Record\{6070D504-6A5E-3155-9D27-52E6140FC21A}\2.0.3.0]
+"Class"="Cyotek.Windows.Forms.ImageBoxGridScale"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\Record\{B88B1194-0D97-32D5-8C6F-36F44E75D038}\2.0.3.0]
+"Class"="Cyotek.Windows.Forms.ImageBoxSelectionMode"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\TwainLib.TwProtocol]
+@="TwainLib.TwProtocol"
+
+[HKEY_CLASSES_ROOT\TwainLib.TwProtocol\CLSID]
+@="{7CE78F63-C078-3C93-B6DD-757499BBB6FF}"
+
+[HKEY_CLASSES_ROOT\CLSID\{7CE78F63-C078-3C93-B6DD-757499BBB6FF}]
+@="TwainLib.TwProtocol"
+
+[HKEY_CLASSES_ROOT\CLSID\{7CE78F63-C078-3C93-B6DD-757499BBB6FF}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="TwainLib.TwProtocol"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{7CE78F63-C078-3C93-B6DD-757499BBB6FF}\InprocServer32\2.0.3.0]
+"Class"="TwainLib.TwProtocol"
+"Assembly"="SWActiveX, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWActiveX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{7CE78F63-C078-3C93-B6DD-757499BBB6FF}\ProgId]
+@="TwainLib.TwProtocol"
+
+[HKEY_CLASSES_ROOT\CLSID\{7CE78F63-C078-3C93-B6DD-757499BBB6FF}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

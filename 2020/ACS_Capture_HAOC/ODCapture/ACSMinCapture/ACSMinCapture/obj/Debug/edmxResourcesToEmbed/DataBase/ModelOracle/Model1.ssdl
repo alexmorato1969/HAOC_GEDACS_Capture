@@ -1,0 +1,1853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="Oracle.DataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'SYSTEM.GEDAGENTESINCRONIZADOR' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="GEDAGENTESINCRONIZADOR">
+          <Property Name="AGS_IDAGENTESINCRONIZADOR" Type="number" Precision="38" Scale="0" />
+          <Property Name="AGS_NOME" Type="varchar2" MaxLength="100" />
+          <Property Name="AGS_TEMPOSINCRONIZACAO" Type="number" Precision="38" Scale="0" />
+        </EntityType>-->
+  <EntityType Name="GEDAREAMEDICA">
+    <Key>
+      <PropertyRef Name="AES_IDAREAMEDICA" />
+    </Key>
+    <Property Name="AES_IDAREAMEDICA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="AES_DESCRICAO" Type="varchar2" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDAREAS">
+    <Key>
+      <PropertyRef Name="ARE_IDAREA" />
+    </Key>
+    <Property Name="ARE_IDAREA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ARE_DESCRICAO" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="ARE_IDLABELGENERICO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDAUDITORXCONVENIO">
+    <Key>
+      <PropertyRef Name="AUC_IDAUDITORXCONVENIO" />
+    </Key>
+    <Property Name="AUC_IDAUDITORXCONVENIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="AUC_IDTIPOAUDITOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="AUC_IDCONVENIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="AUC_DATAHORAINI" Type="date" />
+    <Property Name="AUC_DATAHORAFIM" Type="date" />
+    <Property Name="AUC_OBSERVACAO" Type="varchar2" MaxLength="500" />
+    <Property Name="AUC_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDAUDITORXPASSAGEM">
+    <Key>
+      <PropertyRef Name="ACL_IDAUDITORXPASSAGEM" />
+    </Key>
+    <Property Name="ACL_IDAUDITORXPASSAGEM" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ACL_IDTIPOAUDITOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ACL_IDPASSAGEM" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ACL_DATAHORAINI" Type="date" />
+    <Property Name="ACL_DATAHORAFIM" Type="date" />
+    <Property Name="ACL_OBSERVACAO" Type="varchar2" MaxLength="500" />
+    <Property Name="ACL_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDCAPTIONCONTROL">
+    <Key>
+      <PropertyRef Name="GCC_ID" />
+    </Key>
+    <Property Name="GCC_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="GCC_FORMNAME" Type="varchar2" MaxLength="100" />
+    <Property Name="GCC_CONTROLNAME" Type="varchar2" MaxLength="100" />
+    <Property Name="GCC_CAPTION" Type="varchar2" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="GEDCLIENTEPF">
+    <Key>
+      <PropertyRef Name="CPF_IDCLIENTEPF" />
+    </Key>
+    <Property Name="CPF_IDCLIENTEPF" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="CPF_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_NOME" Type="varchar2" MaxLength="300" />
+    <Property Name="CPF_NOMEPAI" Type="varchar2" MaxLength="300" />
+    <Property Name="CPF_NOMEMAE" Type="varchar2" MaxLength="300" />
+    <Property Name="CPF_CPF" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_RG" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_DATANASCIMENTO" Type="date" />
+    <Property Name="CPF_IDSEXO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CPF_IDUNIDADE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CPF_TEL01" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_TEL02" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_CONTATO" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_EMAIL" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_DATACADASTRO" Type="date" />
+    <Property Name="CPF_OBSERVACAO" Type="varchar2" MaxLength="500" />
+    <Property Name="CPF_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="CPF_IDTIPOCONSELHO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CPF_NUMEROCONSELHO" Type="varchar2" MaxLength="30" />
+    <Property Name="CPF_FLAGCORPOCLINICO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CPF_REGISTROOLD" Type="varchar2" MaxLength="4000" />
+    <Property Name="CPF_FLAGATUALIZARUNIFICACAO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDCLIENTEPJ">
+    <Key>
+      <PropertyRef Name="CPJ_IDCLIENTEPJ" />
+    </Key>
+    <Property Name="CPJ_IDCLIENTEPJ" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CPJ_RAZAOSOCIAL" Type="varchar2" MaxLength="300" />
+    <Property Name="CPJ_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="CPJ_CNPJ" Type="varchar2" MaxLength="30" />
+    <Property Name="CPJ_TEL01" Type="varchar2" MaxLength="30" />
+    <Property Name="CPJ_TEL02" Type="varchar2" MaxLength="30" />
+    <Property Name="CPJ_CONTATO" Type="varchar2" MaxLength="30" />
+    <Property Name="CPJ_EMAIL" Type="varchar2" MaxLength="100" />
+    <Property Name="CPJ_DATACADASTRO" Type="date" />
+    <Property Name="CPJ_IDUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="CPJ_OBSERVACAO" Type="varchar2" MaxLength="100" />
+    <Property Name="CPJ_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDCONTROLECERTIFICADO">
+    <Key>
+      <PropertyRef Name="CCD_IDCONTROLECERTIFICADO" />
+    </Key>
+    <Property Name="CCD_IDCONTROLECERTIFICADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CCD_IDPADROESCERTIFICADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CCD_IDDOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CCD_IDTIPOTOKEN" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CCD_IDTIPOCERTIFICADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CCD_DATACERTIFICACAO" Type="date" />
+    <Property Name="CCD_DATARECERTIFICACAO" Type="date" />
+    <Property Name="CCD_PROPRIETARIO" Type="varchar2" MaxLength="300" />
+    <Property Name="CCD_CNPJ" Type="varchar2" MaxLength="14" />
+    <Property Name="CCD_CPF" Type="varchar2" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="GEDCONVENIO">
+    <Key>
+      <PropertyRef Name="CON_IDCONVENIO" />
+    </Key>
+    <Property Name="CON_IDCONVENIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CON_RAZAOSOCIAL" Type="varchar2" MaxLength="100" />
+    <Property Name="CON_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="CON_CNPJ" Type="varchar2" MaxLength="30" />
+    <Property Name="CON_CODCONVENIORP" Type="varchar2" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GEDDIVISAOXGRUPOUSUARIO">
+    <Key>
+      <PropertyRef Name="DVG_IDDIVISAOXGRUPOUSUARIO" />
+    </Key>
+    <Property Name="DVG_IDDIVISAOXGRUPOUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DVG_IDGRUPOUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVG_IDDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVG_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDDIVISOES">
+    <Key>
+      <PropertyRef Name="DIV_IDDIVISAO" />
+    </Key>
+    <Property Name="DIV_IDDIVISAO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DIV_IDAREA" Type="number" Precision="38" Scale="0" />
+    <Property Name="DIV_DESCRICAO" Type="varchar2" MaxLength="300" Nullable="false" />
+    <Property Name="DIV_CODIGOREDUZIDO" Type="varchar2" MaxLength="2" />
+    <Property Name="DIV_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DIV_FLAGTIPOCLIENTE" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDDOCASSINANDO">
+    <Key>
+      <PropertyRef Name="DOA_IDDOCASSINANDO" />
+    </Key>
+    <Property Name="DOA_IDDOCASSINANDO" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="DOA_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOA_IDUSUARIOASSINA" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOA_BLOQUEADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOA_DATACONSULTA" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMASEMTEMP">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMASEMTEMP" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMASEMTEMP" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DVT_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="DVT_NOME" Type="varchar2" MaxLength="150" />
+    <Property Name="DVT_IDDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="date" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMASEMTPJ">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMASEMTPJ" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMASEMTPJ" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DVT_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="DVT_NOME" Type="varchar2" MaxLength="150" />
+    <Property Name="DVT_IDDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="date" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMMESTEMP">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMMESTEMP" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMMESTEMP" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DVT_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="DVT_NOME" Type="varchar2" MaxLength="150" />
+    <Property Name="DVT_IDDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="date" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDDOCAVENCERUMMESTPJ">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCAVENCERUMMESTPJ" />
+    </Key>
+    <Property Name="DVT_IDDOCAVENCERUMMESTPJ" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DVT_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="DVT_NOME" Type="varchar2" MaxLength="150" />
+    <Property Name="DVT_IDDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="date" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="DOC_IDDOCUMENTO" />
+    </Key>
+    <Property Name="DOC_IDDOCUMENTO" Type="number" Precision="38" Scale="1" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DOC_IDVOLUME" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDDIVISAO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DOC_IDPASSAGEM" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDFORMATO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_PATH" Type="varchar2" MaxLength="250" Nullable="false" />
+    <Property Name="DOC_NOMEARQUIVO" Type="varchar2" MaxLength="300" />
+    <Property Name="DOC_DATAHORACADASTRO" Type="date" />
+    <Property Name="DOC_FLAGCERTIFICADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_DATAVENCIMENTO" Type="date" />
+    <Property Name="DOC_DATAEMISSAO" Type="date" />
+    <Property Name="DOC_TEMPOVALIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_VENCIMENTORESOLVIDO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOACSCAPTURE" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL1" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL2" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL3" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_DATAASSINANIVEL1" Type="date" />
+    <Property Name="DOC_DATAASSINANIVEL2" Type="date" />
+    <Property Name="DOC_DATAASSINANIVEL3" Type="date" />
+    <Property Name="DOC_P7S" Type="clob" />
+    <Property Name="DOC_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_OBSERVACAO" Type="varchar2" MaxLength="500" />
+    <Property Name="DOC_DETAIL_CERT" Type="clob" />
+    <Property Name="DOC_VERSAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_EXTENSAONOMEARQUIVO" Type="varchar2" MaxLength="50" />
+    <Property Name="DOC_TIPOCAPTURA" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_CHAVEBUSCA1" Type="varchar2" MaxLength="20" />
+    <Property Name="DOC_CHAVEBUSCA2" Type="varchar2" MaxLength="20" />
+    <Property Name="DOC_CHAVEBUSCA3" Type="varchar2" MaxLength="20" />
+    <Property Name="DOC_CHAVEBUSCA4" Type="varchar2" MaxLength="20" />
+    <Property Name="DOC_ORDEM_VISUALIZACAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_FLAGAPROVADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDUSUARIOASSINANIVEL3_2" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_DATAASSINANIVEL3_2" Type="date" />
+    <Property Name="DOC_FLAGDOCEXTERNO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_FLAGREVISADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_FLAGPENDENTEUPLOAD" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_IDGRUPOUSUARIOCAPTURA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DOC_HASHDOCUMENTOCERTILLION" Type="varchar2" MaxLength="80" />
+    <Property Name="DOC_IDURLSTORAGE" Type="number" Precision="38" Scale="0" />
+    <Property Name="DOC_VERSAOACS" Type="varchar2" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="GEDDOCUMENTOVENCIDOTEMP">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCUMENTOVENCIDOTEMP" />
+    </Key>
+    <Property Name="DVT_IDDOCUMENTOVENCIDOTEMP" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DVT_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="DVT_NOME" Type="varchar2" MaxLength="150" />
+    <Property Name="DVT_IDDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="date" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDDOCUMENTOVENCIDOTPJ">
+    <Key>
+      <PropertyRef Name="DVT_IDDOCUMENTOVENCIDOTPJ" />
+    </Key>
+    <Property Name="DVT_IDDOCUMENTOVENCIDOTPJ" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DVT_REGISTRO" Type="varchar2" MaxLength="30" />
+    <Property Name="DVT_NOME" Type="varchar2" MaxLength="150" />
+    <Property Name="DVT_IDDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="DVT_DATAVENCIMENTO" Type="date" />
+    <Property Name="DVT_DATAPROCESSAMETO" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDESPECIALIDADE">
+    <Key>
+      <PropertyRef Name="ESP_IDESPECIALIDADE" />
+    </Key>
+    <Property Name="ESP_IDESPECIALIDADE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ESP_DESCRICAO" Type="varchar2" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="GEDFORMATOS">
+    <Key>
+      <PropertyRef Name="FMT_IDFORMATO" />
+    </Key>
+    <Property Name="FMT_IDFORMATO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FMT_EXTENSAO" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="FMT_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDFUNCAOUSUARIO">
+    <Key>
+      <PropertyRef Name="FUS_IDFUNCAOUSUARIO" />
+    </Key>
+    <Property Name="FUS_IDFUNCAOUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FUS_DESCRICAO" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="FUS_ICONE" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="FUS_ORDEM" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDFUNCAOXTIPOHIERARQUIA">
+    <Key>
+      <PropertyRef Name="FXT_IDFUNCXTPHIERAR" />
+    </Key>
+    <Property Name="FXT_IDFUNCXTPHIERAR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FXT_IDTIPOHIERARQUIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FXT_IDFUNCAOUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FXT_FLAGATIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDGLOBALSETTINGS">
+    <Key>
+      <PropertyRef Name="GLO_IDGLOBALSETTINGS" />
+    </Key>
+    <Property Name="GLO_IDGLOBALSETTINGS" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="GLO_IDUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="GLO_SMTPSERVIDOR" Type="varchar2" MaxLength="60" />
+    <Property Name="GLO_SMTPPORTA" Type="number" Precision="38" Scale="0" />
+    <Property Name="GLO_SMTPUUARIO" Type="varchar2" MaxLength="20" />
+    <Property Name="GLO_SMTPSENHA" Type="varchar2" MaxLength="20" />
+    <Property Name="GLO_SMTPEMAILSUPORTE" Type="varchar2" MaxLength="200" />
+    <Property Name="GLO_INATIVIDADEMINUTOSCHECK" Type="number" Precision="38" Scale="0" />
+    <Property Name="GLO_INATIVIDADEMINUTOSPOPUP" Type="number" Precision="38" Scale="0" />
+    <Property Name="GLO_DATAHORARIOVERAOINI" Type="date" />
+    <Property Name="GLO_DATAHORARIOVERAOFIM" Type="date" />
+  </EntityType>
+  <EntityType Name="GEDGRUPOSUSUARIOS">
+    <Key>
+      <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+    </Key>
+    <Property Name="GRP_IDGRUPOUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="GRP_DESCRICAO" Type="varchar2" MaxLength="100" />
+    <Property Name="GRP_IDUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGCONFIGSUBTIPODOC" Type="number" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGCONFIGDIVISAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGPREFERENCIA" Type="number" Precision="38" Scale="0" />
+    <Property Name="GRP_FLAGSUPORTE" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDHIERARQUIA">
+    <Key>
+      <PropertyRef Name="HIR_IDHIERARQUIA" />
+    </Key>
+    <Property Name="HIR_IDHIERARQUIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HIR_IDUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HIR_IDTIPOHIERARQUIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HIR_IDCOMPONENTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HIR_IDARRAY" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HIR_NAMECOMPONENT" Type="varchar2" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDHIERARQUIAXFUNCAO">
+    <Key>
+      <PropertyRef Name="HXF_IDHIERARQUIAXFUNCAO" />
+    </Key>
+    <Property Name="HXF_IDHIERARQUIAXFUNCAO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HXF_IDHIERARQUIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HXF_IDFUNCAOUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HXF_FLAGATIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="HXF_IDAREA" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDINTEGRACAOATENDIMENTO">
+    <Key>
+      <PropertyRef Name="ING_IDINTEGRACAOATENDIMENTO" />
+    </Key>
+    <Property Name="ING_IDINTEGRACAOATENDIMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ING_PASSAGEMEMERGENCIA" Type="varchar2" MaxLength="100" />
+    <Property Name="ING_PASSAGEMINTERNACAO" Type="varchar2" MaxLength="100" />
+    <Property Name="ING_DATAPASSAGEMEMERGENCIA" Type="date" />
+    <Property Name="ING_DATAPASSAGEMINTERNACAO" Type="date" />
+    <Property Name="ING_DATACRIACAOOPERADOR" Type="date" />
+    <Property Name="ING_OPERADOR" Type="number" Precision="38" Scale="0" />
+    <Property Name="ING_NOMEOPERADOR" Type="varchar2" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="GEDLABELGENERICO">
+    <Key>
+      <PropertyRef Name="LAB_IDLABELGENERICO" />
+    </Key>
+    <Property Name="LAB_IDLABELGENERICO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LAB_TITULOOPINIAO" Type="varchar2" MaxLength="250" />
+    <Property Name="LAB_TIPOPRONTUARIO" Type="varchar2" MaxLength="250" />
+    <Property Name="LAB_TIPODOCUMENTO" Type="varchar2" MaxLength="250" />
+    <Property Name="LAB_SUBTIPODOCUMENTO" Type="varchar2" MaxLength="250" />
+    <Property Name="LAB_FLAGCLIENTEPJ" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGCLIENTEPF" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTDOSTIPOSDOC" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELACLIENTEPF" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELACLIENTEPJ" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELACONVENIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELAAUDITORXTIPODOC" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELATIPOAUDITOR" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDOBRIGATORIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDCOBRANCA" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDGUARDA" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGSTDCOBRANCA" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGSTDGUARDA" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGSTDOBRIGATORIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTPDVALIDADEDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELAPASSAGEMPF" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGTELAPASSAGEMPJ" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGATIVARDATAPASSAGEMFIM" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGCAMPOCONCLASSE" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGLIBERATDSTPDOCS" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGLIBERATDSSUBTPDOCS" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGCAMPOSUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGEXIBIRDOCNCERT" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGATENDIMENTOINNERDOC" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGEDICAODOCASSINADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGPERIODODOCDIGITALIZADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGDATADEMISSAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAB_FLAGUNIDADE" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDLOG">
+    <Key>
+      <PropertyRef Name="LOG_IDLOG" />
+    </Key>
+    <Property Name="LOG_IDLOG" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LOG_IDOBJETO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LOG_IDUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LOG_IDUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="LOG_DATAHORA" Type="date" />
+    <Property Name="LOG_TOKEN" Type="varchar2" MaxLength="100" />
+    <Property Name="LOG_IPESTACAO" Type="varchar2" MaxLength="30" />
+    <Property Name="LOG_OBSERVACAO" Type="clob" />
+    <Property Name="LOG_OBSERVACAOREGISTRO" Type="clob" />
+    <Property Name="LOG_OBSERVACAOCLIENTE" Type="clob" />
+    <Property Name="LOG_OBSERVACAOUSUARIO" Type="clob" />
+    <Property Name="LOG_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'SYSTEM.GEDLOGAGENTESINC' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="GEDLOGAGENTESINC">
+          <Property Name="LAG_IDLOGAGENTESINC" Type="number" Precision="38" Scale="0" />
+          <Property Name="LAG_DATAHORAINICIOSINC" Type="date" />
+          <Property Name="LAG_DATAHORAFIMSINC" Type="date" />
+          <Property Name="LAG_QTDREGISTROSSINC" Type="number" Precision="38" Scale="0" />
+          <Property Name="LAG_IDAGENTESINC" Type="number" Precision="38" Scale="0" />
+        </EntityType>-->
+  <EntityType Name="GEDLOGALTERACAODOCUMENTO">
+    <Key>
+      <PropertyRef Name="LAD_IDLOGALTERACAODOCUMENTO" />
+    </Key>
+    <Property Name="LAD_IDLOGALTERACAODOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LAD_DATAALTERACAO" Type="date" />
+    <Property Name="LAD_IDUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAD_IDDOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAD_IDPASSAGEM" Type="number" Precision="38" Scale="0" />
+    <Property Name="LAD_REGISTRO" Type="varchar2" MaxLength="20" />
+    <Property Name="LAD_OBSERVACAO" Type="varchar2" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="GEDLOGERRO">
+    <Key>
+      <PropertyRef Name="LGE_IDLOGERRO" />
+    </Key>
+    <Property Name="LGE_IDLOGERRO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LGE_DATAHORA" Type="date" />
+    <Property Name="LGE_IDUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LGE_IDUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="LGE_TOKEN" Type="clob" />
+    <Property Name="LGE_CODOBJETO" Type="clob" />
+    <Property Name="LGE_CLASSNAME" Type="clob" />
+    <Property Name="LGE_FUNCTIONNAME" Type="clob" />
+    <Property Name="LGE_ERROFULLNAME" Type="clob" />
+    <Property Name="LGE_ERROMESSAGE" Type="clob" />
+    <Property Name="LGE_ERROSTACKTRACE" Type="clob" />
+    <Property Name="LGE_ERRODATA" Type="clob" />
+  </EntityType>
+  <EntityType Name="GEDLOGLOGIN">
+    <Key>
+      <PropertyRef Name="LLG_IDLOGLOGIN" />
+    </Key>
+    <Property Name="LLG_IDLOGLOGIN" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="LLG_IDUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LLG_IPESTACAO" Type="varchar2" MaxLength="15" Nullable="false" />
+    <Property Name="LLG_IDUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="LLG_FLAGLOGIN" Type="number" Precision="38" Scale="0" />
+    <Property Name="LLG_DATAHORALOGIN" Type="timestamp" Precision="6" />
+    <Property Name="LLG_FLAGLOGOUT" Type="number" Precision="38" Scale="0" />
+    <Property Name="LLG_DATAHORALOGOUT" Type="timestamp" Precision="6" />
+    <Property Name="LLG_OBSERVACAO" Type="varchar2" MaxLength="500" />
+    <Property Name="LLG_TOKEN" Type="varchar2" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="GEDLOGOCORRENCIA">
+    <Key>
+      <PropertyRef Name="LGO_IDLOGOCORRENCIA" />
+    </Key>
+    <Property Name="LGO_IDLOGOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LGO_IDOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LGO_IDSTATUSOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LGO_DATAHORA" Type="date" />
+    <Property Name="LGO_OBSERVACAOCONCLUSAO" Type="varchar2" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="GEDLOGPROCESSODOC">
+    <Key>
+      <PropertyRef Name="LPD_IDLOGPROCESSODOC" />
+    </Key>
+    <Property Name="LPD_IDLOGPROCESSODOC" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LPD_IDUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LPD_IDDOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LPD_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LPD_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LPD_DATAHORA" Type="date" />
+    <Property Name="LPD_OBSERVACAOCONCLUSAO" Type="varchar2" MaxLength="1000" />
+    <Property Name="LPD_FLAGAPROVADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="LPD_FLAGPENDENTEUPLOAD" Type="number" Precision="38" Scale="0" />
+    <Property Name="LPD_FLAGREVISADO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDLOTESXUSUARIOS">
+    <Key>
+      <PropertyRef Name="LTU_ID" />
+    </Key>
+    <Property Name="LTU_ID" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="LTU_IDUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LTU_CODIGOPASSAGEM" Type="varchar2" MaxLength="30" Nullable="false" />
+    <Property Name="LTU_IDSTATUSLOTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LTU_DATA" Type="date" />
+    <Property Name="LTU_OBSERVACAO" Type="varchar2" MaxLength="140" />
+    <Property Name="LTU_PATHIMAGENS" Type="clob" />
+  </EntityType>
+  <EntityType Name="GEDMODULOS">
+    <Key>
+      <PropertyRef Name="MOD_IDMODULO" />
+    </Key>
+    <Property Name="MOD_IDMODULO" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="MOD_DESCRICAO" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="MOD_ORDEM" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDNIVELASSINA">
+    <Key>
+      <PropertyRef Name="NAS_IDNIVELASSINA" />
+    </Key>
+    <Property Name="NAS_IDNIVELASSINA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NAS_DESCRICAO" Type="varchar2" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GEDOBJETOS">
+    <Key>
+      <PropertyRef Name="OBJ_IDOBJETO" />
+    </Key>
+    <Property Name="OBJ_IDOBJETO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="OBJ_IDMODULO" Type="number" Precision="38" Scale="0" />
+    <Property Name="OBJ_DESCRICAO" Type="varchar2" MaxLength="150" />
+    <Property Name="OBJ_CODIGO" Type="varchar2" MaxLength="10" />
+    <Property Name="OBJ_ORDEM" Type="number" Precision="38" Scale="0" />
+    <Property Name="OBJ_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDOCORRENCIAS">
+    <Key>
+      <PropertyRef Name="OCR_IDOCORRENCIA" />
+    </Key>
+    <Property Name="OCR_IDOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="OCR_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="OCR_IDTIPOOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="OCR_IDSTATUSOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="OCR_IDDOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="OCR_IDUSUARIOSOLICITANTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="OCR_DATASOLICITACAO" Type="date" />
+    <Property Name="OCR_OBSERVACAOSOLICITACAO" Type="varchar2" MaxLength="1000" />
+    <Property Name="OCR_IDUSUARIORESPONSAVEL" Type="number" Precision="38" Scale="0" />
+    <Property Name="OCR_DATACONCLUSAO" Type="date" />
+    <Property Name="OCR_OBSERVACAOCONCLUSAO" Type="varchar2" MaxLength="1000" />
+    <Property Name="OCR_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="OCR_FLAGREPROVADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="OCR_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDPADROESCERTIFICADO">
+    <Key>
+      <PropertyRef Name="PDC_IDPADROESCERTIFICADO" />
+    </Key>
+    <Property Name="PDC_IDPADROESCERTIFICADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PDC_NOME" Type="varchar2" MaxLength="300" />
+    <Property Name="PCD_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDPASSAGENS">
+    <Key>
+      <PropertyRef Name="PAS_IDPASSAGEM" />
+    </Key>
+    <Property Name="PAS_IDPASSAGEM" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="PAS_IDUNIDADE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PAS_IDCONVENIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PAS_DATAHORAPASSAGEM" Type="date" />
+    <Property Name="PAS_CODIGOPASSAGEM" Type="varchar2" MaxLength="30" Nullable="false" />
+    <Property Name="PAS_FLAGCLIENTEPF" Type="number" Precision="38" Scale="0" />
+    <Property Name="PAS_REGISTRO" Type="varchar2" MaxLength="100" />
+    <Property Name="PAS_DATAHORAPASSAGEMFIM" Type="date" />
+    <Property Name="PAS_TIPOATENDIMENTO" Type="varchar2" MaxLength="100" />
+    <Property Name="PAS_NUMEROCONTA" Type="varchar2" MaxLength="20" />
+    <Property Name="PAS_REGISTROOLD" Type="varchar2" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="GEDPERFIS">
+    <Key>
+      <PropertyRef Name="PRF_IDPERFIL" />
+    </Key>
+    <Property Name="PRF_IDPERFIL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRF_IDGRUPOUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="PRF_IDUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="PRF_DESCRICAO" Type="varchar2" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDPERFISXOBJETOS">
+    <Key>
+      <PropertyRef Name="PXO_IDPERFILXOBJETO" />
+    </Key>
+    <Property Name="PXO_IDPERFILXOBJETO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PXO_IDPERFIL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PXO_IDOBJETO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDPERFISXUSUARIOS">
+    <Key>
+      <PropertyRef Name="PXU_IDPERFILXUSUARIO" />
+    </Key>
+    <Property Name="PXU_IDPERFILXUSUARIO" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="PXU_IDPERFIL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PXU_IDUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PXU_PERFILINICIAL" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDPESSOAS">
+    <Key>
+      <PropertyRef Name="PES_IDPESSOA" />
+    </Key>
+    <Property Name="PES_IDPESSOA" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="PES_NOME" Type="varchar2" MaxLength="254" />
+    <Property Name="PES_NOMEMAE" Type="varchar2" MaxLength="254" />
+    <Property Name="PES_NOMEPAI" Type="varchar2" MaxLength="250" />
+    <Property Name="PES_CPF" Type="char" MaxLength="11" />
+    <Property Name="PES_RG" Type="char" MaxLength="9" />
+    <Property Name="PES_DATANASCIMENTO" Type="date" />
+    <Property Name="PES_IDSEXO" Type="number" Precision="38" Scale="0" />
+    <Property Name="PES_TEL01" Type="varchar2" MaxLength="20" />
+    <Property Name="PES_TEL02" Type="varchar2" MaxLength="20" />
+    <Property Name="PES_CONTATO" Type="varchar2" MaxLength="100" />
+    <Property Name="PES_EMAILPESSOAL" Type="varchar2" MaxLength="100" />
+    <Property Name="PES_EMAILPROFISSIONAL" Type="varchar2" MaxLength="100" />
+    <Property Name="PES_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="PES_OBSERVACAO" Type="varchar2" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="GEDSETOR">
+    <Key>
+      <PropertyRef Name="SET_IDSETOR" />
+    </Key>
+    <Property Name="SET_IDSETOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="SET_DESCRICAO" Type="varchar2" MaxLength="200" />
+    <Property Name="SET_FLAGATIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDSETORXGRUPOUSUARIO">
+    <Key>
+      <PropertyRef Name="SXG_IDSETORXGRUPOUSUARIO" />
+    </Key>
+    <Property Name="SXG_IDSETORXGRUPOUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="SXG_IDSETOR" Type="number" Precision="38" Scale="0" />
+    <Property Name="SXG_IDGRUPOUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="SXG_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDSEXOS">
+    <Key>
+      <PropertyRef Name="SEX_IDSEXO" />
+    </Key>
+    <Property Name="SEX_IDSEXO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="SEX_DESCRICAO" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="SEX_SIGLA" Type="char" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDSTATUSLOTE">
+    <Key>
+      <PropertyRef Name="STL_ID" />
+    </Key>
+    <Property Name="STL_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STL_DESCRICAO" Type="varchar2" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GEDSTATUSOCORRENCIA">
+    <Key>
+      <PropertyRef Name="STO_IDSTATUSOCORRENCIA" />
+    </Key>
+    <Property Name="STO_IDSTATUSOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STO_DESCRICAO" Type="varchar2" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="GEDSUBTIPODOCXGRUPUSER">
+    <Key>
+      <PropertyRef Name="TDG_IDSUBTIPODOCXGRUPUSER" />
+    </Key>
+    <Property Name="TDG_IDSUBTIPODOCXGRUPUSER" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TDG_IDGRUPOUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TDG_IDSUBTIPODOCUMENTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TDG_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDSUBTIPOSDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="STD_IDSUBTIPOSDOCUMENTOS" />
+    </Key>
+    <Property Name="STD_IDSUBTIPOSDOCUMENTOS" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STD_IDTIPOSDOCUMENTOS" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STD_DESCRICAO" Type="varchar2" MaxLength="300" />
+    <Property Name="STD_CODIGOBARRA" Type="varchar2" MaxLength="4" />
+    <Property Name="STD_ORDEM" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_TEMPOVALIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_OBRIGATORIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_TEMPOGUARDA" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_COBRANCADIAS" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGIMPRESSAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGVENCIMENTOANUAL" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGVENCIMENTOMANUAL" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_MESVENCIMENTOANUAL" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGTIPOCLIENTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STD_NIVELASSINA" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGAPROVADOC" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_TEMPOPROCESSO" Type="number" Precision="38" Scale="0" />
+    <Property Name="STD_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOAUDITOR">
+    <Key>
+      <PropertyRef Name="TPA_IDTIPOAUDITOR" />
+    </Key>
+    <Property Name="TPA_IDTIPOAUDITOR" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="TPA_IDUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPA_FLAGCONVENIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPA_FLAGUNIVERSAL" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPA_FLAGCLIENTE" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPA_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPA_OBSERVACAO" Type="varchar2" MaxLength="500" />
+    <Property Name="TPA_FLAGGRUPOUSUARIO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOBUSCA">
+    <Key>
+      <PropertyRef Name="TIB_IDTIPOBUSCA" />
+    </Key>
+    <Property Name="TIB_IDTIPOBUSCA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TIB_IDTIPOCLIENTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TIB_DESCRICAO" Type="varchar2" MaxLength="50" />
+    <Property Name="TIB_CAMPOBUSCAINI" Type="varchar2" MaxLength="1000" />
+    <Property Name="TIB_CAMPOBUSCAFIM" Type="varchar2" MaxLength="1000" />
+    <Property Name="TIB_CAMPOBUSCAINIORA" Type="varchar2" MaxLength="100" />
+    <Property Name="TIB_CAMPOBUSCAFIMORA" Type="varchar2" MaxLength="100" />
+    <Property Name="TIB_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOCLIENTE">
+    <Key>
+      <PropertyRef Name="TIC_IDTIPOCLIENTE" />
+    </Key>
+    <Property Name="TIC_IDTIPOCLIENTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TIC_IDAREA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TIC_DESCRICAO" Type="varchar2" MaxLength="500" />
+    <Property Name="TIC_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELREGISTRO" Type="varchar2" MaxLength="250" />
+    <Property Name="TIC_VISIBLEREGISTRO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELNOME" Type="varchar2" MaxLength="250" />
+    <Property Name="TIC_VISIBLENOME" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELDATA" Type="varchar2" MaxLength="250" />
+    <Property Name="TIC_VISIBLEDATA" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELPASSAGEM" Type="varchar2" MaxLength="250" />
+    <Property Name="TIC_VISIBLEPASSAGEM" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELUNIDADE" Type="varchar2" MaxLength="250" />
+    <Property Name="TIC_VISIBLEUNIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELPREFIXOIMAGEM" Type="varchar2" MaxLength="250" />
+    <Property Name="TIC_VISIBLEPREFIXOIMAGEM" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_FLAGTIPOCLIENTE" Type="number" Precision="38" Scale="0" />
+    <Property Name="TIC_LABELDATAPASSAGEM" Type="varchar2" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="GEDTIPOCONSELHO">
+    <Key>
+      <PropertyRef Name="TPC_IDTIPOCONSELHO" />
+    </Key>
+    <Property Name="TPC_IDTIPOCONSELHO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPC_DESCRICAO" Type="varchar2" MaxLength="300" />
+    <Property Name="TPC_SIGLA" Type="varchar2" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GEDTIPOHIERARQUIA">
+    <Key>
+      <PropertyRef Name="TPH_IDTIPOHIERARQUIA" />
+    </Key>
+    <Property Name="TPH_IDTIPOHIERARQUIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPH_DESCRICAO" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="TPH_ORDEMHIERARQUIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPH_FLAGATIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSATENDIMENTOS">
+    <Key>
+      <PropertyRef Name="TIA_IDTIPOATENDIMENTO" />
+    </Key>
+    <Property Name="TIA_IDTIPOATENDIMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TIA_DESCRICAO" Type="varchar2" MaxLength="250" />
+    <Property Name="TIA_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSBUSCALOTES">
+    <Key>
+      <PropertyRef Name="TBL_ID" />
+    </Key>
+    <Property Name="TBL_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TBL_DESCRICAO" Type="clob" />
+    <Property Name="TBL_DEFAULT" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSBUSCALOTESPJ">
+    <Key>
+      <PropertyRef Name="TPJ_ID" />
+    </Key>
+    <Property Name="TPJ_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPJ_DESCRICAO" Type="clob" />
+    <Property Name="TPJ_DEFAULT" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSCERTIFICADOS">
+    <Key>
+      <PropertyRef Name="TPC_IDCERTIFICADO" />
+    </Key>
+    <Property Name="TPC_IDCERTIFICADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPC_NOME" Type="varchar2" MaxLength="300" />
+    <Property Name="TPC_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSDOCUMENTOS">
+    <Key>
+      <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+    </Key>
+    <Property Name="TPD_IDTIPODOCUMENTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPD_IDDIVISAO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPD_DESCRICAO" Type="varchar2" MaxLength="300" />
+    <Property Name="TPD_CODIGOBARRA" Type="varchar2" MaxLength="4" />
+    <Property Name="TPD_ORDEM" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPD_FLAGSUBTIPO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPD_TEMPOVALIDADE" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPD_OBRIGATORIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPD_TEMPOGUARDA" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPD_COBRANCADIAS" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPD_FLAGIMPRESSAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="TPD_FLAGTIPOCLIENTE" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSOCORRENCIA">
+    <Key>
+      <PropertyRef Name="TPO_IDTIPOOCORRENCIA" />
+    </Key>
+    <Property Name="TPO_IDTIPOOCORRENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TPO_DESCRICAO" Type="varchar2" MaxLength="100" />
+    <Property Name="TPO_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDTIPOSTOKEN">
+    <Key>
+      <PropertyRef Name="TTK_IDTIPOTOKEN" />
+    </Key>
+    <Property Name="TTK_IDTIPOTOKEN" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TTK_NOME" Type="varchar2" MaxLength="300" />
+    <Property Name="TTK_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDUNIDADES">
+    <Key>
+      <PropertyRef Name="UNI_IDUNIDADE" />
+    </Key>
+    <Property Name="UNI_IDUNIDADE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="UNI_NOME" Type="varchar2" MaxLength="100" />
+    <Property Name="UNI_DESCRICAO" Type="varchar2" MaxLength="500" />
+    <Property Name="UNI_CNPJ" Type="varchar2" MaxLength="20" />
+    <Property Name="UNI_DATAHORAINI" Type="date" />
+    <Property Name="UNI_SITE" Type="varchar2" MaxLength="100" />
+    <Property Name="UNI_OBSERVACAO" Type="varchar2" MaxLength="500" />
+    <Property Name="UNI_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDUNIDADEXAREAS">
+    <Key>
+      <PropertyRef Name="UXA_IDUNIDADEXAREA" />
+    </Key>
+    <Property Name="UXA_IDUNIDADEXAREA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="UXA_IDUNIDADE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="UXA_IDAREA" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDURLSTORAGE">
+    <Key>
+      <PropertyRef Name="URS_IDURLSTORAGE" />
+    </Key>
+    <Property Name="URS_IDURLSTORAGE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="URS_URLSTORAGE" Type="varchar2" MaxLength="1000" />
+    <Property Name="URS_DATAHORAINI" Type="date" />
+    <Property Name="URS_DATAHORAFIM" Type="date" />
+    <Property Name="URS_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDUSUARIOS">
+    <Key>
+      <PropertyRef Name="USR_IDUSUARIO" />
+    </Key>
+    <Property Name="USR_IDUSUARIO" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="USR_IDGRUPOUSUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_IDPESSOA" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_LOGIN" Type="varchar2" MaxLength="100" />
+    <Property Name="USR_SENHA" Type="varchar2" MaxLength="100" />
+    <Property Name="USR_FLAGATIVO" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_FIRSTACCESS" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_DATAHORACADASTRO" Type="date" />
+    <Property Name="USR_DATAHORALASTLOGIN" Type="date" />
+    <Property Name="USR_OBSERVACAO" Type="varchar2" MaxLength="3000" />
+    <Property Name="USR_FLAGIMPRIMIR" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGIMPORTACAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGDIGITALIZACAO" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGASSINA" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_NIVELASSINA" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_SERIALNUMBERCERT" Type="clob" />
+    <Property Name="USR_FLAGADMACS" Type="number" Precision="38" Scale="0" />
+    <Property Name="USR_FLAGPROCESSAMENTO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDUSUARIOSXUNIDADESXAREAS">
+    <Key>
+      <PropertyRef Name="UXU_IDUSUARIOXUNIDADEXAREA" />
+    </Key>
+    <Property Name="UXU_IDUSUARIOXUNIDADEXAREA" Type="number" Precision="38" Scale="1" Nullable="false" />
+    <Property Name="UXU_IDUNIDADEXAREA" Type="number" Precision="38" Scale="0" />
+    <Property Name="UXU_IDUSUARIO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="GEDVOLUMES">
+    <Key>
+      <PropertyRef Name="VOL_IDVOLUME" />
+    </Key>
+    <Property Name="VOL_IDVOLUME" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="VOL_DESCRICAO" Type="varchar2" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="ACL_FK_TPA_IDTIPOAUDITOR">
+    <End Role="GEDTIPOAUDITOR" Type="Self.GEDTIPOAUDITOR" Multiplicity="1" />
+    <End Role="GEDAUDITORXPASSAGEM" Type="Self.GEDAUDITORXPASSAGEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOAUDITOR">
+        <PropertyRef Name="TPA_IDTIPOAUDITOR" />
+      </Principal>
+      <Dependent Role="GEDAUDITORXPASSAGEM">
+        <PropertyRef Name="ACL_IDTIPOAUDITOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ARE_FK_LBA_IDLABELGENERICO">
+    <End Role="GEDLABELGENERICO" Type="Self.GEDLABELGENERICO" Multiplicity="0..1" />
+    <End Role="GEDAREAS" Type="Self.GEDAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDLABELGENERICO">
+        <PropertyRef Name="LAB_IDLABELGENERICO" />
+      </Principal>
+      <Dependent Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDLABELGENERICO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AUC_FK_CON_IDCONVENIO">
+    <End Role="GEDCONVENIO" Type="Self.GEDCONVENIO" Multiplicity="1" />
+    <End Role="GEDAUDITORXCONVENIO" Type="Self.GEDAUDITORXCONVENIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDCONVENIO">
+        <PropertyRef Name="CON_IDCONVENIO" />
+      </Principal>
+      <Dependent Role="GEDAUDITORXCONVENIO">
+        <PropertyRef Name="AUC_IDCONVENIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AUC_FK_TPA_IDTIPOAUDITOR">
+    <End Role="GEDTIPOAUDITOR" Type="Self.GEDTIPOAUDITOR" Multiplicity="1" />
+    <End Role="GEDAUDITORXCONVENIO" Type="Self.GEDAUDITORXCONVENIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOAUDITOR">
+        <PropertyRef Name="TPA_IDTIPOAUDITOR" />
+      </Principal>
+      <Dependent Role="GEDAUDITORXCONVENIO">
+        <PropertyRef Name="AUC_IDTIPOAUDITOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_DOC_IDDOCUMENTO">
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="1" />
+    <End Role="GEDCONTROLECERTIFICADO" Type="Self.GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDDOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDDOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_PDC_IDPADROESCERT">
+    <End Role="GEDPADROESCERTIFICADO" Type="Self.GEDPADROESCERTIFICADO" Multiplicity="1" />
+    <End Role="GEDCONTROLECERTIFICADO" Type="Self.GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPADROESCERTIFICADO">
+        <PropertyRef Name="PDC_IDPADROESCERTIFICADO" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDPADROESCERTIFICADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_TPC_IDTIPOCERTIFICADO">
+    <End Role="GEDTIPOSCERTIFICADOS" Type="Self.GEDTIPOSCERTIFICADOS" Multiplicity="1" />
+    <End Role="GEDCONTROLECERTIFICADO" Type="Self.GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSCERTIFICADOS">
+        <PropertyRef Name="TPC_IDCERTIFICADO" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDTIPOCERTIFICADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CCD_FK_TTK_IDTIPOTOKEN">
+    <End Role="GEDTIPOSTOKEN" Type="Self.GEDTIPOSTOKEN" Multiplicity="1" />
+    <End Role="GEDCONTROLECERTIFICADO" Type="Self.GEDCONTROLECERTIFICADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSTOKEN">
+        <PropertyRef Name="TTK_IDTIPOTOKEN" />
+      </Principal>
+      <Dependent Role="GEDCONTROLECERTIFICADO">
+        <PropertyRef Name="CCD_IDTIPOTOKEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CPF_FK_SEX_IDSEXO">
+    <End Role="GEDSEXOS" Type="Self.GEDSEXOS" Multiplicity="1" />
+    <End Role="GEDCLIENTEPF" Type="Self.GEDCLIENTEPF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSEXOS">
+        <PropertyRef Name="SEX_IDSEXO" />
+      </Principal>
+      <Dependent Role="GEDCLIENTEPF">
+        <PropertyRef Name="CPF_IDSEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CPF_FK_UNI_IDUNIDADE">
+    <End Role="GEDUNIDADES" Type="Self.GEDUNIDADES" Multiplicity="1" />
+    <End Role="GEDCLIENTEPF" Type="Self.GEDCLIENTEPF" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDCLIENTEPF">
+        <PropertyRef Name="CPF_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CPJ_FK_UNI_IDUNIDADE">
+    <End Role="GEDUNIDADES" Type="Self.GEDUNIDADES" Multiplicity="0..1" />
+    <End Role="GEDCLIENTEPJ" Type="Self.GEDCLIENTEPJ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDCLIENTEPJ">
+        <PropertyRef Name="CPJ_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DIV_FK_ARE_IDAREA">
+    <End Role="GEDAREAS" Type="Self.GEDAREAS" Multiplicity="0..1" />
+    <End Role="GEDDIVISOES" Type="Self.GEDDIVISOES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDAREA" />
+      </Principal>
+      <Dependent Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_DIV_IDDIVISAO">
+    <End Role="GEDDIVISOES" Type="Self.GEDDIVISOES" Multiplicity="1" />
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDDIVISAO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDDIVISAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_FMT_IDFORMATO">
+    <End Role="GEDFORMATOS" Type="Self.GEDFORMATOS" Multiplicity="0..1" />
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDFORMATOS">
+        <PropertyRef Name="FMT_IDFORMATO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDFORMATO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_GPU_IDGRUPOUUSUARIO">
+    <End Role="GEDGRUPOSUSUARIOS" Type="Self.GEDGRUPOSUSUARIOS" Multiplicity="1" />
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDGRUPOUSUARIOCAPTURA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_PAS_IDPASSAGEM">
+    <End Role="GEDPASSAGENS" Type="Self.GEDPASSAGENS" Multiplicity="0..1" />
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPASSAGENS">
+        <PropertyRef Name="PAS_IDPASSAGEM" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDPASSAGEM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_TPD_IDTIPODOCUMENTO">
+    <End Role="GEDTIPOSDOCUMENTOS" Type="Self.GEDTIPOSDOCUMENTOS" Multiplicity="0..1" />
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDTIPODOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOC_FK_VOL_IDVOLUME">
+    <End Role="GEDVOLUMES" Type="Self.GEDVOLUMES" Multiplicity="0..1" />
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDVOLUMES">
+        <PropertyRef Name="VOL_IDVOLUME" />
+      </Principal>
+      <Dependent Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDVOLUME" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DVG_FK_DIV_IDDIVISAO">
+    <End Role="GEDDIVISOES" Type="Self.GEDDIVISOES" Multiplicity="0..1" />
+    <End Role="GEDDIVISAOXGRUPOUSUARIO" Type="Self.GEDDIVISAOXGRUPOUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDDIVISAO" />
+      </Principal>
+      <Dependent Role="GEDDIVISAOXGRUPOUSUARIO">
+        <PropertyRef Name="DVG_IDDIVISAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DVG_FK_GRP_IDGRUPOUSUARIO">
+    <End Role="GEDGRUPOSUSUARIOS" Type="Self.GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Role="GEDDIVISAOXGRUPOUSUARIO" Type="Self.GEDDIVISAOXGRUPOUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDDIVISAOXGRUPOUSUARIO">
+        <PropertyRef Name="DVG_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GLO_FK_UNI_IDUNIDADE">
+    <End Role="GEDUNIDADES" Type="Self.GEDUNIDADES" Multiplicity="0..1" />
+    <End Role="GEDGLOBALSETTINGS" Type="Self.GEDGLOBALSETTINGS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDGLOBALSETTINGS">
+        <PropertyRef Name="GLO_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GRP_FK_UNI_IDUNIDADE">
+    <End Role="GEDUNIDADES" Type="Self.GEDUNIDADES" Multiplicity="0..1" />
+    <End Role="GEDGRUPOSUSUARIOS" Type="Self.GEDGRUPOSUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LGO_FK_OCR_IDOCORRENCIA">
+    <End Role="GEDOCORRENCIAS" Type="Self.GEDOCORRENCIAS" Multiplicity="1" />
+    <End Role="GEDLOGOCORRENCIA" Type="Self.GEDLOGOCORRENCIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDLOGOCORRENCIA">
+        <PropertyRef Name="LGO_IDOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LGO_FK_STO_IDSTATUSOCORRENCIA">
+    <End Role="GEDSTATUSOCORRENCIA" Type="Self.GEDSTATUSOCORRENCIA" Multiplicity="1" />
+    <End Role="GEDLOGOCORRENCIA" Type="Self.GEDLOGOCORRENCIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSTATUSOCORRENCIA">
+        <PropertyRef Name="STO_IDSTATUSOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDLOGOCORRENCIA">
+        <PropertyRef Name="LGO_IDSTATUSOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LTU_FK_STL_IDSTATUSLOTE">
+    <End Role="GEDSTATUSLOTE" Type="Self.GEDSTATUSLOTE" Multiplicity="1" />
+    <End Role="GEDLOTESXUSUARIOS" Type="Self.GEDLOTESXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSTATUSLOTE">
+        <PropertyRef Name="STL_ID" />
+      </Principal>
+      <Dependent Role="GEDLOTESXUSUARIOS">
+        <PropertyRef Name="LTU_IDSTATUSLOTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LTU_FK_USR_IDUSUARIO">
+    <End Role="GEDUSUARIOS" Type="Self.GEDUSUARIOS" Multiplicity="1" />
+    <End Role="GEDLOTESXUSUARIOS" Type="Self.GEDLOTESXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDLOTESXUSUARIOS">
+        <PropertyRef Name="LTU_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OBJ_FK_MOD_IDMODULO">
+    <End Role="GEDMODULOS" Type="Self.GEDMODULOS" Multiplicity="0..1" />
+    <End Role="GEDOBJETOS" Type="Self.GEDOBJETOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDMODULOS">
+        <PropertyRef Name="MOD_IDMODULO" />
+      </Principal>
+      <Dependent Role="GEDOBJETOS">
+        <PropertyRef Name="OBJ_IDMODULO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_DOC_IDDOCUMENTO">
+    <End Role="GEDDOCUMENTOS" Type="Self.GEDDOCUMENTOS" Multiplicity="1" />
+    <End Role="GEDOCORRENCIAS" Type="Self.GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDOCUMENTOS">
+        <PropertyRef Name="DOC_IDDOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDDOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_STO_IDSTATUSOCORRENCIA">
+    <End Role="GEDSTATUSOCORRENCIA" Type="Self.GEDSTATUSOCORRENCIA" Multiplicity="1" />
+    <End Role="GEDOCORRENCIAS" Type="Self.GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSTATUSOCORRENCIA">
+        <PropertyRef Name="STO_IDSTATUSOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDSTATUSOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_TPD_IDTIPODOCUMENTO">
+    <End Role="GEDTIPOSDOCUMENTOS" Type="Self.GEDTIPOSDOCUMENTOS" Multiplicity="1" />
+    <End Role="GEDOCORRENCIAS" Type="Self.GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDTIPODOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_TPO_IDTIPOOCORRENCIA">
+    <End Role="GEDTIPOSOCORRENCIA" Type="Self.GEDTIPOSOCORRENCIA" Multiplicity="1" />
+    <End Role="GEDOCORRENCIAS" Type="Self.GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSOCORRENCIA">
+        <PropertyRef Name="TPO_IDTIPOOCORRENCIA" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDTIPOOCORRENCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OCR_FK_USR_IDUSUARIO">
+    <End Role="GEDUSUARIOS" Type="Self.GEDUSUARIOS" Multiplicity="1" />
+    <End Role="GEDOCORRENCIAS" Type="Self.GEDOCORRENCIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDOCORRENCIAS">
+        <PropertyRef Name="OCR_IDUSUARIOSOLICITANTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PAS_FK_CON_IDCONVENIO">
+    <End Role="GEDCONVENIO" Type="Self.GEDCONVENIO" Multiplicity="1" />
+    <End Role="GEDPASSAGENS" Type="Self.GEDPASSAGENS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDCONVENIO">
+        <PropertyRef Name="CON_IDCONVENIO" />
+      </Principal>
+      <Dependent Role="GEDPASSAGENS">
+        <PropertyRef Name="PAS_IDCONVENIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PAS_FK_UNI_IDUNIDADE">
+    <End Role="GEDUNIDADES" Type="Self.GEDUNIDADES" Multiplicity="1" />
+    <End Role="GEDPASSAGENS" Type="Self.GEDPASSAGENS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDPASSAGENS">
+        <PropertyRef Name="PAS_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PES_FK_SEX_IDSEXO">
+    <End Role="GEDSEXOS" Type="Self.GEDSEXOS" Multiplicity="0..1" />
+    <End Role="GEDPESSOAS" Type="Self.GEDPESSOAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSEXOS">
+        <PropertyRef Name="SEX_IDSEXO" />
+      </Principal>
+      <Dependent Role="GEDPESSOAS">
+        <PropertyRef Name="PES_IDSEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRF_FK_GRP_IDGRUPOUSUARIO">
+    <End Role="GEDGRUPOSUSUARIOS" Type="Self.GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Role="GEDPERFIS" Type="Self.GEDPERFIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRF_FK_UNI_IDUNIDADE">
+    <End Role="GEDUNIDADES" Type="Self.GEDUNIDADES" Multiplicity="0..1" />
+    <End Role="GEDPERFIS" Type="Self.GEDPERFIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXO_FK_OBJ_IDOBJETO">
+    <End Role="GEDOBJETOS" Type="Self.GEDOBJETOS" Multiplicity="1" />
+    <End Role="GEDPERFISXOBJETOS" Type="Self.GEDPERFISXOBJETOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDOBJETOS">
+        <PropertyRef Name="OBJ_IDOBJETO" />
+      </Principal>
+      <Dependent Role="GEDPERFISXOBJETOS">
+        <PropertyRef Name="PXO_IDOBJETO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXO_FK_PRF_IDPERFIL">
+    <End Role="GEDPERFIS" Type="Self.GEDPERFIS" Multiplicity="1" />
+    <End Role="GEDPERFISXOBJETOS" Type="Self.GEDPERFISXOBJETOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDPERFIL" />
+      </Principal>
+      <Dependent Role="GEDPERFISXOBJETOS">
+        <PropertyRef Name="PXO_IDPERFIL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXU_FK_PRF_IDPERFIL">
+    <End Role="GEDPERFIS" Type="Self.GEDPERFIS" Multiplicity="1" />
+    <End Role="GEDPERFISXUSUARIOS" Type="Self.GEDPERFISXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPERFIS">
+        <PropertyRef Name="PRF_IDPERFIL" />
+      </Principal>
+      <Dependent Role="GEDPERFISXUSUARIOS">
+        <PropertyRef Name="PXU_IDPERFIL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PXU_FK_USR_IDUSUARIO">
+    <End Role="GEDUSUARIOS" Type="Self.GEDUSUARIOS" Multiplicity="1" />
+    <End Role="GEDPERFISXUSUARIOS" Type="Self.GEDPERFISXUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDPERFISXUSUARIOS">
+        <PropertyRef Name="PXU_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="STD_FK_TPD_IDTIPODOCUMENTO">
+    <End Role="GEDTIPOSDOCUMENTOS" Type="Self.GEDTIPOSDOCUMENTOS" Multiplicity="1" />
+    <End Role="GEDSUBTIPOSDOCUMENTOS" Type="Self.GEDSUBTIPOSDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDTIPODOCUMENTO" />
+      </Principal>
+      <Dependent Role="GEDSUBTIPOSDOCUMENTOS">
+        <PropertyRef Name="STD_IDTIPOSDOCUMENTOS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TDG_FK_GRP_IDGRUPOUSUARIO">
+    <End Role="GEDGRUPOSUSUARIOS" Type="Self.GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Role="GEDSUBTIPODOCXGRUPUSER" Type="Self.GEDSUBTIPODOCXGRUPUSER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDSUBTIPODOCXGRUPUSER">
+        <PropertyRef Name="TDG_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TDG_FK_STD_IDSUBTIPODOCUMENTO">
+    <End Role="GEDSUBTIPOSDOCUMENTOS" Type="Self.GEDSUBTIPOSDOCUMENTOS" Multiplicity="0..1" />
+    <End Role="GEDSUBTIPODOCXGRUPUSER" Type="Self.GEDSUBTIPODOCXGRUPUSER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDSUBTIPOSDOCUMENTOS">
+        <PropertyRef Name="STD_IDSUBTIPOSDOCUMENTOS" />
+      </Principal>
+      <Dependent Role="GEDSUBTIPODOCXGRUPUSER">
+        <PropertyRef Name="TDG_IDSUBTIPODOCUMENTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TIB_FK_TIC_IDTIPOCLIENTE">
+    <End Role="GEDTIPOCLIENTE" Type="Self.GEDTIPOCLIENTE" Multiplicity="1" />
+    <End Role="GEDTIPOBUSCA" Type="Self.GEDTIPOBUSCA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDTIPOCLIENTE">
+        <PropertyRef Name="TIC_IDTIPOCLIENTE" />
+      </Principal>
+      <Dependent Role="GEDTIPOBUSCA">
+        <PropertyRef Name="TIB_IDTIPOCLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TIC_FK_ARE_IDAREA">
+    <End Role="GEDAREAS" Type="Self.GEDAREAS" Multiplicity="1" />
+    <End Role="GEDTIPOCLIENTE" Type="Self.GEDTIPOCLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDAREA" />
+      </Principal>
+      <Dependent Role="GEDTIPOCLIENTE">
+        <PropertyRef Name="TIC_IDAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TPA_FK_USR_IDUSUARIO">
+    <End Role="GEDUSUARIOS" Type="Self.GEDUSUARIOS" Multiplicity="1" />
+    <End Role="GEDTIPOAUDITOR" Type="Self.GEDTIPOAUDITOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDTIPOAUDITOR">
+        <PropertyRef Name="TPA_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TPD_FK_DIV_IDDIVISAO">
+    <End Role="GEDDIVISOES" Type="Self.GEDDIVISOES" Multiplicity="1" />
+    <End Role="GEDTIPOSDOCUMENTOS" Type="Self.GEDTIPOSDOCUMENTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDIVISOES">
+        <PropertyRef Name="DIV_IDDIVISAO" />
+      </Principal>
+      <Dependent Role="GEDTIPOSDOCUMENTOS">
+        <PropertyRef Name="TPD_IDDIVISAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USR_FK_GRP_IDGRUPOUSUARIO">
+    <End Role="GEDGRUPOSUSUARIOS" Type="Self.GEDGRUPOSUSUARIOS" Multiplicity="0..1" />
+    <End Role="GEDUSUARIOS" Type="Self.GEDUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDGRUPOSUSUARIOS">
+        <PropertyRef Name="GRP_IDGRUPOUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDGRUPOUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USR_FK_PES_IDPESSOA">
+    <End Role="GEDPESSOAS" Type="Self.GEDPESSOAS" Multiplicity="0..1" />
+    <End Role="GEDUSUARIOS" Type="Self.GEDUSUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPESSOAS">
+        <PropertyRef Name="PES_IDPESSOA" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDPESSOA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXA_FK_ARE_IDAREA">
+    <End Role="GEDAREAS" Type="Self.GEDAREAS" Multiplicity="1" />
+    <End Role="GEDUNIDADEXAREAS" Type="Self.GEDUNIDADEXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDAREAS">
+        <PropertyRef Name="ARE_IDAREA" />
+      </Principal>
+      <Dependent Role="GEDUNIDADEXAREAS">
+        <PropertyRef Name="UXA_IDAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXA_FK_UNI_IDUNIDADE">
+    <End Role="GEDUNIDADES" Type="Self.GEDUNIDADES" Multiplicity="1" />
+    <End Role="GEDUNIDADEXAREAS" Type="Self.GEDUNIDADEXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADES">
+        <PropertyRef Name="UNI_IDUNIDADE" />
+      </Principal>
+      <Dependent Role="GEDUNIDADEXAREAS">
+        <PropertyRef Name="UXA_IDUNIDADE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXU_FK_USR_IDUSUARIO">
+    <End Role="GEDUSUARIOS" Type="Self.GEDUSUARIOS" Multiplicity="0..1" />
+    <End Role="GEDUSUARIOSXUNIDADESXAREAS" Type="Self.GEDUSUARIOSXUNIDADESXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUSUARIOS">
+        <PropertyRef Name="USR_IDUSUARIO" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOSXUNIDADESXAREAS">
+        <PropertyRef Name="UXU_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UXU_FK_UXA_IDUNIDADEXAREA">
+    <End Role="GEDUNIDADEXAREAS" Type="Self.GEDUNIDADEXAREAS" Multiplicity="0..1" />
+    <End Role="GEDUSUARIOSXUNIDADESXAREAS" Type="Self.GEDUSUARIOSXUNIDADESXAREAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDUNIDADEXAREAS">
+        <PropertyRef Name="UXA_IDUNIDADEXAREA" />
+      </Principal>
+      <Dependent Role="GEDUSUARIOSXUNIDADESXAREAS">
+        <PropertyRef Name="UXU_IDUNIDADEXAREA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="GEDAREAMEDICA" EntityType="Self.GEDAREAMEDICA" store:Type="Tables" />
+    <EntitySet Name="GEDAREAS" EntityType="Self.GEDAREAS" store:Type="Tables" />
+    <EntitySet Name="GEDAUDITORXCONVENIO" EntityType="Self.GEDAUDITORXCONVENIO" store:Type="Tables" />
+    <EntitySet Name="GEDAUDITORXPASSAGEM" EntityType="Self.GEDAUDITORXPASSAGEM" store:Type="Tables" />
+    <EntitySet Name="GEDCAPTIONCONTROL" EntityType="Self.GEDCAPTIONCONTROL" store:Type="Tables" />
+    <EntitySet Name="GEDCLIENTEPF" EntityType="Self.GEDCLIENTEPF" store:Type="Tables" />
+    <EntitySet Name="GEDCLIENTEPJ" EntityType="Self.GEDCLIENTEPJ" store:Type="Tables" />
+    <EntitySet Name="GEDCONTROLECERTIFICADO" EntityType="Self.GEDCONTROLECERTIFICADO" store:Type="Tables" />
+    <EntitySet Name="GEDCONVENIO" EntityType="Self.GEDCONVENIO" store:Type="Tables" />
+    <EntitySet Name="GEDDIVISAOXGRUPOUSUARIO" EntityType="Self.GEDDIVISAOXGRUPOUSUARIO" store:Type="Tables" />
+    <EntitySet Name="GEDDIVISOES" EntityType="Self.GEDDIVISOES" store:Type="Tables" />
+    <EntitySet Name="GEDDOCASSINANDO" EntityType="Self.GEDDOCASSINANDO" store:Type="Tables" />
+    <EntitySet Name="GEDDOCAVENCERUMASEMTEMP" EntityType="Self.GEDDOCAVENCERUMASEMTEMP" store:Type="Tables" />
+    <EntitySet Name="GEDDOCAVENCERUMASEMTPJ" EntityType="Self.GEDDOCAVENCERUMASEMTPJ" store:Type="Tables" />
+    <EntitySet Name="GEDDOCAVENCERUMMESTEMP" EntityType="Self.GEDDOCAVENCERUMMESTEMP" store:Type="Tables" />
+    <EntitySet Name="GEDDOCAVENCERUMMESTPJ" EntityType="Self.GEDDOCAVENCERUMMESTPJ" store:Type="Tables" />
+    <EntitySet Name="GEDDOCUMENTOS" EntityType="Self.GEDDOCUMENTOS" store:Type="Tables" />
+    <EntitySet Name="GEDDOCUMENTOVENCIDOTEMP" EntityType="Self.GEDDOCUMENTOVENCIDOTEMP" store:Type="Tables" />
+    <EntitySet Name="GEDDOCUMENTOVENCIDOTPJ" EntityType="Self.GEDDOCUMENTOVENCIDOTPJ" store:Type="Tables" />
+    <EntitySet Name="GEDESPECIALIDADE" EntityType="Self.GEDESPECIALIDADE" store:Type="Tables" />
+    <EntitySet Name="GEDFORMATOS" EntityType="Self.GEDFORMATOS" store:Type="Tables" />
+    <EntitySet Name="GEDFUNCAOUSUARIO" EntityType="Self.GEDFUNCAOUSUARIO" store:Type="Tables" />
+    <EntitySet Name="GEDFUNCAOXTIPOHIERARQUIA" EntityType="Self.GEDFUNCAOXTIPOHIERARQUIA" store:Type="Tables" />
+    <EntitySet Name="GEDGLOBALSETTINGS" EntityType="Self.GEDGLOBALSETTINGS" store:Type="Tables" />
+    <EntitySet Name="GEDGRUPOSUSUARIOS" EntityType="Self.GEDGRUPOSUSUARIOS" store:Type="Tables" />
+    <EntitySet Name="GEDHIERARQUIA" EntityType="Self.GEDHIERARQUIA" store:Type="Tables" />
+    <EntitySet Name="GEDHIERARQUIAXFUNCAO" EntityType="Self.GEDHIERARQUIAXFUNCAO" store:Type="Tables" />
+    <EntitySet Name="GEDINTEGRACAOATENDIMENTO" EntityType="Self.GEDINTEGRACAOATENDIMENTO" store:Type="Tables" />
+    <EntitySet Name="GEDLABELGENERICO" EntityType="Self.GEDLABELGENERICO" store:Type="Tables" />
+    <EntitySet Name="GEDLOG" EntityType="Self.GEDLOG" store:Type="Tables" />
+    <EntitySet Name="GEDLOGALTERACAODOCUMENTO" EntityType="Self.GEDLOGALTERACAODOCUMENTO" store:Type="Tables" />
+    <EntitySet Name="GEDLOGERRO" EntityType="Self.GEDLOGERRO" store:Type="Tables" />
+    <EntitySet Name="GEDLOGLOGIN" EntityType="Self.GEDLOGLOGIN" store:Type="Tables" />
+    <EntitySet Name="GEDLOGOCORRENCIA" EntityType="Self.GEDLOGOCORRENCIA" store:Type="Tables" />
+    <EntitySet Name="GEDLOGPROCESSODOC" EntityType="Self.GEDLOGPROCESSODOC" store:Type="Tables" />
+    <EntitySet Name="GEDLOTESXUSUARIOS" EntityType="Self.GEDLOTESXUSUARIOS" store:Type="Tables" />
+    <EntitySet Name="GEDMODULOS" EntityType="Self.GEDMODULOS" store:Type="Tables" />
+    <EntitySet Name="GEDNIVELASSINA" EntityType="Self.GEDNIVELASSINA" store:Type="Tables" />
+    <EntitySet Name="GEDOBJETOS" EntityType="Self.GEDOBJETOS" store:Type="Tables" />
+    <EntitySet Name="GEDOCORRENCIAS" EntityType="Self.GEDOCORRENCIAS" store:Type="Tables" />
+    <EntitySet Name="GEDPADROESCERTIFICADO" EntityType="Self.GEDPADROESCERTIFICADO" store:Type="Tables" />
+    <EntitySet Name="GEDPASSAGENS" EntityType="Self.GEDPASSAGENS" store:Type="Tables" />
+    <EntitySet Name="GEDPERFIS" EntityType="Self.GEDPERFIS" store:Type="Tables" />
+    <EntitySet Name="GEDPERFISXOBJETOS" EntityType="Self.GEDPERFISXOBJETOS" store:Type="Tables" />
+    <EntitySet Name="GEDPERFISXUSUARIOS" EntityType="Self.GEDPERFISXUSUARIOS" store:Type="Tables" />
+    <EntitySet Name="GEDPESSOAS" EntityType="Self.GEDPESSOAS" store:Type="Tables" />
+    <EntitySet Name="GEDSETOR" EntityType="Self.GEDSETOR" store:Type="Tables" />
+    <EntitySet Name="GEDSETORXGRUPOUSUARIO" EntityType="Self.GEDSETORXGRUPOUSUARIO" store:Type="Tables" />
+    <EntitySet Name="GEDSEXOS" EntityType="Self.GEDSEXOS" store:Type="Tables" />
+    <EntitySet Name="GEDSTATUSLOTE" EntityType="Self.GEDSTATUSLOTE" store:Type="Tables" />
+    <EntitySet Name="GEDSTATUSOCORRENCIA" EntityType="Self.GEDSTATUSOCORRENCIA" store:Type="Tables" />
+    <EntitySet Name="GEDSUBTIPODOCXGRUPUSER" EntityType="Self.GEDSUBTIPODOCXGRUPUSER" store:Type="Tables" />
+    <EntitySet Name="GEDSUBTIPOSDOCUMENTOS" EntityType="Self.GEDSUBTIPOSDOCUMENTOS" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOAUDITOR" EntityType="Self.GEDTIPOAUDITOR" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOBUSCA" EntityType="Self.GEDTIPOBUSCA" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOCLIENTE" EntityType="Self.GEDTIPOCLIENTE" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOCONSELHO" EntityType="Self.GEDTIPOCONSELHO" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOHIERARQUIA" EntityType="Self.GEDTIPOHIERARQUIA" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOSATENDIMENTOS" EntityType="Self.GEDTIPOSATENDIMENTOS" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOSBUSCALOTES" EntityType="Self.GEDTIPOSBUSCALOTES" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOSBUSCALOTESPJ" EntityType="Self.GEDTIPOSBUSCALOTESPJ" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOSCERTIFICADOS" EntityType="Self.GEDTIPOSCERTIFICADOS" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOSDOCUMENTOS" EntityType="Self.GEDTIPOSDOCUMENTOS" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOSOCORRENCIA" EntityType="Self.GEDTIPOSOCORRENCIA" store:Type="Tables" />
+    <EntitySet Name="GEDTIPOSTOKEN" EntityType="Self.GEDTIPOSTOKEN" store:Type="Tables" />
+    <EntitySet Name="GEDUNIDADES" EntityType="Self.GEDUNIDADES" store:Type="Tables" />
+    <EntitySet Name="GEDUNIDADEXAREAS" EntityType="Self.GEDUNIDADEXAREAS" store:Type="Tables" />
+    <EntitySet Name="GEDURLSTORAGE" EntityType="Self.GEDURLSTORAGE" store:Type="Tables" />
+    <EntitySet Name="GEDUSUARIOS" EntityType="Self.GEDUSUARIOS" store:Type="Tables" />
+    <EntitySet Name="GEDUSUARIOSXUNIDADESXAREAS" EntityType="Self.GEDUSUARIOSXUNIDADESXAREAS" store:Type="Tables" />
+    <EntitySet Name="GEDVOLUMES" EntityType="Self.GEDVOLUMES" store:Type="Tables" />
+    <AssociationSet Name="ACL_FK_TPA_IDTIPOAUDITOR" Association="Self.ACL_FK_TPA_IDTIPOAUDITOR">
+      <End Role="GEDTIPOAUDITOR" EntitySet="GEDTIPOAUDITOR" />
+      <End Role="GEDAUDITORXPASSAGEM" EntitySet="GEDAUDITORXPASSAGEM" />
+    </AssociationSet>
+    <AssociationSet Name="ARE_FK_LBA_IDLABELGENERICO" Association="Self.ARE_FK_LBA_IDLABELGENERICO">
+      <End Role="GEDLABELGENERICO" EntitySet="GEDLABELGENERICO" />
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="AUC_FK_CON_IDCONVENIO" Association="Self.AUC_FK_CON_IDCONVENIO">
+      <End Role="GEDCONVENIO" EntitySet="GEDCONVENIO" />
+      <End Role="GEDAUDITORXCONVENIO" EntitySet="GEDAUDITORXCONVENIO" />
+    </AssociationSet>
+    <AssociationSet Name="AUC_FK_TPA_IDTIPOAUDITOR" Association="Self.AUC_FK_TPA_IDTIPOAUDITOR">
+      <End Role="GEDTIPOAUDITOR" EntitySet="GEDTIPOAUDITOR" />
+      <End Role="GEDAUDITORXCONVENIO" EntitySet="GEDAUDITORXCONVENIO" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_DOC_IDDOCUMENTO" Association="Self.CCD_FK_DOC_IDDOCUMENTO">
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_PDC_IDPADROESCERT" Association="Self.CCD_FK_PDC_IDPADROESCERT">
+      <End Role="GEDPADROESCERTIFICADO" EntitySet="GEDPADROESCERTIFICADO" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_TPC_IDTIPOCERTIFICADO" Association="Self.CCD_FK_TPC_IDTIPOCERTIFICADO">
+      <End Role="GEDTIPOSCERTIFICADOS" EntitySet="GEDTIPOSCERTIFICADOS" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="CCD_FK_TTK_IDTIPOTOKEN" Association="Self.CCD_FK_TTK_IDTIPOTOKEN">
+      <End Role="GEDTIPOSTOKEN" EntitySet="GEDTIPOSTOKEN" />
+      <End Role="GEDCONTROLECERTIFICADO" EntitySet="GEDCONTROLECERTIFICADO" />
+    </AssociationSet>
+    <AssociationSet Name="CPF_FK_SEX_IDSEXO" Association="Self.CPF_FK_SEX_IDSEXO">
+      <End Role="GEDSEXOS" EntitySet="GEDSEXOS" />
+      <End Role="GEDCLIENTEPF" EntitySet="GEDCLIENTEPF" />
+    </AssociationSet>
+    <AssociationSet Name="CPF_FK_UNI_IDUNIDADE" Association="Self.CPF_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDCLIENTEPF" EntitySet="GEDCLIENTEPF" />
+    </AssociationSet>
+    <AssociationSet Name="CPJ_FK_UNI_IDUNIDADE" Association="Self.CPJ_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDCLIENTEPJ" EntitySet="GEDCLIENTEPJ" />
+    </AssociationSet>
+    <AssociationSet Name="DIV_FK_ARE_IDAREA" Association="Self.DIV_FK_ARE_IDAREA">
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_DIV_IDDIVISAO" Association="Self.DOC_FK_DIV_IDDIVISAO">
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_FMT_IDFORMATO" Association="Self.DOC_FK_FMT_IDFORMATO">
+      <End Role="GEDFORMATOS" EntitySet="GEDFORMATOS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_GPU_IDGRUPOUUSUARIO" Association="Self.DOC_FK_GPU_IDGRUPOUUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_PAS_IDPASSAGEM" Association="Self.DOC_FK_PAS_IDPASSAGEM">
+      <End Role="GEDPASSAGENS" EntitySet="GEDPASSAGENS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_TPD_IDTIPODOCUMENTO" Association="Self.DOC_FK_TPD_IDTIPODOCUMENTO">
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DOC_FK_VOL_IDVOLUME" Association="Self.DOC_FK_VOL_IDVOLUME">
+      <End Role="GEDVOLUMES" EntitySet="GEDVOLUMES" />
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="DVG_FK_DIV_IDDIVISAO" Association="Self.DVG_FK_DIV_IDDIVISAO">
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+      <End Role="GEDDIVISAOXGRUPOUSUARIO" EntitySet="GEDDIVISAOXGRUPOUSUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="DVG_FK_GRP_IDGRUPOUSUARIO" Association="Self.DVG_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDDIVISAOXGRUPOUSUARIO" EntitySet="GEDDIVISAOXGRUPOUSUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="GLO_FK_UNI_IDUNIDADE" Association="Self.GLO_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDGLOBALSETTINGS" EntitySet="GEDGLOBALSETTINGS" />
+    </AssociationSet>
+    <AssociationSet Name="GRP_FK_UNI_IDUNIDADE" Association="Self.GRP_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="LGO_FK_OCR_IDOCORRENCIA" Association="Self.LGO_FK_OCR_IDOCORRENCIA">
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+      <End Role="GEDLOGOCORRENCIA" EntitySet="GEDLOGOCORRENCIA" />
+    </AssociationSet>
+    <AssociationSet Name="LGO_FK_STO_IDSTATUSOCORRENCIA" Association="Self.LGO_FK_STO_IDSTATUSOCORRENCIA">
+      <End Role="GEDSTATUSOCORRENCIA" EntitySet="GEDSTATUSOCORRENCIA" />
+      <End Role="GEDLOGOCORRENCIA" EntitySet="GEDLOGOCORRENCIA" />
+    </AssociationSet>
+    <AssociationSet Name="LTU_FK_STL_IDSTATUSLOTE" Association="Self.LTU_FK_STL_IDSTATUSLOTE">
+      <End Role="GEDSTATUSLOTE" EntitySet="GEDSTATUSLOTE" />
+      <End Role="GEDLOTESXUSUARIOS" EntitySet="GEDLOTESXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="LTU_FK_USR_IDUSUARIO" Association="Self.LTU_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDLOTESXUSUARIOS" EntitySet="GEDLOTESXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="OBJ_FK_MOD_IDMODULO" Association="Self.OBJ_FK_MOD_IDMODULO">
+      <End Role="GEDMODULOS" EntitySet="GEDMODULOS" />
+      <End Role="GEDOBJETOS" EntitySet="GEDOBJETOS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_DOC_IDDOCUMENTO" Association="Self.OCR_FK_DOC_IDDOCUMENTO">
+      <End Role="GEDDOCUMENTOS" EntitySet="GEDDOCUMENTOS" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_STO_IDSTATUSOCORRENCIA" Association="Self.OCR_FK_STO_IDSTATUSOCORRENCIA">
+      <End Role="GEDSTATUSOCORRENCIA" EntitySet="GEDSTATUSOCORRENCIA" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_TPD_IDTIPODOCUMENTO" Association="Self.OCR_FK_TPD_IDTIPODOCUMENTO">
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_TPO_IDTIPOOCORRENCIA" Association="Self.OCR_FK_TPO_IDTIPOOCORRENCIA">
+      <End Role="GEDTIPOSOCORRENCIA" EntitySet="GEDTIPOSOCORRENCIA" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="OCR_FK_USR_IDUSUARIO" Association="Self.OCR_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDOCORRENCIAS" EntitySet="GEDOCORRENCIAS" />
+    </AssociationSet>
+    <AssociationSet Name="PAS_FK_CON_IDCONVENIO" Association="Self.PAS_FK_CON_IDCONVENIO">
+      <End Role="GEDCONVENIO" EntitySet="GEDCONVENIO" />
+      <End Role="GEDPASSAGENS" EntitySet="GEDPASSAGENS" />
+    </AssociationSet>
+    <AssociationSet Name="PAS_FK_UNI_IDUNIDADE" Association="Self.PAS_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDPASSAGENS" EntitySet="GEDPASSAGENS" />
+    </AssociationSet>
+    <AssociationSet Name="PES_FK_SEX_IDSEXO" Association="Self.PES_FK_SEX_IDSEXO">
+      <End Role="GEDSEXOS" EntitySet="GEDSEXOS" />
+      <End Role="GEDPESSOAS" EntitySet="GEDPESSOAS" />
+    </AssociationSet>
+    <AssociationSet Name="PRF_FK_GRP_IDGRUPOUSUARIO" Association="Self.PRF_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+    </AssociationSet>
+    <AssociationSet Name="PRF_FK_UNI_IDUNIDADE" Association="Self.PRF_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+    </AssociationSet>
+    <AssociationSet Name="PXO_FK_OBJ_IDOBJETO" Association="Self.PXO_FK_OBJ_IDOBJETO">
+      <End Role="GEDOBJETOS" EntitySet="GEDOBJETOS" />
+      <End Role="GEDPERFISXOBJETOS" EntitySet="GEDPERFISXOBJETOS" />
+    </AssociationSet>
+    <AssociationSet Name="PXO_FK_PRF_IDPERFIL" Association="Self.PXO_FK_PRF_IDPERFIL">
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+      <End Role="GEDPERFISXOBJETOS" EntitySet="GEDPERFISXOBJETOS" />
+    </AssociationSet>
+    <AssociationSet Name="PXU_FK_PRF_IDPERFIL" Association="Self.PXU_FK_PRF_IDPERFIL">
+      <End Role="GEDPERFIS" EntitySet="GEDPERFIS" />
+      <End Role="GEDPERFISXUSUARIOS" EntitySet="GEDPERFISXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="PXU_FK_USR_IDUSUARIO" Association="Self.PXU_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDPERFISXUSUARIOS" EntitySet="GEDPERFISXUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="STD_FK_TPD_IDTIPODOCUMENTO" Association="Self.STD_FK_TPD_IDTIPODOCUMENTO">
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+      <End Role="GEDSUBTIPOSDOCUMENTOS" EntitySet="GEDSUBTIPOSDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="TDG_FK_GRP_IDGRUPOUSUARIO" Association="Self.TDG_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDSUBTIPODOCXGRUPUSER" EntitySet="GEDSUBTIPODOCXGRUPUSER" />
+    </AssociationSet>
+    <AssociationSet Name="TDG_FK_STD_IDSUBTIPODOCUMENTO" Association="Self.TDG_FK_STD_IDSUBTIPODOCUMENTO">
+      <End Role="GEDSUBTIPOSDOCUMENTOS" EntitySet="GEDSUBTIPOSDOCUMENTOS" />
+      <End Role="GEDSUBTIPODOCXGRUPUSER" EntitySet="GEDSUBTIPODOCXGRUPUSER" />
+    </AssociationSet>
+    <AssociationSet Name="TIB_FK_TIC_IDTIPOCLIENTE" Association="Self.TIB_FK_TIC_IDTIPOCLIENTE">
+      <End Role="GEDTIPOCLIENTE" EntitySet="GEDTIPOCLIENTE" />
+      <End Role="GEDTIPOBUSCA" EntitySet="GEDTIPOBUSCA" />
+    </AssociationSet>
+    <AssociationSet Name="TIC_FK_ARE_IDAREA" Association="Self.TIC_FK_ARE_IDAREA">
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+      <End Role="GEDTIPOCLIENTE" EntitySet="GEDTIPOCLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="TPA_FK_USR_IDUSUARIO" Association="Self.TPA_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDTIPOAUDITOR" EntitySet="GEDTIPOAUDITOR" />
+    </AssociationSet>
+    <AssociationSet Name="TPD_FK_DIV_IDDIVISAO" Association="Self.TPD_FK_DIV_IDDIVISAO">
+      <End Role="GEDDIVISOES" EntitySet="GEDDIVISOES" />
+      <End Role="GEDTIPOSDOCUMENTOS" EntitySet="GEDTIPOSDOCUMENTOS" />
+    </AssociationSet>
+    <AssociationSet Name="USR_FK_GRP_IDGRUPOUSUARIO" Association="Self.USR_FK_GRP_IDGRUPOUSUARIO">
+      <End Role="GEDGRUPOSUSUARIOS" EntitySet="GEDGRUPOSUSUARIOS" />
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="USR_FK_PES_IDPESSOA" Association="Self.USR_FK_PES_IDPESSOA">
+      <End Role="GEDPESSOAS" EntitySet="GEDPESSOAS" />
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="UXA_FK_ARE_IDAREA" Association="Self.UXA_FK_ARE_IDAREA">
+      <End Role="GEDAREAS" EntitySet="GEDAREAS" />
+      <End Role="GEDUNIDADEXAREAS" EntitySet="GEDUNIDADEXAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="UXA_FK_UNI_IDUNIDADE" Association="Self.UXA_FK_UNI_IDUNIDADE">
+      <End Role="GEDUNIDADES" EntitySet="GEDUNIDADES" />
+      <End Role="GEDUNIDADEXAREAS" EntitySet="GEDUNIDADEXAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="UXU_FK_USR_IDUSUARIO" Association="Self.UXU_FK_USR_IDUSUARIO">
+      <End Role="GEDUSUARIOS" EntitySet="GEDUSUARIOS" />
+      <End Role="GEDUSUARIOSXUNIDADESXAREAS" EntitySet="GEDUSUARIOSXUNIDADESXAREAS" />
+    </AssociationSet>
+    <AssociationSet Name="UXU_FK_UXA_IDUNIDADEXAREA" Association="Self.UXU_FK_UXA_IDUNIDADEXAREA">
+      <End Role="GEDUNIDADEXAREAS" EntitySet="GEDUNIDADEXAREAS" />
+      <End Role="GEDUSUARIOSXUNIDADESXAREAS" EntitySet="GEDUSUARIOSXUNIDADESXAREAS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

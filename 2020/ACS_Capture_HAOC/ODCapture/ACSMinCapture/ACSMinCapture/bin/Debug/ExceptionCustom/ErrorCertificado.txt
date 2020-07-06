@@ -1,0 +1,111 @@
+30001; ARQUIVO_INEXISTENTE ; Arquivo não existe
+30002; ARQUIVO_INVALIDO ; Arquivo Inválido (formato inválido)
+30003; ARQUIVO_VAZIO ; Arquivo está vazio
+30004; EXTENSAO_INVALIDA ; Extensão inválida
+30005; CERTICADO_NAO_ENCONTRADO ; Certificado digital não foi encontrado
+30006; CERTIFICADO_SEM_CHAVE_PRIVADA ; Certificado utilizado não possui chave privada
+30007; E21'	;.LLLLLLLLLLLLLLLLÇMNK1 ; Erro interno da biblioteca CryptoAPI.
+30008; ARQUIVO_JA_EXISTE ; Arquivo já existe
+30010; NOME_ARQUIVO_NAO_ENCONTRADO ; Nome do arquivo original não encontrado na assinatura
+30011; HASH_DIFERENTES ; Hashs não conferem
+30012; CERTIFICADO_INVALIDO ; Certificado inválido
+30013; CONTEUDO_NAO_VERIFICADO ; Conteúdo da assinatura não foi verificado
+30014; CERTIFICADO_INVALIDO_ASSINATURA ; Certificado não pode assinar documentos
+30015; ASSINATURA_SEM_NOME_ARQUIVO ; Assinatura não contém nome do arquivo
+30016; DESTINO_INVALIDO ; Caminho do arquivo inválido.
+30017; HASH_NAO_ENCONTRADO ; Certificado não foi encontrado
+30018; STATUS_INEXISTENTE ; Status de verificação não existe
+30019; ERRO_SEM_ARQUIVO_ASSOCIADO ; Não existe programa associado a extensão
+30020; BLOCO_MEMORIA_INVALIDO ; Bloco de Memória assinada inválido
+30021; DESCRICAO_ARQUIVO_NAO_ENCONTRADO ; não foi possível extrair a descrição do arquivo
+30022; DATA_ARQUIVO_NAO_ENCONTRADO ; não foi possível extrair a data do arquivo
+30023; ERRO_CODIFICANDO_ATRIBUTO_AUTENTICADO ; erro inserindo atributo autenticado na assinatura
+30024; ERRO_CONVERSAO ; erro na conversão de tipos string para BSTR
+30025; ERRO_CONTEUDO_VAZIO ; conteúdo a ser assinado vazio
+30026; ERRO_DATA_INVALIDA ; data fornecida não existe
+30027; ERRO_FORMATO_INVALIDO ; formato de codificação/decodificação inválido
+30028; ERRO_CALCULANDO_HASH ; erro calculando o hash dos dados
+30029; ERRO_ASSINATURA ; assinatura inválida.
+30030; ERRO_SENHA_VAZIA ; senha do certificado vazia
+30031; OBJETO_NAO_INSTANCIADO ; objeto com não foi inicializado
+30032; ERRO_CARREGANDO_KEY_CONTAINER ; Não foi possível encontrar o container da chave privada
+30033; ERRO_ACESSANDO_CHAVE_PRIVADA ; Não foi possível a chave privada.
+30034; ERRO_ASSINATURA_TST_INVALIDA ; A assinatura do carimbo de tempo não é integra.
+30035; ERRO_ESTRUTURA_TSTINFO ; A estrutura do carimbo de tempo está corrompida. Não foi possível decodificar o mesmo.
+30036; NAO_EXISTE_TIME_STAMP ; A assinatura não possui carimbo de tempo.
+30037; ERRO_VERIFICANDO_TIME_STAMP ; Ocorreu um erro interno ao verificar a assinatura do carimbo de tempo.
+30038; ERRO_DECODIFICANDO_DATA_TIME_STAMP ; Não foi possível decodificar a data do carimbo de tempo.
+30039; ERRO_ADQUIRINDO_PROVEDOR ; Erro ao adquirir o provedor do certificado.
+30040; ERRO_CONVERTENDO_ORIGINAL_HEXA_BIN ; Erro ao converter o arquivo original em uma verificação de arquivo detached de hexadecimal para binário.
+30041; ERRO_CONVERTENDO_ORIGINAL_BASE64 ; Erro ao converter o arquivo original em uma verificação de arquivo detached de base64 para binário.
+30042; ERRO_ARQUIVO_ORIGINAL_VAZIO ; Arquivo original não possui conteúdo.
+30043; ERRO_ARQUIVO_ATACHED ; O arquivo de assinatura é atached.
+201; ERRO_PONTEIRO_STORE_NULO ; Ponteiro do store em questao nulo
+202; ERRO_PONTEIRO_CERTIFICADO_NULO ; Ponteiro do certificado em questão nulo
+203; ERRO_OBJ_STORE_NULO ; O objeto store está vazio
+204; ERRO_LISTA_CERTIFICADOS_VAZIA ; Lista de Certificados vazia
+301; ERRO_WSASTARTUP_FAILED ; Falha no Socket
+302; ERRO_WSANOTINITIALISED ; Socket ainda não pronto
+303; ERRO_WSAENETDOWN ; Rede fora do ar
+304; ERRO_WSAHOST_NOT_FOUND ; Host não encontrado
+305; ERRO_WSATRY_AGAIN ; Tente novamente
+306; ERRO_WSANO_RECOVERY ; Erro não recuperado
+307; ERRO_WSANO_DATA ; Nenhum dado do tipo requerido
+308; ERRO_WSAEINPROGRESS ; operação está em progresso
+309; ERRO_WSAEAFNOSUPPORT ; endereço não suportado pelo protocolo
+310; ERRO_WSAEFAULT ; Endereço errado
+311; ERRO_WSAEINTR ; Chamada da função interrompida
+401; ERRO_ABRIR_ARQUIVO ; Não foi possível abrir ou verificar o tamanho do arquivo
+402; ERRO_FORMATO_ARQUIVO_BRY ; Formato do arquivo BRy invalido
+501; ERRO_POSICAO_CERT_INEXISTENTE ; Não tem certificados nesta posição da lista
+502; ERRO_MOSTRAR_CERTIFICADO ; Não foi possível mostrar o certificado
+601; ERRO_CARREGANDO_CRL ; Não foi possível carregar a CRL
+602; ERRO_CARREGANDO_FINALIDADE ; Não foi possível carregar o uso avançado da chave
+603; ERRO_CARREGANDO_USO_CHAVE ; Não foi possível carregar o uso da chave
+604; ERRO_CARREGANDO_CONTEXTO_CERTIFICADO ; Não foi possível carregar o contexto do certificado
+605; ERRO_CARREGANDO_VALIDADE ; Não foi possível carregar a validade
+606; ERRO_CARREGANDO_DADOS ; Não foi possível carregar os dados do certificado
+607; ERRO_CARREGANDO_PONTEIRO_CERTIFICADO ; Não foi possível carregar ponteiro do certificado
+608; ERRO_CARREGANDO_CERTIFICADO_EMISSOR ; O certificado emissor não foi carregado
+609; ERRO_ALGUNS_VALORES_NAO_CARREGADOS ; Alguns valores não foram carregados
+610; ERRO_CARREGANDO_EXTENSAO_ICPBRASIL ; Erro carregando os valores de CPF e RG das extensões nome alternativo do assunto de certificados ICP;BRASIL
+611; ERRO_CARREGANDO_EXTENSAO_POLICY ; Erro carregando os valores da extensão Diretivas dos certificados (Certificate Policies) 
+612; ERRO_CARREGANDO_USO_EXTENDIDO_CHAVE ; Ocorrem problemas ao decodificar o uso estendido da chave.
+613; ERRO_DECODIFICANDO_BASIC_CONSTRAINTS ; Ocorreram problemas ao decodificar a extensão basic contraints.
+701; ERRO_IDENTIFICACAO_URL ; Não conseguiu identificar a url
+702; ERRO_INSTALANDO_CRL ; Não foi possível instalar a CRL
+703; ERRO_CRL_AINDA_NAO_VALIDA ; A data atual é menor que a da publicacao da crl
+704; ERRO_CRL_EXPIRADA ; A data atual é maior que a data de validade da CRL
+705; ERRO_CRL_NAO_INSTALADA ; A crl não está instalada no computador
+706; ERRO_CAMINHO_CRL ; Problemas com o caminho da CRL
+707; ERRO_LENDO_ARQUIVO_CRL ; Não conseguiu ler o arquivo da CRL
+708; ERRO_ABRINDO_ARQUIVO_CRL ; Não conseguiu abrir o arquivo da crl
+709; ERRO_CARREGANDO_CADEIA_CERTIFICACAO ; não conseguiu carregar a cadeia de certificação
+710; ERRO_CRL_NAO_VALIDA_PARA_CERTIFICADO ; A CRL utilizada não é válida para verificar o certificado digital.
+801; ERRO_HEX_BIN ; Erro tranformando de hexadecimal para binario
+802; ERRO_BIN_HEX ; Erro tranformando de binario para hexadecimal
+803; ERRO_DECODIFICANDO_BASE_64 ; Erro transformando de base 64 para binário
+804; ERRO_BASE64_BIN ; Erro decodificando de Base64 para binário.
+901; ERRO_CERTIFICADO_REVOGADO ; O certificado esta revogado
+902; ERRO_CERTIFICADO_AINDA_NAO_VALIDO ; Data atual é menor que a da publicacao do certificado
+903; ERRO_CERTIFICADO_EXPIRADO ; Data atual é maior do que o prazo de validade do certificado
+1001; ERRO_ADICIONAR_CERT_STORE ; Não foi possível adicionar certificado ao Store
+1002; ERRO_ADICIONAR_CERT_LISTA_CERTIFICADOS ; Erro ao adicionar um certificado na lista de certificados.
+1101; ERRO_PARAMETRO_TIPO_INVALIDO ; Valor inválido para o parâmetro tipo
+1102; ERRO_FLAG_NAO_SUPORTADA ; Flag não suportada pelo método.
+1201; ERRO_ACESSO_NEGADO ; Acesso a crl negado
+1202; ERRO_AUTENTICACAO_NO_PROXY ; Erro de autenticação no proxy
+1203; ERRO_NO_SERVIDOR ; erro no servidor que hospeda a crl
+1204; ERRO_ACESSO_PROIBIDO ; acesso proibido ao endereço da crl
+1205; ERRO_PAGINA_NAO_ENCONTRADA ; endereço da crl não encontrado
+1206; ERRO_CONECTANDO_URL ; erro conectando a URL da CRL
+1207; ERRO_TIMEOUT ; Timeout na comunicação com servidor da CRL
+1208; ERRO_URL_INVALIDA ; URL da CRL inválida
+1209; ERRO_CONSULTA_INVALIDA ; consulta http inválida
+1210; ERRO_RESPOSTA_SERVIDOR ; resposta do servidor inválida
+1211; ERRO_SERVIDOR_REQUER_CERTIFICADO_CLIENTE ; servidor requer autenticação do cliente com certificado digital
+1212; ERRO_CONEXAO_TERMINADA ; a conexão com a internet foi encerrada
+1213; ERRO_CONEXAO_RESETADA ; a conexão com a internet foi resetada
+1214; ERRO_INTERNO_INTERNET ; erro interno nas bibliotecas de acesso a internet
+1215; ERRO_DECODIFICANDO_ASSUNTO ; Ocorreram problemas ao decodificar o assunto
+1216; ERRO_DECODIFICANDO_EMISSOR ; Ocorreram problemas ao decodificar o emissor

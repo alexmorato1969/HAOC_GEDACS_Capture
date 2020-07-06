@@ -1,0 +1,14 @@
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.csprojResolveAssemblyReference.cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\Interop.NSOCRLib.dll
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.csproj.ResolveComReference.cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\bin\Debug\OrionRecognizeLibrary.dll
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\bin\Debug\OrionRecognizeLibrary.pdb
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.dll
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.pdb
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.F_ConfigZone.resources
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.csproj.GenerateResource.Cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.ImageBoxRecognizeManager.resources
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\bin\Debug\Crom.Controls.dll
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\bin\Debug\Crom.Controls.pdb
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OrionRecognizeLibrary\obj\Debug\OrionRecognizeLibrary.F_ImageBoxRecognize.resources

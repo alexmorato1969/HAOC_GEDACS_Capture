@@ -1,0 +1,10 @@
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\bin\Debug\OCRDoc.exe.config
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\bin\Debug\OCRDoc.exe
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\bin\Debug\OCRDoc.pdb
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\obj\Debug\OCRDoc.csprojResolveAssemblyReference.cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\obj\Debug\OCRDoc.Form1.resources
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\obj\Debug\OCRDoc.Properties.Resources.resources
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\obj\Debug\OCRDoc.csproj.GenerateResource.Cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\obj\Debug\OCRDoc.exe
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\obj\Debug\OCRDoc.pdb
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDoc\bin\Debug\OCRTools.dll

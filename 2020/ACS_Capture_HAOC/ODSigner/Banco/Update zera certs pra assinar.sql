@@ -1,0 +1,3 @@
+UPDATE geddocumentos
+set DOC_FlagCertificado = 0, DOC_idUsuarioAssinaNivel1=null,DOC_idUsuarioAssinaNivel2=null,DOC_idUsuarioAssinaNivel3=null,
+DOC_dataAssinaNivel1=null,DOC_dataAssinaNivel2=null,DOC_dataAssinaNivel3=null,DOC_p7s=null,DOC_Detail_Cert=null

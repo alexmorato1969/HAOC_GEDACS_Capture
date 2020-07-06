@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ACSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ACSModelStoreContainer">
+    <EntitySet Name="GEDCaptionControl" EntityType="ACSModel.Store.GEDCaptionControl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDDivisoes" EntityType="ACSModel.Store.GEDDivisoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDDocumentos" EntityType="ACSModel.Store.GEDDocumentos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDFormatos" EntityType="ACSModel.Store.GEDFormatos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDLogLogin" EntityType="ACSModel.Store.GEDLogLogin" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDPassagens" EntityType="ACSModel.Store.GEDPassagens" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDPessoas" EntityType="ACSModel.Store.GEDPessoas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDSubTiposDocumentos" EntityType="ACSModel.Store.GEDSubTiposDocumentos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDTiposBuscaLotes" EntityType="ACSModel.Store.GEDTiposBuscaLotes" store:Type="Tables" store:Schema="dbo" store:Name="GEDTiposBuscaLotes">
+      <DefiningQuery>SELECT 
+      [GEDTiposBuscaLotes].[TBL_Id] AS [TBL_Id], 
+      [GEDTiposBuscaLotes].[TBL_Descricao] AS [TBL_Descricao], 
+      [GEDTiposBuscaLotes].[TBL_Default] AS [TBL_Default]
+      FROM [dbo].[GEDTiposBuscaLotes] AS [GEDTiposBuscaLotes]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="GEDTiposBuscaLotesPJ" EntityType="ACSModel.Store.GEDTiposBuscaLotesPJ" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDTiposDocumentos" EntityType="ACSModel.Store.GEDTiposDocumentos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GEDUsuarios" EntityType="ACSModel.Store.GEDUsuarios" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__GEDDocume__DOC_i__42E1EEFE" Association="ACSModel.Store.FK__GEDDocume__DOC_i__42E1EEFE">
+      <End Role="GEDDivisoes" EntitySet="GEDDivisoes" />
+      <End Role="GEDDocumentos" EntitySet="GEDDocumentos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GEDDocume__DOC_i__45BE5BA9" Association="ACSModel.Store.FK__GEDDocume__DOC_i__45BE5BA9">
+      <End Role="GEDFormatos" EntitySet="GEDFormatos" />
+      <End Role="GEDDocumentos" EntitySet="GEDDocumentos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GEDTiposD__TPD_i__5BAD9CC8" Association="ACSModel.Store.FK__GEDTiposD__TPD_i__5BAD9CC8">
+      <End Role="GEDDivisoes" EntitySet="GEDDivisoes" />
+      <End Role="GEDTiposDocumentos" EntitySet="GEDTiposDocumentos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GEDUsuari__USR_i__5F7E2DAC" Association="ACSModel.Store.FK__GEDUsuari__USR_i__5F7E2DAC">
+      <End Role="GEDPessoas" EntitySet="GEDPessoas" />
+      <End Role="GEDUsuarios" EntitySet="GEDUsuarios" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="GEDCaptionControl">
+    <Key>
+      <PropertyRef Name="GCC_Id" />
+    </Key>
+    <Property Name="GCC_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GCC_FormName" Type="varchar" MaxLength="250" />
+    <Property Name="GCC_ControlName" Type="varchar" MaxLength="250" />
+    <Property Name="GCC_Caption" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="GEDDivisoes">
+    <Key>
+      <PropertyRef Name="DIV_idDivisao" />
+    </Key>
+    <Property Name="DIV_idDivisao" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DIV_idArea" Type="int" />
+    <Property Name="DIV_descricao" Type="varchar" Nullable="false" MaxLength="300" />
+    <Property Name="DIV_codigoReduzido" Type="varchar" MaxLength="2" />
+    <Property Name="DIV_flagAtivo" Type="bit" />
+  </EntityType>
+  <EntityType Name="GEDDocumentos">
+    <Key>
+      <PropertyRef Name="DOC_idDocumento" />
+    </Key>
+    <Property Name="DOC_idDocumento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DOC_idVolume" Type="int" />
+    <Property Name="DOC_idDivisao" Type="int" Nullable="false" />
+    <Property Name="DOC_idPassagem" Type="int" />
+    <Property Name="DOC_idFormato" Type="int" />
+    <Property Name="DOC_idTipoDocumento" Type="int" />
+    <Property Name="DOC_path" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="DOC_nomeArquivo" Type="varchar" MaxLength="300" />
+    <Property Name="DOC_dataHoraCadastro" Type="datetime" Nullable="false" />
+    <Property Name="DOC_FlagCertificado" Type="bit" />
+    <Property Name="DOC_idSubTipoDocumento" Type="int" />
+    <Property Name="DOC_dataVencimento" Type="date" />
+    <Property Name="DOC_dataEmissao" Type="date" />
+    <Property Name="DOC_tempoValidade" Type="int" />
+    <Property Name="DOC_VencimentoResolvido" Type="bit" />
+    <Property Name="DOC_idUsuarioACSCapture" Type="int" />
+    <Property Name="DOC_idUsuarioAssinaNivel1" Type="int" />
+    <Property Name="DOC_idUsuarioAssinaNivel2" Type="int" />
+    <Property Name="DOC_idUsuarioAssinaNivel3" Type="int" />
+    <Property Name="DOC_dataAssinaNivel1" Type="datetime" />
+    <Property Name="DOC_dataAssinaNivel2" Type="datetime" />
+    <Property Name="DOC_dataAssinaNivel3" Type="datetime" />
+    <Property Name="DOC_p7s" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="GEDFormatos">
+    <Key>
+      <PropertyRef Name="FMT_idFormato" />
+    </Key>
+    <Property Name="FMT_idFormato" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FMT_extensao" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="FMT_flagAtivo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDLogLogin">
+    <Key>
+      <PropertyRef Name="LLG_idLogLogin" />
+    </Key>
+    <Property Name="LLG_idLogLogin" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LLG_idUsuario" Type="int" />
+    <Property Name="LLG_ipEstacao" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="LLG_idUnidade" Type="int" />
+    <Property Name="LLG_flagLogin" Type="int" />
+    <Property Name="LLG_dataHoraLogin" Type="datetime" />
+    <Property Name="LLG_flagLogout" Type="int" />
+    <Property Name="LLG_dataHoraLogout" Type="datetime" />
+    <Property Name="LLG_observacao" Type="varchar" MaxLength="500" />
+    <Property Name="LLG_token" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GEDPassagens">
+    <Key>
+      <PropertyRef Name="PAS_idPassagem" />
+    </Key>
+    <Property Name="PAS_idPassagem" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PAS_idUnidade" Type="int" Nullable="false" />
+    <Property Name="PAS_idConvenio" Type="int" Nullable="false" />
+    <Property Name="PAS_dataHoraPassagem" Type="datetime" Nullable="false" />
+    <Property Name="PAS_codigoPassagem" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="PAS_flagClientePF" Type="bit" />
+    <Property Name="PAS_registro" Type="varchar" MaxLength="100" />
+    <Property Name="PAS_dataHoraPassagemFim" Type="datetime" />
+  </EntityType>
+  <EntityType Name="GEDPessoas">
+    <Key>
+      <PropertyRef Name="PES_idPessoa" />
+    </Key>
+    <Property Name="PES_idPessoa" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PES_nome" Type="varchar" MaxLength="254" />
+    <Property Name="PES_nomeMae" Type="varchar" MaxLength="254" />
+    <Property Name="PES_nomePai" Type="varchar" MaxLength="250" />
+    <Property Name="PES_cpf" Type="char" MaxLength="11" />
+    <Property Name="PES_rg" Type="char" MaxLength="9" />
+    <Property Name="PES_dataNascimento" Type="datetime" />
+    <Property Name="PES_idSexo" Type="int" />
+    <Property Name="PES_tel01" Type="varchar" MaxLength="20" />
+    <Property Name="PES_tel02" Type="varchar" MaxLength="20" />
+    <Property Name="PES_contato" Type="varchar" MaxLength="100" />
+    <Property Name="PES_emailPessoal" Type="varchar" MaxLength="100" />
+    <Property Name="PES_emailProfissional" Type="varchar" MaxLength="100" />
+    <Property Name="PES_flagAtivo" Type="bit" />
+    <Property Name="PES_observacao" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="GEDSubTiposDocumentos">
+    <Key>
+      <PropertyRef Name="STD_idSubTiposDocumentos" />
+    </Key>
+    <Property Name="STD_idSubTiposDocumentos" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="STD_idTiposDocumentos" Type="int" />
+    <Property Name="STD_descricao" Type="varchar" MaxLength="300" />
+    <Property Name="STD_codigoBarra" Type="varchar" MaxLength="4" />
+    <Property Name="STD_ordem" Type="int" />
+    <Property Name="STD_tempoValidade" Type="int" />
+    <Property Name="STD_obrigatorio" Type="bit" />
+    <Property Name="STD_tempoGuarda" Type="int" />
+    <Property Name="STD_cobrancaDias" Type="int" />
+    <Property Name="STD_flagVencimentoAnual" Type="bit" />
+    <Property Name="STD_flagVencimentoManual" Type="bit" />
+    <Property Name="STD_mesVencimentoAnual" Type="int" />
+    <Property Name="STD_flagImpressao" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'GEDPES_OI_PRD.dbo.GEDTiposBuscaLotes' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="GEDTiposBuscaLotes">
+    <Key>
+      <PropertyRef Name="TBL_Id" />
+      <PropertyRef Name="TBL_Default" />
+    </Key>
+    <Property Name="TBL_Id" Type="int" Nullable="false" />
+    <Property Name="TBL_Descricao" Type="nvarchar(max)" />
+    <Property Name="TBL_Default" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GEDTiposBuscaLotesPJ">
+    <Key>
+      <PropertyRef Name="TPJ_Id" />
+    </Key>
+    <Property Name="TPJ_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TPJ_Descricao" Type="nvarchar(max)" />
+    <Property Name="TPJ_Default" Type="bit" />
+  </EntityType>
+  <EntityType Name="GEDTiposDocumentos">
+    <Key>
+      <PropertyRef Name="TPD_idTipoDocumento" />
+    </Key>
+    <Property Name="TPD_idTipoDocumento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TPD_idDivisao" Type="int" />
+    <Property Name="TPD_descricao" Type="varchar" MaxLength="300" />
+    <Property Name="TPD_codigoBarra" Type="varchar" MaxLength="4" />
+    <Property Name="TPD_ordem" Type="int" />
+    <Property Name="TPD_flagSubtipo" Type="bit" />
+    <Property Name="TPD_tempoValidade" Type="int" />
+    <Property Name="TPD_obrigatorio" Type="bit" />
+    <Property Name="TPD_tempoGuarda" Type="int" />
+    <Property Name="TPD_cobrancaDias" Type="int" />
+    <Property Name="TPD_flagImpressao" Type="bit" />
+  </EntityType>
+  <EntityType Name="GEDUsuarios">
+    <Key>
+      <PropertyRef Name="USR_idUsuario" />
+    </Key>
+    <Property Name="USR_idUsuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="USR_idGrupoUsuario" Type="int" />
+    <Property Name="USR_idPessoa" Type="int" />
+    <Property Name="USR_login" Type="varchar" MaxLength="100" />
+    <Property Name="USR_senha" Type="varchar" MaxLength="100" />
+    <Property Name="USR_flagAtivo" Type="bit" />
+    <Property Name="USR_firstAccess" Type="bit" />
+    <Property Name="USR_dataHoraCadastro" Type="datetime" />
+    <Property Name="USR_dataHoraLastLogin" Type="datetime" />
+    <Property Name="USR_observacao" Type="varchar" MaxLength="3000" />
+    <Property Name="usr_flagdigitalizacao" Type="bit" />
+    <Property Name="usr_flagimportacao" Type="bit" />
+    <Property Name="USR_flagImprimir" Type="bit" />
+    <Property Name="USR_flagAssina" Type="bit" />
+    <Property Name="USR_NivelAssina" Type="int" />
+    <Property Name="USR_SerialNumberCert" Type="varchar(max)" />
+    <Property Name="usr_flagAdmACS" Type="bit" />
+  </EntityType>
+  <Association Name="FK__GEDDocume__DOC_i__42E1EEFE">
+    <End Role="GEDDivisoes" Type="ACSModel.Store.GEDDivisoes" Multiplicity="1" />
+    <End Role="GEDDocumentos" Type="ACSModel.Store.GEDDocumentos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDivisoes">
+        <PropertyRef Name="DIV_idDivisao" />
+      </Principal>
+      <Dependent Role="GEDDocumentos">
+        <PropertyRef Name="DOC_idDivisao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GEDDocume__DOC_i__45BE5BA9">
+    <End Role="GEDFormatos" Type="ACSModel.Store.GEDFormatos" Multiplicity="0..1" />
+    <End Role="GEDDocumentos" Type="ACSModel.Store.GEDDocumentos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDFormatos">
+        <PropertyRef Name="FMT_idFormato" />
+      </Principal>
+      <Dependent Role="GEDDocumentos">
+        <PropertyRef Name="DOC_idFormato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GEDTiposD__TPD_i__5BAD9CC8">
+    <End Role="GEDDivisoes" Type="ACSModel.Store.GEDDivisoes" Multiplicity="0..1" />
+    <End Role="GEDTiposDocumentos" Type="ACSModel.Store.GEDTiposDocumentos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDDivisoes">
+        <PropertyRef Name="DIV_idDivisao" />
+      </Principal>
+      <Dependent Role="GEDTiposDocumentos">
+        <PropertyRef Name="TPD_idDivisao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GEDUsuari__USR_i__5F7E2DAC">
+    <End Role="GEDPessoas" Type="ACSModel.Store.GEDPessoas" Multiplicity="0..1" />
+    <End Role="GEDUsuarios" Type="ACSModel.Store.GEDUsuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GEDPessoas">
+        <PropertyRef Name="PES_idPessoa" />
+      </Principal>
+      <Dependent Role="GEDUsuarios">
+        <PropertyRef Name="USR_idPessoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GED_PROC_F_Lotes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TipoPessoa" Type="int" Mode="In" />
+    <Parameter Name="Tipo" Type="int" Mode="In" />
+    <Parameter Name="Value" Type="varchar(max)" Mode="In" />
+    <Parameter Name="DtIni" Type="datetime" Mode="In" />
+    <Parameter Name="DtFin" Type="datetime" Mode="In" />
+  </Function>
+</Schema>

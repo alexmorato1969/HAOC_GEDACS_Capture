@@ -1,0 +1,29 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\SWEncryptFileCOM.CSEncryptFileCOM]
+@="SWEncryptFileCOM.CSEncryptFileCOM"
+
+[HKEY_CLASSES_ROOT\SWEncryptFileCOM.CSEncryptFileCOM\CLSID]
+@="{3FE3AA13-60D5-42B8-BD6B-2F6EB8C76606}"
+
+[HKEY_CLASSES_ROOT\CLSID\{3FE3AA13-60D5-42B8-BD6B-2F6EB8C76606}]
+@="SWEncryptFileCOM.CSEncryptFileCOM"
+
+[HKEY_CLASSES_ROOT\CLSID\{3FE3AA13-60D5-42B8-BD6B-2F6EB8C76606}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="SWEncryptFileCOM.CSEncryptFileCOM"
+"Assembly"="SWEncryptFileCOM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWEncryptFileCOM.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{3FE3AA13-60D5-42B8-BD6B-2F6EB8C76606}\InprocServer32\1.0.0.0]
+"Class"="SWEncryptFileCOM.CSEncryptFileCOM"
+"Assembly"="SWEncryptFileCOM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///C:/Users/William/Documents/Developer/Orion/ODSigner/Fontes/exe/SWEncryptFileCOM.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{3FE3AA13-60D5-42B8-BD6B-2F6EB8C76606}\ProgId]
+@="SWEncryptFileCOM.CSEncryptFileCOM"
+
+[HKEY_CLASSES_ROOT\CLSID\{3FE3AA13-60D5-42B8-BD6B-2F6EB8C76606}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

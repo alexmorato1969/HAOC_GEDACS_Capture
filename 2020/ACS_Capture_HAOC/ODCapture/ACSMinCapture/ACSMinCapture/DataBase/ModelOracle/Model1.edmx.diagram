@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e5facaa1b9d14a929239372c0c336ef6" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.GEDAREAMEDICA" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDAREAS" Width="1.5" PointX="0.75" PointY="41.375" />
+        <EntityTypeShape EntityType="Model.GEDAUDITORXCONVENIO" Width="1.5" PointX="12.75" PointY="56.375" />
+        <EntityTypeShape EntityType="Model.GEDAUDITORXPASSAGEM" Width="1.5" PointX="12.75" PointY="59.875" />
+        <EntityTypeShape EntityType="Model.GEDCAPTIONCONTROL" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDCLIENTEPF" Width="1.5" PointX="6" PointY="29.75" />
+        <EntityTypeShape EntityType="Model.GEDCLIENTEPJ" Width="1.5" PointX="3" PointY="26.625" />
+        <EntityTypeShape EntityType="Model.GEDCONTROLECERTIFICADO" Width="1.5" PointX="13.5" PointY="40.125" />
+        <EntityTypeShape EntityType="Model.GEDCONVENIO" Width="1.5" PointX="0.75" PointY="35.375" />
+        <EntityTypeShape EntityType="Model.GEDDIVISAOXGRUPOUSUARIO" Width="1.5" PointX="5.25" PointY="49.375" />
+        <EntityTypeShape EntityType="Model.GEDDIVISOES" Width="1.5" PointX="6" PointY="57.5" />
+        <EntityTypeShape EntityType="Model.GEDDOCASSINANDO" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.GEDDOCAVENCERUMASEMTEMP" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.GEDDOCAVENCERUMASEMTPJ" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDDOCAVENCERUMMESTEMP" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model.GEDDOCAVENCERUMMESTPJ" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDDOCUMENTOS" Width="1.5" PointX="8.25" PointY="36.5" />
+        <EntityTypeShape EntityType="Model.GEDDOCUMENTOVENCIDOTEMP" Width="1.5" PointX="6.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model.GEDDOCUMENTOVENCIDOTPJ" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.GEDESPECIALIDADE" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDFORMATOS" Width="1.5" PointX="6" PointY="43.5" />
+        <EntityTypeShape EntityType="Model.GEDFUNCAOUSUARIO" Width="1.5" PointX="2.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Model.GEDFUNCAOXTIPOHIERARQUIA" Width="1.5" PointX="8.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.GEDGLOBALSETTINGS" Width="1.5" PointX="3" PointY="44.625" />
+        <EntityTypeShape EntityType="Model.GEDGRUPOSUSUARIOS" Width="1.5" PointX="3" PointY="48.75" />
+        <EntityTypeShape EntityType="Model.GEDHIERARQUIA" Width="1.5" PointX="4.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Model.GEDHIERARQUIAXFUNCAO" Width="1.5" PointX="8.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Model.GEDINTEGRACAOATENDIMENTO" Width="1.5" PointX="6.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Model.GEDLABELGENERICO" Width="1.5" PointX="1.5" PointY="53.75" />
+        <EntityTypeShape EntityType="Model.GEDLOG" Width="1.5" PointX="8.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Model.GEDLOGALTERACAODOCUMENTO" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDLOGERRO" Width="1.5" PointX="10.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model.GEDLOGLOGIN" Width="1.5" PointX="10.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Model.GEDLOGOCORRENCIA" Width="1.5" PointX="15.75" PointY="46.25" />
+        <EntityTypeShape EntityType="Model.GEDLOGPROCESSODOC" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDLOTESXUSUARIOS" Width="1.5" PointX="10.5" PointY="50.125" />
+        <EntityTypeShape EntityType="Model.GEDMODULOS" Width="1.5" PointX="6" PointY="26.5" />
+        <EntityTypeShape EntityType="Model.GEDNIVELASSINA" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.GEDOBJETOS" Width="1.5" PointX="8.25" PointY="26.125" />
+        <EntityTypeShape EntityType="Model.GEDOCORRENCIAS" Width="1.5" PointX="13.5" PointY="45" />
+        <EntityTypeShape EntityType="Model.GEDPADROESCERTIFICADO" Width="1.5" PointX="11.25" PointY="34.125" />
+        <EntityTypeShape EntityType="Model.GEDPASSAGENS" Width="1.5" PointX="3" PointY="31.625" />
+        <EntityTypeShape EntityType="Model.GEDPERFIS" Width="1.5" PointX="5.25" PointY="40.125" />
+        <EntityTypeShape EntityType="Model.GEDPERFISXOBJETOS" Width="1.5" PointX="10.5" PointY="40.375" />
+        <EntityTypeShape EntityType="Model.GEDPERFISXUSUARIOS" Width="1.5" PointX="10.5" PointY="46.125" />
+        <EntityTypeShape EntityType="Model.GEDPESSOAS" Width="1.5" PointX="6" PointY="52.375" />
+        <EntityTypeShape EntityType="Model.GEDSETOR" Width="1.5" PointX="2.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.GEDSETORXGRUPOUSUARIO" Width="1.5" PointX="12.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model.GEDSEXOS" Width="1.5" PointX="3.75" PointY="23.5" />
+        <EntityTypeShape EntityType="Model.GEDSTATUSLOTE" Width="1.5" PointX="8.25" PointY="55.625" />
+        <EntityTypeShape EntityType="Model.GEDSTATUSOCORRENCIA" Width="1.5" PointX="11.25" PointY="63.75" />
+        <EntityTypeShape EntityType="Model.GEDSUBTIPODOCXGRUPUSER" Width="1.5" PointX="5.25" PointY="46.375" />
+        <EntityTypeShape EntityType="Model.GEDSUBTIPOSDOCUMENTOS" Width="1.5" PointX="3" PointY="63" />
+        <EntityTypeShape EntityType="Model.GEDTIPOAUDITOR" Width="1.5" PointX="10.5" PointY="56.125" />
+        <EntityTypeShape EntityType="Model.GEDTIPOBUSCA" Width="1.5" PointX="5.25" PointY="16.125" />
+        <EntityTypeShape EntityType="Model.GEDTIPOCLIENTE" Width="1.5" PointX="3" PointY="15.125" />
+        <EntityTypeShape EntityType="Model.GEDTIPOCONSELHO" Width="1.5" PointX="12.75" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.GEDTIPOHIERARQUIA" Width="1.5" PointX="12.75" PointY="10.75" />
+        <EntityTypeShape EntityType="Model.GEDTIPOSATENDIMENTOS" Width="1.5" PointX="5.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.GEDTIPOSBUSCALOTES" Width="1.5" PointX="10.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.GEDTIPOSBUSCALOTESPJ" Width="1.5" PointX="12.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.GEDTIPOSCERTIFICADOS" Width="1.5" PointX="11.25" PointY="30.625" />
+        <EntityTypeShape EntityType="Model.GEDTIPOSDOCUMENTOS" Width="1.5" PointX="6" PointY="21.625" />
+        <EntityTypeShape EntityType="Model.GEDTIPOSOCORRENCIA" Width="1.5" PointX="11.25" PointY="27.25" />
+        <EntityTypeShape EntityType="Model.GEDTIPOSTOKEN" Width="1.5" PointX="11.25" PointY="37.5" />
+        <EntityTypeShape EntityType="Model.GEDUNIDADES" Width="1.5" PointX="0.75" PointY="30.625" />
+        <EntityTypeShape EntityType="Model.GEDUNIDADEXAREAS" Width="1.5" PointX="3" PointY="36.5" />
+        <EntityTypeShape EntityType="Model.GEDURLSTORAGE" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.GEDUSUARIOS" Width="1.5" PointX="8.25" PointY="48.625" />
+        <EntityTypeShape EntityType="Model.GEDUSUARIOSXUNIDADESXAREAS" Width="1.5" PointX="10.5" PointY="43.375" />
+        <EntityTypeShape EntityType="Model.GEDVOLUMES" Width="1.5" PointX="6" PointY="37.125" />
+        <AssociationConnector Association="Model.ARE_FK_LBA_IDLABELGENERICO" />
+        <AssociationConnector Association="Model.DIV_FK_ARE_IDAREA" />
+        <AssociationConnector Association="Model.TIC_FK_ARE_IDAREA" />
+        <AssociationConnector Association="Model.UXA_FK_ARE_IDAREA" />
+        <AssociationConnector Association="Model.AUC_FK_CON_IDCONVENIO" />
+        <AssociationConnector Association="Model.AUC_FK_TPA_IDTIPOAUDITOR" />
+        <AssociationConnector Association="Model.ACL_FK_TPA_IDTIPOAUDITOR" />
+        <AssociationConnector Association="Model.CPF_FK_SEX_IDSEXO" />
+        <AssociationConnector Association="Model.CPF_FK_UNI_IDUNIDADE" />
+        <AssociationConnector Association="Model.CPJ_FK_UNI_IDUNIDADE" />
+        <AssociationConnector Association="Model.CCD_FK_DOC_IDDOCUMENTO" />
+        <AssociationConnector Association="Model.CCD_FK_PDC_IDPADROESCERT" />
+        <AssociationConnector Association="Model.CCD_FK_TPC_IDTIPOCERTIFICADO" />
+        <AssociationConnector Association="Model.CCD_FK_TTK_IDTIPOTOKEN" />
+        <AssociationConnector Association="Model.PAS_FK_CON_IDCONVENIO" />
+        <AssociationConnector Association="Model.DVG_FK_DIV_IDDIVISAO" />
+        <AssociationConnector Association="Model.DVG_FK_GRP_IDGRUPOUSUARIO" />
+        <AssociationConnector Association="Model.DOC_FK_DIV_IDDIVISAO" />
+        <AssociationConnector Association="Model.TPD_FK_DIV_IDDIVISAO" />
+        <AssociationConnector Association="Model.DOC_FK_FMT_IDFORMATO" />
+        <AssociationConnector Association="Model.DOC_FK_GPU_IDGRUPOUUSUARIO" />
+        <AssociationConnector Association="Model.DOC_FK_PAS_IDPASSAGEM" />
+        <AssociationConnector Association="Model.DOC_FK_TPD_IDTIPODOCUMENTO" />
+        <AssociationConnector Association="Model.DOC_FK_VOL_IDVOLUME" />
+        <AssociationConnector Association="Model.OCR_FK_DOC_IDDOCUMENTO" />
+        <AssociationConnector Association="Model.GLO_FK_UNI_IDUNIDADE" />
+        <AssociationConnector Association="Model.GRP_FK_UNI_IDUNIDADE" />
+        <AssociationConnector Association="Model.PRF_FK_GRP_IDGRUPOUSUARIO" />
+        <AssociationConnector Association="Model.TDG_FK_GRP_IDGRUPOUSUARIO" />
+        <AssociationConnector Association="Model.USR_FK_GRP_IDGRUPOUSUARIO" />
+        <AssociationConnector Association="Model.LGO_FK_OCR_IDOCORRENCIA" />
+        <AssociationConnector Association="Model.LGO_FK_STO_IDSTATUSOCORRENCIA" />
+        <AssociationConnector Association="Model.LTU_FK_STL_IDSTATUSLOTE" />
+        <AssociationConnector Association="Model.LTU_FK_USR_IDUSUARIO" />
+        <AssociationConnector Association="Model.OBJ_FK_MOD_IDMODULO" />
+        <AssociationConnector Association="Model.PXO_FK_OBJ_IDOBJETO" />
+        <AssociationConnector Association="Model.OCR_FK_STO_IDSTATUSOCORRENCIA" />
+        <AssociationConnector Association="Model.OCR_FK_TPD_IDTIPODOCUMENTO" />
+        <AssociationConnector Association="Model.OCR_FK_TPO_IDTIPOOCORRENCIA" />
+        <AssociationConnector Association="Model.OCR_FK_USR_IDUSUARIO" />
+        <AssociationConnector Association="Model.PAS_FK_UNI_IDUNIDADE" />
+        <AssociationConnector Association="Model.PRF_FK_UNI_IDUNIDADE" />
+        <AssociationConnector Association="Model.PXO_FK_PRF_IDPERFIL" />
+        <AssociationConnector Association="Model.PXU_FK_PRF_IDPERFIL" />
+        <AssociationConnector Association="Model.PXU_FK_USR_IDUSUARIO" />
+        <AssociationConnector Association="Model.PES_FK_SEX_IDSEXO" />
+        <AssociationConnector Association="Model.USR_FK_PES_IDPESSOA" />
+        <AssociationConnector Association="Model.TDG_FK_STD_IDSUBTIPODOCUMENTO" />
+        <AssociationConnector Association="Model.STD_FK_TPD_IDTIPODOCUMENTO" />
+        <AssociationConnector Association="Model.TPA_FK_USR_IDUSUARIO" />
+        <AssociationConnector Association="Model.TIB_FK_TIC_IDTIPOCLIENTE" />
+        <AssociationConnector Association="Model.UXA_FK_UNI_IDUNIDADE" />
+        <AssociationConnector Association="Model.UXU_FK_UXA_IDUNIDADEXAREA" />
+        <AssociationConnector Association="Model.UXU_FK_USR_IDUSUARIO" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

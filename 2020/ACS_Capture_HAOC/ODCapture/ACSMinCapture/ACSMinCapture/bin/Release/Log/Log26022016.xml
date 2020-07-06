@@ -1,0 +1,4 @@
+<Log>
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;The specified store provider cannot be found in the configuration, or is not valid." Detail="Unable to find the requested .Net Framework Data Provider.  It may not be installed." StackTrace="" DateTime="26/02/2016 11:25:42" />
+  <Hand Message="Verifique a conexão com banco de dados: &#xA;The specified store provider cannot be found in the configuration, or is not valid." Detail="Unable to find the requested .Net Framework Data Provider.  It may not be installed." StackTrace="" DateTime="26/02/2016 11:25:44" />
+</Log>

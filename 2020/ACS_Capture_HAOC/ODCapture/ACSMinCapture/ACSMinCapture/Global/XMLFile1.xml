@@ -1,0 +1,50 @@
+﻿<Certs>
+  <Cert1>
+    <DataTerminio>18/12/2018 16:22:00</DataTerminio>
+    <IdCertificado>A324D2A87F8B8FFDE9C909DFCB135204A8934D71</IdCertificado>
+    <Assunto>C = BR   O = ORION  OU =  DEV  CN = Fernando Sequeira Sousa  </Assunto>
+    <AssuntoCN>Fernando Sequeira Sousa</AssuntoCN>
+    <AssuntoO>ORION </AssuntoO>
+    <AssuntoOU>DEV</AssuntoOU>
+    <AssuntoL>Florianpolis</AssuntoL>
+    <AssuntoS>SC</AssuntoS>
+    <AssuntoC>BR</AssuntoC>
+    <AssuntoE>fernando@oriondigital.com</AssuntoE>
+    <Emissor>C = BR  O = BRy Tecnologia SA  OU = Autoridade Certificadora BRyB  CN = BRy AC2 - Classe 3 v1  </Emissor>
+    <EmissorCN>BRy AC2 - Classe 3 v1  </EmissorCN>
+    <EmissorO>BRy Tecnologia SA  </EmissorO>
+    <EmissorOU>Autoridade Certificadora BRy  </EmissorOU>
+    <EmissorL>Florianopolis  </EmissorL>
+    <EmissorS>SC  </EmissorS>
+    <EmissorC>BR  </EmissorC>
+    <EmissorE>ac@bry.com.br  </EmissorE>
+    <NumeroSerial>029E</NumeroSerial>
+    <DataInicio>17/12/2015 22:00:00  </DataInicio>
+    <CPF>34739139871  </CPF>
+    <CPNJ>  </CPNJ>
+  </Cert1>
+  <Cert2>
+    <DataTerminio>18/12/2018 16:22:00</DataTerminio>
+    <IdCertificado>A324D2A87F8B8FFDE9C909DFCB135204A8934D71</IdCertificado>
+    <Assunto>C = BR   O = ORION  OU =  DEV  CN = Fernando Sequeira Sousa  </Assunto>
+    <AssuntoCN>Fernando Sequeira Sousa</AssuntoCN>
+    <AssuntoO>ORION </AssuntoO>
+    <AssuntoOU>DEV</AssuntoOU>
+    <AssuntoL>Florianpolis</AssuntoL>
+    <AssuntoS>SC</AssuntoS>
+    <AssuntoC>BR</AssuntoC>
+    <AssuntoE>fernando@oriondigital.com</AssuntoE>
+    <Emissor>C = BR  O = BRy Tecnologia SA  OU = Autoridade Certificadora BRyB  CN = BRy AC2 - Classe 3 v1  </Emissor>
+    <EmissorCN>BRy AC2 - Classe 3 v1  </EmissorCN>
+    <EmissorO>BRy Tecnologia SA  </EmissorO>
+    <EmissorOU>Autoridade Certificadora BRy  </EmissorOU>
+    <EmissorL>Florianopolis  </EmissorL>
+    <EmissorS>SC  </EmissorS>
+    <EmissorC>BR  </EmissorC>
+    <EmissorE>ac@bry.com.br  </EmissorE>
+    <NumeroSerial>029E</NumeroSerial>
+    <DataInicio>17/12/2015 22:00:00  </DataInicio>
+    <CPF>34739139871  </CPF>
+    <CPNJ>  </CPNJ>
+  </Cert2>
+</Certs>

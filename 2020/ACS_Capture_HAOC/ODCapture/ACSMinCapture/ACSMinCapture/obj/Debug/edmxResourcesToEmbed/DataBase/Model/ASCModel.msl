@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ACSModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="GEDPessoas">
+      <EntityTypeMapping TypeName="ACSModel.GEDPessoas">
+        <MappingFragment StoreEntitySet="GEDPessoas">
+          <ScalarProperty Name="PES_idPessoa" ColumnName="PES_idPessoa" />
+          <ScalarProperty Name="PES_nome" ColumnName="PES_nome" />
+          <ScalarProperty Name="PES_nomeMae" ColumnName="PES_nomeMae" />
+          <ScalarProperty Name="PES_nomePai" ColumnName="PES_nomePai" />
+          <ScalarProperty Name="PES_cpf" ColumnName="PES_cpf" />
+          <ScalarProperty Name="PES_rg" ColumnName="PES_rg" />
+          <ScalarProperty Name="PES_dataNascimento" ColumnName="PES_dataNascimento" />
+          <ScalarProperty Name="PES_idSexo" ColumnName="PES_idSexo" />
+          <ScalarProperty Name="PES_tel01" ColumnName="PES_tel01" />
+          <ScalarProperty Name="PES_tel02" ColumnName="PES_tel02" />
+          <ScalarProperty Name="PES_contato" ColumnName="PES_contato" />
+          <ScalarProperty Name="PES_emailPessoal" ColumnName="PES_emailPessoal" />
+          <ScalarProperty Name="PES_emailProfissional" ColumnName="PES_emailProfissional" />
+          <ScalarProperty Name="PES_flagAtivo" ColumnName="PES_flagAtivo" />
+          <ScalarProperty Name="PES_observacao" ColumnName="PES_observacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDUsuarios">
+      <EntityTypeMapping TypeName="ACSModel.GEDUsuarios">
+        <MappingFragment StoreEntitySet="GEDUsuarios">
+          <ScalarProperty Name="USR_idUsuario" ColumnName="USR_idUsuario" />
+          <ScalarProperty Name="USR_idGrupoUsuario" ColumnName="USR_idGrupoUsuario" />
+          <ScalarProperty Name="USR_idPessoa" ColumnName="USR_idPessoa" />
+          <ScalarProperty Name="USR_login" ColumnName="USR_login" />
+          <ScalarProperty Name="USR_senha" ColumnName="USR_senha" />
+          <ScalarProperty Name="USR_flagAtivo" ColumnName="USR_flagAtivo" />
+          <ScalarProperty Name="USR_firstAccess" ColumnName="USR_firstAccess" />
+          <ScalarProperty Name="USR_dataHoraCadastro" ColumnName="USR_dataHoraCadastro" />
+          <ScalarProperty Name="USR_dataHoraLastLogin" ColumnName="USR_dataHoraLastLogin" />
+          <ScalarProperty Name="USR_observacao" ColumnName="USR_observacao" />
+          <ScalarProperty Name="usr_flagdigitalizacao" ColumnName="usr_flagdigitalizacao" />
+          <ScalarProperty Name="usr_flagimportacao" ColumnName="usr_flagimportacao" />
+          <ScalarProperty Name="USR_flagImprimir" ColumnName="USR_flagImprimir" />
+          <ScalarProperty Name="USR_flagAssina" ColumnName="USR_flagAssina" />
+          <ScalarProperty Name="USR_NivelAssina" ColumnName="USR_NivelAssina" />
+          <ScalarProperty Name="USR_SerialNumberCert" ColumnName="USR_SerialNumberCert" />
+          <ScalarProperty Name="usr_flagAdmACS" ColumnName="usr_flagAdmACS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8b51629beb754e8dba418be6b199ebf1" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="ACSModel.GEDPessoas" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ACSModel.GEDDivisoes" Width="1.5" PointX="10.25" PointY="2.5" />
+        <EntityTypeShape EntityType="ACSModel.GEDDocumentos" Width="1.5" PointX="12" PointY="0.5" />
+        <EntityTypeShape EntityType="ACSModel.GEDFormatos" Width="1.5" PointX="6.5" PointY="0.5" />
+        <EntityTypeShape EntityType="ACSModel.GEDPassagens" Width="1.5" PointX="4.625" PointY="0.5" />
+        <EntityTypeShape EntityType="ACSModel.GEDSubTiposDocumentos" Width="1.5" PointX="8.25" PointY="4.125" />
+        <EntityTypeShape EntityType="ACSModel.GEDTiposBuscaLotes" Width="1.5" PointX="10.25" PointY="0.5" />
+        <EntityTypeShape EntityType="ACSModel.GEDTiposBuscaLotesPJ" Width="1.5" PointX="0.5" PointY="4.875" />
+        <EntityTypeShape EntityType="ACSModel.GEDTiposDocumentos" Width="1.5" PointX="8.25" PointY="0.5" />
+        <AssociationConnector Association="ACSModel.FK__GEDDocume__DOC_i__42E1EEFE" />
+        <AssociationConnector Association="ACSModel.FK__GEDTiposD__TPD_i__5BAD9CC8" />
+        <AssociationConnector Association="ACSModel.FK__GEDDocume__DOC_i__45BE5BA9" />
+        <EntityTypeShape EntityType="ACSModel.GEDCaptionControl" Width="1.5" PointX="4.625" PointY="3.25" />
+        <EntityTypeShape EntityType="ACSModel.GEDLogLogin" Width="1.5" PointX="2.75" PointY="5.875" />
+        <EntityTypeShape EntityType="ACSModel.GEDStatusLote" Width="1.5" PointX="6.375" PointY="5.375" />
+        <EntityTypeShape EntityType="ACSModel.GEDLotesXUsuarios" Width="1.5" PointX="4.625" PointY="5.375" />
+        <AssociationConnector Association="ACSModel.FK_GEDLoteXUsuario_GEDStatusLote" />
+        <EntityTypeShape EntityType="ACSModel.GEDUsuarios" Width="1.5" PointX="9.8663494427997378" PointY="17.331255190694357" />
+        <AssociationConnector Association="ACSModel.FK_GEDLoteXUsuario_GEDUsuarios" />
+        <AssociationConnector Association="ACSModel.FK__GEDUsuari__USR_i__5F7E2DAC" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="OracleModels">
+    <EntitySetMapping Name="GEDAREAMEDICA">
+      <EntityTypeMapping TypeName="Model.GEDAREAMEDICA">
+        <MappingFragment StoreEntitySet="GEDAREAMEDICA">
+          <ScalarProperty Name="AES_DESCRICAO" ColumnName="AES_DESCRICAO" />
+          <ScalarProperty Name="AES_IDAREAMEDICA" ColumnName="AES_IDAREAMEDICA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDAREAS">
+      <EntityTypeMapping TypeName="Model.GEDAREAS">
+        <MappingFragment StoreEntitySet="GEDAREAS">
+          <ScalarProperty Name="ARE_IDLABELGENERICO" ColumnName="ARE_IDLABELGENERICO" />
+          <ScalarProperty Name="ARE_DESCRICAO" ColumnName="ARE_DESCRICAO" />
+          <ScalarProperty Name="ARE_IDAREA" ColumnName="ARE_IDAREA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDAUDITORXCONVENIO">
+      <EntityTypeMapping TypeName="Model.GEDAUDITORXCONVENIO">
+        <MappingFragment StoreEntitySet="GEDAUDITORXCONVENIO">
+          <ScalarProperty Name="AUC_FLAGATIVO" ColumnName="AUC_FLAGATIVO" />
+          <ScalarProperty Name="AUC_OBSERVACAO" ColumnName="AUC_OBSERVACAO" />
+          <ScalarProperty Name="AUC_DATAHORAFIM" ColumnName="AUC_DATAHORAFIM" />
+          <ScalarProperty Name="AUC_DATAHORAINI" ColumnName="AUC_DATAHORAINI" />
+          <ScalarProperty Name="AUC_IDCONVENIO" ColumnName="AUC_IDCONVENIO" />
+          <ScalarProperty Name="AUC_IDTIPOAUDITOR" ColumnName="AUC_IDTIPOAUDITOR" />
+          <ScalarProperty Name="AUC_IDAUDITORXCONVENIO" ColumnName="AUC_IDAUDITORXCONVENIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDAUDITORXPASSAGEM">
+      <EntityTypeMapping TypeName="Model.GEDAUDITORXPASSAGEM">
+        <MappingFragment StoreEntitySet="GEDAUDITORXPASSAGEM">
+          <ScalarProperty Name="ACL_FLAGATIVO" ColumnName="ACL_FLAGATIVO" />
+          <ScalarProperty Name="ACL_OBSERVACAO" ColumnName="ACL_OBSERVACAO" />
+          <ScalarProperty Name="ACL_DATAHORAFIM" ColumnName="ACL_DATAHORAFIM" />
+          <ScalarProperty Name="ACL_DATAHORAINI" ColumnName="ACL_DATAHORAINI" />
+          <ScalarProperty Name="ACL_IDPASSAGEM" ColumnName="ACL_IDPASSAGEM" />
+          <ScalarProperty Name="ACL_IDTIPOAUDITOR" ColumnName="ACL_IDTIPOAUDITOR" />
+          <ScalarProperty Name="ACL_IDAUDITORXPASSAGEM" ColumnName="ACL_IDAUDITORXPASSAGEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDCAPTIONCONTROL">
+      <EntityTypeMapping TypeName="Model.GEDCAPTIONCONTROL">
+        <MappingFragment StoreEntitySet="GEDCAPTIONCONTROL">
+          <ScalarProperty Name="GCC_CAPTION" ColumnName="GCC_CAPTION" />
+          <ScalarProperty Name="GCC_CONTROLNAME" ColumnName="GCC_CONTROLNAME" />
+          <ScalarProperty Name="GCC_FORMNAME" ColumnName="GCC_FORMNAME" />
+          <ScalarProperty Name="GCC_ID" ColumnName="GCC_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDCLIENTEPF">
+      <EntityTypeMapping TypeName="Model.GEDCLIENTEPF">
+        <MappingFragment StoreEntitySet="GEDCLIENTEPF">
+          <ScalarProperty Name="CPF_FLAGATUALIZARUNIFICACAO" ColumnName="CPF_FLAGATUALIZARUNIFICACAO" />
+          <ScalarProperty Name="CPF_REGISTROOLD" ColumnName="CPF_REGISTROOLD" />
+          <ScalarProperty Name="CPF_FLAGCORPOCLINICO" ColumnName="CPF_FLAGCORPOCLINICO" />
+          <ScalarProperty Name="CPF_NUMEROCONSELHO" ColumnName="CPF_NUMEROCONSELHO" />
+          <ScalarProperty Name="CPF_IDTIPOCONSELHO" ColumnName="CPF_IDTIPOCONSELHO" />
+          <ScalarProperty Name="CPF_FLAGATIVO" ColumnName="CPF_FLAGATIVO" />
+          <ScalarProperty Name="CPF_OBSERVACAO" ColumnName="CPF_OBSERVACAO" />
+          <ScalarProperty Name="CPF_DATACADASTRO" ColumnName="CPF_DATACADASTRO" />
+          <ScalarProperty Name="CPF_EMAIL" ColumnName="CPF_EMAIL" />
+          <ScalarProperty Name="CPF_CONTATO" ColumnName="CPF_CONTATO" />
+          <ScalarProperty Name="CPF_TEL02" ColumnName="CPF_TEL02" />
+          <ScalarProperty Name="CPF_TEL01" ColumnName="CPF_TEL01" />
+          <ScalarProperty Name="CPF_IDUNIDADE" ColumnName="CPF_IDUNIDADE" />
+          <ScalarProperty Name="CPF_IDSEXO" ColumnName="CPF_IDSEXO" />
+          <ScalarProperty Name="CPF_DATANASCIMENTO" ColumnName="CPF_DATANASCIMENTO" />
+          <ScalarProperty Name="CPF_RG" ColumnName="CPF_RG" />
+          <ScalarProperty Name="CPF_CPF" ColumnName="CPF_CPF" />
+          <ScalarProperty Name="CPF_NOMEMAE" ColumnName="CPF_NOMEMAE" />
+          <ScalarProperty Name="CPF_NOMEPAI" ColumnName="CPF_NOMEPAI" />
+          <ScalarProperty Name="CPF_NOME" ColumnName="CPF_NOME" />
+          <ScalarProperty Name="CPF_REGISTRO" ColumnName="CPF_REGISTRO" />
+          <ScalarProperty Name="CPF_IDCLIENTEPF" ColumnName="CPF_IDCLIENTEPF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDCLIENTEPJ">
+      <EntityTypeMapping TypeName="Model.GEDCLIENTEPJ">
+        <MappingFragment StoreEntitySet="GEDCLIENTEPJ">
+          <ScalarProperty Name="CPJ_FLAGATIVO" ColumnName="CPJ_FLAGATIVO" />
+          <ScalarProperty Name="CPJ_OBSERVACAO" ColumnName="CPJ_OBSERVACAO" />
+          <ScalarProperty Name="CPJ_IDUNIDADE" ColumnName="CPJ_IDUNIDADE" />
+          <ScalarProperty Name="CPJ_DATACADASTRO" ColumnName="CPJ_DATACADASTRO" />
+          <ScalarProperty Name="CPJ_EMAIL" ColumnName="CPJ_EMAIL" />
+          <ScalarProperty Name="CPJ_CONTATO" ColumnName="CPJ_CONTATO" />
+          <ScalarProperty Name="CPJ_TEL02" ColumnName="CPJ_TEL02" />
+          <ScalarProperty Name="CPJ_TEL01" ColumnName="CPJ_TEL01" />
+          <ScalarProperty Name="CPJ_CNPJ" ColumnName="CPJ_CNPJ" />
+          <ScalarProperty Name="CPJ_REGISTRO" ColumnName="CPJ_REGISTRO" />
+          <ScalarProperty Name="CPJ_RAZAOSOCIAL" ColumnName="CPJ_RAZAOSOCIAL" />
+          <ScalarProperty Name="CPJ_IDCLIENTEPJ" ColumnName="CPJ_IDCLIENTEPJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDCONTROLECERTIFICADO">
+      <EntityTypeMapping TypeName="Model.GEDCONTROLECERTIFICADO">
+        <MappingFragment StoreEntitySet="GEDCONTROLECERTIFICADO">
+          <ScalarProperty Name="CCD_CPF" ColumnName="CCD_CPF" />
+          <ScalarProperty Name="CCD_CNPJ" ColumnName="CCD_CNPJ" />
+          <ScalarProperty Name="CCD_PROPRIETARIO" ColumnName="CCD_PROPRIETARIO" />
+          <ScalarProperty Name="CCD_DATARECERTIFICACAO" ColumnName="CCD_DATARECERTIFICACAO" />
+          <ScalarProperty Name="CCD_DATACERTIFICACAO" ColumnName="CCD_DATACERTIFICACAO" />
+          <ScalarProperty Name="CCD_IDTIPOCERTIFICADO" ColumnName="CCD_IDTIPOCERTIFICADO" />
+          <ScalarProperty Name="CCD_IDTIPOTOKEN" ColumnName="CCD_IDTIPOTOKEN" />
+          <ScalarProperty Name="CCD_IDDOCUMENTO" ColumnName="CCD_IDDOCUMENTO" />
+          <ScalarProperty Name="CCD_IDPADROESCERTIFICADO" ColumnName="CCD_IDPADROESCERTIFICADO" />
+          <ScalarProperty Name="CCD_IDCONTROLECERTIFICADO" ColumnName="CCD_IDCONTROLECERTIFICADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDCONVENIO">
+      <EntityTypeMapping TypeName="Model.GEDCONVENIO">
+        <MappingFragment StoreEntitySet="GEDCONVENIO">
+          <ScalarProperty Name="CON_CODCONVENIORP" ColumnName="CON_CODCONVENIORP" />
+          <ScalarProperty Name="CON_CNPJ" ColumnName="CON_CNPJ" />
+          <ScalarProperty Name="CON_FLAGATIVO" ColumnName="CON_FLAGATIVO" />
+          <ScalarProperty Name="CON_RAZAOSOCIAL" ColumnName="CON_RAZAOSOCIAL" />
+          <ScalarProperty Name="CON_IDCONVENIO" ColumnName="CON_IDCONVENIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDIVISAOXGRUPOUSUARIO">
+      <EntityTypeMapping TypeName="Model.GEDDIVISAOXGRUPOUSUARIO">
+        <MappingFragment StoreEntitySet="GEDDIVISAOXGRUPOUSUARIO">
+          <ScalarProperty Name="DVG_FLAGATIVO" ColumnName="DVG_FLAGATIVO" />
+          <ScalarProperty Name="DVG_IDDIVISAO" ColumnName="DVG_IDDIVISAO" />
+          <ScalarProperty Name="DVG_IDGRUPOUSUARIO" ColumnName="DVG_IDGRUPOUSUARIO" />
+          <ScalarProperty Name="DVG_IDDIVISAOXGRUPOUSUARIO" ColumnName="DVG_IDDIVISAOXGRUPOUSUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDIVISOES">
+      <EntityTypeMapping TypeName="Model.GEDDIVISOES">
+        <MappingFragment StoreEntitySet="GEDDIVISOES">
+          <ScalarProperty Name="DIV_FLAGTIPOCLIENTE" ColumnName="DIV_FLAGTIPOCLIENTE" />
+          <ScalarProperty Name="DIV_FLAGATIVO" ColumnName="DIV_FLAGATIVO" />
+          <ScalarProperty Name="DIV_CODIGOREDUZIDO" ColumnName="DIV_CODIGOREDUZIDO" />
+          <ScalarProperty Name="DIV_DESCRICAO" ColumnName="DIV_DESCRICAO" />
+          <ScalarProperty Name="DIV_IDAREA" ColumnName="DIV_IDAREA" />
+          <ScalarProperty Name="DIV_IDDIVISAO" ColumnName="DIV_IDDIVISAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCASSINANDO">
+      <EntityTypeMapping TypeName="Model.GEDDOCASSINANDO">
+        <MappingFragment StoreEntitySet="GEDDOCASSINANDO">
+          <ScalarProperty Name="DOA_DATACONSULTA" ColumnName="DOA_DATACONSULTA" />
+          <ScalarProperty Name="DOA_BLOQUEADO" ColumnName="DOA_BLOQUEADO" />
+          <ScalarProperty Name="DOA_IDUSUARIOASSINA" ColumnName="DOA_IDUSUARIOASSINA" />
+          <ScalarProperty Name="DOA_IDDOCUMENTO" ColumnName="DOA_IDDOCUMENTO" />
+          <ScalarProperty Name="DOA_IDDOCASSINANDO" ColumnName="DOA_IDDOCASSINANDO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCAVENCERUMASEMTEMP">
+      <EntityTypeMapping TypeName="Model.GEDDOCAVENCERUMASEMTEMP">
+        <MappingFragment StoreEntitySet="GEDDOCAVENCERUMASEMTEMP">
+          <ScalarProperty Name="DVT_DATAPROCESSAMETO" ColumnName="DVT_DATAPROCESSAMETO" />
+          <ScalarProperty Name="DVT_DATAVENCIMENTO" ColumnName="DVT_DATAVENCIMENTO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTO" ColumnName="DVT_IDDOCUMENTO" />
+          <ScalarProperty Name="DVT_IDSUBTIPODOCUMENTO" ColumnName="DVT_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDTIPODOCUMENTO" ColumnName="DVT_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDDIVISAO" ColumnName="DVT_IDDIVISAO" />
+          <ScalarProperty Name="DVT_NOME" ColumnName="DVT_NOME" />
+          <ScalarProperty Name="DVT_REGISTRO" ColumnName="DVT_REGISTRO" />
+          <ScalarProperty Name="DVT_IDDOCAVENCERUMASEMTEMP" ColumnName="DVT_IDDOCAVENCERUMASEMTEMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCAVENCERUMASEMTPJ">
+      <EntityTypeMapping TypeName="Model.GEDDOCAVENCERUMASEMTPJ">
+        <MappingFragment StoreEntitySet="GEDDOCAVENCERUMASEMTPJ">
+          <ScalarProperty Name="DVT_DATAPROCESSAMETO" ColumnName="DVT_DATAPROCESSAMETO" />
+          <ScalarProperty Name="DVT_DATAVENCIMENTO" ColumnName="DVT_DATAVENCIMENTO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTO" ColumnName="DVT_IDDOCUMENTO" />
+          <ScalarProperty Name="DVT_IDSUBTIPODOCUMENTO" ColumnName="DVT_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDTIPODOCUMENTO" ColumnName="DVT_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDDIVISAO" ColumnName="DVT_IDDIVISAO" />
+          <ScalarProperty Name="DVT_NOME" ColumnName="DVT_NOME" />
+          <ScalarProperty Name="DVT_REGISTRO" ColumnName="DVT_REGISTRO" />
+          <ScalarProperty Name="DVT_IDDOCAVENCERUMASEMTPJ" ColumnName="DVT_IDDOCAVENCERUMASEMTPJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCAVENCERUMMESTEMP">
+      <EntityTypeMapping TypeName="Model.GEDDOCAVENCERUMMESTEMP">
+        <MappingFragment StoreEntitySet="GEDDOCAVENCERUMMESTEMP">
+          <ScalarProperty Name="DVT_DATAPROCESSAMETO" ColumnName="DVT_DATAPROCESSAMETO" />
+          <ScalarProperty Name="DVT_DATAVENCIMENTO" ColumnName="DVT_DATAVENCIMENTO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTO" ColumnName="DVT_IDDOCUMENTO" />
+          <ScalarProperty Name="DVT_IDSUBTIPODOCUMENTO" ColumnName="DVT_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDTIPODOCUMENTO" ColumnName="DVT_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDDIVISAO" ColumnName="DVT_IDDIVISAO" />
+          <ScalarProperty Name="DVT_NOME" ColumnName="DVT_NOME" />
+          <ScalarProperty Name="DVT_REGISTRO" ColumnName="DVT_REGISTRO" />
+          <ScalarProperty Name="DVT_IDDOCAVENCERUMMESTEMP" ColumnName="DVT_IDDOCAVENCERUMMESTEMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCAVENCERUMMESTPJ">
+      <EntityTypeMapping TypeName="Model.GEDDOCAVENCERUMMESTPJ">
+        <MappingFragment StoreEntitySet="GEDDOCAVENCERUMMESTPJ">
+          <ScalarProperty Name="DVT_DATAPROCESSAMETO" ColumnName="DVT_DATAPROCESSAMETO" />
+          <ScalarProperty Name="DVT_DATAVENCIMENTO" ColumnName="DVT_DATAVENCIMENTO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTO" ColumnName="DVT_IDDOCUMENTO" />
+          <ScalarProperty Name="DVT_IDSUBTIPODOCUMENTO" ColumnName="DVT_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDTIPODOCUMENTO" ColumnName="DVT_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDDIVISAO" ColumnName="DVT_IDDIVISAO" />
+          <ScalarProperty Name="DVT_NOME" ColumnName="DVT_NOME" />
+          <ScalarProperty Name="DVT_REGISTRO" ColumnName="DVT_REGISTRO" />
+          <ScalarProperty Name="DVT_IDDOCAVENCERUMMESTPJ" ColumnName="DVT_IDDOCAVENCERUMMESTPJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCUMENTOS">
+      <EntityTypeMapping TypeName="Model.GEDDOCUMENTOS">
+        <MappingFragment StoreEntitySet="GEDDOCUMENTOS">
+          <ScalarProperty Name="DOC_VERSAOACS" ColumnName="DOC_VERSAOACS" />
+          <ScalarProperty Name="DOC_IDURLSTORAGE" ColumnName="DOC_IDURLSTORAGE" />
+          <ScalarProperty Name="DOC_HASHDOCUMENTOCERTILLION" ColumnName="DOC_HASHDOCUMENTOCERTILLION" />
+          <ScalarProperty Name="DOC_IDGRUPOUSUARIOCAPTURA" ColumnName="DOC_IDGRUPOUSUARIOCAPTURA" />
+          <ScalarProperty Name="DOC_FLAGPENDENTEUPLOAD" ColumnName="DOC_FLAGPENDENTEUPLOAD" />
+          <ScalarProperty Name="DOC_FLAGREVISADO" ColumnName="DOC_FLAGREVISADO" />
+          <ScalarProperty Name="DOC_FLAGDOCEXTERNO" ColumnName="DOC_FLAGDOCEXTERNO" />
+          <ScalarProperty Name="DOC_DATAASSINANIVEL3_2" ColumnName="DOC_DATAASSINANIVEL3_2" />
+          <ScalarProperty Name="DOC_IDUSUARIOASSINANIVEL3_2" ColumnName="DOC_IDUSUARIOASSINANIVEL3_2" />
+          <ScalarProperty Name="DOC_FLAGAPROVADO" ColumnName="DOC_FLAGAPROVADO" />
+          <ScalarProperty Name="DOC_ORDEM_VISUALIZACAO" ColumnName="DOC_ORDEM_VISUALIZACAO" />
+          <ScalarProperty Name="DOC_CHAVEBUSCA4" ColumnName="DOC_CHAVEBUSCA4" />
+          <ScalarProperty Name="DOC_CHAVEBUSCA3" ColumnName="DOC_CHAVEBUSCA3" />
+          <ScalarProperty Name="DOC_CHAVEBUSCA2" ColumnName="DOC_CHAVEBUSCA2" />
+          <ScalarProperty Name="DOC_CHAVEBUSCA1" ColumnName="DOC_CHAVEBUSCA1" />
+          <ScalarProperty Name="DOC_TIPOCAPTURA" ColumnName="DOC_TIPOCAPTURA" />
+          <ScalarProperty Name="DOC_EXTENSAONOMEARQUIVO" ColumnName="DOC_EXTENSAONOMEARQUIVO" />
+          <ScalarProperty Name="DOC_VERSAO" ColumnName="DOC_VERSAO" />
+          <ScalarProperty Name="DOC_DETAIL_CERT" ColumnName="DOC_DETAIL_CERT" />
+          <ScalarProperty Name="DOC_OBSERVACAO" ColumnName="DOC_OBSERVACAO" />
+          <ScalarProperty Name="DOC_FLAGATIVO" ColumnName="DOC_FLAGATIVO" />
+          <ScalarProperty Name="DOC_P7S" ColumnName="DOC_P7S" />
+          <ScalarProperty Name="DOC_DATAASSINANIVEL3" ColumnName="DOC_DATAASSINANIVEL3" />
+          <ScalarProperty Name="DOC_DATAASSINANIVEL2" ColumnName="DOC_DATAASSINANIVEL2" />
+          <ScalarProperty Name="DOC_DATAASSINANIVEL1" ColumnName="DOC_DATAASSINANIVEL1" />
+          <ScalarProperty Name="DOC_IDUSUARIOASSINANIVEL3" ColumnName="DOC_IDUSUARIOASSINANIVEL3" />
+          <ScalarProperty Name="DOC_IDUSUARIOASSINANIVEL2" ColumnName="DOC_IDUSUARIOASSINANIVEL2" />
+          <ScalarProperty Name="DOC_IDUSUARIOASSINANIVEL1" ColumnName="DOC_IDUSUARIOASSINANIVEL1" />
+          <ScalarProperty Name="DOC_IDUSUARIOACSCAPTURE" ColumnName="DOC_IDUSUARIOACSCAPTURE" />
+          <ScalarProperty Name="DOC_VENCIMENTORESOLVIDO" ColumnName="DOC_VENCIMENTORESOLVIDO" />
+          <ScalarProperty Name="DOC_TEMPOVALIDADE" ColumnName="DOC_TEMPOVALIDADE" />
+          <ScalarProperty Name="DOC_DATAEMISSAO" ColumnName="DOC_DATAEMISSAO" />
+          <ScalarProperty Name="DOC_DATAVENCIMENTO" ColumnName="DOC_DATAVENCIMENTO" />
+          <ScalarProperty Name="DOC_IDSUBTIPODOCUMENTO" ColumnName="DOC_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="DOC_FLAGCERTIFICADO" ColumnName="DOC_FLAGCERTIFICADO" />
+          <ScalarProperty Name="DOC_DATAHORACADASTRO" ColumnName="DOC_DATAHORACADASTRO" />
+          <ScalarProperty Name="DOC_NOMEARQUIVO" ColumnName="DOC_NOMEARQUIVO" />
+          <ScalarProperty Name="DOC_PATH" ColumnName="DOC_PATH" />
+          <ScalarProperty Name="DOC_IDTIPODOCUMENTO" ColumnName="DOC_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="DOC_IDFORMATO" ColumnName="DOC_IDFORMATO" />
+          <ScalarProperty Name="DOC_IDPASSAGEM" ColumnName="DOC_IDPASSAGEM" />
+          <ScalarProperty Name="DOC_IDDIVISAO" ColumnName="DOC_IDDIVISAO" />
+          <ScalarProperty Name="DOC_IDVOLUME" ColumnName="DOC_IDVOLUME" />
+          <ScalarProperty Name="DOC_IDDOCUMENTO" ColumnName="DOC_IDDOCUMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCUMENTOVENCIDOTEMP">
+      <EntityTypeMapping TypeName="Model.GEDDOCUMENTOVENCIDOTEMP">
+        <MappingFragment StoreEntitySet="GEDDOCUMENTOVENCIDOTEMP">
+          <ScalarProperty Name="DVT_DATAPROCESSAMETO" ColumnName="DVT_DATAPROCESSAMETO" />
+          <ScalarProperty Name="DVT_DATAVENCIMENTO" ColumnName="DVT_DATAVENCIMENTO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTO" ColumnName="DVT_IDDOCUMENTO" />
+          <ScalarProperty Name="DVT_IDSUBTIPODOCUMENTO" ColumnName="DVT_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDTIPODOCUMENTO" ColumnName="DVT_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDDIVISAO" ColumnName="DVT_IDDIVISAO" />
+          <ScalarProperty Name="DVT_NOME" ColumnName="DVT_NOME" />
+          <ScalarProperty Name="DVT_REGISTRO" ColumnName="DVT_REGISTRO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTOVENCIDOTEMP" ColumnName="DVT_IDDOCUMENTOVENCIDOTEMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDDOCUMENTOVENCIDOTPJ">
+      <EntityTypeMapping TypeName="Model.GEDDOCUMENTOVENCIDOTPJ">
+        <MappingFragment StoreEntitySet="GEDDOCUMENTOVENCIDOTPJ">
+          <ScalarProperty Name="DVT_DATAPROCESSAMETO" ColumnName="DVT_DATAPROCESSAMETO" />
+          <ScalarProperty Name="DVT_DATAVENCIMENTO" ColumnName="DVT_DATAVENCIMENTO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTO" ColumnName="DVT_IDDOCUMENTO" />
+          <ScalarProperty Name="DVT_IDSUBTIPODOCUMENTO" ColumnName="DVT_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDTIPODOCUMENTO" ColumnName="DVT_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="DVT_IDDIVISAO" ColumnName="DVT_IDDIVISAO" />
+          <ScalarProperty Name="DVT_NOME" ColumnName="DVT_NOME" />
+          <ScalarProperty Name="DVT_REGISTRO" ColumnName="DVT_REGISTRO" />
+          <ScalarProperty Name="DVT_IDDOCUMENTOVENCIDOTPJ" ColumnName="DVT_IDDOCUMENTOVENCIDOTPJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDESPECIALIDADE">
+      <EntityTypeMapping TypeName="Model.GEDESPECIALIDADE">
+        <MappingFragment StoreEntitySet="GEDESPECIALIDADE">
+          <ScalarProperty Name="ESP_DESCRICAO" ColumnName="ESP_DESCRICAO" />
+          <ScalarProperty Name="ESP_IDESPECIALIDADE" ColumnName="ESP_IDESPECIALIDADE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDFORMATOS">
+      <EntityTypeMapping TypeName="Model.GEDFORMATOS">
+        <MappingFragment StoreEntitySet="GEDFORMATOS">
+          <ScalarProperty Name="FMT_FLAGATIVO" ColumnName="FMT_FLAGATIVO" />
+          <ScalarProperty Name="FMT_EXTENSAO" ColumnName="FMT_EXTENSAO" />
+          <ScalarProperty Name="FMT_IDFORMATO" ColumnName="FMT_IDFORMATO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDFUNCAOUSUARIO">
+      <EntityTypeMapping TypeName="Model.GEDFUNCAOUSUARIO">
+        <MappingFragment StoreEntitySet="GEDFUNCAOUSUARIO">
+          <ScalarProperty Name="FUS_ORDEM" ColumnName="FUS_ORDEM" />
+          <ScalarProperty Name="FUS_ICONE" ColumnName="FUS_ICONE" />
+          <ScalarProperty Name="FUS_DESCRICAO" ColumnName="FUS_DESCRICAO" />
+          <ScalarProperty Name="FUS_IDFUNCAOUSUARIO" ColumnName="FUS_IDFUNCAOUSUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDFUNCAOXTIPOHIERARQUIA">
+      <EntityTypeMapping TypeName="Model.GEDFUNCAOXTIPOHIERARQUIA">
+        <MappingFragment StoreEntitySet="GEDFUNCAOXTIPOHIERARQUIA">
+          <ScalarProperty Name="FXT_FLAGATIVO" ColumnName="FXT_FLAGATIVO" />
+          <ScalarProperty Name="FXT_IDFUNCAOUSUARIO" ColumnName="FXT_IDFUNCAOUSUARIO" />
+          <ScalarProperty Name="FXT_IDTIPOHIERARQUIA" ColumnName="FXT_IDTIPOHIERARQUIA" />
+          <ScalarProperty Name="FXT_IDFUNCXTPHIERAR" ColumnName="FXT_IDFUNCXTPHIERAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDGLOBALSETTINGS">
+      <EntityTypeMapping TypeName="Model.GEDGLOBALSETTINGS">
+        <MappingFragment StoreEntitySet="GEDGLOBALSETTINGS">
+          <ScalarProperty Name="GLO_DATAHORARIOVERAOFIM" ColumnName="GLO_DATAHORARIOVERAOFIM" />
+          <ScalarProperty Name="GLO_DATAHORARIOVERAOINI" ColumnName="GLO_DATAHORARIOVERAOINI" />
+          <ScalarProperty Name="GLO_INATIVIDADEMINUTOSPOPUP" ColumnName="GLO_INATIVIDADEMINUTOSPOPUP" />
+          <ScalarProperty Name="GLO_INATIVIDADEMINUTOSCHECK" ColumnName="GLO_INATIVIDADEMINUTOSCHECK" />
+          <ScalarProperty Name="GLO_SMTPEMAILSUPORTE" ColumnName="GLO_SMTPEMAILSUPORTE" />
+          <ScalarProperty Name="GLO_SMTPSENHA" ColumnName="GLO_SMTPSENHA" />
+          <ScalarProperty Name="GLO_SMTPUUARIO" ColumnName="GLO_SMTPUUARIO" />
+          <ScalarProperty Name="GLO_SMTPPORTA" ColumnName="GLO_SMTPPORTA" />
+          <ScalarProperty Name="GLO_SMTPSERVIDOR" ColumnName="GLO_SMTPSERVIDOR" />
+          <ScalarProperty Name="GLO_IDUNIDADE" ColumnName="GLO_IDUNIDADE" />
+          <ScalarProperty Name="GLO_IDGLOBALSETTINGS" ColumnName="GLO_IDGLOBALSETTINGS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDGRUPOSUSUARIOS">
+      <EntityTypeMapping TypeName="Model.GEDGRUPOSUSUARIOS">
+        <MappingFragment StoreEntitySet="GEDGRUPOSUSUARIOS">
+          <ScalarProperty Name="GRP_FLAGSUPORTE" ColumnName="GRP_FLAGSUPORTE" />
+          <ScalarProperty Name="GRP_FLAGPREFERENCIA" ColumnName="GRP_FLAGPREFERENCIA" />
+          <ScalarProperty Name="GRP_FLAGCONFIGDIVISAO" ColumnName="GRP_FLAGCONFIGDIVISAO" />
+          <ScalarProperty Name="GRP_FLAGCONFIGSUBTIPODOC" ColumnName="GRP_FLAGCONFIGSUBTIPODOC" />
+          <ScalarProperty Name="GRP_IDUNIDADE" ColumnName="GRP_IDUNIDADE" />
+          <ScalarProperty Name="GRP_DESCRICAO" ColumnName="GRP_DESCRICAO" />
+          <ScalarProperty Name="GRP_IDGRUPOUSUARIO" ColumnName="GRP_IDGRUPOUSUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDHIERARQUIA">
+      <EntityTypeMapping TypeName="Model.GEDHIERARQUIA">
+        <MappingFragment StoreEntitySet="GEDHIERARQUIA">
+          <ScalarProperty Name="HIR_NAMECOMPONENT" ColumnName="HIR_NAMECOMPONENT" />
+          <ScalarProperty Name="HIR_IDARRAY" ColumnName="HIR_IDARRAY" />
+          <ScalarProperty Name="HIR_IDCOMPONENTE" ColumnName="HIR_IDCOMPONENTE" />
+          <ScalarProperty Name="HIR_IDTIPOHIERARQUIA" ColumnName="HIR_IDTIPOHIERARQUIA" />
+          <ScalarProperty Name="HIR_IDUSUARIO" ColumnName="HIR_IDUSUARIO" />
+          <ScalarProperty Name="HIR_IDHIERARQUIA" ColumnName="HIR_IDHIERARQUIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDHIERARQUIAXFUNCAO">
+      <EntityTypeMapping TypeName="Model.GEDHIERARQUIAXFUNCAO">
+        <MappingFragment StoreEntitySet="GEDHIERARQUIAXFUNCAO">
+          <ScalarProperty Name="HXF_IDAREA" ColumnName="HXF_IDAREA" />
+          <ScalarProperty Name="HXF_FLAGATIVO" ColumnName="HXF_FLAGATIVO" />
+          <ScalarProperty Name="HXF_IDFUNCAOUSUARIO" ColumnName="HXF_IDFUNCAOUSUARIO" />
+          <ScalarProperty Name="HXF_IDHIERARQUIA" ColumnName="HXF_IDHIERARQUIA" />
+          <ScalarProperty Name="HXF_IDHIERARQUIAXFUNCAO" ColumnName="HXF_IDHIERARQUIAXFUNCAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDINTEGRACAOATENDIMENTO">
+      <EntityTypeMapping TypeName="Model.GEDINTEGRACAOATENDIMENTO">
+        <MappingFragment StoreEntitySet="GEDINTEGRACAOATENDIMENTO">
+          <ScalarProperty Name="ING_NOMEOPERADOR" ColumnName="ING_NOMEOPERADOR" />
+          <ScalarProperty Name="ING_OPERADOR" ColumnName="ING_OPERADOR" />
+          <ScalarProperty Name="ING_DATACRIACAOOPERADOR" ColumnName="ING_DATACRIACAOOPERADOR" />
+          <ScalarProperty Name="ING_DATAPASSAGEMINTERNACAO" ColumnName="ING_DATAPASSAGEMINTERNACAO" />
+          <ScalarProperty Name="ING_DATAPASSAGEMEMERGENCIA" ColumnName="ING_DATAPASSAGEMEMERGENCIA" />
+          <ScalarProperty Name="ING_PASSAGEMINTERNACAO" ColumnName="ING_PASSAGEMINTERNACAO" />
+          <ScalarProperty Name="ING_PASSAGEMEMERGENCIA" ColumnName="ING_PASSAGEMEMERGENCIA" />
+          <ScalarProperty Name="ING_IDINTEGRACAOATENDIMENTO" ColumnName="ING_IDINTEGRACAOATENDIMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLABELGENERICO">
+      <EntityTypeMapping TypeName="Model.GEDLABELGENERICO">
+        <MappingFragment StoreEntitySet="GEDLABELGENERICO">
+          <ScalarProperty Name="LAB_FLAGUNIDADE" ColumnName="LAB_FLAGUNIDADE" />
+          <ScalarProperty Name="LAB_FLAGDATADEMISSAO" ColumnName="LAB_FLAGDATADEMISSAO" />
+          <ScalarProperty Name="LAB_FLAGPERIODODOCDIGITALIZADO" ColumnName="LAB_FLAGPERIODODOCDIGITALIZADO" />
+          <ScalarProperty Name="LAB_FLAGEDICAODOCASSINADO" ColumnName="LAB_FLAGEDICAODOCASSINADO" />
+          <ScalarProperty Name="LAB_FLAGATENDIMENTOINNERDOC" ColumnName="LAB_FLAGATENDIMENTOINNERDOC" />
+          <ScalarProperty Name="LAB_FLAGEXIBIRDOCNCERT" ColumnName="LAB_FLAGEXIBIRDOCNCERT" />
+          <ScalarProperty Name="LAB_FLAGCAMPOSUSUARIO" ColumnName="LAB_FLAGCAMPOSUSUARIO" />
+          <ScalarProperty Name="LAB_FLAGLIBERATDSSUBTPDOCS" ColumnName="LAB_FLAGLIBERATDSSUBTPDOCS" />
+          <ScalarProperty Name="LAB_FLAGLIBERATDSTPDOCS" ColumnName="LAB_FLAGLIBERATDSTPDOCS" />
+          <ScalarProperty Name="LAB_FLAGCAMPOCONCLASSE" ColumnName="LAB_FLAGCAMPOCONCLASSE" />
+          <ScalarProperty Name="LAB_FLAGATIVARDATAPASSAGEMFIM" ColumnName="LAB_FLAGATIVARDATAPASSAGEMFIM" />
+          <ScalarProperty Name="LAB_FLAGTELAPASSAGEMPJ" ColumnName="LAB_FLAGTELAPASSAGEMPJ" />
+          <ScalarProperty Name="LAB_FLAGTELAPASSAGEMPF" ColumnName="LAB_FLAGTELAPASSAGEMPF" />
+          <ScalarProperty Name="LAB_FLAGTPDVALIDADEDOCUMENTO" ColumnName="LAB_FLAGTPDVALIDADEDOCUMENTO" />
+          <ScalarProperty Name="LAB_FLAGSTDOBRIGATORIO" ColumnName="LAB_FLAGSTDOBRIGATORIO" />
+          <ScalarProperty Name="LAB_FLAGSTDGUARDA" ColumnName="LAB_FLAGSTDGUARDA" />
+          <ScalarProperty Name="LAB_FLAGSTDCOBRANCA" ColumnName="LAB_FLAGSTDCOBRANCA" />
+          <ScalarProperty Name="LAB_FLAGTPDGUARDA" ColumnName="LAB_FLAGTPDGUARDA" />
+          <ScalarProperty Name="LAB_FLAGTPDCOBRANCA" ColumnName="LAB_FLAGTPDCOBRANCA" />
+          <ScalarProperty Name="LAB_FLAGTPDOBRIGATORIO" ColumnName="LAB_FLAGTPDOBRIGATORIO" />
+          <ScalarProperty Name="LAB_FLAGTELATIPOAUDITOR" ColumnName="LAB_FLAGTELATIPOAUDITOR" />
+          <ScalarProperty Name="LAB_FLAGTELAAUDITORXTIPODOC" ColumnName="LAB_FLAGTELAAUDITORXTIPODOC" />
+          <ScalarProperty Name="LAB_FLAGTELACONVENIO" ColumnName="LAB_FLAGTELACONVENIO" />
+          <ScalarProperty Name="LAB_FLAGTELACLIENTEPJ" ColumnName="LAB_FLAGTELACLIENTEPJ" />
+          <ScalarProperty Name="LAB_FLAGTELACLIENTEPF" ColumnName="LAB_FLAGTELACLIENTEPF" />
+          <ScalarProperty Name="LAB_FLAGTDOSTIPOSDOC" ColumnName="LAB_FLAGTDOSTIPOSDOC" />
+          <ScalarProperty Name="LAB_FLAGCLIENTEPF" ColumnName="LAB_FLAGCLIENTEPF" />
+          <ScalarProperty Name="LAB_FLAGCLIENTEPJ" ColumnName="LAB_FLAGCLIENTEPJ" />
+          <ScalarProperty Name="LAB_SUBTIPODOCUMENTO" ColumnName="LAB_SUBTIPODOCUMENTO" />
+          <ScalarProperty Name="LAB_TIPODOCUMENTO" ColumnName="LAB_TIPODOCUMENTO" />
+          <ScalarProperty Name="LAB_TIPOPRONTUARIO" ColumnName="LAB_TIPOPRONTUARIO" />
+          <ScalarProperty Name="LAB_TITULOOPINIAO" ColumnName="LAB_TITULOOPINIAO" />
+          <ScalarProperty Name="LAB_IDLABELGENERICO" ColumnName="LAB_IDLABELGENERICO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLOG">
+      <EntityTypeMapping TypeName="Model.GEDLOG">
+        <MappingFragment StoreEntitySet="GEDLOG">
+          <ScalarProperty Name="LOG_FLAGATIVO" ColumnName="LOG_FLAGATIVO" />
+          <ScalarProperty Name="LOG_OBSERVACAOUSUARIO" ColumnName="LOG_OBSERVACAOUSUARIO" />
+          <ScalarProperty Name="LOG_OBSERVACAOCLIENTE" ColumnName="LOG_OBSERVACAOCLIENTE" />
+          <ScalarProperty Name="LOG_OBSERVACAOREGISTRO" ColumnName="LOG_OBSERVACAOREGISTRO" />
+          <ScalarProperty Name="LOG_OBSERVACAO" ColumnName="LOG_OBSERVACAO" />
+          <ScalarProperty Name="LOG_IPESTACAO" ColumnName="LOG_IPESTACAO" />
+          <ScalarProperty Name="LOG_TOKEN" ColumnName="LOG_TOKEN" />
+          <ScalarProperty Name="LOG_DATAHORA" ColumnName="LOG_DATAHORA" />
+          <ScalarProperty Name="LOG_IDUNIDADE" ColumnName="LOG_IDUNIDADE" />
+          <ScalarProperty Name="LOG_IDUSUARIO" ColumnName="LOG_IDUSUARIO" />
+          <ScalarProperty Name="LOG_IDOBJETO" ColumnName="LOG_IDOBJETO" />
+          <ScalarProperty Name="LOG_IDLOG" ColumnName="LOG_IDLOG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLOGALTERACAODOCUMENTO">
+      <EntityTypeMapping TypeName="Model.GEDLOGALTERACAODOCUMENTO">
+        <MappingFragment StoreEntitySet="GEDLOGALTERACAODOCUMENTO">
+          <ScalarProperty Name="LAD_OBSERVACAO" ColumnName="LAD_OBSERVACAO" />
+          <ScalarProperty Name="LAD_REGISTRO" ColumnName="LAD_REGISTRO" />
+          <ScalarProperty Name="LAD_IDPASSAGEM" ColumnName="LAD_IDPASSAGEM" />
+          <ScalarProperty Name="LAD_IDDOCUMENTO" ColumnName="LAD_IDDOCUMENTO" />
+          <ScalarProperty Name="LAD_IDUSUARIO" ColumnName="LAD_IDUSUARIO" />
+          <ScalarProperty Name="LAD_DATAALTERACAO" ColumnName="LAD_DATAALTERACAO" />
+          <ScalarProperty Name="LAD_IDLOGALTERACAODOCUMENTO" ColumnName="LAD_IDLOGALTERACAODOCUMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLOGERRO">
+      <EntityTypeMapping TypeName="Model.GEDLOGERRO">
+        <MappingFragment StoreEntitySet="GEDLOGERRO">
+          <ScalarProperty Name="LGE_ERRODATA" ColumnName="LGE_ERRODATA" />
+          <ScalarProperty Name="LGE_ERROSTACKTRACE" ColumnName="LGE_ERROSTACKTRACE" />
+          <ScalarProperty Name="LGE_ERROMESSAGE" ColumnName="LGE_ERROMESSAGE" />
+          <ScalarProperty Name="LGE_ERROFULLNAME" ColumnName="LGE_ERROFULLNAME" />
+          <ScalarProperty Name="LGE_FUNCTIONNAME" ColumnName="LGE_FUNCTIONNAME" />
+          <ScalarProperty Name="LGE_CLASSNAME" ColumnName="LGE_CLASSNAME" />
+          <ScalarProperty Name="LGE_CODOBJETO" ColumnName="LGE_CODOBJETO" />
+          <ScalarProperty Name="LGE_TOKEN" ColumnName="LGE_TOKEN" />
+          <ScalarProperty Name="LGE_IDUNIDADE" ColumnName="LGE_IDUNIDADE" />
+          <ScalarProperty Name="LGE_IDUSUARIO" ColumnName="LGE_IDUSUARIO" />
+          <ScalarProperty Name="LGE_DATAHORA" ColumnName="LGE_DATAHORA" />
+          <ScalarProperty Name="LGE_IDLOGERRO" ColumnName="LGE_IDLOGERRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLOGLOGIN">
+      <EntityTypeMapping TypeName="Model.GEDLOGLOGIN">
+        <MappingFragment StoreEntitySet="GEDLOGLOGIN">
+          <ScalarProperty Name="LLG_TOKEN" ColumnName="LLG_TOKEN" />
+          <ScalarProperty Name="LLG_OBSERVACAO" ColumnName="LLG_OBSERVACAO" />
+          <ScalarProperty Name="LLG_DATAHORALOGOUT" ColumnName="LLG_DATAHORALOGOUT" />
+          <ScalarProperty Name="LLG_FLAGLOGOUT" ColumnName="LLG_FLAGLOGOUT" />
+          <ScalarProperty Name="LLG_DATAHORALOGIN" ColumnName="LLG_DATAHORALOGIN" />
+          <ScalarProperty Name="LLG_FLAGLOGIN" ColumnName="LLG_FLAGLOGIN" />
+          <ScalarProperty Name="LLG_IDUNIDADE" ColumnName="LLG_IDUNIDADE" />
+          <ScalarProperty Name="LLG_IPESTACAO" ColumnName="LLG_IPESTACAO" />
+          <ScalarProperty Name="LLG_IDUSUARIO" ColumnName="LLG_IDUSUARIO" />
+          <ScalarProperty Name="LLG_IDLOGLOGIN" ColumnName="LLG_IDLOGLOGIN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLOGOCORRENCIA">
+      <EntityTypeMapping TypeName="Model.GEDLOGOCORRENCIA">
+        <MappingFragment StoreEntitySet="GEDLOGOCORRENCIA">
+          <ScalarProperty Name="LGO_OBSERVACAOCONCLUSAO" ColumnName="LGO_OBSERVACAOCONCLUSAO" />
+          <ScalarProperty Name="LGO_DATAHORA" ColumnName="LGO_DATAHORA" />
+          <ScalarProperty Name="LGO_IDSTATUSOCORRENCIA" ColumnName="LGO_IDSTATUSOCORRENCIA" />
+          <ScalarProperty Name="LGO_IDOCORRENCIA" ColumnName="LGO_IDOCORRENCIA" />
+          <ScalarProperty Name="LGO_IDLOGOCORRENCIA" ColumnName="LGO_IDLOGOCORRENCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLOGPROCESSODOC">
+      <EntityTypeMapping TypeName="Model.GEDLOGPROCESSODOC">
+        <MappingFragment StoreEntitySet="GEDLOGPROCESSODOC">
+          <ScalarProperty Name="LPD_FLAGREVISADO" ColumnName="LPD_FLAGREVISADO" />
+          <ScalarProperty Name="LPD_FLAGPENDENTEUPLOAD" ColumnName="LPD_FLAGPENDENTEUPLOAD" />
+          <ScalarProperty Name="LPD_FLAGAPROVADO" ColumnName="LPD_FLAGAPROVADO" />
+          <ScalarProperty Name="LPD_OBSERVACAOCONCLUSAO" ColumnName="LPD_OBSERVACAOCONCLUSAO" />
+          <ScalarProperty Name="LPD_DATAHORA" ColumnName="LPD_DATAHORA" />
+          <ScalarProperty Name="LPD_IDSUBTIPODOCUMENTO" ColumnName="LPD_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="LPD_IDTIPODOCUMENTO" ColumnName="LPD_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="LPD_IDDOCUMENTO" ColumnName="LPD_IDDOCUMENTO" />
+          <ScalarProperty Name="LPD_IDUSUARIO" ColumnName="LPD_IDUSUARIO" />
+          <ScalarProperty Name="LPD_IDLOGPROCESSODOC" ColumnName="LPD_IDLOGPROCESSODOC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDLOTESXUSUARIOS">
+      <EntityTypeMapping TypeName="Model.GEDLOTESXUSUARIOS">
+        <MappingFragment StoreEntitySet="GEDLOTESXUSUARIOS">
+          <ScalarProperty Name="LTU_PATHIMAGENS" ColumnName="LTU_PATHIMAGENS" />
+          <ScalarProperty Name="LTU_OBSERVACAO" ColumnName="LTU_OBSERVACAO" />
+          <ScalarProperty Name="LTU_DATA" ColumnName="LTU_DATA" />
+          <ScalarProperty Name="LTU_IDSTATUSLOTE" ColumnName="LTU_IDSTATUSLOTE" />
+          <ScalarProperty Name="LTU_CODIGOPASSAGEM" ColumnName="LTU_CODIGOPASSAGEM" />
+          <ScalarProperty Name="LTU_IDUSUARIO" ColumnName="LTU_IDUSUARIO" />
+          <ScalarProperty Name="LTU_ID" ColumnName="LTU_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDMODULOS">
+      <EntityTypeMapping TypeName="Model.GEDMODULOS">
+        <MappingFragment StoreEntitySet="GEDMODULOS">
+          <ScalarProperty Name="MOD_ORDEM" ColumnName="MOD_ORDEM" />
+          <ScalarProperty Name="MOD_DESCRICAO" ColumnName="MOD_DESCRICAO" />
+          <ScalarProperty Name="MOD_IDMODULO" ColumnName="MOD_IDMODULO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDNIVELASSINA">
+      <EntityTypeMapping TypeName="Model.GEDNIVELASSINA">
+        <MappingFragment StoreEntitySet="GEDNIVELASSINA">
+          <ScalarProperty Name="NAS_DESCRICAO" ColumnName="NAS_DESCRICAO" />
+          <ScalarProperty Name="NAS_IDNIVELASSINA" ColumnName="NAS_IDNIVELASSINA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDOBJETOS">
+      <EntityTypeMapping TypeName="Model.GEDOBJETOS">
+        <MappingFragment StoreEntitySet="GEDOBJETOS">
+          <ScalarProperty Name="OBJ_FLAGATIVO" ColumnName="OBJ_FLAGATIVO" />
+          <ScalarProperty Name="OBJ_ORDEM" ColumnName="OBJ_ORDEM" />
+          <ScalarProperty Name="OBJ_CODIGO" ColumnName="OBJ_CODIGO" />
+          <ScalarProperty Name="OBJ_DESCRICAO" ColumnName="OBJ_DESCRICAO" />
+          <ScalarProperty Name="OBJ_IDMODULO" ColumnName="OBJ_IDMODULO" />
+          <ScalarProperty Name="OBJ_IDOBJETO" ColumnName="OBJ_IDOBJETO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDOCORRENCIAS">
+      <EntityTypeMapping TypeName="Model.GEDOCORRENCIAS">
+        <MappingFragment StoreEntitySet="GEDOCORRENCIAS">
+          <ScalarProperty Name="OCR_IDSUBTIPODOCUMENTO" ColumnName="OCR_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="OCR_FLAGREPROVADO" ColumnName="OCR_FLAGREPROVADO" />
+          <ScalarProperty Name="OCR_FLAGATIVO" ColumnName="OCR_FLAGATIVO" />
+          <ScalarProperty Name="OCR_OBSERVACAOCONCLUSAO" ColumnName="OCR_OBSERVACAOCONCLUSAO" />
+          <ScalarProperty Name="OCR_DATACONCLUSAO" ColumnName="OCR_DATACONCLUSAO" />
+          <ScalarProperty Name="OCR_IDUSUARIORESPONSAVEL" ColumnName="OCR_IDUSUARIORESPONSAVEL" />
+          <ScalarProperty Name="OCR_OBSERVACAOSOLICITACAO" ColumnName="OCR_OBSERVACAOSOLICITACAO" />
+          <ScalarProperty Name="OCR_DATASOLICITACAO" ColumnName="OCR_DATASOLICITACAO" />
+          <ScalarProperty Name="OCR_IDUSUARIOSOLICITANTE" ColumnName="OCR_IDUSUARIOSOLICITANTE" />
+          <ScalarProperty Name="OCR_IDDOCUMENTO" ColumnName="OCR_IDDOCUMENTO" />
+          <ScalarProperty Name="OCR_IDSTATUSOCORRENCIA" ColumnName="OCR_IDSTATUSOCORRENCIA" />
+          <ScalarProperty Name="OCR_IDTIPOOCORRENCIA" ColumnName="OCR_IDTIPOOCORRENCIA" />
+          <ScalarProperty Name="OCR_IDTIPODOCUMENTO" ColumnName="OCR_IDTIPODOCUMENTO" />
+          <ScalarProperty Name="OCR_IDOCORRENCIA" ColumnName="OCR_IDOCORRENCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDPADROESCERTIFICADO">
+      <EntityTypeMapping TypeName="Model.GEDPADROESCERTIFICADO">
+        <MappingFragment StoreEntitySet="GEDPADROESCERTIFICADO">
+          <ScalarProperty Name="PCD_FLAGATIVO" ColumnName="PCD_FLAGATIVO" />
+          <ScalarProperty Name="PDC_NOME" ColumnName="PDC_NOME" />
+          <ScalarProperty Name="PDC_IDPADROESCERTIFICADO" ColumnName="PDC_IDPADROESCERTIFICADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDPASSAGENS">
+      <EntityTypeMapping TypeName="Model.GEDPASSAGENS">
+        <MappingFragment StoreEntitySet="GEDPASSAGENS">
+          <ScalarProperty Name="PAS_REGISTROOLD" ColumnName="PAS_REGISTROOLD" />
+          <ScalarProperty Name="PAS_NUMEROCONTA" ColumnName="PAS_NUMEROCONTA" />
+          <ScalarProperty Name="PAS_TIPOATENDIMENTO" ColumnName="PAS_TIPOATENDIMENTO" />
+          <ScalarProperty Name="PAS_DATAHORAPASSAGEMFIM" ColumnName="PAS_DATAHORAPASSAGEMFIM" />
+          <ScalarProperty Name="PAS_REGISTRO" ColumnName="PAS_REGISTRO" />
+          <ScalarProperty Name="PAS_FLAGCLIENTEPF" ColumnName="PAS_FLAGCLIENTEPF" />
+          <ScalarProperty Name="PAS_CODIGOPASSAGEM" ColumnName="PAS_CODIGOPASSAGEM" />
+          <ScalarProperty Name="PAS_DATAHORAPASSAGEM" ColumnName="PAS_DATAHORAPASSAGEM" />
+          <ScalarProperty Name="PAS_IDCONVENIO" ColumnName="PAS_IDCONVENIO" />
+          <ScalarProperty Name="PAS_IDUNIDADE" ColumnName="PAS_IDUNIDADE" />
+          <ScalarProperty Name="PAS_IDPASSAGEM" ColumnName="PAS_IDPASSAGEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDPERFIS">
+      <EntityTypeMapping TypeName="Model.GEDPERFIS">
+        <MappingFragment StoreEntitySet="GEDPERFIS">
+          <ScalarProperty Name="PRF_DESCRICAO" ColumnName="PRF_DESCRICAO" />
+          <ScalarProperty Name="PRF_IDUNIDADE" ColumnName="PRF_IDUNIDADE" />
+          <ScalarProperty Name="PRF_IDGRUPOUSUARIO" ColumnName="PRF_IDGRUPOUSUARIO" />
+          <ScalarProperty Name="PRF_IDPERFIL" ColumnName="PRF_IDPERFIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDPERFISXOBJETOS">
+      <EntityTypeMapping TypeName="Model.GEDPERFISXOBJETOS">
+        <MappingFragment StoreEntitySet="GEDPERFISXOBJETOS">
+          <ScalarProperty Name="PXO_IDOBJETO" ColumnName="PXO_IDOBJETO" />
+          <ScalarProperty Name="PXO_IDPERFIL" ColumnName="PXO_IDPERFIL" />
+          <ScalarProperty Name="PXO_IDPERFILXOBJETO" ColumnName="PXO_IDPERFILXOBJETO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDPERFISXUSUARIOS">
+      <EntityTypeMapping TypeName="Model.GEDPERFISXUSUARIOS">
+        <MappingFragment StoreEntitySet="GEDPERFISXUSUARIOS">
+          <ScalarProperty Name="PXU_PERFILINICIAL" ColumnName="PXU_PERFILINICIAL" />
+          <ScalarProperty Name="PXU_IDUSUARIO" ColumnName="PXU_IDUSUARIO" />
+          <ScalarProperty Name="PXU_IDPERFIL" ColumnName="PXU_IDPERFIL" />
+          <ScalarProperty Name="PXU_IDPERFILXUSUARIO" ColumnName="PXU_IDPERFILXUSUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDPESSOAS">
+      <EntityTypeMapping TypeName="Model.GEDPESSOAS">
+        <MappingFragment StoreEntitySet="GEDPESSOAS">
+          <ScalarProperty Name="PES_OBSERVACAO" ColumnName="PES_OBSERVACAO" />
+          <ScalarProperty Name="PES_FLAGATIVO" ColumnName="PES_FLAGATIVO" />
+          <ScalarProperty Name="PES_EMAILPROFISSIONAL" ColumnName="PES_EMAILPROFISSIONAL" />
+          <ScalarProperty Name="PES_EMAILPESSOAL" ColumnName="PES_EMAILPESSOAL" />
+          <ScalarProperty Name="PES_CONTATO" ColumnName="PES_CONTATO" />
+          <ScalarProperty Name="PES_TEL02" ColumnName="PES_TEL02" />
+          <ScalarProperty Name="PES_TEL01" ColumnName="PES_TEL01" />
+          <ScalarProperty Name="PES_IDSEXO" ColumnName="PES_IDSEXO" />
+          <ScalarProperty Name="PES_DATANASCIMENTO" ColumnName="PES_DATANASCIMENTO" />
+          <ScalarProperty Name="PES_RG" ColumnName="PES_RG" />
+          <ScalarProperty Name="PES_CPF" ColumnName="PES_CPF" />
+          <ScalarProperty Name="PES_NOMEPAI" ColumnName="PES_NOMEPAI" />
+          <ScalarProperty Name="PES_NOMEMAE" ColumnName="PES_NOMEMAE" />
+          <ScalarProperty Name="PES_NOME" ColumnName="PES_NOME" />
+          <ScalarProperty Name="PES_IDPESSOA" ColumnName="PES_IDPESSOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSETOR">
+      <EntityTypeMapping TypeName="Model.GEDSETOR">
+        <MappingFragment StoreEntitySet="GEDSETOR">
+          <ScalarProperty Name="SET_FLAGATIVO" ColumnName="SET_FLAGATIVO" />
+          <ScalarProperty Name="SET_DESCRICAO" ColumnName="SET_DESCRICAO" />
+          <ScalarProperty Name="SET_IDSETOR" ColumnName="SET_IDSETOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSETORXGRUPOUSUARIO">
+      <EntityTypeMapping TypeName="Model.GEDSETORXGRUPOUSUARIO">
+        <MappingFragment StoreEntitySet="GEDSETORXGRUPOUSUARIO">
+          <ScalarProperty Name="SXG_FLAGATIVO" ColumnName="SXG_FLAGATIVO" />
+          <ScalarProperty Name="SXG_IDGRUPOUSUARIO" ColumnName="SXG_IDGRUPOUSUARIO" />
+          <ScalarProperty Name="SXG_IDSETOR" ColumnName="SXG_IDSETOR" />
+          <ScalarProperty Name="SXG_IDSETORXGRUPOUSUARIO" ColumnName="SXG_IDSETORXGRUPOUSUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSEXOS">
+      <EntityTypeMapping TypeName="Model.GEDSEXOS">
+        <MappingFragment StoreEntitySet="GEDSEXOS">
+          <ScalarProperty Name="SEX_SIGLA" ColumnName="SEX_SIGLA" />
+          <ScalarProperty Name="SEX_DESCRICAO" ColumnName="SEX_DESCRICAO" />
+          <ScalarProperty Name="SEX_IDSEXO" ColumnName="SEX_IDSEXO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSTATUSLOTE">
+      <EntityTypeMapping TypeName="Model.GEDSTATUSLOTE">
+        <MappingFragment StoreEntitySet="GEDSTATUSLOTE">
+          <ScalarProperty Name="STL_DESCRICAO" ColumnName="STL_DESCRICAO" />
+          <ScalarProperty Name="STL_ID" ColumnName="STL_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSTATUSOCORRENCIA">
+      <EntityTypeMapping TypeName="Model.GEDSTATUSOCORRENCIA">
+        <MappingFragment StoreEntitySet="GEDSTATUSOCORRENCIA">
+          <ScalarProperty Name="STO_DESCRICAO" ColumnName="STO_DESCRICAO" />
+          <ScalarProperty Name="STO_IDSTATUSOCORRENCIA" ColumnName="STO_IDSTATUSOCORRENCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSUBTIPODOCXGRUPUSER">
+      <EntityTypeMapping TypeName="Model.GEDSUBTIPODOCXGRUPUSER">
+        <MappingFragment StoreEntitySet="GEDSUBTIPODOCXGRUPUSER">
+          <ScalarProperty Name="TDG_FLAGATIVO" ColumnName="TDG_FLAGATIVO" />
+          <ScalarProperty Name="TDG_IDSUBTIPODOCUMENTO" ColumnName="TDG_IDSUBTIPODOCUMENTO" />
+          <ScalarProperty Name="TDG_IDGRUPOUSUARIO" ColumnName="TDG_IDGRUPOUSUARIO" />
+          <ScalarProperty Name="TDG_IDSUBTIPODOCXGRUPUSER" ColumnName="TDG_IDSUBTIPODOCXGRUPUSER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDSUBTIPOSDOCUMENTOS">
+      <EntityTypeMapping TypeName="Model.GEDSUBTIPOSDOCUMENTOS">
+        <MappingFragment StoreEntitySet="GEDSUBTIPOSDOCUMENTOS">
+          <ScalarProperty Name="STD_FLAGATIVO" ColumnName="STD_FLAGATIVO" />
+          <ScalarProperty Name="STD_TEMPOPROCESSO" ColumnName="STD_TEMPOPROCESSO" />
+          <ScalarProperty Name="STD_FLAGAPROVADOC" ColumnName="STD_FLAGAPROVADOC" />
+          <ScalarProperty Name="STD_NIVELASSINA" ColumnName="STD_NIVELASSINA" />
+          <ScalarProperty Name="STD_FLAGTIPOCLIENTE" ColumnName="STD_FLAGTIPOCLIENTE" />
+          <ScalarProperty Name="STD_MESVENCIMENTOANUAL" ColumnName="STD_MESVENCIMENTOANUAL" />
+          <ScalarProperty Name="STD_FLAGVENCIMENTOMANUAL" ColumnName="STD_FLAGVENCIMENTOMANUAL" />
+          <ScalarProperty Name="STD_FLAGVENCIMENTOANUAL" ColumnName="STD_FLAGVENCIMENTOANUAL" />
+          <ScalarProperty Name="STD_FLAGIMPRESSAO" ColumnName="STD_FLAGIMPRESSAO" />
+          <ScalarProperty Name="STD_COBRANCADIAS" ColumnName="STD_COBRANCADIAS" />
+          <ScalarProperty Name="STD_TEMPOGUARDA" ColumnName="STD_TEMPOGUARDA" />
+          <ScalarProperty Name="STD_OBRIGATORIO" ColumnName="STD_OBRIGATORIO" />
+          <ScalarProperty Name="STD_TEMPOVALIDADE" ColumnName="STD_TEMPOVALIDADE" />
+          <ScalarProperty Name="STD_ORDEM" ColumnName="STD_ORDEM" />
+          <ScalarProperty Name="STD_CODIGOBARRA" ColumnName="STD_CODIGOBARRA" />
+          <ScalarProperty Name="STD_DESCRICAO" ColumnName="STD_DESCRICAO" />
+          <ScalarProperty Name="STD_IDTIPOSDOCUMENTOS" ColumnName="STD_IDTIPOSDOCUMENTOS" />
+          <ScalarProperty Name="STD_IDSUBTIPOSDOCUMENTOS" ColumnName="STD_IDSUBTIPOSDOCUMENTOS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOAUDITOR">
+      <EntityTypeMapping TypeName="Model.GEDTIPOAUDITOR">
+        <MappingFragment StoreEntitySet="GEDTIPOAUDITOR">
+          <ScalarProperty Name="TPA_FLAGGRUPOUSUARIO" ColumnName="TPA_FLAGGRUPOUSUARIO" />
+          <ScalarProperty Name="TPA_OBSERVACAO" ColumnName="TPA_OBSERVACAO" />
+          <ScalarProperty Name="TPA_FLAGATIVO" ColumnName="TPA_FLAGATIVO" />
+          <ScalarProperty Name="TPA_FLAGCLIENTE" ColumnName="TPA_FLAGCLIENTE" />
+          <ScalarProperty Name="TPA_FLAGUNIVERSAL" ColumnName="TPA_FLAGUNIVERSAL" />
+          <ScalarProperty Name="TPA_FLAGCONVENIO" ColumnName="TPA_FLAGCONVENIO" />
+          <ScalarProperty Name="TPA_IDUSUARIO" ColumnName="TPA_IDUSUARIO" />
+          <ScalarProperty Name="TPA_IDTIPOAUDITOR" ColumnName="TPA_IDTIPOAUDITOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOBUSCA">
+      <EntityTypeMapping TypeName="Model.GEDTIPOBUSCA">
+        <MappingFragment StoreEntitySet="GEDTIPOBUSCA">
+          <ScalarProperty Name="TIB_FLAGATIVO" ColumnName="TIB_FLAGATIVO" />
+          <ScalarProperty Name="TIB_CAMPOBUSCAFIMORA" ColumnName="TIB_CAMPOBUSCAFIMORA" />
+          <ScalarProperty Name="TIB_CAMPOBUSCAINIORA" ColumnName="TIB_CAMPOBUSCAINIORA" />
+          <ScalarProperty Name="TIB_CAMPOBUSCAFIM" ColumnName="TIB_CAMPOBUSCAFIM" />
+          <ScalarProperty Name="TIB_CAMPOBUSCAINI" ColumnName="TIB_CAMPOBUSCAINI" />
+          <ScalarProperty Name="TIB_DESCRICAO" ColumnName="TIB_DESCRICAO" />
+          <ScalarProperty Name="TIB_IDTIPOCLIENTE" ColumnName="TIB_IDTIPOCLIENTE" />
+          <ScalarProperty Name="TIB_IDTIPOBUSCA" ColumnName="TIB_IDTIPOBUSCA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOCLIENTE">
+      <EntityTypeMapping TypeName="Model.GEDTIPOCLIENTE">
+        <MappingFragment StoreEntitySet="GEDTIPOCLIENTE">
+          <ScalarProperty Name="TIC_LABELDATAPASSAGEM" ColumnName="TIC_LABELDATAPASSAGEM" />
+          <ScalarProperty Name="TIC_FLAGTIPOCLIENTE" ColumnName="TIC_FLAGTIPOCLIENTE" />
+          <ScalarProperty Name="TIC_VISIBLEPREFIXOIMAGEM" ColumnName="TIC_VISIBLEPREFIXOIMAGEM" />
+          <ScalarProperty Name="TIC_LABELPREFIXOIMAGEM" ColumnName="TIC_LABELPREFIXOIMAGEM" />
+          <ScalarProperty Name="TIC_VISIBLEUNIDADE" ColumnName="TIC_VISIBLEUNIDADE" />
+          <ScalarProperty Name="TIC_LABELUNIDADE" ColumnName="TIC_LABELUNIDADE" />
+          <ScalarProperty Name="TIC_VISIBLEPASSAGEM" ColumnName="TIC_VISIBLEPASSAGEM" />
+          <ScalarProperty Name="TIC_LABELPASSAGEM" ColumnName="TIC_LABELPASSAGEM" />
+          <ScalarProperty Name="TIC_VISIBLEDATA" ColumnName="TIC_VISIBLEDATA" />
+          <ScalarProperty Name="TIC_LABELDATA" ColumnName="TIC_LABELDATA" />
+          <ScalarProperty Name="TIC_VISIBLENOME" ColumnName="TIC_VISIBLENOME" />
+          <ScalarProperty Name="TIC_LABELNOME" ColumnName="TIC_LABELNOME" />
+          <ScalarProperty Name="TIC_VISIBLEREGISTRO" ColumnName="TIC_VISIBLEREGISTRO" />
+          <ScalarProperty Name="TIC_LABELREGISTRO" ColumnName="TIC_LABELREGISTRO" />
+          <ScalarProperty Name="TIC_FLAGATIVO" ColumnName="TIC_FLAGATIVO" />
+          <ScalarProperty Name="TIC_DESCRICAO" ColumnName="TIC_DESCRICAO" />
+          <ScalarProperty Name="TIC_IDAREA" ColumnName="TIC_IDAREA" />
+          <ScalarProperty Name="TIC_IDTIPOCLIENTE" ColumnName="TIC_IDTIPOCLIENTE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOCONSELHO">
+      <EntityTypeMapping TypeName="Model.GEDTIPOCONSELHO">
+        <MappingFragment StoreEntitySet="GEDTIPOCONSELHO">
+          <ScalarProperty Name="TPC_SIGLA" ColumnName="TPC_SIGLA" />
+          <ScalarProperty Name="TPC_DESCRICAO" ColumnName="TPC_DESCRICAO" />
+          <ScalarProperty Name="TPC_IDTIPOCONSELHO" ColumnName="TPC_IDTIPOCONSELHO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOHIERARQUIA">
+      <EntityTypeMapping TypeName="Model.GEDTIPOHIERARQUIA">
+        <MappingFragment StoreEntitySet="GEDTIPOHIERARQUIA">
+          <ScalarProperty Name="TPH_FLAGATIVO" ColumnName="TPH_FLAGATIVO" />
+          <ScalarProperty Name="TPH_ORDEMHIERARQUIA" ColumnName="TPH_ORDEMHIERARQUIA" />
+          <ScalarProperty Name="TPH_DESCRICAO" ColumnName="TPH_DESCRICAO" />
+          <ScalarProperty Name="TPH_IDTIPOHIERARQUIA" ColumnName="TPH_IDTIPOHIERARQUIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOSATENDIMENTOS">
+      <EntityTypeMapping TypeName="Model.GEDTIPOSATENDIMENTOS">
+        <MappingFragment StoreEntitySet="GEDTIPOSATENDIMENTOS">
+          <ScalarProperty Name="TIA_FLAGATIVO" ColumnName="TIA_FLAGATIVO" />
+          <ScalarProperty Name="TIA_DESCRICAO" ColumnName="TIA_DESCRICAO" />
+          <ScalarProperty Name="TIA_IDTIPOATENDIMENTO" ColumnName="TIA_IDTIPOATENDIMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOSBUSCALOTES">
+      <EntityTypeMapping TypeName="Model.GEDTIPOSBUSCALOTES">
+        <MappingFragment StoreEntitySet="GEDTIPOSBUSCALOTES">
+          <ScalarProperty Name="TBL_DEFAULT" ColumnName="TBL_DEFAULT" />
+          <ScalarProperty Name="TBL_DESCRICAO" ColumnName="TBL_DESCRICAO" />
+          <ScalarProperty Name="TBL_ID" ColumnName="TBL_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOSBUSCALOTESPJ">
+      <EntityTypeMapping TypeName="Model.GEDTIPOSBUSCALOTESPJ">
+        <MappingFragment StoreEntitySet="GEDTIPOSBUSCALOTESPJ">
+          <ScalarProperty Name="TPJ_DEFAULT" ColumnName="TPJ_DEFAULT" />
+          <ScalarProperty Name="TPJ_DESCRICAO" ColumnName="TPJ_DESCRICAO" />
+          <ScalarProperty Name="TPJ_ID" ColumnName="TPJ_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOSCERTIFICADOS">
+      <EntityTypeMapping TypeName="Model.GEDTIPOSCERTIFICADOS">
+        <MappingFragment StoreEntitySet="GEDTIPOSCERTIFICADOS">
+          <ScalarProperty Name="TPC_FLAGATIVO" ColumnName="TPC_FLAGATIVO" />
+          <ScalarProperty Name="TPC_NOME" ColumnName="TPC_NOME" />
+          <ScalarProperty Name="TPC_IDCERTIFICADO" ColumnName="TPC_IDCERTIFICADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOSDOCUMENTOS">
+      <EntityTypeMapping TypeName="Model.GEDTIPOSDOCUMENTOS">
+        <MappingFragment StoreEntitySet="GEDTIPOSDOCUMENTOS">
+          <ScalarProperty Name="TPD_FLAGTIPOCLIENTE" ColumnName="TPD_FLAGTIPOCLIENTE" />
+          <ScalarProperty Name="TPD_FLAGIMPRESSAO" ColumnName="TPD_FLAGIMPRESSAO" />
+          <ScalarProperty Name="TPD_COBRANCADIAS" ColumnName="TPD_COBRANCADIAS" />
+          <ScalarProperty Name="TPD_TEMPOGUARDA" ColumnName="TPD_TEMPOGUARDA" />
+          <ScalarProperty Name="TPD_OBRIGATORIO" ColumnName="TPD_OBRIGATORIO" />
+          <ScalarProperty Name="TPD_TEMPOVALIDADE" ColumnName="TPD_TEMPOVALIDADE" />
+          <ScalarProperty Name="TPD_FLAGSUBTIPO" ColumnName="TPD_FLAGSUBTIPO" />
+          <ScalarProperty Name="TPD_ORDEM" ColumnName="TPD_ORDEM" />
+          <ScalarProperty Name="TPD_CODIGOBARRA" ColumnName="TPD_CODIGOBARRA" />
+          <ScalarProperty Name="TPD_DESCRICAO" ColumnName="TPD_DESCRICAO" />
+          <ScalarProperty Name="TPD_IDDIVISAO" ColumnName="TPD_IDDIVISAO" />
+          <ScalarProperty Name="TPD_IDTIPODOCUMENTO" ColumnName="TPD_IDTIPODOCUMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOSOCORRENCIA">
+      <EntityTypeMapping TypeName="Model.GEDTIPOSOCORRENCIA">
+        <MappingFragment StoreEntitySet="GEDTIPOSOCORRENCIA">
+          <ScalarProperty Name="TPO_FLAGATIVO" ColumnName="TPO_FLAGATIVO" />
+          <ScalarProperty Name="TPO_DESCRICAO" ColumnName="TPO_DESCRICAO" />
+          <ScalarProperty Name="TPO_IDTIPOOCORRENCIA" ColumnName="TPO_IDTIPOOCORRENCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDTIPOSTOKEN">
+      <EntityTypeMapping TypeName="Model.GEDTIPOSTOKEN">
+        <MappingFragment StoreEntitySet="GEDTIPOSTOKEN">
+          <ScalarProperty Name="TTK_FLAGATIVO" ColumnName="TTK_FLAGATIVO" />
+          <ScalarProperty Name="TTK_NOME" ColumnName="TTK_NOME" />
+          <ScalarProperty Name="TTK_IDTIPOTOKEN" ColumnName="TTK_IDTIPOTOKEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDUNIDADES">
+      <EntityTypeMapping TypeName="Model.GEDUNIDADES">
+        <MappingFragment StoreEntitySet="GEDUNIDADES">
+          <ScalarProperty Name="UNI_FLAGATIVO" ColumnName="UNI_FLAGATIVO" />
+          <ScalarProperty Name="UNI_OBSERVACAO" ColumnName="UNI_OBSERVACAO" />
+          <ScalarProperty Name="UNI_SITE" ColumnName="UNI_SITE" />
+          <ScalarProperty Name="UNI_DATAHORAINI" ColumnName="UNI_DATAHORAINI" />
+          <ScalarProperty Name="UNI_CNPJ" ColumnName="UNI_CNPJ" />
+          <ScalarProperty Name="UNI_DESCRICAO" ColumnName="UNI_DESCRICAO" />
+          <ScalarProperty Name="UNI_NOME" ColumnName="UNI_NOME" />
+          <ScalarProperty Name="UNI_IDUNIDADE" ColumnName="UNI_IDUNIDADE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDUNIDADEXAREAS">
+      <EntityTypeMapping TypeName="Model.GEDUNIDADEXAREAS">
+        <MappingFragment StoreEntitySet="GEDUNIDADEXAREAS">
+          <ScalarProperty Name="UXA_IDAREA" ColumnName="UXA_IDAREA" />
+          <ScalarProperty Name="UXA_IDUNIDADE" ColumnName="UXA_IDUNIDADE" />
+          <ScalarProperty Name="UXA_IDUNIDADEXAREA" ColumnName="UXA_IDUNIDADEXAREA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDURLSTORAGE">
+      <EntityTypeMapping TypeName="Model.GEDURLSTORAGE">
+        <MappingFragment StoreEntitySet="GEDURLSTORAGE">
+          <ScalarProperty Name="URS_FLAGATIVO" ColumnName="URS_FLAGATIVO" />
+          <ScalarProperty Name="URS_DATAHORAFIM" ColumnName="URS_DATAHORAFIM" />
+          <ScalarProperty Name="URS_DATAHORAINI" ColumnName="URS_DATAHORAINI" />
+          <ScalarProperty Name="URS_URLSTORAGE" ColumnName="URS_URLSTORAGE" />
+          <ScalarProperty Name="URS_IDURLSTORAGE" ColumnName="URS_IDURLSTORAGE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDUSUARIOS">
+      <EntityTypeMapping TypeName="Model.GEDUSUARIOS">
+        <MappingFragment StoreEntitySet="GEDUSUARIOS">
+          <ScalarProperty Name="USR_FLAGPROCESSAMENTO" ColumnName="USR_FLAGPROCESSAMENTO" />
+          <ScalarProperty Name="USR_FLAGADMACS" ColumnName="USR_FLAGADMACS" />
+          <ScalarProperty Name="USR_SERIALNUMBERCERT" ColumnName="USR_SERIALNUMBERCERT" />
+          <ScalarProperty Name="USR_NIVELASSINA" ColumnName="USR_NIVELASSINA" />
+          <ScalarProperty Name="USR_FLAGASSINA" ColumnName="USR_FLAGASSINA" />
+          <ScalarProperty Name="USR_FLAGDIGITALIZACAO" ColumnName="USR_FLAGDIGITALIZACAO" />
+          <ScalarProperty Name="USR_FLAGIMPORTACAO" ColumnName="USR_FLAGIMPORTACAO" />
+          <ScalarProperty Name="USR_FLAGIMPRIMIR" ColumnName="USR_FLAGIMPRIMIR" />
+          <ScalarProperty Name="USR_OBSERVACAO" ColumnName="USR_OBSERVACAO" />
+          <ScalarProperty Name="USR_DATAHORALASTLOGIN" ColumnName="USR_DATAHORALASTLOGIN" />
+          <ScalarProperty Name="USR_DATAHORACADASTRO" ColumnName="USR_DATAHORACADASTRO" />
+          <ScalarProperty Name="USR_FIRSTACCESS" ColumnName="USR_FIRSTACCESS" />
+          <ScalarProperty Name="USR_FLAGATIVO" ColumnName="USR_FLAGATIVO" />
+          <ScalarProperty Name="USR_SENHA" ColumnName="USR_SENHA" />
+          <ScalarProperty Name="USR_LOGIN" ColumnName="USR_LOGIN" />
+          <ScalarProperty Name="USR_IDPESSOA" ColumnName="USR_IDPESSOA" />
+          <ScalarProperty Name="USR_IDGRUPOUSUARIO" ColumnName="USR_IDGRUPOUSUARIO" />
+          <ScalarProperty Name="USR_IDUSUARIO" ColumnName="USR_IDUSUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDUSUARIOSXUNIDADESXAREAS">
+      <EntityTypeMapping TypeName="Model.GEDUSUARIOSXUNIDADESXAREAS">
+        <MappingFragment StoreEntitySet="GEDUSUARIOSXUNIDADESXAREAS">
+          <ScalarProperty Name="UXU_IDUSUARIO" ColumnName="UXU_IDUSUARIO" />
+          <ScalarProperty Name="UXU_IDUNIDADEXAREA" ColumnName="UXU_IDUNIDADEXAREA" />
+          <ScalarProperty Name="UXU_IDUSUARIOXUNIDADEXAREA" ColumnName="UXU_IDUSUARIOXUNIDADEXAREA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEDVOLUMES">
+      <EntityTypeMapping TypeName="Model.GEDVOLUMES">
+        <MappingFragment StoreEntitySet="GEDVOLUMES">
+          <ScalarProperty Name="VOL_DESCRICAO" ColumnName="VOL_DESCRICAO" />
+          <ScalarProperty Name="VOL_IDVOLUME" ColumnName="VOL_IDVOLUME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

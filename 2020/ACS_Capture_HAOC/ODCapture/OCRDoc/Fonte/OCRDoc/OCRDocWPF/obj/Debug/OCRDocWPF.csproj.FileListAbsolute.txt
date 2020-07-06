@@ -1,0 +1,13 @@
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\bin\Debug\OCRDocWPF.exe.config
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\bin\Debug\OCRDocWPF.exe
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\bin\Debug\OCRDocWPF.pdb
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\OCRDocWPF.csprojResolveAssemblyReference.cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\MainWindow.baml
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\MainWindow.g.cs
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\App.g.cs
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\OCRDocWPF_MarkupCompile.cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\OCRDocWPF.g.resources
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\OCRDocWPF.Properties.Resources.resources
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\OCRDocWPF.csproj.GenerateResource.Cache
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\OCRDocWPF.exe
+C:\Users\William\Documents\Developer\OCRDocs\OCRDoc\OCRDocWPF\obj\Debug\OCRDocWPF.pdb

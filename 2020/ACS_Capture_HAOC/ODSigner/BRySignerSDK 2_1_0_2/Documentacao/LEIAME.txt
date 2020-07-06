@@ -1,0 +1,2 @@
+Apesar do manual tratar da instalação de outro componente, 
+esse processo é padrão para os componentes BRy.

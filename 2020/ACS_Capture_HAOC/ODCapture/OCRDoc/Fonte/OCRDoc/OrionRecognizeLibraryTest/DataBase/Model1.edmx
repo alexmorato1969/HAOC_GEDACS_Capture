@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="OCRDocModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="OCRDocModelStoreContainer">
+          <EntitySet Name="OCR_Mapping" EntityType="OCRDocModel.Store.OCR_Mapping" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="OCR_MappingXTypeDocument" EntityType="OCRDocModel.Store.OCR_MappingXTypeDocument" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="OCR_MappingZone" EntityType="OCRDocModel.Store.OCR_MappingZone" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="OCR_People" EntityType="OCRDocModel.Store.OCR_People" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="OCR_TypeDocument" EntityType="OCRDocModel.Store.OCR_TypeDocument" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="OCR_Mapping">
+          <Key>
+            <PropertyRef Name="MAP_Id" />
+          </Key>
+          <Property Name="MAP_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MAP_Name" Type="nvarchar" MaxLength="250" />
+          <Property Name="MAP_Index" Type="int" Nullable="false" />
+          <Property Name="MAP_Width" Type="int" />
+          <Property Name="MAP_Height" Type="int" />
+        </EntityType>
+        <EntityType Name="OCR_MappingXTypeDocument">
+          <Key>
+            <PropertyRef Name="MXT_Id" />
+          </Key>
+          <Property Name="MXT_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MXT_MAP_Id" Type="int" Nullable="false" />
+          <Property Name="MXT_TDC_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OCR_MappingZone">
+          <Key>
+            <PropertyRef Name="ZON_Id" />
+          </Key>
+          <Property Name="ZON_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ZON_MAP_Id" Type="int" Nullable="false" />
+          <Property Name="ZON_Name" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="ZON_Left" Type="int" Nullable="false" />
+          <Property Name="ZON_Top" Type="int" Nullable="false" />
+          <Property Name="ZON_Width" Type="int" Nullable="false" />
+          <Property Name="ZON_Rigth" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OCR_People">
+          <Key>
+            <PropertyRef Name="PEO_Id" />
+          </Key>
+          <Property Name="PEO_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PEO_Name" Type="nvarchar" MaxLength="500" />
+          <Property Name="PEO_DateBirth" Type="datetime" />
+          <Property Name="PEO_CPF" Type="numeric" Precision="13" />
+          <Property Name="PEO_RG" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="OCR_TypeDocument">
+          <Key>
+            <PropertyRef Name="TDC_Id" />
+          </Key>
+          <Property Name="TDC_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TDC_Name" Type="nvarchar" MaxLength="250" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="OCRDocModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="OCRDocEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="OCR_Mapping" EntityType="OCRDocModel.OCR_Mapping" />
+          <EntitySet Name="OCR_MappingXTypeDocument" EntityType="OCRDocModel.OCR_MappingXTypeDocument" />
+          <EntitySet Name="OCR_MappingZone" EntityType="OCRDocModel.OCR_MappingZone" />
+          <EntitySet Name="OCR_People" EntityType="OCRDocModel.OCR_People" />
+          <EntitySet Name="OCR_TypeDocument" EntityType="OCRDocModel.OCR_TypeDocument" />
+        </EntityContainer>
+        <EntityType Name="OCR_Mapping">
+          <Key>
+            <PropertyRef Name="MAP_Id" />
+          </Key>
+          <Property Name="MAP_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="MAP_Name" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="MAP_Index" Type="Int32" Nullable="false" />
+          <Property Type="Int32" Name="MAP_Width" />
+          <Property Type="Int32" Name="MAP_Height" />
+        </EntityType>
+        <EntityType Name="OCR_MappingXTypeDocument">
+          <Key>
+            <PropertyRef Name="MXT_Id" />
+          </Key>
+          <Property Name="MXT_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="MXT_MAP_Id" Type="Int32" Nullable="false" />
+          <Property Name="MXT_TDC_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OCR_MappingZone">
+          <Key>
+            <PropertyRef Name="ZON_Id" />
+          </Key>
+          <Property Name="ZON_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ZON_MAP_Id" Type="Int32" Nullable="false" />
+          <Property Name="ZON_Name" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="ZON_Left" Type="Int32" Nullable="false" />
+          <Property Name="ZON_Top" Type="Int32" Nullable="false" />
+          <Property Name="ZON_Width" Type="Int32" Nullable="false" />
+          <Property Name="ZON_Rigth" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OCR_People">
+          <Key>
+            <PropertyRef Name="PEO_Id" />
+          </Key>
+          <Property Name="PEO_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="PEO_Name" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="PEO_DateBirth" Type="DateTime" Precision="3" />
+          <Property Name="PEO_CPF" Type="Decimal" Precision="13" Scale="0" />
+          <Property Name="PEO_RG" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="OCR_TypeDocument">
+          <Key>
+            <PropertyRef Name="TDC_Id" />
+          </Key>
+          <Property Name="TDC_Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TDC_Name" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="OCRDocModelStoreContainer" CdmEntityContainer="OCRDocEntities">
+          <EntitySetMapping Name="OCR_Mapping">
+            <EntityTypeMapping TypeName="OCRDocModel.OCR_Mapping">
+              <MappingFragment StoreEntitySet="OCR_Mapping">
+                <ScalarProperty Name="MAP_Height" ColumnName="MAP_Height" />
+                <ScalarProperty Name="MAP_Width" ColumnName="MAP_Width" />
+                <ScalarProperty Name="MAP_Id" ColumnName="MAP_Id" />
+                <ScalarProperty Name="MAP_Name" ColumnName="MAP_Name" />
+                <ScalarProperty Name="MAP_Index" ColumnName="MAP_Index" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OCR_MappingXTypeDocument">
+            <EntityTypeMapping TypeName="OCRDocModel.OCR_MappingXTypeDocument">
+              <MappingFragment StoreEntitySet="OCR_MappingXTypeDocument">
+                <ScalarProperty Name="MXT_Id" ColumnName="MXT_Id" />
+                <ScalarProperty Name="MXT_MAP_Id" ColumnName="MXT_MAP_Id" />
+                <ScalarProperty Name="MXT_TDC_Id" ColumnName="MXT_TDC_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OCR_MappingZone">
+            <EntityTypeMapping TypeName="OCRDocModel.OCR_MappingZone">
+              <MappingFragment StoreEntitySet="OCR_MappingZone">
+                <ScalarProperty Name="ZON_Id" ColumnName="ZON_Id" />
+                <ScalarProperty Name="ZON_MAP_Id" ColumnName="ZON_MAP_Id" />
+                <ScalarProperty Name="ZON_Name" ColumnName="ZON_Name" />
+                <ScalarProperty Name="ZON_Left" ColumnName="ZON_Left" />
+                <ScalarProperty Name="ZON_Top" ColumnName="ZON_Top" />
+                <ScalarProperty Name="ZON_Width" ColumnName="ZON_Width" />
+                <ScalarProperty Name="ZON_Rigth" ColumnName="ZON_Rigth" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OCR_People">
+            <EntityTypeMapping TypeName="OCRDocModel.OCR_People">
+              <MappingFragment StoreEntitySet="OCR_People">
+                <ScalarProperty Name="PEO_Id" ColumnName="PEO_Id" />
+                <ScalarProperty Name="PEO_Name" ColumnName="PEO_Name" />
+                <ScalarProperty Name="PEO_DateBirth" ColumnName="PEO_DateBirth" />
+                <ScalarProperty Name="PEO_CPF" ColumnName="PEO_CPF" />
+                <ScalarProperty Name="PEO_RG" ColumnName="PEO_RG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OCR_TypeDocument">
+            <EntityTypeMapping TypeName="OCRDocModel.OCR_TypeDocument">
+              <MappingFragment StoreEntitySet="OCR_TypeDocument">
+                <ScalarProperty Name="TDC_Id" ColumnName="TDC_Id" />
+                <ScalarProperty Name="TDC_Name" ColumnName="TDC_Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

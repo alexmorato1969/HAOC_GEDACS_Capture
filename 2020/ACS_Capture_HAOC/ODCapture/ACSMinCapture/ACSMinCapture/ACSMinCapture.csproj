@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B82EA63-D5D0-4F8B-822E-4CBF4DF6884E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACSMinCapture</RootNamespace>
+    <AssemblyName>ACSMinCapture</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <PublishUrl>C:\Users\OrionWSDGT02\Desktop\Setu ACS Capture\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ACSMinCapture.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1363394720_1506.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CC62709649FB01A55BE1E42D2312E5A7AF988396</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ACSMinCapture_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.FiScnLib, Version=9.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\AxInterop.FiScnLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net45\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BRYSIGNERCOMLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\DLLS Packages Que Somem\Interop.BRYSIGNERCOMLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FiScnLib, Version=9.7.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Libs\Interop.FiScnLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>C:\dlls\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\dlls\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OCRTools">
+      <HintPath>..\..\..\OCRTools.dll</HintPath>
+    </Reference>
+    <Reference Include="OrionDigital.Assinador.ViewModel">
+      <HintPath>C:\dlls\OrionDigital.Assinador.ViewModel.dll</HintPath>
+    </Reference>
+    <Reference Include="OrionDigital.Framework">
+      <HintPath>C:\dlls\OrionDigital.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PDFLibNet">
+      <HintPath>..\..\..\PDFLibNet.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="restsharp">
+      <HintPath>C:\dlls\restsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Simple.Data">
+      <HintPath>..\..\..\Simple.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Simple.Data.Ado">
+      <HintPath>..\..\..\Simple.Data.Ado.dll</HintPath>
+    </Reference>
+    <Reference Include="Simple.Data.Oracle">
+      <HintPath>..\..\..\Simple.Data.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auxiliar\AllControls.cs" />
+    <Compile Include="Auxiliar\Assinador.cs" />
+    <Compile Include="Auxiliar\AtendimentoRequest.cs" />
+    <Compile Include="Auxiliar\AtendimentoTasy.cs" />
+    <Compile Include="Auxiliar\AuthyCliente.cs" />
+    <Compile Include="Auxiliar\Certificado.cs" />
+    <Compile Include="Auxiliar\CUtils.cs" />
+    <Compile Include="Auxiliar\ExceptionExistDetail.cs" />
+    <Compile Include="Auxiliar\Fujitsu.cs" />
+    <Compile Include="Auxiliar\IniParser.cs" />
+    <Compile Include="Auxiliar\NetworkShareAccersser.cs" />
+    <Compile Include="Auxiliar\PDFUtils.cs" />
+    <Compile Include="Auxiliar\StatusLote.cs" />
+    <Compile Include="Auxiliar\UsuarioRequest.cs" />
+    <Compile Include="Auxiliar\UsuarioTasy.cs" />
+    <Compile Include="Config\ACS.Config.cs" />
+    <Compile Include="Controls\Document.cs" />
+    <Compile Include="Controls\DragHelper.cs" />
+    <Compile Include="Controls\UCImages.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UCImages.designer.cs">
+      <DependentUpon>UCImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UCImagesManipulation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UCImagesManipulation.designer.cs">
+      <DependentUpon>UCImagesManipulation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\bkps\GED_PROC_CodigosBarras_Result.cs" />
+    <Compile Include="DataBase\ModelOracle\bkps\GED_PROC_F_Lotes_Result_BKP.cs" />
+    <Compile Include="DataBase\ModelOracle\bkp_ModelContext.cs" />
+    <Compile Include="DataBase\ModelOracle\GEDAREAMEDICA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDAREAS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDAUDITORXCONVENIO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDAUDITORXPASSAGEM.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDCAPTIONCONTROL.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDCLIENTEPF.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDCLIENTEPJ.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDCONTROLECERTIFICADO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDCONVENIO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDIVISAOXGRUPOUSUARIO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDIVISOES.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDOCASSINANDO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDOCAVENCERUMASEMTEMP.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDOCAVENCERUMASEMTPJ.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDOCAVENCERUMMESTEMP.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDOCAVENCERUMMESTPJ.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDOCUMENTOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDocumentosNivel2.cs" />
+    <Compile Include="DataBase\ModelOracle\GEDDOCUMENTOVENCIDOTEMP.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDDOCUMENTOVENCIDOTPJ.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDESPECIALIDADE.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDFORMATOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDFUNCAOUSUARIO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDFUNCAOXTIPOHIERARQUIA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDGLOBALSETTINGS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDGRUPOSUSUARIOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDHIERARQUIA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDHIERARQUIAXFUNCAO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDINTEGRACAOATENDIMENTO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLABELGENERICO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLOG.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLOGALTERACAODOCUMENTO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLOGERRO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLOGLOGIN.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLOGOCORRENCIA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLOGPROCESSODOC.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDLOTESXUSUARIOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDMODULOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDNIVELASSINA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDOBJETOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDOCORRENCIAS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDPADROESCERTIFICADO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDPASSAGENS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDPERFIS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDPERFISXOBJETOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDPERFISXUSUARIOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDPESSOAS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDSETOR.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDSETORXGRUPOUSUARIO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDSEXOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDSTATUSLOTE.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDSTATUSOCORRENCIA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDSUBTIPODOCXGRUPUSER.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDSUBTIPOSDOCUMENTOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOAUDITOR.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOBUSCA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOCLIENTE.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOCONSELHO.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOHIERARQUIA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOSATENDIMENTOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOSBUSCALOTES.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOSBUSCALOTESPJ.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOSCERTIFICADOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOSDOCUMENTOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOSOCORRENCIA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDTIPOSTOKEN.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDUNIDADES.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDUNIDADEXAREAS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDURLSTORAGE.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDUSUARIOS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDUSUARIOSXUNIDADESXAREAS.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GEDVOLUMES.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\GED_PROC_CodigosBarras_Result.cs" />
+    <Compile Include="DataBase\ModelOracle\GED_PROC_F_Lotes_Result.cs" />
+    <Compile Include="DataBase\ModelOracle\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ModelOracle\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionCustom\ErrorCertificado.cs" />
+    <Compile Include="ExceptionCustom\ExceptionCustom.cs" />
+    <Compile Include="Controls\ImagePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImagePanel.Designer.cs">
+      <DependentUpon>ImagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\wfImagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\wfImagem.Designer.cs">
+      <DependentUpon>wfImagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFObservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFObservation.Designer.cs">
+      <DependentUpon>WFObservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFPreferencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFPreferencias.designer.cs">
+      <DependentUpon>WFPreferencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFProcess.Designer.cs">
+      <DependentUpon>WFProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFSearchBarCoce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFSearchBarCoce.designer.cs">
+      <DependentUpon>WFSearchBarCoce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFSetSetor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFSetSetor.designer.cs">
+      <DependentUpon>WFSetSetor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFSetTipoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFSetTipoCliente.designer.cs">
+      <DependentUpon>WFSetTipoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFSetArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFSetArea.designer.cs">
+      <DependentUpon>WFSetArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFSetDateValidityDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFSetDateValidityDocument.Designer.cs">
+      <DependentUpon>WFSetDateValidityDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFSetValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFSetValues.designer.cs">
+      <DependentUpon>WFSetValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFAssinaNivel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFAssinaNivel2.designer.cs">
+      <DependentUpon>WFAssinaNivel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFTranparentLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFTranparentLoading.Designer.cs">
+      <DependentUpon>WFTranparentLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFTwain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFTwain.Designer.cs">
+      <DependentUpon>WFTwain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OCR\OCRorion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TreeViewCustom.cs" />
+    <Compile Include="Controls\TreeViewCustom.Designer.cs">
+      <DependentUpon>TreeViewCustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\ACS.DataBase.cs" />
+    <Compile Include="Forms\WFCapture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFCapture.Designer.cs">
+      <DependentUpon>WFCapture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFOk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFOk.designer.cs">
+      <DependentUpon>WFOk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFSetBarCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFSetBarCode.designer.cs">
+      <DependentUpon>WFSetBarCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFLoading.designer.cs">
+      <DependentUpon>WFLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFLogin.designer.cs">
+      <DependentUpon>WFLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFMain.designer.cs">
+      <DependentUpon>WFMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFMDIChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFMDIChild.designer.cs">
+      <DependentUpon>WFMDIChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFMessageBox.designer.cs">
+      <DependentUpon>WFMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFStandard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFStandard.designer.cs">
+      <DependentUpon>WFStandard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFStandardNormal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFStandardNormal.designer.cs">
+      <DependentUpon>WFStandardNormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFTipoAcao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFTipoAcao.designer.cs">
+      <DependentUpon>WFTipoAcao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFTitle.designer.cs">
+      <DependentUpon>WFTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WFWorkList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WFWorkList.designer.cs">
+      <DependentUpon>WFWorkList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global\ACS.Global.cs" />
+    <Compile Include="ImageBox\ImageBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImageBox\ImageBox.designer.cs">
+      <DependentUpon>ImageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageBox\ImageBoxBorderStyle.cs" />
+    <Compile Include="ImageBox\ImageBoxGridDisplayMode.cs" />
+    <Compile Include="ImageBox\ImageBoxGridScale.cs" />
+    <Compile Include="ImageBox\ImageBoxSelectionMode.cs" />
+    <Compile Include="Log\ACS.Log.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Twain\TwainDefs.cs" />
+    <None Include="ACSMinCapture_TemporaryKey.pfx" />
+    <None Include="Twain\TwainLibbkp" />
+    <Compile Include="Twain\TwainLib.cs" />
+    <EmbeddedResource Include="Controls\UCImages.resx">
+      <DependentUpon>UCImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UCImagesManipulation.resx">
+      <DependentUpon>UCImagesManipulation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImagePanel.resx">
+      <DependentUpon>ImagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFCapture.resx">
+      <DependentUpon>WFCapture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\wfImagem.resx">
+      <DependentUpon>wfImagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFObservation.resx">
+      <DependentUpon>WFObservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFOk.resx">
+      <DependentUpon>WFOk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFPreferencias.resx">
+      <DependentUpon>WFPreferencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFProcess.resx">
+      <DependentUpon>WFProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFSearchBarCoce.resx">
+      <DependentUpon>WFSearchBarCoce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFSetSetor.resx">
+      <DependentUpon>WFSetSetor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFSetTipoCliente.resx">
+      <DependentUpon>WFSetTipoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFSetArea.resx">
+      <DependentUpon>WFSetArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFSetBarCode.resx">
+      <DependentUpon>WFSetBarCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFSetDateValidityDocument.resx">
+      <DependentUpon>WFSetDateValidityDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFSetValues.resx">
+      <DependentUpon>WFSetValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFAssinaNivel2.resx">
+      <DependentUpon>WFAssinaNivel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFTranparentLoading.resx">
+      <DependentUpon>WFTranparentLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFLoading.resx">
+      <DependentUpon>WFLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFLogin.resx">
+      <DependentUpon>WFLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFMain.resx">
+      <DependentUpon>WFMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFMDIChild.resx">
+      <DependentUpon>WFMDIChild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFMessageBox.resx">
+      <DependentUpon>WFMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFStandard.resx">
+      <DependentUpon>WFStandard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFTipoAcao.resx">
+      <DependentUpon>WFTipoAcao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFTitle.resx">
+      <DependentUpon>WFTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WFWorkList.resx">
+      <DependentUpon>WFWorkList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Config.ypt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EntityDeploy Include="DataBase\ModelOracle\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DataBase\ModelOracle\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </None>
+    <None Include="DataBase\ModelOracle\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataBase\ModelOracle\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\466.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1347651974_Minimize Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1348323616_gtk-zoom-fit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1348323673_stock_zoom-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1348323696_viewmag+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1348323739_file_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1348324570_hide-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1348324573_hide-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1348324594_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1359976627_transform_rotate_90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1359976693_eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361223274_transform_crop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361491602_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361491631_camera_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361500390_download_manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361501684_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361501718_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361837594_button_ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1361837622_button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1362110452_button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1362211461_02_calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363257578_paly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363257578_paly2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363302123_clean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363302145_button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363302172_quick_restart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363302250_FAQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363402858_FAQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1363804857_transform_rotate_90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366855784_Scanner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366855784_Scanner1_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366855784_Scanner1_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366855840_Control_Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366855840_Control_Panel_Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366922974_find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371251931_kservices.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1371251931_kservices_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1377822080_FAQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1377826682_gnome-settings-default-applications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1380617134_camera_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1389844340_document-import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1389844340_document-import_checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1394843809_file_jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1394843810_file_tif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1394843826_file_png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GEDH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GEDPES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GEDRH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OD_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo_48x48_BlackWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo_48x48_Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo_48x48_Grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1363394720_1506.ico" />
+    <None Include="Resources\1404791208_678069-sign-error.png" />
+    <None Include="Resources\1404791221_678134-sign-check.png" />
+    <None Include="Resources\1404792927_question-sign.png" />
+    <None Include="Resources\1404802902_678116-calendar.png" />
+    <None Include="Resources\1404977677_play-circle_2.png" />
+    <None Include="Resources\1404977938_play-circle2.png" />
+    <None Include="Resources\1404977938_play-circle.png" />
+    <None Include="Resources\1404977909_zoom-in.png" />
+    <None Include="Resources\1404977914_zoom-out.png" />
+    <None Include="Resources\1404977920_fullscreen.png" />
+    <None Include="Resources\1404977926_retweet.png" />
+    <None Include="Resources\1404977931_scissors.png" />
+    <None Include="Resources\1404978673_list-alt.png" />
+    <None Include="Resources\1404978947_678069-sign-error.png" />
+    <None Include="Resources\1404978957_678134-sign-check.png" />
+    <None Include="Resources\1407297955_Gnome-Network-Wireless-64.png" />
+    <None Include="Resources\1407297955_Gnome-Network-Wireless-64_checked.png" />
+    <None Include="Resources\1407299872_network-wired.png" />
+    <None Include="Resources\1407299872_network-wired_checked.png" />
+    <None Include="Resources\Signer.png" />
+    <None Include="Resources\exit_16.png" />
+    <Content Include="ExceptionCustom\ErrorCertificado.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Global\XMLFile1.xml" />
+    <None Include="Resources\duplexNot.png" />
+    <None Include="Resources\documentNull.png" />
+    <None Include="Resources\document-24.png" />
+    <Content Include="Resources\duplexYes.png" />
+    <None Include="Resources\iconClose.png" />
+    <Content Include="Resources\iconSignature128x.png" />
+    <Content Include="Resources\iconSignature48x.png" />
+    <Content Include="Resources\iconSignatureIndex.png" />
+    <EmbeddedResource Include="Resources\zoom-in.cur">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\zoom-out.cur" />
+    <None Include="Resources\iconTeste.cur" />
+    <Content Include="Resources\loadingImage.gif" />
+    <None Include="Resources\loadingImage1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)x86" md "$(TargetDir)x86"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\*.*" "$(TargetDir)x86"
+    if not exist "$(TargetDir)amd64" md "$(TargetDir)amd64"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\*.*" "$(TargetDir)amd64"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
